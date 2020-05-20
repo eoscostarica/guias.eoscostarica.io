@@ -3,11 +3,18 @@
     "Pautas para Desarrolladores": [
       "cultura-ingenieril",
       "pautas-para-codigo-abierto",
-      "pautas-de-marca",
       "plantilla-para-aplicacion-web",
       "plantilla-para-backend",
       "proyectos-de-codigo-abierto",
-      "herramientas-para-desarrolladores"
+      "herramientas-para-desarrolladores",
+      {
+        "type": "subcategory",
+        "label": "Recursos Visuales",
+        "ids": [
+          "recursos-visuales/pautas-de-marca",
+          "recursos-visuales/logos-de-eoscr"
+        ]
+      }
     ],
     "Aprender EOSIO": [
       "aprender-eosio/explorador-de-bloques",
