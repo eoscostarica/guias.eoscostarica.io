@@ -1,10 +1,25 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Pautas para Desarrolladores": [
+      "cultura-ingenieril",
+      "pautas-para-codigo-abierto",
+      "pautas-de-marca",
+      "plantilla-para-aplicacion-web",
+      "plantilla-para-backend",
+      "proyectos-de-codigo-abierto",
+      "herramientas-para-desarrolladores"
+    ],
+    "Aprender EOSIO": [
+      "aprender-eosio/explorador-de-bloques",
+      "aprender-eosio/productor-de-bloques",
+      "aprender-eosio/desarrollo-de-dapps",
+      "aprender-eosio/devops",
+      "aprender-eosio/cadena-de-bloques-eos",
+      "aprender-eosio/podcasts-eos",
+      "aprender-eosio/cadenas-hermanas-de-eos",
+      "aprender-eosio/software-eosio",
+      "aprender-eosio/cpp-moderno",
+      "aprender-eosio/contratos-inteligentes"
+    ]
   }
 }
