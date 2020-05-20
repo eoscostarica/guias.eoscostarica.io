@@ -49,7 +49,7 @@ sidebar_label: Cadena de Bloques EOS
 </figure>
 
 <p style="align: center">
-	<img src="/images/eos-blockchain/eos-network.jpg" width="100%">
+	<img src="/img/eos-blockchain/eos-network.jpg" width="100%">
   <br/>
 </p>
 
@@ -62,7 +62,7 @@ sidebar_label: Cadena de Bloques EOS
 </figure>
 
 <p style="align: center">
-	<img src="/images/eos-blockchain/eos-application-stack.png" width="100%">
+	<img src="/img/eos-blockchain/eos-application-stack.png" width="100%">
   <br/>
   <small>source: steemit.com/eos/@eosio/introducing-eos-io-application-stack</small>
 </p>

@@ -44,19 +44,19 @@ Escasez Digital [github repo](https://github.com/digital-scarcity/equiprental) t
 
 ### Pasos del proceso
 Aquí se logran visualizar los pasos del proceso.
-![alt text](/images/contracts/steps.png "Steps")
+![alt text](/img/contracts/steps.png "Steps")
 
 ### Modelo de datos
 Define los datos que persistirán en el contrato inteligente.
-![alt text](/images/contracts/datamodel.png "Data Model")
+![alt text](/img/contracts/datamodel.png "Data Model")
 
 ### Acciones
 Define las acciones, el estado de los cambios que deben existir en el contrato inteligente.
-![alt text](/images/contracts/actions.png "Actions")
+![alt text](/img/contracts/actions.png "Actions")
 
 ### Pre y Post-Condiciones
 Define las acciones, el estado de los cambios que deben existir en el contrato inteligente.
-![alt text](/images/contracts/prepostconditions.png "Pre- and Post-Conditions")
+![alt text](/img/contracts/prepostconditions.png "Pre- and Post-Conditions")
 
 ## Contratos Inteligentes de código abierto
 

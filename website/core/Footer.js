@@ -30,93 +30,59 @@ class Footer extends React.Component {
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
-                width="66"
-                height="58"
+
               />
             )}
           </a>
           <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+            <h5>EOS Costa Rica</h5>
+            <a href={'/docs/cultura-ingenieril'}>
+              Cultura Ingenieril
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+            <a href={'/docs/proyectos-de-codigo-abierto'}>
+              Proyectos de Código Abierto
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href={'/docs/pautas-para-codigo-abierto'}>
+              Pautas de contribución
             </a>
           </div>
           <div>
-            <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
+            <h5>Comunidad</h5>
+            <a href="https://www.meetup.com/EOS-Costa-Rica/" target="_blank">
+              Meetup
             </a>
-            <a
-              href="https://stackoverflow.com/questions/tagged/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Stack Overflow
+            <a href="https://t.me/eoscr" target="_blank">Canal de Telegram</a>
+            <a href="https://github.com/eoscostarica/">GitHub</a>
+            <a 
+              class="github-button" 
+              href="https://github.com/eoscostarica" 
+              aria-label="Seguir @eoscostarica on GitHub"
+            >
+              Seguir @eoscostarica
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
+          </div>
+          <div>
+            <h5>Más</h5>
+            <a href="https://www.linkedin.com/company/11800177/admin/" target="_blank">Linkedin</a>
+            <a href="https://medium.com/eoscostarica" target="_blank">Medium</a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/eoscostarica"
               target="_blank"
               rel="noreferrer noopener">
               Twitter
-            </a>
-          </div>
-          <div>
-            <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              Star
             </a>
             {this.props.config.twitterUsername && (
               <div className="social">
                 <a
                   href={`https://twitter.com/${this.props.config.twitterUsername}`}
                   className="twitter-follow-button">
-                  Follow @{this.props.config.twitterUsername}
+                  Seguir @{this.props.config.twitterUsername}
                 </a>
-              </div>
-            )}
-            {this.props.config.facebookAppId && (
-              <div className="social">
-                <div
-                  className="fb-like"
-                  data-href={this.props.config.url}
-                  data-colorscheme="dark"
-                  data-layout="standard"
-                  data-share="true"
-                  data-width="225"
-                  data-show-faces="false"
-                />
               </div>
             )}
           </div>
         </section>
 
-        <a
-          href="https://opensource.facebook.com/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );

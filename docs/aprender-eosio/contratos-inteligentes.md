@@ -1,7 +1,7 @@
 ---
-id: cadenas-hermanas-de-eos
-title: Cadenas Hermanas de EOS
-sidebar_label: Cadenas Hermanas de EOS
+id: contratos-inteligentes
+title: Contratos Inteligentes
+sidebar_label: Contratos Inteligentes
 ---
 
 Un contrato es un acuerdo que rige los resultados de las acciones una vez dado un conjunto de datos de entrada o lo que se le denomina "inputs". Un contrato puede ir desde los tipo legal (ejemplo transacciones financieras) hasta algo más simple como las reglas de un juego. Las acciones típicas pueden ser transacciones de fondos (en el caso de un contrato financiero) o movimientos de juegos (en el caso de un contrato de juego).
@@ -17,22 +17,22 @@ Escazes Digital [github repo](https://github.com/digital-scarcity/equiprental) t
 ### Pasos del proceso
 
 Aquí se pueden ver los pasos generales para desarrollar un Contrato Inteligente.
-![alt text](/images/contracts/steps.png "Steps")
+![alt text](/img/contracts/steps.png "Steps")
 
 ### Modelo de datos
 
 Define la información que persistirá en el Contrato Inteligente.
-![alt text](/images/contracts/datamodel.png "Data Model")
+![alt text](/img/contracts/datamodel.png "Data Model")
 
 ### Acciones
 
 Define las acciones o el estado de cambio que deben existir en el Contrato Inteligente.
-![alt text](/images/contracts/actions.png "Actions")
+![alt text](/img/contracts/actions.png "Actions")
 
 ### Pre y Post-Condiciones
 
 Define las acciones o el estado de cambios que deben existir en tu Contrato Inteligente.
-![alt text](/images/contracts/prepostconditions.png "Pre- and Post-Conditions")
+![alt text](/img/contracts/prepostconditions.png "Pre- and Post-Conditions")
 
 ## Contratos Inteligentes de Código Abierto
 
