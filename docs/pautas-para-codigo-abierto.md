@@ -40,7 +40,6 @@ Soportamos únicamente **squash merge** de los `pull requests` como una buena pr
 
 Tenemos reglas muy precisas acerca de cómo los mensajes de los commits de `git` deben ser formateados. Esto permite **mensajes más legibles** que son fáciles de seguir cuando se está buscando entre la **historia del proyecto**. Pero también, usamos los mensajes de commit de `git` para generar el **registro de cambios del proyecto**.
 
-We follow angularJS commit message conventions as follows:
 Seguimos las convenciones de mensajes de commit como se muestra a continuación:
 
 ### Formato del mensaje del commit
