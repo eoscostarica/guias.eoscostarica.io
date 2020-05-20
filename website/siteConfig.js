@@ -25,7 +25,7 @@ const siteConfig = {
   tagline: 'Documentación para desarrolladores de EOS Costa Rica',
   url: 'https://desarrolladores.eoscostarica.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
-  cname: "developers.eoscostarica.io",
+  cname: "desarrolladores.eoscostarica.io",
   disableHeaderTitle: true,
 
   // Used for publishing and more
