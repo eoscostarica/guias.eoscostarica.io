@@ -98,6 +98,7 @@ const siteConfig = {
 
   // Show documentation's last update time.
   enableUpdateTime: true,
+  docsSideNavCollapsible: true
 };
 
 module.exports = siteConfig;
