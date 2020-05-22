@@ -20,7 +20,7 @@ sidebar_label: Material UI & Paquete NPM
 
 Nuestra propia librería de Diseño Material.
 
-## Zeplin
+### Zeplin
 - [Proyecto en Zeplin](https://zpl.io/brZKD4L)
 - [Escena de Zeplin](https://scene.zeplin.io/project/5ea8f7f46cfde425751bc5ec)
 
