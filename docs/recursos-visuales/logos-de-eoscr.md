@@ -15,7 +15,7 @@ Horizontal Transparent white | Horizontal Transparent
 Vertical Transparent white | Vertical Transparent Black
 ------------ | -------------
 <img style="background-color: black;" src="/img/eosCR/byw-vertical-transparent-white.png" width="100%">| <img src="/img/eosCR/byw-vertical-transparent-black.png" width="100%">
-<small>[Ver recurso](https://desarrolladores.eoscostarica.io/img/eosCR/byw-vertial-transparent-white.png)</small> | [Ver recurso](https://desarrolladores.eoscostarica.io/img/eosCR/byw-horizontal-transparent-black.png)
+<small>[Ver recurso](https://desarrolladores.eoscostarica.io/img/eosCR/byw-vertical-transparent-white.png)</small> | [Ver recurso](https://desarrolladores.eoscostarica.io/img/eosCR/byw-vertical-transparent-black.png)
 
 # Full Color
 
