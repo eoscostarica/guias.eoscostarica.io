@@ -11,8 +11,11 @@
         "type": "subcategory",
         "label": "Recursos Visuales",
         "ids": [
-          "recursos-visuales/pautas-de-marca",
-          "recursos-visuales/logos-de-eoscr"
+          "recursos-visuales/material-ui",
+          "recursos-visuales/logos-de-eoscr",
+          "recursos-visuales/logos-de-eos-surf",
+          "recursos-visuales/logos-de-eos-rate",
+          "recursos-visuales/logos-de-eos-local"
         ]
       }
     ],

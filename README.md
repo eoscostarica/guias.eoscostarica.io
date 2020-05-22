@@ -1,5 +1,5 @@
 # Portal para desarrolladores
-En este sitio se encuentran los recursos recabados en el día a día de los colaboradores de EOS Costa Rica. Siénte libre de colaborar, comentar y sugerir cambios/ideas para mejorar el sitio.
+En este sitio se encuentran los recursos recabados en el día a día de los colaboradores de EOS Costa Rica. Siéntete libre de colaborar, comentar y sugerir cambios/ideas para mejorar el sitio.
 
 ## Contributors ✨
 
