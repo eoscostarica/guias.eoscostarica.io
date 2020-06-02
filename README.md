@@ -1,6 +1,15 @@
 # Portal para desarrolladores
 En este sitio se encuentran los recursos recabados en el día a día de los colaboradores de EOS Costa Rica. Siéntete libre de colaborar, comentar y sugerir cambios/ideas para mejorar el sitio.
 
+
+## Pasos e instrucciones para correr el portal de forma local en Windows 10
+1. Asegúrese de tener instalada una versión reciente de nodejs y docusaurus
+2. Descargue o clone el proyecto, mismo que podrá encontrar en el siguiente enlace https://github.com/eoscostarica/desarrolladores.eoscostarica.io
+3. Abra la línea de comandos y diríjase al directorio donde se encuentra el proyecto
+4. Una vez en el directorio donde está el proyecto ingrese a la carpeta llamada “website”
+5. Cuando se encuentre en el directorio “desarrolladores.eoscostarica.io\website” ingrese el comando “npm install” o “npm build”
+6. Para finalizar y levantar el sitio ingrese el comando “npm start”
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -15,13 +24,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
 </table>
 
-<!--Pasos e instrucciones para correr el portal de forma local en Windows 10 -->
-<!-- 1. Asegúrese de tener instalada una versión reciente de nodejs y docusaurus-->
-<!--2. Descargue o clone el proyecto, mismo que podrá encontrar en el siguiente enlace https://github.com/eoscostarica/desarrolladores.eoscostarica.io -->
-<!--3. Abra la línea de comandos y diríjase al directorio donde se encuentra el proyecto-->
-<!--4. Una vez en el directorio donde está el proyecto ingrese a la carpeta llamada “website”-->
-<!--5. Cuando se encuentre en el directorio “desarrolladores.eoscostarica.io\website” ingrese el comando “npm install” o “npm build”--> 
-<!--6. Para finalizar y levantar el sitio ingrese el comando “npm start”-->
+
 
 
 
