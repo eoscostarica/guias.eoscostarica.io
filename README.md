@@ -10,7 +10,7 @@ En este sitio se encuentran los recursos recabados en el día a día de los cola
 		$ git clone https://github.com/eoscostarica/desarrolladores.eoscostarica.io.git
 3. Abra la línea de comandos y diríjase al directorio donde se encuentra el proyecto.
 
-		$ cd ....\desarrolladores.eoscostarica.oi
+		$ cd ....\desarrolladores.eoscostarica.io
 4. Una vez en el directorio donde está el proyecto ingrese a la carpeta llamada "website".
 
 		$ cd website
