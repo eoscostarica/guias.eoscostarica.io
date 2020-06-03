@@ -3,22 +3,22 @@ En este sitio se encuentran los recursos recabados en el día a día de los cola
 
 
 ## Pasos e instrucciones para correr el portal de forma local en Windows 10
-1.  Asegúrese de tener instalada una versión reciente de nodejs y docusaurus
+1.  Asegúrese de tener instalada una versión reciente de nodejs y docusaurus.
 
 2.  Descargue o clone el proyecto, mismo que podrá encontrar en el siguiente enlace.
 		$ git clone https://github.com/eoscostarica/desarrolladores.eoscostarica.io.git
 3. Abra la línea de comandos y diríjase al directorio donde se encuentra el proyecto.
 		$ cd ....\desarrolladores.eoscostarica.oi
-4. Una vez en el directorio donde está el proyecto ingrese a la carpeta llamada "website"
+4. Una vez en el directorio donde está el proyecto ingrese a la carpeta llamada "website".
 		$ cd website
-5. Cuando se encuentre en el directorio “desarrolladores.eoscostarica.io\website" instale las dependencias
+5. Cuando se encuentre en el directorio “desarrolladores.eoscostarica.io\website" instale las dependencias:
 		# instrucciones npm
 		$ npm install
 		
 		# instrucciones yarn
 		$ yarn install 
 
-6. Para finalizar ejecute el proyecto
+6. Para finalizar ejecute el proyecto:
 		# instrucciones npm
 		$ npm start
 		
