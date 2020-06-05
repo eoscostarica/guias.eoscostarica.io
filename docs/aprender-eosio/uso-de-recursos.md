@@ -4,10 +4,6 @@ title: Uso de recursos
 sidebar_label: Uso de recursos
 ---
 
-
-
-
-
 ## Tipos de Recursos
 
 Las cuentas podrán utilizar los siguientes recursos en la red:
