@@ -22,6 +22,7 @@
     "Aprender EOSIO": [
       "aprender-eosio/explorador-de-bloques",
       "aprender-eosio/productor-de-bloques",
+      "aprender-eosio/protocolo-eosio",
       "aprender-eosio/desarrollo-de-dapps",
       "aprender-eosio/devops",
       "aprender-eosio/cadena-de-bloques-eos",
