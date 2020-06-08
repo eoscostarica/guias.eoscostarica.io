@@ -16,22 +16,23 @@ RAM es un recurso muy importante y es limitado. Se utiliza al ejecutar muchas ac
 
 RAM es referido como `memory` en el siguiente resultado del comando `cleos get account` :
 
+```c++
     memory: 
      quota:     86.68 KiB    used:     11.62 KiB  
+```
 
-
-Puede encontrar más detalles sobre RAM como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram "aquí").
+Puede encontrar más detalles sobre RAM como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram ).
 
 ### CPU
 
 La CPU está procesando la potencia, la cantidad de CPU que tiene una cuenta se mide en microsegundos (μs), se conoce como `CPU bandwith`, el comando `cleos get account` emite la cantidad de tiempo de procesamiento que una cuenta tiene a su disposición al presionar acciones a un contrato.
 
-Puede encontrar más detalles sobre la CPU como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/cpu "aquí").
+Puede encontrar más detalles sobre la CPU como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/cpu).
 
 ### Network (NET)
 Como CPU y RAM, NET también es un recurso muy importante en las cadenas de bloques basadas en EOSIO. NET es el ancho de banda de la red medido en bytes de transacciones y se conoce como `net bandwidth`.
 
-Puede encontrar más detalles sobre NET como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net "aquí").
+Puede encontrar más detalles sobre NET como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
 
 ## Límites de recursos de la cuenta
 
@@ -66,35 +67,41 @@ Un recurso elástico tiene las siguientes propiedades.
 
 Veamos la configuración predeterminada para el recurso de CPU como ejemplo:
 
+```c++
     const static uint32_t default_max_block_cpu_usage        = 200'000; /// max block cpu usage in microseconds
     const static uint32_t default_target_block_cpu_usage_pct = 10 * percent_1;
     const static uint32_t block_cpu_usage_average_window_ms  = 60*1000l; 
+```
 
-<!-- separación -->
-
-    elastic_limit_parameters cpu_limit_parameters = {
-        EOS_PERCENT(config::default_max_block_cpu_usage, config::default_target_block_cpu_usage_pct), //10% of 200ms
-        config::default_max_block_cpu_usage,                                                          //200ms
-        config::block_cpu_usage_average_window_ms / config::block_interval_ms,                        //60s (120 blocks)
-        1000,                                                                                         //x1000 multiplier
-        {99, 100},                                                                                    //contract ratio 0.99 
-        {1000, 999}                                                                                   //expand ratio 1.001
-    };
-
+```c++
+elastic_limit_parameters cpu_limit_parameters = {
+    EOS_PERCENT(config::default_max_block_cpu_usage, config::default_target_block_cpu_usage_pct), //10% of 200ms
+    config::default_max_block_cpu_usage,                                                          //200ms
+    config::block_cpu_usage_average_window_ms / config::block_interval_ms,                        //60s (120 blocks)
+    1000,                                                                                         //x1000 multiplier
+    {99, 100},                                                                                    //contract ratio 0.99 
+    {1000, 999}                                                                                   //expand ratio 1.001
+};
+```
 
 Al hacer de la CPU un recurso elástico, se creará una CPU virtual que oscilará entre el valor más bajo posible, que es el uso máximo especificado, y el valor más alto posible, que es el valor más bajo posible multiplicador.
 
-    virtual cpu = [[maximum usage, maximum usage * multiplier]]
+```c++
+virtual cpu = [[maximum usage, maximum usage * multiplier]]
+```
 
 El límite de la CPU virtual se contraerá (expandirá) mediante la `relación de contrato (expandir) 'cuando la utilización promedio esté por encima (debajo) del uso deseado, lo que significa que` lo máximo que una cuenta puede consumir durante los períodos de inactividad es 1000x (multiplicador) ancho de banda se garantiza bajo congestión.
 
 La utilización promedio de la CPU se calcula utilizando un EMA (Promedio móvil exponencial) que otorga un mayor peso e importancia al uso más reciente.
 
-    def update_elastic_limit(current_limit, average_usage, elastic_resource_limit) {
-    result = current_limit
-    if average_usage > elastic_resource_limit.target:
-        result = result * elastic_resource_limit.contract_rate
-    else:
-        result = result * elastic_resource_limit.expand_rate
 
-    return min(max(result, elastic_resource_limit.max), elastic_resource_limit.max * elastic_resource_limit.max_multiplier)
+```c++
+def update_elastic_limit(current_limit, average_usage, elastic_resource_limit) {
+result = current_limit
+if average_usage > elastic_resource_limit.target:
+    result = result * elastic_resource_limit.contract_rate
+else:
+    result = result * elastic_resource_limit.expand_rate
+
+return min(max(result, elastic_resource_limit.max), elastic_resource_limit.max * elastic_resource_limit.max_multiplier)
+```
