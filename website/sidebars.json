@@ -20,13 +20,14 @@
       }
     ],
     "Aprender EOSIO": [
-      "aprender-eosio/explorador-de-bloques",
-      "aprender-eosio/productor-de-bloques",
-      "aprender-eosio/desarrollo-de-dapps",
       "aprender-eosio/mecanismo-de-consenso",
       "aprender-eosio/uso-de-recursos",
       "aprender-eosio/como-iniciar",
       "aprender-eosio/llaves-privadas",
+      "aprender-eosio/linea-de-comando",
+      "aprender-eosio/explorador-de-bloques",
+      "aprender-eosio/productor-de-bloques",
+      "aprender-eosio/desarrollo-de-dapps",
       "aprender-eosio/devops",
       "aprender-eosio/cadena-de-bloques-eos",
       "aprender-eosio/podcasts-eos",
