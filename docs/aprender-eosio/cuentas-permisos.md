@@ -1,7 +1,7 @@
 ---
-id: protocolo-eosio
-title: Protocolo EOSIO
-sidebar_label: Protocolo EOSIO
+id: cuentas-permisos
+title: Cuentas y Permisos
+sidebar_label: Cuentas y Permisos
 ---
 
 ## Protocolo EOSIO
