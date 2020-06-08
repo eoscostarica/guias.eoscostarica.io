@@ -1,7 +1,7 @@
 ---
 id: protocolo-eosio
-title: Protocolo Eosio
-sidebar_label: Protocolo Eosio
+title: Protocolo EOSIO
+sidebar_label: Protocolo EOSIO
 ---
 
 ## Protocolo EOSIO
