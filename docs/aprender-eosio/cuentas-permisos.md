@@ -10,7 +10,7 @@ sidebar_label: Cuentas y Permisos
 
 Una **cuenta** en EOSIO es un nombre legible para humanos que se almacena en la cadena de bloques. Puede ser propiedad de un individuo o grupo de individuos dependiendo de la configuración de los permisos. Se requiere una cuenta para transferir o enviar cualquier transacción válida a la cadena de bloques.
 
-El nombre de la cuenta debe cumplir con ciertos requisitos: caracteres de la `a` a la `z` en minúscula, números del `1` al `5` y tener una longitud de 12 caracteres. Por ejemplo : `latamlink12`.
+El nombre de la cuenta debe cumplir con ciertos requisitos: caracteres de la `a` a la `z` en minúscula, números del `1` al `5` y tener una longitud de 12 caracteres. Por ejemplo : `cuentaeosio1`.
 
 Obtenga más información sobre [cuentas en EOSIO](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions#2-accounts)
 
