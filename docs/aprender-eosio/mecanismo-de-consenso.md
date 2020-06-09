@@ -6,9 +6,6 @@ sidebar_label: Mecanismo de Consenso
 
 El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.
 
-## Proof of Authority (POA)
-
-El grupo de productores de bloques poseen la autoridad de escribir a la cadena de bloques porque fueron otorgados este privilegio por parte de la autoridad superior, el comité permisionador, quien sera la máxima autoridad y quien determina cuales serán los nodos productores de bloques.
 
 ## Productores de Bloques Activos
 
@@ -49,11 +46,11 @@ Es importante que las llaves privadas de producción estén respaldadas correcta
 
 ## Productores de Bloques de Reserva
 
-Las redes EOSIO manejan un grupo de nodos productores de bloques registrados que pueden asumir el rol de productores de bloques con solo ser agregado al `schedule` de productores activos por el comite permisionador.
+Las redes EOSIO manejan un grupo de nodos productores de bloques registrados que pueden asumir el rol de productores de bloques con solo ser agregado al `schedule` de productores activos.
 
 ### Rotación de nodos activos
 
-La rotación periódica de nodos productores de bloques activos favorece la descentralización. Por esta razón el comité permisionador contará con una [herramineta de gestión de red](https://es.latamlink.io/docs/gestion-red) que permita seleccionar los productores de bloques que desea incluir o excluir en el `schedule`.
+La rotación periódica de nodos productores de bloques activos favorece la descentralización Existe una herramieta que permite seleccionar los productores de bloques que se desea incluir o excluir en el `schedule`.
 
 >**Por ejemplo:** Se puede definir una política de rotación de nodos activos semanalmente.
 
@@ -61,26 +58,9 @@ Mas adelante se habilitrá la rotación periódica y automática basada en contr
 
 ### Sustitución de un Productor de Bloques activo
 
-En caso de que algún nodo del grupo principal dejará de responder. El comité permisionador podrá reemplazar manualmente los productores de bloques que presenten problemas de rendimiento o seguridad.
-
-Eventualmente se podrá implementar un contrato inteligente que sustituya una cuenta en el schedule de forma automática basado en métricas objetivas de rendimiento.
-
+En caso de que algún nodo del grupo principal dejará de responder. Se podrá reemplazar manualmente los productores de bloques que presenten problemas de rendimiento o seguridad.
 
 ## Contratos de sistema EOSIO a la medida
 
-LACChain utilizará contratos de sistema hechos a la medida. Para esto nos basaremos en los contratos de sistema nativos de EOSIO, donde el principal cambio es sustituir el mecanismo nativo Delegated Proof of Stake (dPOS) por Proof of Authority (POA).
-
-Este cambio implica deshabilitar el uso de tokens y de votos característicos del protocolo DPOS. Es decir, al momento de girar recursos, no será necesario disponer de ningún token.
-
-### Funciones dPOS deshabilitadas:
-
-* Token de Sistema
-* Votos por Productores de Bloques
-* Pago de Productores de Bloques
-* "Staking" para recursos
-* Delegación de Recursos
-* Namebiding
-* Rex
-
-Esta funcionalidad no necesariamente se eliminará, sino que se utilizará una función de “assert false” para deshabilitar las funciones ya que la plataforma no soporta estas funciones.
+Un contrato inteligente es un código que se puede ejecutar en una cadena de bloques y mantener el estado de ejecución del contrato como parte del historial inmutable de esa instancia de la cadena de bloques. Por lo tanto, los desarrolladores pueden confiar en esa cadena de bloques como un entorno de computación confiable en el que las entradas, la ejecución y los resultados de un contrato inteligente son independientes y libres de influencia externa.
 
