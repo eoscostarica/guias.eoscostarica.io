@@ -22,7 +22,11 @@
     "Aprender EOSIO": [
       "aprender-eosio/explorador-de-bloques",
       "aprender-eosio/productor-de-bloques",
+      "aprender-eosio/protocolo-eosio",
+      "aprender-eosio/cuentas-permisos",
       "aprender-eosio/desarrollo-de-dapps",
+      "aprender-eosio/librerias-sdk",
+      "aprender-eosio/funciones-importantes",
       "aprender-eosio/uso-de-recursos",
       "aprender-eosio/devops",
       "aprender-eosio/cadena-de-bloques-eos",
@@ -30,7 +34,8 @@
       "aprender-eosio/cadenas-hermanas-de-eos",
       "aprender-eosio/software-eosio",
       "aprender-eosio/cpp-moderno",
-      "aprender-eosio/contratos-inteligentes"
+      "aprender-eosio/contratos-inteligentes",
+      "aprender-eosi/contrato-hola-mundo"
     ]
   }
 }
