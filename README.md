@@ -7,21 +7,30 @@ En este sitio se encuentran los recursos recabados en el día a día de los cola
 
 2. Descargue o clone el proyecto, mismo que podrá encontrar en el siguiente [enlace](https://github.com/eoscostarica/desarrolladores.eoscostarica.io.git).
 
-		$ git clone https://github.com/eoscostarica/desarrolladores.eoscostarica.io.git
+```bash
+$ git clone https://github.com/eoscostarica/desarrolladores.eoscostarica.io.git
+```
+
 3. Abra la línea de comandos y diríjase al directorio donde se encuentra el proyecto.
 
-		$ cd ....\desarrolladores.eoscostarica.io
+```bash
+$ cd ....\desarrolladores.eoscostarica.io
+```
+
 4. Una vez en el directorio donde está el proyecto ingrese a la carpeta llamada `website`.
+```bash
+$ cd website
+```
 
-		$ cd website
 5. Cuando se encuentre en el directorio `desarrolladores.eoscostarica.io\website` instale las dependencias:
-
-		$ yarn install 
+```bash
+$ yarn install 
+```
 
 6. Para finalizar ejecute el proyecto:
-		
-		$ yarn start 
-
+```bash		
+$ yarn start 
+```
 
 ## Contributors ✨
 
