@@ -18,7 +18,7 @@ Adicionalmente, recomendamos instalar desde antes el Contract Development Toolki
 
 ## Obtenga sus llaves privadas
 
-Mas información sobre [llaves privadas](https://desarrolladores.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
+Mas información sobre [llaves privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
 
 ## Creador de cuentas ágil
 

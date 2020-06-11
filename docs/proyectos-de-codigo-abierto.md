@@ -22,7 +22,7 @@ También permite que cualquiera que posea el documento pueda validar el registro
 - **GitHub** : https://github.com/eoscostarica/notarioeoscr
 
 
-## Red de Prueba de LatamLink
+## TestNet de LatamLink
 
 El propósito de LatamLink es ofrecer una red de prueba basada en EOSIO para resaltar los beneficios de esta plataforma. LACChain es una iniciativa de BID Labs (parte del Banco Inter-Americano de Desarrollo) cuyo propósito es acompañar y acelear el desarrollo del ecosistema de cadenas de bloques en América Latina.
 
