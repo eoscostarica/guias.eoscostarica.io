@@ -23,19 +23,19 @@ const users = [
 const siteConfig = {
   title: 'Desarrolladores EOS Costa Rica', // Title for your website.
   tagline: 'Documentación para desarrolladores de EOS Costa Rica',
-  url: 'https://desarrolladores.eoscostarica.io', // Your website URL
+  url: 'https://guias.eoscostarica.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
-  cname: "desarrolladores.eoscostarica.io",
+  cname: "guias.eoscostarica.io",
   disableHeaderTitle: true,
 
   // Used for publishing and more
-  projectName: 'desarrolladores.eoscostarica.io',
+  projectName: 'guias.eoscostarica.io',
   organizationName: 'eoscostarica',
-  editUrl: 'https://github.com/eoscostarica/desarrolladores.eoscostarica.io/edit/master/docs/',
+  editUrl: 'https://github.com/eoscostarica/guias.eoscostarica.io/edit/master/docs/',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {href: 'https://desarrolladores.eoscostarica.io/', label: 'Inicio'},
+    {href: 'https://guias.eoscostarica.io/', label: 'Inicio'},
     {doc: 'pautas-para-codigo-abierto', label: 'Pautas para Desarrolladores'}
   ],
 
@@ -91,7 +91,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/eoscostarica/desarrolladores.eoscostarica.io',
+  repoUrl: 'https://github.com/eoscostarica/guias.eoscostarica.io',
 
     // Show documentation's last contributor's name.
   enableUpdateBy: false,
