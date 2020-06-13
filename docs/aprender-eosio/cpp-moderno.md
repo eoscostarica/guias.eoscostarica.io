@@ -10,6 +10,12 @@ sidebar_label: C++ Moderno
   <iframe width="560" height="315" src="https://www.youtube.com/embed/18c3MTX0PK0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
+## Hola mundo en c++
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DqbkxfUX5Kg" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+
 ## La esencia de C++
 
 <figure class="video_container">
