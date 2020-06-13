@@ -105,3 +105,9 @@ else:
 
 return min(max(result, elastic_resource_limit.max), elastic_resource_limit.max * elastic_resource_limit.max_multiplier)
 ```
+
+## Asignación de recursos de EOS
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/N6CTRdx6NVE" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
