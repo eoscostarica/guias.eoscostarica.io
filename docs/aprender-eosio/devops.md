@@ -10,14 +10,6 @@ La automatización está en el top de nuestras prioridades, todo desde organizac
 
 Comunicación continua y frecuentes llamadas de uno en uno así como programación en parejas son partes esenciales de nuestro trabajo día a día.
 
-# Entendiendo DevOps
-
-<figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/EIvOZA1HgHU" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-Para lograr estos objetivos, aprovechamos un conjunto de tecnologías que son explicadas en los siguientes videos:
-
 # Introducción a la infraestructura como Código (en inglés IAC)
 
 <figure class="video_container">
