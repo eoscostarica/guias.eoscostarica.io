@@ -4,7 +4,7 @@ title: Desarrollo de Dapps
 sidebar_label: Desarollo de Dapps
 ---
 
-## Porqué EOS es construido para Aplicaciones Descentralizadas
+## EOSIO para el desarrollo de aplicaciones descentralizadas (dApps)
 
 <figure class="video_container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/UL4pUnWqq6E" frameborder="0" allowfullscreen="true"> </iframe>
