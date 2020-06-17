@@ -100,7 +100,12 @@ const siteConfig = {
 
   // Show documentation's last update time.
   enableUpdateTime: true,
-  docsSideNavCollapsible: true
+  docsSideNavCollapsible: true,
+
+  //Google Analytics integration
+  gaTrackingId: "UA-173987-66",
+  gaGtag: true
+
 };
 
 module.exports = siteConfig;
