@@ -104,7 +104,7 @@ const siteConfig = {
 
   //Google Analytics integration
   gaTrackingId: "UA-173987-66",
-  gaGtag: true
+  gaGtag: false
 
 };
 
