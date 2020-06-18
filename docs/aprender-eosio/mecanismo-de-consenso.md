@@ -7,6 +7,17 @@ sidebar_label: Mecanismo de Consenso
 El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.
 
 
+## ¿Qué es un productor de bloques?
+
+Los productores de bloques proveen la infraestructura requerida para procesar las transacciones. Algunos productores de bloques operan con sus propios equipos físicos, mientras otros proveen servicios utilizando servicios en la nube de terceros.
+
+### Explicando el rol de un productor de bloques de EOS.
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+
 ## Productores de Bloques Activos
 
 Los nodos autorizados como productores de bloques activos pertenecen a un grupo que comparte la responsabilidad de validar y escribir todas las acciones en la red.
@@ -64,3 +75,17 @@ En caso de que algún nodo del grupo principal dejará de responder. Se podrá r
 
 Un contrato inteligente es un código que se puede ejecutar en una cadena de bloques y mantener el estado de ejecución del contrato como parte del historial inmutable de esa instancia de la cadena de bloques. Por lo tanto, los desarrolladores pueden confiar en esa cadena de bloques como un entorno de computación confiable en el que las entradas, la ejecución y los resultados de un contrato inteligente son independientes y libres de influencia externa.
 
+## Delegated Proof of Stake (DPoS)
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+Un Algoritmo de consenso es un proceso en Ciencias de la Computación usado para lograr acuerdo en un sólo valor de datos entre procesos o sistemas distribuidos.
+
+La tecnología Blockchain depende de Algoritmos de Consenso para lograr un acuerdo entre los nodos. Un blokchain puede ser pensado como una base de datos descentralizada que es manejada por computadoras distribuidas en una red de punto a punto (P2P). Cada punto mantiene una copia del estado de la red para prevenir un punto único de fallo (en inglés SPOF). Actualizacioes y validaciones son reflejadas en todas las copias simultáneamente.
+
+El software EOSIO utiliza el único conocido Algoritmo de Consenso Descentralizado probado capaz de cumplir los requerimientos de rendimiento de las aplicaciones en el blockchain, **Prueba de Participación Delegada** (Delegated Proof of Stake - DPOS). Bajo este algoritmo, aquellos que mantienen token en el blockchain adoptando el software EOSIO pueden seleccionar los productores de bloques através de un sistema de aprobación continua. Cualquiera que elija participar en la producción de bloques tendrán la oportunidad de producirlos, siempre que puedan persuadir a los titulares de tokens para que voten por ellos.
+
+ - [DPOS Algoritmo de Consenso](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
+ - [BitShares DPOS](https://bitshares.org/technology/delegated-proof-of-stake-consensus/)

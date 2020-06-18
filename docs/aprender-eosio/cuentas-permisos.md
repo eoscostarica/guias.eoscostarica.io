@@ -60,3 +60,11 @@ La librería [Universal Authenticator Library (UAL)](https://github.com/EOSIO/un
 ### KEOSD
 
 En la distribución de EOSIO viene incluido un cliente CLI llamado [`cleos`](https://developers.eos.io/manuals/eos/latest/cleos/index) que interactúa con un cliente llamado [`keosd`](https://developers.eos.io/manuals/eos/latest/keosd/index) que proporciona un servicio de billetera seguro y un punto final API para aplicaciones que requieren integración de back-end con un proveedor de firmas digitales.
+
+### Permisos de EOSIO
+
+Los permisos de EOSIO hacen posible fortalecer la seguridad de la cuenta al punto donde la pérdida o robo de las llaves son nada más que pequeñas inconveniencias. Este episodio semanal de EOS cubre qué son los permisos de EOSIO a un nivel conceptual y la tendencia a redes de cuentas interconectadas fuertes.
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kTjF0-Edxw8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>

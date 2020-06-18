@@ -1,7 +1,7 @@
 ---
 id: funciones-importantes
 title: Funciones Importantes
-sidebar_label: Protocolo EOSIO
+sidebar_label: Funciones Importantes
 ---
 
 ## Funciones Importantes en EOSIO

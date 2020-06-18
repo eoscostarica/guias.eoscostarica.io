@@ -22,12 +22,25 @@ A continuación incluimos una lista de algunas otras redes publicas lanzadas sob
 
 - **[Telos](https://www.telos.net/)** : una plataforma blockchain sin permisos de alto rendimiento para aplicaciones descentralizadas con almacenamiento avanzado de datos y funciones de gobernanza de la cadena.
 
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fvsvzCL46eI" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 - **[Ultra](https://ultra.io/)** : una cadena de bloques dirigida a la industria del juegos.
 
 - **[Voice](https://voice.com/)** : Una cadena de bloques para impulsar la red social descentralizada construida por Block.one
 
 - **[WAX](https://wax.io/)** : Un token de cadena de bloques y protocolo especialmente diseñado para hacer que las transacciones de comercio electrónico sean más rápidas, fáciles y seguras.
 
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 - **[Worbli](https://worbli.io/)** : una cadena de bloques diseñada para el cumplimiento normativo con el sector financiero, incluidas las cuentas verificadas por KYC.
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ideiyhAlvOQ" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 
 Puede ver una descripción completa de muchas de las cadenas de bloques EOSIO públicas en [ineos.io](https://ineos.io/)
