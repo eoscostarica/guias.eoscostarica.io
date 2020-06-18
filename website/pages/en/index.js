@@ -192,10 +192,10 @@ const Showcase = props => {
   );
 };
 
+
 class Index extends React.Component {
   render() {
     const language = this.props.language || '';
-
     return (
       <div>
         <HomeSplash language={language} />
