@@ -17,7 +17,8 @@
           "recursos-visuales/logos-de-eos-rate",
           "recursos-visuales/logos-de-eos-local"
         ]
-      }
+      },
+      "glosario"
     ],
     "Aprender EOSIO": [
       "aprender-eosio/protocolo-eosio",
