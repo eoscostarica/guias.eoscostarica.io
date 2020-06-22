@@ -17,8 +17,7 @@
           "recursos-visuales/logos-de-eos-rate",
           "recursos-visuales/logos-de-eos-local"
         ]
-      },
-      "glosario"
+      }
     ],
     "Aprender EOSIO": [
       "aprender-eosio/protocolo-eosio",
@@ -41,6 +40,11 @@
       "aprender-eosio/podcasts-eos",
       "aprender-eosio/cpp-moderno",
       "aprender-eosio/contratos-inteligentes"
+    ],
+    "Herramientas":[
+      "herramientas/glosario"
+    ],
+    "Recursos de la comunidad":[
     ]
   }
 }
