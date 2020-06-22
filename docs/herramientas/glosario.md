@@ -4,180 +4,390 @@ title: Glosario
 sidebar_label: Glosario
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Lista de términos necesarios para comprender un poco mas los contenidos presentes en esta guía. 
 
 ## **A**
 
 
-### ACL 
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+### ACL (Lista de control de acceso)
 
 * * *
 
-### Algoritmos 
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+### Actions (EOSIO)
 
 * * *
 
-### APIs  
+### Actions (Hasura)
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+* * *
+
+### Active Permission
+
+* * *
+
+### Airgrab
+
+* * *
+
+### API
+
 
 * * *
 
 ## **B**
 
-### BOSCore 
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+### Backend
 
 * * *
 
-### Bloque
+### Billeteras
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+* * *
+
+### Blacklist
+
+* * *
+
+### Block explorer
+
+* * *
+
+### Block height
+
+* * *
+
+### Block one
+
+* * *
+
+### Block producer
+
+* * *
+
+### Blockhain 
+
+* * *
+
+### Bloque 
+
+* * *
+
+### BOSCore
+
+* * *
+
+### Bytecode canónico
 
 * * *
 
 ## **C**
 
+### CDT (Contract Development Toolkit)
+
+* * *
+
+### Chain ID
+
+* * *
+
+### Cleos 
+
+* * *
+
+### Contratos inteligentes
+
+* * *
+
+### CPU
+
+* * *
+
+### Cuentas
+
 * * *
 
 ## **D**
 
+### DApps
+
 * * *
+
+### DevOps
+
+* * *
+
+### Docker
+
+* * *
+
+### DPoS
+
+* * *
+
 
 ## **E**
 
-* * *
+### EOS
 
 * * *
+
+### EOS Hub
+
+* * *
+
+### EOS Rate
+
+* * *
+
+### EOSCR
+
+* * *
+
+### Eosfinex
+
+* * *
+
+### EOSIO
+
+* * *
+
+### EOSJS 
+
+* * *
+
+### EOSQ
+
+* * *
+
+### EOSX
+
+* * *
+
 
 ## **F**
-
-### frontend
-
-* * *
 
 * * *
 
 ## **G**
 
-* * *
+### GitHub
 
 * * *
+
+### GraphQL
+
+* * *
+
 
 ## **H**
 
-* * *
+
+### Hapi
 
 * * *
+
+### Hardware biométrico
+
+* * *
+
+### Hasura 
+
+* * *
+
+### Httpie
+
+* * *
+
 
 ## **I**
 
+### IAC
+
 * * *
+
+### IBC (comunicación Inter-Blockchain)
+
+* * *
+
+### Inter-Blockchain
+
+* * *
+
+### IPFS (Almacenamiento Descentralizado)
+
+* * *
+
+### Issue
 
 * * *
 
 ## **J**
 
-* * *
+### jq
 
 * * *
 
 ## **K**
 
-* * *
+### Kanban 
 
 * * *
+
+### KEOSD
+
+* * * 
+
+### Kubernetes
+
+* * *
+
 
 ## **L**
 
-* * *
+### LACCHAIN
 
 * * *
+
+### LatamLink 
+
+* * *
+
+### Latencia 
+
+* * *
+
+### LIB (Último bloque irreversible)
+
+* * *
+
+### Llaves privadas
+
+* * *
+
 
 ## **M**
 
-* * *
+### Mainnet
 
-* * *
+* * * 
 
 ## **N**
 
-* * *
+### Network
 
-* * *
+* * * 
+
+### Nodeos
+
+* * * 
+
+### Nodos
+
+* * * 
+
+### NPM
+
+* * * 
+
 
 ## **O**
 
-* * *
-
-* * *
 
 ## **P**
 
-* * *
+### Permisos
 
-* * *
+* * * 
+
+### Podcasts EOS
+
+* * * 
+
+### Pull request
+
+* * * 
+
+
 
 ## **Q**
 
-* * *
-
-* * *
 
 ## **R**
 
-* * *
+### RAM
 
-* * *
+* * * 
+
 
 ## **S**
 
-* * *
+### SPOF
 
-* * *
+* * * 
+
+### Squash merge
+
+* * * 
+
+### StoryBook
+
+* * * 
+
 
 ## **T**
 
-* * *
+### TAPOS
 
-* * *
+* * * 
+	
+### Telos
+
+* * * 
+
+### Terraform 
+
+* * * 
+
+### TestNet 
+
+* * * 
+
+### Tokens
+
+* * * 
+
+### Transacciones 
+
+* * * 
+
+
 
 ## **U**
 
-* * *
+### UAL (Universal Authenticator Library)
 
-* * *
+* * * 
+
+
 
 ## **V**
 
-* * *
-
-* * *
 
 ## **W**
 
-* * *
-
-* * *
 
 ## **X**
 
-* * *
-
-* * *
 
 ## **Y**
 
-* * *
+### Yarn
 
-* * *
+* * * 
 
 ## **Z**
+
+### Zeplin
 
 * * *
 
