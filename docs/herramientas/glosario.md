@@ -87,36 +87,43 @@ Se define como el número de bloques en la cadena entre un bloque dado y el prim
 
 Block.one es la compañía que creó el software EOSIO. Es un productor de software de código abierto altamente escalable y de alto rendimiento, está a la vanguardia del desarrollo de la próxima generación de Internet.
 
-
 * * *
 
-### Block producer
+### Block producer (productor de bloques)
+
+Los productores de bloques son una de las innovaciones principales de Block.one, son las entidades descentralizadas que rigen la cadena de bloques EOSIO. En lugar de ser administrado por un pequeño número de grupos mineros, EOSIO tendrá un grupo en constante cambio de 21 productores de bloques.
 
 * * *
 
 ### Blockhain 
 
+Es una lista creciente de registros, llamados bloques, que están vinculados mediante criptografía. Cada bloque contiene un hash criptográfico del bloque anterior, una marca de tiempo y datos de transacción (generalmente representados como un árbol Merkle).
+
 * * *
 
 ### Bloque 
 
-* * *
-
-### BOSCore
+Los bloques son archivos donde los datos pertenecientes a la cadena de bloques se registran de forma permanente. Almacenan algunas o todas las transacciones más recientes que aún no han ingresado a ningún bloque anterior. Un bloque es un almacén permanente de registros que una vez escritos no pueden ser alterados o eliminados.
 
 * * *
 
 ### Bytecode canónico
 
+es utilizado para la comunicación entre diferentes formatos de datos. Una forma de integración de aplicaciones empresariales, pretende reducir los costos y estandarizar las definiciones acordadas de datos asociados con la integración de los sistemas de negocio.
+
 * * *
 
 ## **C**
 
-### CDT (Contract Development Toolkit)
+### CDT (Herramientas de desarrollo de contratos)
+
+Es un kit de herramientas de desarrollo de contratos inteligentes completo con un conjunto de herramientas y utilidades necesarias para el desarrollo de EOSIO Smart Contracts. Proporciona soporte para el Gnu & C++ 11 style creando una forma más confiable de declarar su estructura de contrato inteligente y las estructuras de datos asociadas.
 
 * * *
 
 ### Chain ID
+
+Una ID de cadena es una configuración de blockchain que afecta la formación de una dirección. El enlace en formato binario de transacción entre la dirección y la ID de la cadena hace que sea imposible mover transacciones entre diferentes redes de blockchain.
 
 * * *
 
