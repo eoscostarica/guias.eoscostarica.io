@@ -276,21 +276,32 @@ Block.one es la compañía que creó el software EOSIO. Es un productor de softw
 
 ### LACCHAIN
 
+LACChain es una iniciativa de BID Labs (parte del Banco Interamericano de Desarrollo) cuyo propósito es acompañar y acelerar el desarrollo del ecosistema de blockchain en Latinoamérica. LACChain busca establecer consorcios nacionales en la región, desarrollar y promover estándares de interoperablidad en redes, y desarrollar y dar mantenimiento a infraestructuras interoperables de blockchain.
+
 * * *
 
 ### LatamLink 
+
+LatamLink es una alianza regional voluntaria liderada por empresas tecnológicas latinoamericanas. Desarrollamos un testnet basado en EOSIO para la red LACChain con el fin de resaltar los beneficios de esta tecnología. LatamLink utiliza una versión pública permisionada de la tecnología EOSIO para que desarrolladores y organizaciones puedan probar sus aplicaciones descentralizadas e infraestructura.
 
 * * *
 
 ### Latencia 
 
+Peróodo de tiempo que transcurre entre la comunicación de un paquete atraves de la red.
+
+
 * * *
 
 ### LIB (Último bloque irreversible)
 
+Un bloque se considera irreversible (es decir, inmutable) en una cadena de bloques basada en EOSIO cuando 2/3 de los productores de bloques elegidos actualmente lo han reconocido.
+
 * * *
 
 ### Llaves privadas
+
+Una llave privada es una clave secreta utilizada para firmar transacciones. En EOSIO, la autoridad de una clave privada está determinada por su asignación a un nombre de cuenta EOSIO.
 
 * * *
 
@@ -305,17 +316,27 @@ Block.one es la compañía que creó el software EOSIO. Es un productor de softw
 
 ### Network
 
+La NET es un recurso muy importante en las cadenas de bloques basadas en EOSIO. Es el ancho de banda de red (medida en bytes) necesario para almacenar transacciones en una cadena de bloques. 
+
 * * * 
 
 ### Nodeos
+
+Es el `daemon`  central del nodo EOSIO que se puede configurar con complementos para ejecutar un nodo. Los usos de ejemplo son la producción en bloque, los puntos finales de API dedicados y el desarrollo local. 
+
+`nodeos = nodo + eos`
 
 * * * 
 
 ### Nodos
 
+Un nodo es la base fundamental de la tecnología blockchain, conforman la infraestructura de una cadena de bloques. Todos los nodos en una cadena de bloques están conectados entre sí e intercambian constantemente los últimos datos de la cadena de bloques para que todos los nodos se mantengan actualizados.
+
 * * * 
 
 ### NPM
+
+[NPM](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/) `Node Package Manager` es un repositorio en línea para la publicación de proyectos de código abierto, ademas permite la instalación de paquetes, adminsitración de versiones y adminsitración de dependencias. 
 
 * * * 
 
@@ -327,13 +348,21 @@ Block.one es la compañía que creó el software EOSIO. Es un productor de softw
 
 ### Permisos
 
+Es un mecanismo de seguridad que determina si un mensaje está debidamente autorizado o no mediante la evaluación de su firma.
+
 * * * 
 
 ### Podcasts EOS
 
+Conjunto de sitios relacionados con EOS en el cual constantemente se esta agregando nuevo contenido a los canales. Este contenido puede ser en formato de video, audio o blogs. 
+
 * * * 
 
 ### Pull request
+
+Los `pull request` permiten informar a otros usuarios sobre los cambios que ha realizado en una rama de un repositorio en GitHub. 
+
+Una vez que se abre un `pull request`, se puede analizar y revisar los posibles cambios con los colaboradores y agregar confirmaciones de seguimiento antes de que sus cambios se fusionen en la rama base.
 
 * * * 
 
@@ -346,6 +375,8 @@ Block.one es la compañía que creó el software EOSIO. Es un productor de softw
 
 ### RAM
 
+La RAM es un tipo de memoria utilizada para almacenar información de la cuenta, como claves, saldos y estado del contrato en una cadena de bloques basada en EOSIO.
+
 * * * 
 
 
@@ -357,28 +388,38 @@ Block.one es la compañía que creó el software EOSIO. Es un productor de softw
 
 ### Squash merge
 
+El Squash es una opción de `merge` que permite condensar el historial de  Git de un `branch` cuando se completa un `pull request`. Este proceso toma todas los `commits` de un `branch` especifico y los agrega en un solo commit dentro de la rama predeterminada. 
+
 * * * 
 
 ### StoryBook
+
+[StoryBook](https://storybook.js.org/) es una herramienta de codigo abierto para desarrollar componentes de UI de forma aislada para React, Vue y Angular
 
 * * * 
 
 
 ## **T**
 
-### TAPOS
+### TaPoS - Transaction as Proof of Stake
 
 * * * 
 	
 ### Telos
 
+[Telos](https://www.telos.net/) es una plataforma blockchain sin permisos de alto rendimiento para aplicaciones descentralizadas con almacenamiento avanzado de datos y funciones de gobernanza de la cadena.
+
 * * * 
 
 ### Terraform 
 
+[Terraform](https://www.terraform.io/) es una herramienta para construir, cambiar y versionar infraestructura de forma segura y eficiente. Terraform puede administrar proveedores de servicios existentes y populares, así como soluciones internas personalizadas.
+
 * * * 
 
-### TestNet 
+### TestNet
+
+Una red de prueba o testnet es una instancia de la plataforma EOSIO destinada a fines de prueba. En general, el token nativo no tiene valor y se entrega a los desarrolladores para que puedan probarlo.
 
 * * * 
 
@@ -388,6 +429,8 @@ Block.one es la compañía que creó el software EOSIO. Es un productor de softw
 
 ### Transacciones 
 
+Es una combinación de una o más acciones. Por lo general, el resultado de la ejecución de un contrato inteligente.
+
 * * * 
 
 
@@ -396,9 +439,9 @@ Block.one es la compañía que creó el software EOSIO. Es un productor de softw
 
 ### UAL (Universal Authenticator Library)
 
+Desarrollada por EOSIO Labs, la [biblioteca de autenticación universal (UAL)](https://github.com/EOSIO/universal-authenticator-library) permite a los desarrolladores de aplicaciones integrarse con una variedad de autenticadores (billeteras, exploradores de aplicaciones, administradores de claves, etc.) mediante la codificación de una única API universal.
+
 * * * 
-
-
 
 ## **V**
 
@@ -413,11 +456,15 @@ Block.one es la compañía que creó el software EOSIO. Es un productor de softw
 
 ### Yarn
 
+[Yarn](https://yarnpkg.com/) es un administrador de paquetes para proyectos web compatible con la estructura del administrador de paquetes npm (package.json y node_modules)
+
 * * * 
 
 ## **Z**
 
 ### Zeplin
+
+[Zeplin](https://zeplin.io/) es una herramienta colaborativa para diseñadores y desarrolladores de Front-End que permite un flujo de trabajo en el cual puedan crear diseños, facilitando la comunicación y una mejor organización del tiempo.
 
 * * *
 
