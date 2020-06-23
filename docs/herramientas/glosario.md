@@ -73,7 +73,7 @@ Una lista negra es una medida que un nodo de la cadena de bloques puede poner en
 
 ### Block explorer (Explorador de bloques)
 
-Permite buscar información de las cuentas. Se pueden revisar las acciones tomadas, incluyendo las transacciones de compra de RAM, los tokens del Faucet, el historial completo de movimientos y componentes asociados.
+Un explorador de bloques es un programa o sitio web accesible a través de un navegador que permite a un usuario buscar y navegar por los bloques de una cadena de bloques, sus contenidos y sus detalles relevantes.
 
 * * *
 
@@ -129,17 +129,25 @@ Una ID de cadena es una configuración de blockchain que afecta la formación de
 
 ### Cleos 
 
+Es la herramientas de lineas de comandos que se conecta con el API expuesto por nodeos y funciona para administrar la billetera, cuenta, llaves, transacciones y contratos inteligentes
+
 * * *
 
 ### Contratos inteligentes
+
+Es software registrado en el blockchain y ejecutado en los nodos de EOSIO, esto implementa las semánticas de un contracto cuyo registro de solicitudes de acciones están siendo guardadas en el blockchain. El Contrato Inteligente define la interfaz (acciones, parámetros, estructuras de datos) y el código que implementa la interfaz.
 
 * * *
 
 ### CPU
 
+La CPU está procesando la potencia, la cantidad de CPU que tiene una cuenta se mide en microsegundos (μs), se conoce como CPU bandwith, el comando `cleos get account` emite la cantidad de tiempo de procesamiento que una cuenta tiene a su disposición al presionar acciones a un contrato.
+
 * * *
 
 ### Cuentas
+
+Una cuenta en EOSIO es un nombre legible para humanos que se almacena en la cadena de bloques. Puede ser propiedad de un individuo o grupo de individuos dependiendo de la configuración de los permisos. Se requiere una cuenta para transferir o enviar cualquier transacción válida a la cadena de bloques.
 
 * * *
 
@@ -147,56 +155,71 @@ Una ID de cadena es una configuración de blockchain que afecta la formación de
 
 ### DApps
 
+Son aplicaciones o programas digitales se ejecutan en una red de computadoras blockchain o P2P en lugar de una sola computadora, estas están fuera del alcance y control de una sola autoridad.
+
 * * *
 
 ### DevOps
+
+Es un conjunto de prácticas que combina el desarrollo de software y las operaciones de TI. Su objetivo es acortar el ciclo de vida del desarrollo de sistemas y proporcionar una entrega continua con alta calidad de software.
 
 * * *
 
 ### Docker
 
+Es un conjunto de productos de plataforma como servicio que utiliza la virtualización a nivel del sistema operativo para entregar software en paquetes llamados contenedores. Los contenedores están aislados unos de otros y agrupan su propio software, bibliotecas y archivos de configuración; pueden comunicarse entre sí a través de canales bien definidos. Todos los contenedores son ejecutados por un solo núcleo del sistema operativo, por lo tanto, usan menos recursos que las máquinas virtuales.
+
 * * *
 
 ### DPoS
 
-* * *
+ Es un algoritmo de consenso desarrollado para asegurar una cadena de bloques, esto al garantizar la representación de las transacciones dentro de ella. DPoS está diseñado como una implementación de democracia basada en la tecnología, utilizando procesos de votación y elecciones para proteger blockchain de la centralización y el uso malicioso.
 
+* * *
 
 ## **E**
 
 ### EOS
 
-* * *
-
-### EOS Hub
+EOS es un sistema descentralizado basado en blockchain que permite el desarrollo, alojamiento y ejecución de aplicaciones descentralizadas a escala comercial ( dApps ) en su plataforma. EOS admite todas las funciones básicas necesarias para permitir que las empresas y las personas creen aplicaciones basadas en blockchain de una manera similar a las aplicaciones basadas en la web, como proporcionar acceso seguro y autenticación, permisos, alojamiento de datos, administración de uso y comunicación entre las dApps e internet.
 
 * * *
 
 ### EOS Rate
 
+EOS Rate es un dApp de código abierto que permite a los titulares de tokens EOS calificar a los productores de bloques (BP) en solo unos pocos clics. Los usuarios pueden acceder a un sistema de calificación y portal de votación, lo que facilita a los titulares de tokens tomar una decisión informada.
+
 * * *
 
 ### EOSCR
+
+EOS Costa Rica es una startup derivada de la empresa pionera Sistemas Edenia Internacional SA, constituida en 1987 y que opera como proveedor de infraestructura blockchain desde 2013. En EOS Costa Rica gestionamos la infraestructura para las redes EOSIO  y desarrollamos dApps que enfatizan la soberanía individual y promueven la adopción empresarial. También proporcionamos una plataforma abierta para que los desarrolladores innoven, así como programas de capacitación para aumentar las oportunidades en el espacio blockchain.
 
 * * *
 
 ### Eosfinex
 
+Eosfinex es un intercambio descentralizado de alto rendimiento construido en EOS.io. tecnología.
+Eosfinex combina la escalabilidad y la velocidad de EOS con la experiencia líder de la industria de Bitfinex para ofrecer un intercambio "en cadena" construido en torno a una plataforma rápida, transparente y sin confianza para el comercio de activos digitales.
+
 * * *
 
 ### EOSIO
 
+EOSIO es una cadena de bloques diseñada para facilitar la operación de un nuevo tipo de programa llamado aplicación descentralizada (dapp).
+Su tecnología intenta resolver problemas históricos al usar blockchains para ejecutar dapps, ya que las aplicaciones populares incluso han obstruido la capacidad en blockchains más grandes y más desarrollados, lo que resulta en problemas de rendimiento para todos los usuarios.
+
 * * *
 
-### EOSJS 
+### EOSJS
 
-* * *
-
-### EOSQ
+ES una biblioteca creada para controlar fácilmente la cadena de bloques EOS con Javascript. Se puede decir que fue hecho para usar fácilmente la API `HTTP de EOS (nodeos)`. (web3.js en Ethereum, neon-js en Neo)
 
 * * *
 
 ### EOSX
+
+Es un explorador de bloques, billetera y monitor de red, todo en uno. Está diseñado para ser fácil, rápido y limpio.
 
 * * *
 
@@ -209,9 +232,13 @@ Una ID de cadena es una configuración de blockchain que afecta la formación de
 
 ### GitHub
 
+Es un plataforma que proporciona alojamiento para el control de versiones de desarrollo de software, ademas, permite manejar control de versiones distribuidas y la funcionalidad de gestión de código fuente, así como de sus propias características. Proporciona control de acceso y varias funciones de colaboración, como seguimiento de errores , solicitudes de funciones, gestión de tareas y wikis para cada proyecto.
+
 * * *
 
 ### GraphQL
+
+Es un lenguaje de consulta para API, utiliza un tiempo de ejecución para completar esas consultas con sus datos existentes. GraphQL proporciona una descripción completa y comprensible de los datos en su API, brinda a los clientes el poder de pedir exactamente lo que necesitan y nada más, facilita la evolución de las API con el tiempo y permite poderosas herramientas para desarrolladores.
 
 * * *
 
