@@ -163,7 +163,7 @@ Una cuenta en EOSIO es un nombre legible para humanos que se almacena en la cade
 ## **D**
 
 ### DApps
-
+    
 Son aplicaciones o programas digitales se ejecutan en una red de computadoras blockchain o P2P en lugar de una sola computadora, estas están fuera del alcance y control de una sola autoridad.
 
 * * *
@@ -174,7 +174,9 @@ Es un conjunto de prácticas que combina el desarrollo de software y las operaci
 
 * * *
 
-### dFuse
+### DFuse
+
+Es una plataforma para capacitar a desarrolladores en dapp con capacidades para crear aplicaciones modernas de blockchain con interfaces rápidas y fluidas que brindan experiencias de usuario excepcionales.
 
 * * * 
 
@@ -198,7 +200,10 @@ EOS es un sistema descentralizado basado en blockchain que permite el desarrollo
 
 * * *
 
-### EOS Hub
+### EOSHub
+
+Es una plataforma móvil que ofrece los beneficios de EOS a las personas.
+Es una forma fácil y segura de ayudar a los usuarios a acceder a varias funciones de EOS como tokens, votación, gestión de recursos y comercio de RAM.
 
 * * * 
 
@@ -242,6 +247,8 @@ ES una biblioteca creada para controlar fácilmente la cadena de bloques EOS con
 
 ### EOSQ
 
+Es un explorador de bloques de alta precisión que proporciona acceso a datos precisos, detallados y procesables sobre cuentas, acciones y productores de bloques.
+
 
 * * *
 
@@ -257,11 +264,15 @@ Es un explorador de bloques, billetera y monitor de red, todo en uno. Está dise
 
 ### Fiat
 
+El dinero fiduciario (fiat) es una moneda emitida por el gobierno que no está respaldada por un producto físico, como el oro o la plata, sino por el gobierno que la emitió.
+
 * * *
 
 ## **G**
 
 ### Genesis JSON
+
+genesis.json es el archivo que define el `Genesis block`, el cual es el bloque inicial de la cadena de bloques. Este es como la "configuración" de su blockchain. Por ejemplo, la configuración de la cadena y el nivel de dificultad para extraer bloques.
 
 * * * 
 
@@ -277,10 +288,13 @@ Es un lenguaje de consulta para API, utiliza un tiempo de ejecución para comple
 
 * * *
 
-
 ## **H**
 
 ### Hackathon
+
+Un hackathon es evento (competencia) en el que se reunen programadores informáticos, diseñadores gráficos, diseñadores de interfaces, gerentes de proyectos y tratan de trabajar en proyectos relacionados con tecnologia y problemas especificos.
+
+* * *
 
 ### Hapi
 
@@ -290,10 +304,13 @@ Es un servicio backend para lógica de negocios personalizadas, integrado con Ha
 
 ### Hardware biométrico
 
+Estos son dispositivos tecnológicos que permiten percibir datos biométricos de los seres humanos u otros objetos, un ejemplo de ello es el reconocimiento fácil con el que cuentan algunas cámaras de seguridad y dispositivos móviles, también el desbloqueo de artefactos por medio de huellas dactilares, por mencionar algunos.
+
 * * *
 
 ### Hash
 
+Es el proceso de transformar una cadena en un valor o clave de longitud fija. Una cadena de datos siempre producirá el mismo hash, por lo que se usa como un medio para verificar el contenido de la cadena contra el contenido esperado.
 
 * * *
 
@@ -319,15 +336,21 @@ Es un cliente HTTP de línea de comandos fácil de usar para la era API. Viene c
 
 ## **I**
 
-### IAC
+### IAC (infraestructura como código)
+
+Es el proceso de gestión de centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactivas.
 
 * * *
 
 ### IBC (comunicación Inter-Blockchain)
 
+Es una herramienta por la cual múltiples blockchains pueden comunicarse entre sí. Esta puede usarse para enviar tokens de una cadena a otra, o para expandir la capacidad de una red al aumentar el número de cadenas que se ejecutan en paralelo.
+
 * * *
 
-### ICO Inter Blockchain Communication
+### ICO (oferta inicial de manedas)
+
+Método popular para distribuir el suministro inicial de monedas (tokens)  vendiéndolos a cambio de moneda fiduciaria u otras criptomonedas.
 
 * * *
 
@@ -337,11 +360,9 @@ Es un cliente HTTP de línea de comandos fácil de usar para la era API. Viene c
 
 ### Inline Action
 
+Son acciones que se crean dentro de un contrato inteligente. Una sola acción autorizada por un usuario puede crear muchas acciones posteriores que se ejecutarán dentro de una sola transacción o pueden también crear transacciones distintas.
+
 * * *
-
-### Inter-Blockchain
-
-* * * 
 
 ### Immutable
 
@@ -350,6 +371,8 @@ Término utilizado para referirse a algo que no se puede cambiar.
 * * *
 
 ### IPFS (Almacenamiento Descentralizado)
+
+Es un mecanismo de almacenamiento distribuido para colocar archivos en línea para almacenamiento descentralizado.
 
 * * *
 
@@ -499,6 +522,8 @@ Es un agente que encuentra y verifica las ocurrencias del mundo real y envía es
 
 ### Owner Permission
 
+En la estructura de permisos de una cuenta, el propietario se encuentra en el nivel superior de permisos. El propietario puede reestructurar todos los permisos de nivel inferior. Es uno de los dos permisos predeterminados que vienen con una cuenta nueva, `propietaria` y `activa`.
+
 * * *
 
 ## **P**
@@ -531,9 +556,13 @@ los nodos mineros compiten para encontrar un nonce agregado al encabezado de un 
 
 ### Proxy
 
+Es el acto de asignar su voto hacia otra cuenta. Si un usuario no desea, o no tiene el tiempo disponible, de  investigar qué productores de bloques deberían recibir su voto (pero aún así desea participar en la votación), puede delegar su poder de voto en otra cuenta. 
+
 * * *
 
 ## **Q**
+
+* * *
 
 ## **R**
 
@@ -569,7 +598,9 @@ En cualquier momento dado, se puede tomar una instantánea (`Snapshot`) del esta
 
 * * *
 
-### SPOF
+### SPOF (punto único de falla)
+
+Es una parte de un sistema que si falla detendrá el funcionamiento de todo el sistema. Estos no son deseables en ningún sistema con un objetivo de alta disponibilidad o confiabilidad.
 
 * * * 
 
@@ -594,7 +625,6 @@ El `Staking` es el acto de bloquear tokens para recursos en una red EOSIO. Esto 
 ### Standby BP
 
 Son un conjunto de aproximadamente 100 nodos completos que han expresado el deseo de ser seleccionados como productores de bloques, y son capaces de hacerlo a pedido. Cada vez que la cadena necesita reemplazar un BP existente por uno nuevo, el nuevo se extrae del grupo de reserva.
-
 
 * * *
 
@@ -640,6 +670,8 @@ Una red de prueba o testnet es una instancia de la plataforma EOSIO destinada a 
 
 ### Tokens
 
+Es la unidad de medida de una criptomoneda.
+
 * * * 
 
 ### Transacciones 
@@ -648,7 +680,9 @@ Es una combinación de una o más acciones. Por lo general, el resultado de la e
 
 * * * 
 
-### TPS
+### TPS (transacciones por segundo)
+
+Una métrica mediante la cual se mide el rendimiento de una cadena de bloques.
 
 * * * 
 
@@ -662,15 +696,21 @@ Desarrollada por EOSIO Labs, la [biblioteca de autenticación universal (UAL)](h
 
 ### UX Design
 
+Es el proceso de diseño que utilizan los equipos de desarrollo para crear productos que brindan experiencias gratas para los usuarios.
+
 * * *
 
 ## **V**
 
 ### Vote
 
+La votación es una parte fundamental del sistema EOSIO. La aplicación de votación más utilizada es elegir qué productores de bloques que realmente produzcan bloques para la red. La votación también se utilizará para ayudar a recopilar las decisiones comunales a través de las cuales cambiaremos el curso de la red.
+
 * * *
 
 ### Vote Decay
+
+Para evitar a los usuarios de emitir un voto por Block Producers y luego no actualizar su voto periódicamente, se introdujo una disminución en la fuerza relativa de los votos antiguos. Para mantener la fuerza máxima de voto, un usuario debe votar al menos una vez por semana.
 
 * * *
 
@@ -692,19 +732,25 @@ Las `Wallets` son clientes que almacenan llaves privadas asociadas con los permi
 
 ### Whale 
 
+Hace referencias a un titular de fichas que tiene una apuesta muy grande.
+
 * * *
 
 ### Whitelist
 
-* * *
-
-### WPS (Worker Proposal System)
+Una lista blanca es una medida subjetiva que un nodo de blockchain puede poner en práctica para permitir que las transacciones se coloquen en un bloque solo si se enumeran en su cuenta o lista blanca de contrato. Cada nodo puede especificar su propia lista blanca, que no se puede ver públicamente.
 
 * * *
 
+### WPS (sistemas de propuestas de trabajadores)
+
+Es un sistema a través del cual los fondos comunales se utilizarían para apoyar mejoras en la cadena de bloques, proyectos comunitarios y cualquier cosa que la comunidad considerara merecedora de fondos públicos. Está configurado para ser financiado a través de una parte de la inflación.
+
+* * *
 
 ## **X**
 
+* * *
 
 ## **Y**
 
