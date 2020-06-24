@@ -17,11 +17,16 @@ Lista de términos necesarios para comprender un poco mas los contenidos present
 
 ### Actions (EOSIO)
 
-
+Funcionalidad expuesta por un contrato inteligente que se ejerce al pasar los parámetros correctos a través de una transacción aprobada a una red EOSIO.
 
 * * *
 
 ### Actions (Hasura)
+
+Las acciones son una forma de extender el esquema de Hasura con lógica empresarial personalizada mediante consultas y mutaciones personalizadas.
+
+Se pueden agregar acciones a Hasura para manejar varios casos de uso, como la validación de datos, el enriquecimiento de datos de fuentes externas y cualquier otra lógica empresarial compleja.
+
 
 * * *
 
@@ -71,6 +76,12 @@ Una lista negra es una medida que un nodo de la cadena de bloques puede poner en
 
 * * *
 
+### Blockhain 
+
+Es una lista creciente de registros, llamados bloques, que están vinculados mediante criptografía. Cada bloque contiene un hash criptográfico del bloque anterior, una marca de tiempo y datos de transacción (generalmente representados como un árbol Merkle).
+
+* * *
+
 ### Block explorer (Explorador de bloques)
 
 Un explorador de bloques es un programa o sitio web accesible a través de un navegador que permite a un usuario buscar y navegar por los bloques de una cadena de bloques, sus contenidos y sus detalles relevantes.
@@ -95,17 +106,15 @@ Los productores de bloques son una de las innovaciones principales de Block.one,
 
 * * *
 
-### Blockhain 
-
-Es una lista creciente de registros, llamados bloques, que están vinculados mediante criptografía. Cada bloque contiene un hash criptográfico del bloque anterior, una marca de tiempo y datos de transacción (generalmente representados como un árbol Merkle).
-
-* * *
-
 ### Bloque 
 
 Los bloques son archivos donde los datos pertenecientes a la cadena de bloques se registran de forma permanente. Almacenan algunas o todas las transacciones más recientes que aún no han ingresado a ningún bloque anterior. Un bloque es un almacén permanente de registros que una vez escritos no pueden ser alterados o eliminados.
 
 * * *
+
+### BOSCore
+
+* * * 
 
 ### Bytecode canónico
 
@@ -165,6 +174,10 @@ Es un conjunto de prácticas que combina el desarrollo de software y las operaci
 
 * * *
 
+### dFuse
+
+* * * 
+
 ### Docker
 
 Es un conjunto de productos de plataforma como servicio que utiliza la virtualización a nivel del sistema operativo para entregar software en paquetes llamados contenedores. Los contenedores están aislados unos de otros y agrupan su propio software, bibliotecas y archivos de configuración; pueden comunicarse entre sí a través de canales bien definidos. Todos los contenedores son ejecutados por un solo núcleo del sistema operativo, por lo tanto, usan menos recursos que las máquinas virtuales.
@@ -185,11 +198,19 @@ EOS es un sistema descentralizado basado en blockchain que permite el desarrollo
 
 * * *
 
+### EOS Hub
+
+* * * 
+
 ### EOS Rate
 
 EOS Rate es un dApp de código abierto que permite a los titulares de tokens EOS calificar a los productores de bloques (BP) en solo unos pocos clics. Los usuarios pueden acceder a un sistema de calificación y portal de votación, lo que facilita a los titulares de tokens tomar una decisión informada.
 
 * * *
+
+### EOS Studio
+
+* * * 
 
 ### EOSCR
 
@@ -217,6 +238,11 @@ ES una biblioteca creada para controlar fácilmente la cadena de bloques EOS con
 
 * * *
 
+### EOSQ
+
+
+* * *
+
 ### EOSX
 
 Es un explorador de bloques, billetera y monitor de red, todo en uno. Está diseñado para ser fácil, rápido y limpio.
@@ -226,9 +252,16 @@ Es un explorador de bloques, billetera y monitor de red, todo en uno. Está dise
 
 ## **F**
 
+
+### Fiat
+
 * * *
 
 ## **G**
+
+### Genesis JSON
+
+* * * 
 
 ### GitHub
 
@@ -245,8 +278,11 @@ Es un lenguaje de consulta para API, utiliza un tiempo de ejecución para comple
 
 ## **H**
 
+### Hackathon
 
 ### Hapi
+
+Es un servicio backend para lógica de negocios personalizadas, integrado con Hasura, usando actions.
 
 * * *
 
@@ -254,14 +290,28 @@ Es un lenguaje de consulta para API, utiliza un tiempo de ejecución para comple
 
 * * *
 
-### Hasura 
+### Hash
+
 
 * * *
+
+### Hasura 
+
+Es un servidor GraphQL ultrarrápido que le ofrece API GraphQL en tiempo real sobre Postgres, con disparadores de webhook en eventos de bases de datos y esquemas remotos para la lógica empresarial.
+
+También ayuda a construir aplicaciones GraphQL respaldadas por Postgres o moverse gradualmente a GraphQL para aplicaciones existentes que usan Postgres.
+
+* * *
+
+### Head Block
+
+* * * 
 
 ### Httpie
 
-* * *
+Es un cliente HTTP de línea de comandos fácil de usar para la era API. Viene con soporte JSON, resaltado de sintaxis, sesiones persistentes, descargas tipo wget, complementos y más.
 
+* * *
 
 ## **I**
 
@@ -273,7 +323,23 @@ Es un lenguaje de consulta para API, utiliza un tiempo de ejecución para comple
 
 * * *
 
+### ICO Inter Blockchain Communication
+
+* * *
+
 ### Inter-Blockchain
+
+* * *
+
+### Inline Action
+
+* * *
+
+### Inter-Blockchain
+
+* * * 
+
+### Immutable
 
 * * *
 
@@ -283,11 +349,19 @@ Es un lenguaje de consulta para API, utiliza un tiempo de ejecución para comple
 
 ### Issue
 
+Los `issues` son una excelente manera de realizar un seguimiento de las tareas, mejoras y errores para sus proyectos a través de la plataforma de GitHub.
+
 * * *
 
 ## **J**
 
 ### jq
+
+Es una liviana y flexible línea de comandos para procesar archivos JSON.
+
+* * *
+
+### Jungle Testnet
 
 * * *
 
@@ -295,16 +369,23 @@ Es un lenguaje de consulta para API, utiliza un tiempo de ejecución para comple
 
 ### Kanban 
 
+Un tablero Kanban es una herramienta que nos permite visualizar un flujo de trabajo de un equipo, creando columnas con las etapas más importante del desarrollo del proyecto. En él se asignan tareas a los miembros del equipo, permitiendo una mejor organización del tiempo y los recursos.
+
 * * *
 
 ### KEOSD
+
+Funciona como billetera para manejar las llaves para EOSIO. Es el componente que almacena de forma segura las claves EOSIO en billeteras. 
+
+`keosd = clave + eos`
 
 * * * 
 
 ### Kubernetes
 
-* * *
+Kubernetes es una plataforma portátil, extensible y de código abierto para gestionar cargas de trabajo y servicios en contenedores, que facilita tanto la configuración declarativa como la automatización. Tiene un ecosistema grande y de rápido crecimiento. Los servicios, el soporte y las herramientas de Kubernetes están ampliamente disponibles.
 
+* * *
 
 ## **L**
 
@@ -324,8 +405,11 @@ LatamLink es una alianza regional voluntaria liderada por empresas tecnológicas
 
 Peróodo de tiempo que transcurre entre la comunicación de un paquete atraves de la red.
 
-
 * * *
+
+### Launch
+
+* * * 
 
 ### LIB (Último bloque irreversible)
 
@@ -339,12 +423,24 @@ Una llave privada es una clave secreta utilizada para firmar transacciones. En E
 
 * * *
 
-
 ## **M**
 
 ### Mainnet
 
 * * * 
+
+### Merkle Tree
+
+* * *
+
+### Micro Fork
+
+* * *
+
+### Multi-Sig
+
+* * *
+
 
 ## **N**
 
@@ -374,9 +470,15 @@ Un nodo es la base fundamental de la tecnología blockchain, conforman la infrae
 
 * * * 
 
-
 ## **O**
 
+### Oracle
+
+* * *
+
+### Owner Permission
+
+* * *
 
 ## **P**
 
@@ -400,10 +502,15 @@ Una vez que se abre un `pull request`, se puede analizar y revisar los posibles 
 
 * * * 
 
+### Proof of Work
 
+* * *
+
+### Proxy
+
+* * *
 
 ## **Q**
-
 
 ## **R**
 
@@ -413,8 +520,23 @@ La RAM es un tipo de memoria utilizada para almacenar información de la cuenta,
 
 * * * 
 
+### Recursos
+
+* * *
+
+### REX
+
+* * *
+
+### Ricardian Contract
+
+* * *
 
 ## **S**
+
+### Snapshot
+
+* * *
 
 ### SPOF
 
@@ -426,12 +548,27 @@ El Squash es una opción de `merge` que permite condensar el historial de  Git d
 
 * * * 
 
+### Stablecoin
+
+* * *
+
+### Stake
+
+* * * 
+
+### Standby BP
+
+* * *
+
 ### StoryBook
 
 [StoryBook](https://storybook.js.org/) es una herramienta de codigo abierto para desarrollar componentes de UI de forma aislada para React, Vue y Angular
 
 * * * 
 
+### System Account
+
+* * *
 
 ## **T**
 
@@ -467,7 +604,9 @@ Es una combinación de una o más acciones. Por lo general, el resultado de la e
 
 * * * 
 
+### TPS
 
+* * * 
 
 ## **U**
 
@@ -477,10 +616,43 @@ Desarrollada por EOSIO Labs, la [biblioteca de autenticación universal (UAL)](h
 
 * * * 
 
+### UX Design
+
+* * *
+
 ## **V**
 
+### Vote
+
+* * *
+
+### Vote Decay
+
+* * *
 
 ## **W**
+
+### Wasm
+
+* * *
+
+### Wallet
+
+* * *
+
+### Whale 
+
+* * *
+
+### Whitelist
+
+* * *
+
+### WPS (Worker Proposal System)
+
+* * *
+
+
 
 
 ## **X**
