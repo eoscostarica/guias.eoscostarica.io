@@ -210,6 +210,8 @@ EOS Rate es un dApp de código abierto que permite a los titulares de tokens EOS
 
 ### EOS Studio
 
+EOS Studio es un IDE gráfico unificado para acelerar el desarrollo de las dApps Integrado con varias herramientas necesarias para EOSIO.
+
 * * * 
 
 ### EOSCR
@@ -305,6 +307,8 @@ También ayuda a construir aplicaciones GraphQL respaldadas por Postgres o mover
 
 ### Head Block
 
+El `Head Block` es el último bloque escrito en la cadena de bloques, almacenado en bloques reversibles.
+
 * * * 
 
 ### Httpie
@@ -341,6 +345,8 @@ Es un cliente HTTP de línea de comandos fácil de usar para la era API. Viene c
 
 ### Immutable
 
+Término utilizado para referirse a algo que no se puede cambiar.
+
 * * *
 
 ### IPFS (Almacenamiento Descentralizado)
@@ -362,6 +368,8 @@ Es una liviana y flexible línea de comandos para procesar archivos JSON.
 * * *
 
 ### Jungle Testnet
+
+Jungle TestNet sirve como `sand box` para muchos equipos de desarrollo y productores de bloques EOS, el cual cuenta con un monitor de net.
 
 * * *
 
@@ -409,6 +417,8 @@ Peróodo de tiempo que transcurre entre la comunicación de un paquete atraves d
 
 ### Launch
 
+Término utilizado para referirse a el comienzo de una cadena de bloques.
+
 * * * 
 
 ### LIB (Último bloque irreversible)
@@ -427,20 +437,29 @@ Una llave privada es una clave secreta utilizada para firmar transacciones. En E
 
 ### Mainnet
 
+El `Mainnet` es la principal cadena de bloques EOSIO bajo el `ChainID: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906`.  Como el software EOSIO es de código abierto y está disponible de forma gratuita, puede haber muchas instancias de él.
+
 * * * 
 
 ### Merkle Tree
+
+Un `Merkle Tree` es un árbol en el que cada nodo de hoja se etiqueta con el hash de un bloque de datos, y cada nodo que no es de hoja se etiqueta con el hash criptográfico de las etiquetas de sus nodos secundarios. 
+
+Los árboles de hash permiten la verificación eficiente y segura del contenido de grandes estructuras de datos.
 
 * * *
 
 ### Micro Fork
 
+Un `microfork` ocurre cuando un productor de bloques comienza a producir bloques con la misma altura de bloque que un bloque que se produjo recientemente. 
+
 * * *
 
 ### Multi-Sig
 
-* * *
+`Multisig` es un corto plazo para múltiples firmas. Se utiliza para describir el caso en el que se requiere el permiso de más de una cuenta para ejecutar una transacción. 
 
+* * *
 
 ## **N**
 
@@ -452,7 +471,7 @@ La NET es un recurso muy importante en las cadenas de bloques basadas en EOSIO. 
 
 ### Nodeos
 
-Es el `daemon`  central del nodo EOSIO que se puede configurar con complementos para ejecutar un nodo. Los usos de ejemplo son la producción en bloque, los puntos finales de API dedicados y el desarrollo local. 
+Es el `daemon` central del nodo EOSIO que se puede configurar con complementos para ejecutar un nodo. Los usos de ejemplo son la producción en bloque, los puntos finales de API dedicados y el desarrollo local. 
 
 `nodeos = nodo + eos`
 
@@ -473,6 +492,8 @@ Un nodo es la base fundamental de la tecnología blockchain, conforman la infrae
 ## **O**
 
 ### Oracle
+
+Es un agente que encuentra y verifica las ocurrencias del mundo real y envía esta información a una cadena de bloques para que la usen los contratos inteligentes.
 
 * * *
 
@@ -504,6 +525,8 @@ Una vez que se abre un `pull request`, se puede analizar y revisar los posibles 
 
 ### Proof of Work
 
+los nodos mineros compiten para encontrar un nonce agregado al encabezado de un bloque que hace que el bloque tenga alguna propiedad deseada (típicamente un cierto número de ceros en los bits más significativos del hash criptográfico del encabezado del bloque). Al hacer que sea computacionalmente costoso encontrar tales nonces que hacen que los bloques sean válidos, se hace difícil para los atacantes crear una bifurcación alternativa de la cadena de bloques que el resto de la red aceptaría como la mejor cadena. 
+
 * * *
 
 ### Proxy
@@ -522,19 +545,27 @@ La RAM es un tipo de memoria utilizada para almacenar información de la cuenta,
 
 ### Recursos
 
+Las cuentas de EOSIO cuenta con tres tipos de recursos que deben mantener: `RAM`, `CPU` Y `Net`
+
 * * *
 
 ### REX
 
+`REX` (Resource Exchange) es un mercado de alquiler de recursos de CPU y red en el que los titulares del token central de una cadena de bloques pueden comprar y vender sectores del grupo REX en forma de tokens REX. Los usuarios de Blockchain pueden alquilar recursos de CPU y red del grupo REX.
+
 * * *
 
 ### Ricardian Contract
+
+En el contexto de blockchain basado en EOSIO, Ricardian Contract es un documento digital que acompaña a un contrato inteligente y define los términos y condiciones de una interacción entre el contrato inteligente y sus usuarios, escrito en texto legible para humanos, que luego se firma y verifica criptográficamente. Es fácilmente legible tanto para humanos como para programas, y ayuda a proporcionar claridad a cualquier situación que pueda surgir en las interacciones entre el contrato inteligente y sus usuarios.
 
 * * *
 
 ## **S**
 
 ### Snapshot
+
+En cualquier momento dado, se puede tomar una instantánea (`Snapshot`) del estado total de la cadena. Por ejemplo, esto podría ser usado por un token que quiera lanzar a todos los titulares de tokens actuales en función de sus tenencias actuales.
 
 * * *
 
@@ -550,13 +581,20 @@ El Squash es una opción de `merge` que permite condensar el historial de  Git d
 
 ### Stablecoin
 
+Una un `token` cuyo valor está destinado a permanecer estable. Esto se puede hacer vinculando a otra moneda o token, o algorítmicamente. Muchas monedas estables se vinculan al dólar estadounidense, lo que significa que una ficha siempre debe canjearse por un dólar estadounidense.
+
 * * *
 
 ### Stake
 
+El `Staking` es el acto de bloquear tokens para recursos en una red EOSIO. Esto incluye, pero no se limita a, tiempo de CPU, RAM y gobierno en cadena.
+
 * * * 
 
 ### Standby BP
+
+Son un conjunto de aproximadamente 100 nodos completos que han expresado el deseo de ser seleccionados como productores de bloques, y son capaces de hacerlo a pedido. Cada vez que la cadena necesita reemplazar un BP existente por uno nuevo, el nuevo se extrae del grupo de reserva.
+
 
 * * *
 
@@ -568,11 +606,17 @@ El Squash es una opción de `merge` que permite condensar el historial de  Git d
 
 ### System Account
 
+Todo lo que forma parte de EOSIO que no es parte del núcleo se denomina sistema, Ejemplo: cuentas del sistema, cuentas privilegiadas, contratos del sistema. 
+
+Desde un punto de vista arquitectónico, los componentes del sistema se ubican sobre los componentes principales / nativos
+
 * * *
 
 ## **T**
 
 ### TaPoS - Transaction as Proof of Stake
+
+`TaPoS` se utiliza para garantizar que un usuario obtenga el estado reciente de la parte superior de la cadena de bloques para demostrar que conoce el estado de la cadena al firmar una transacción. 
 
 * * * 
 	
@@ -634,9 +678,15 @@ Desarrollada por EOSIO Labs, la [biblioteca de autenticación universal (UAL)](h
 
 ### Wasm
 
+Las cadenas de bloques basadas en EOSIO ejecutan aplicaciones y códigos generados por el usuario utilizando WebAssembly.
+
+WASM es un estándar web emergente con soporte generalizado de Google, Microsoft, Apple y otros. En este momento, la cadena de herramientas más madura para crear aplicaciones que compilan WASM es clang / llvm con su compilador C / C ++. 
+
 * * *
 
 ### Wallet
+
+Las `Wallets` son clientes que almacenan llaves privadas asociadas con los permisos de una o más cuentas. Idealmente, una billetera tiene un estado bloqueado (encriptado) y desbloqueado (sin encriptar) que está protegido por una contraseña de alta entropía.
 
 * * *
 
@@ -651,8 +701,6 @@ Desarrollada por EOSIO Labs, la [biblioteca de autenticación universal (UAL)](h
 ### WPS (Worker Proposal System)
 
 * * *
-
-
 
 
 ## **X**
