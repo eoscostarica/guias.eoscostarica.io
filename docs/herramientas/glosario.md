@@ -176,7 +176,7 @@ Es un conjunto de prácticas que combina el desarrollo de software y las operaci
 
 * * *
 
-### DFuse
+### dfuse
 
 Es una plataforma para capacitar a desarrolladores en dapp con capacidades para crear aplicaciones modernas de blockchain con interfaces rápidas y fluidas que brindan experiencias de usuario excepcionales.
 
