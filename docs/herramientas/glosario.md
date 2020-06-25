@@ -114,6 +114,8 @@ Los bloques son archivos donde los datos pertenecientes a la cadena de bloques s
 
 ### BOSCore
 
+Es la primera cadena de bloques DPOS equipada con IBC. Su objetivo es refactorizar escenarios comerciales con tecnología descentralizada y construir un ecosistema de blockchain creíble que admita miles de millones de usuarios.
+
 * * * 
 
 ### Bytecode canónico
