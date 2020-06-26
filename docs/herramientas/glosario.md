@@ -11,19 +11,19 @@ Lista de términos necesarios para comprender un poco mas los contenidos present
 
 ### ACL (Lista de control de acceso)
 
- Es un filtros de tráfico de una lista de redes y acciones correlacionadas usados para mejorar la Seguridad. Bloquea o permite que los usuarios accedan los recursos específicos.
+Es un filtros de tráfico de una lista de redes y acciones correlacionadas usados para mejorar la Seguridad. Bloquea o permite que los usuarios accedan los recursos específicos.
 
 * * *
 
 ### Actions (EOSIO)
 
-Funcionalidad expuesta por un contrato inteligente que se ejerce al pasar los parámetros correctos a través de una transacción aprobada a una red EOSIO.
+Funcionalidad expuesta por un contrato inteligente que se ejerce al pasar los parámetros correctos a través de una transacción aprobada a una red  `EOSIO `.
 
 * * *
 
 ### Actions (Hasura)
 
-Las acciones son una forma de extender el esquema de Hasura con lógica empresarial personalizada mediante consultas y mutaciones personalizadas.
+Las  `acciones ` son una forma de extender el esquema de Hasura con lógica empresarial personalizada mediante consultas y mutaciones personalizadas.
 
 Se pueden agregar acciones a Hasura para manejar varios casos de uso, como la validación de datos, el enriquecimiento de datos de fuentes externas y cualquier otra lógica empresarial compleja.
 
@@ -44,7 +44,7 @@ Es un método general para colocar tokens en cuentas EOS. Es una distribución d
 
 ### Airgrab
 
-El modelo Airgrab está diseñado para ser una forma más eficiente de capital para implementar tokens para desarrolladores de dApp. Si utiliza el token Airgrab, significa que usará su propia RAM personal y no los desarrolladores de dApp como lo hace en un Airdrop, por lo que es más barato para el desarrollador de dApp.
+El modelo  `Airgrab ` está diseñado para ser una forma más eficiente de capital para implementar tokens para desarrolladores de dApp. Si utiliza el token Airgrab, significa que usará su propia RAM personal y no los desarrolladores de dApp como lo hace en un Airdrop, por lo que es más barato para el desarrollador de dApp.
 
 
 * * *
@@ -96,7 +96,7 @@ Se define como el número de bloques en la cadena entre un bloque dado y el prim
 
 ### Block one
 
-Block.one es la compañía que creó el software EOSIO. Es un productor de software de código abierto altamente escalable y de alto rendimiento, está a la vanguardia del desarrollo de la próxima generación de Internet.
+ `Block.one ` es la compañía que creó el software EOSIO. Es un productor de software de código abierto altamente escalable y de alto rendimiento, está a la vanguardia del desarrollo de la próxima generación de Internet.
 
 * * *
 
@@ -120,7 +120,7 @@ Es la primera cadena de bloques DPOS equipada con IBC. Su objetivo es refactoriz
 
 ### Bytecode canónico
 
-es utilizado para la comunicación entre diferentes formatos de datos. Una forma de integración de aplicaciones empresariales, pretende reducir los costos y estandarizar las definiciones acordadas de datos asociados con la integración de los sistemas de negocio.
+Es utilizado para la comunicación entre diferentes formatos de datos. Una forma de integración de aplicaciones empresariales, pretende reducir los costos y estandarizar las definiciones acordadas de datos asociados con la integración de los sistemas de negocio.
 
 * * *
 
@@ -140,7 +140,7 @@ Una ID de cadena es una configuración de blockchain que afecta la formación de
 
 ### Cleos 
 
-Es la herramientas de lineas de comandos que se conecta con el API expuesto por nodeos y funciona para administrar la billetera, cuenta, llaves, transacciones y contratos inteligentes
+Es la herramientas de lineas de comandos que se conecta con el API expuesto por `nodeos` y funciona para administrar la billetera, cuenta, llaves, transacciones y contratos inteligentes
 
 * * *
 
@@ -158,7 +158,7 @@ La CPU está procesando la potencia, la cantidad de CPU que tiene una cuenta se 
 
 ### Cuentas
 
-Una cuenta en EOSIO es un nombre legible para humanos que se almacena en la cadena de bloques. Puede ser propiedad de un individuo o grupo de individuos dependiendo de la configuración de los permisos. Se requiere una cuenta para transferir o enviar cualquier transacción válida a la cadena de bloques.
+Una cuenta en `EOSIO` es un nombre legible para humanos que se almacena en la cadena de bloques. Puede ser propiedad de un individuo o grupo de individuos dependiendo de la configuración de los permisos. Se requiere una cuenta para transferir o enviar cualquier transacción válida a la cadena de bloques.
 
 * * *
 
@@ -190,7 +190,7 @@ Es un conjunto de productos de plataforma como servicio que utiliza la virtualiz
 
 ### DPoS
 
- Es un algoritmo de consenso desarrollado para asegurar una cadena de bloques, esto al garantizar la representación de las transacciones dentro de ella. DPoS está diseñado como una implementación de democracia basada en la tecnología, utilizando procesos de votación y elecciones para proteger blockchain de la centralización y el uso malicioso.
+Es un algoritmo de consenso desarrollado para asegurar una cadena de bloques, esto al garantizar la representación de las transacciones dentro de ella. DPoS está diseñado como una implementación de democracia basada en la tecnología, utilizando procesos de votación y elecciones para proteger blockchain de la centralización y el uso malicioso.
 
 * * *
 
@@ -198,7 +198,7 @@ Es un conjunto de productos de plataforma como servicio que utiliza la virtualiz
 
 ### EOS
 
-EOS es un sistema descentralizado basado en blockchain que permite el desarrollo, alojamiento y ejecución de aplicaciones descentralizadas a escala comercial ( dApps ) en su plataforma. EOS admite todas las funciones básicas necesarias para permitir que las empresas y las personas creen aplicaciones basadas en blockchain de una manera similar a las aplicaciones basadas en la web, como proporcionar acceso seguro y autenticación, permisos, alojamiento de datos, administración de uso y comunicación entre las dApps e internet.
+`EOS` es un sistema descentralizado basado en blockchain que permite el desarrollo, alojamiento y ejecución de aplicaciones descentralizadas a escala comercial ( dApps ) en su plataforma. EOS admite todas las funciones básicas necesarias para permitir que las empresas y las personas creen aplicaciones basadas en blockchain de una manera similar a las aplicaciones basadas en la web, como proporcionar acceso seguro y autenticación, permisos, alojamiento de datos, administración de uso y comunicación entre las dApps e internet.
 
 * * *
 
@@ -211,13 +211,13 @@ Es una forma fácil y segura de ayudar a los usuarios a acceder a varias funcion
 
 ### EOS Rate
 
-EOS Rate es un dApp de código abierto que permite a los titulares de tokens EOS calificar a los productores de bloques (BP) en solo unos pocos clics. Los usuarios pueden acceder a un sistema de calificación y portal de votación, lo que facilita a los titulares de tokens tomar una decisión informada.
+`EOS Rate` es un dApp de código abierto que permite a los titulares de tokens EOS calificar a los productores de bloques (BP) en solo unos pocos clics. Los usuarios pueden acceder a un sistema de calificación y portal de votación, lo que facilita a los titulares de tokens tomar una decisión informada.
 
 * * *
 
 ### EOS Studio
 
-EOS Studio es un IDE gráfico unificado para acelerar el desarrollo de las dApps Integrado con varias herramientas necesarias para EOSIO.
+`EOS Studio` es un IDE gráfico unificado para acelerar el desarrollo de las dApps Integrado con varias herramientas necesarias para EOSIO.
 
 * * * 
 
@@ -229,14 +229,14 @@ EOS Costa Rica es una startup derivada de la empresa pionera Sistemas Edenia Int
 
 ### Eosfinex
 
-Eosfinex es un intercambio descentralizado de alto rendimiento construido en EOS.io. tecnología.
-Eosfinex combina la escalabilidad y la velocidad de EOS con la experiencia líder de la industria de Bitfinex para ofrecer un intercambio "en cadena" construido en torno a una plataforma rápida, transparente y sin confianza para el comercio de activos digitales.
+`Eosfinex` es un intercambio descentralizado de alto rendimiento construido en EOS.io. tecnología.
+`Eosfinex` combina la escalabilidad y la velocidad de EOS con la experiencia líder de la industria de Bitfinex para ofrecer un intercambio "en cadena" construido en torno a una plataforma rápida, transparente y sin confianza para el comercio de activos digitales.
 
 * * *
 
 ### EOSIO
 
-EOSIO es una cadena de bloques diseñada para facilitar la operación de un nuevo tipo de programa llamado aplicación descentralizada (dapp).
+`EOSIO` es una cadena de bloques diseñada para facilitar la operación de un nuevo tipo de programa llamado aplicación descentralizada (`dapp`).
 Su tecnología intenta resolver problemas históricos al usar blockchains para ejecutar dapps, ya que las aplicaciones populares incluso han obstruido la capacidad en blockchains más grandes y más desarrollados, lo que resulta en problemas de rendimiento para todos los usuarios.
 
 * * *
@@ -266,7 +266,7 @@ Es un explorador de bloques, billetera y monitor de red, todo en uno. Está dise
 
 ### Fiat
 
-El dinero fiduciario (fiat) es una moneda emitida por el gobierno que no está respaldada por un producto físico, como el oro o la plata, sino por el gobierno que la emitió.
+El dinero fiduciario (`fiat`) es una moneda emitida por el gobierno que no está respaldada por un producto físico, como el oro o la plata, sino por el gobierno que la emitió.
 
 * * *
 
@@ -274,7 +274,7 @@ El dinero fiduciario (fiat) es una moneda emitida por el gobierno que no está r
 
 ### Genesis JSON
 
-genesis.json es el archivo que define el `Genesis block`, el cual es el bloque inicial de la cadena de bloques. Este es como la "configuración" de su blockchain. Por ejemplo, la configuración de la cadena y el nivel de dificultad para extraer bloques.
+`genesis.json` es el archivo que define el `Genesis block`, el cual es el bloque inicial de la cadena de bloques. Este es como la "configuración" de su blockchain. Por ejemplo, la configuración de la cadena y el nivel de dificultad para extraer bloques.
 
 * * * 
 
@@ -294,7 +294,7 @@ Es un lenguaje de consulta para API, utiliza un tiempo de ejecución para comple
 
 ### Hackathon
 
-Un hackathon es evento (competencia) en el que se reunen programadores informáticos, diseñadores gráficos, diseñadores de interfaces, gerentes de proyectos y tratan de trabajar en proyectos relacionados con tecnologia y problemas especificos.
+Un `hackathon` es evento (competencia) en el que se reunen programadores informáticos, diseñadores gráficos, diseñadores de interfaces, gerentes de proyectos y tratan de trabajar en proyectos relacionados con tecnologia y problemas especificos.
 
 * * *
 
@@ -356,9 +356,6 @@ Método popular para distribuir el suministro inicial de monedas (tokens)  vendi
 
 * * *
 
-### Inter-Blockchain
-
-* * *
 
 ### Inline Action
 
@@ -552,7 +549,7 @@ Una vez que se abre un `pull request`, se puede analizar y revisar los posibles 
 
 ### Proof of Work
 
-los nodos mineros compiten para encontrar un nonce agregado al encabezado de un bloque que hace que el bloque tenga alguna propiedad deseada (típicamente un cierto número de ceros en los bits más significativos del hash criptográfico del encabezado del bloque). Al hacer que sea computacionalmente costoso encontrar tales nonces que hacen que los bloques sean válidos, se hace difícil para los atacantes crear una bifurcación alternativa de la cadena de bloques que el resto de la red aceptaría como la mejor cadena. 
+Los nodos mineros compiten para encontrar un nonce agregado al encabezado de un bloque que hace que el bloque tenga alguna propiedad deseada (típicamente un cierto número de ceros en los bits más significativos del hash criptográfico del encabezado del bloque). Al hacer que sea computacionalmente costoso encontrar tales nonces que hacen que los bloques sean válidos, se hace difícil para los atacantes crear una bifurcación alternativa de la cadena de bloques que el resto de la red aceptaría como la mejor cadena. 
 
 * * *
 
