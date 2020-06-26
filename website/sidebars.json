@@ -40,6 +40,11 @@
       "aprender-eosio/podcasts-eos",
       "aprender-eosio/cpp-moderno",
       "aprender-eosio/contratos-inteligentes"
+    ],
+    "Herramientas":[
+      "herramientas/glosario"
+    ],
+    "Recursos de la comunidad":[
     ]
   }
 }
