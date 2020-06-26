@@ -176,7 +176,7 @@ Es un conjunto de prácticas que combina el desarrollo de software y las operaci
 
 * * *
 
-### DFuse
+### dfuse
 
 Es una plataforma para capacitar a desarrolladores en dapp con capacidades para crear aplicaciones modernas de blockchain con interfaces rápidas y fluidas que brindan experiencias de usuario excepcionales.
 
@@ -243,14 +243,13 @@ Su tecnología intenta resolver problemas históricos al usar blockchains para e
 
 ### EOSJS
 
-ES una biblioteca creada para controlar fácilmente la cadena de bloques EOS con Javascript. Se puede decir que fue hecho para usar fácilmente la API `HTTP de EOS (nodeos)`. (web3.js en Ethereum, neon-js en Neo)
+Es una biblioteca creada para controlar fácilmente la cadena de bloques EOS con Javascript. Se puede decir que fue hecho para usar fácilmente la API `HTTP de EOS (nodeos)`. (web3.js en Ethereum, neon-js en Neo)
 
 * * *
 
 ### EOSQ
 
 Es un explorador de bloques de alta precisión que proporciona acceso a datos precisos, detallados y procesables sobre cuentas, acciones y productores de bloques.
-
 
 * * *
 
@@ -260,9 +259,7 @@ Es un explorador de bloques, billetera y monitor de red, todo en uno. Está dise
 
 * * *
 
-
 ## **F**
-
 
 ### Fiat
 
@@ -355,7 +352,6 @@ Es una herramienta por la cual múltiples blockchains pueden comunicarse entre s
 Método popular para distribuir el suministro inicial de monedas (tokens)  vendiéndolos a cambio de moneda fiduciaria u otras criptomonedas.
 
 * * *
-
 
 ### Inline Action
 
