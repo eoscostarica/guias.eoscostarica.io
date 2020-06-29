@@ -6,18 +6,14 @@
       "plantilla-para-aplicacion-web",
       "plantilla-para-backend",
       "proyectos-de-codigo-abierto",
-      "herramientas-para-desarrolladores",
-      {
-        "type": "subcategory",
-        "label": "Recursos Visuales",
-        "ids": [
-          "recursos-visuales/material-ui",
-          "recursos-visuales/logos-de-eoscr",
-          "recursos-visuales/logos-de-eos-surf",
-          "recursos-visuales/logos-de-eos-rate",
-          "recursos-visuales/logos-de-eos-local"
-        ]
-      }
+      "herramientas-para-desarrolladores"
+    ],
+    "Recursos Visuales":[
+      "recursos-visuales/material-ui",
+      "recursos-visuales/logos-de-eoscr",
+      "recursos-visuales/logos-de-eos-surf",
+      "recursos-visuales/logos-de-eos-rate",
+      "recursos-visuales/logos-de-eos-local"
     ],
     "Aprender EOSIO": [
       "aprender-eosio/protocolo-eosio",
@@ -25,26 +21,30 @@
       "aprender-eosio/uso-de-recursos",
       "aprender-eosio/cuentas-permisos",
       "aprender-eosio/funciones-importantes",
-      "aprender-eosio/como-iniciar",
       "aprender-eosio/llaves-privadas",
-      "aprender-eosio/instalacion-de-nodos",
-      "aprender-eosio/contrato-hola-mundo",
-      "aprender-eosio/linea-de-comando",
-      "aprender-eosio/librerias-sdk",
-      "aprender-eosio/redes-eosio",
-      "aprender-eosio/explorador-de-bloques",
-      "aprender-eosio/librerias-sdk",
       "aprender-eosio/desarrollo-de-dapps",
       "aprender-eosio/devops",
       "aprender-eosio/cadena-de-bloques-eos",
-      "aprender-eosio/podcasts-eos",
       "aprender-eosio/cpp-moderno",
       "aprender-eosio/contratos-inteligentes"
     ],
-    "Herramientas":[
-      "herramientas/glosario"
+    "Tutoriales":[
+      "aprender-eosio/como-iniciar",
+      "aprender-eosio/instalacion-de-nodos",
+      "aprender-eosio/contrato-hola-mundo",
+      "aprender-eosio/cpp-moderno"
     ],
-    "Recursos de la comunidad":[
+    "Herramientas":[
+      "herramientas/glosario",
+      "herramientas/linea-de-comando",
+      "herramientas/explorador-de-bloques",
+      "herramientas/librerias-sdk"
+    ],
+    "Comunidad":[
+      "comunidad/podcasts-eos",
+      "comunidad/redes-eosio"
     ]
   }
 }
+
+
