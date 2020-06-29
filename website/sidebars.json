@@ -41,6 +41,7 @@
       "herramientas/librerias-sdk"
     ],
     "Comunidad":[
+      "comunidad/canales-de-telegram",
       "comunidad/podcasts-eos",
       "comunidad/redes-eosio"
     ]
