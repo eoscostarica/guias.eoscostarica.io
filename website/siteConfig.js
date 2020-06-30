@@ -38,7 +38,8 @@ const siteConfig = {
     {href: 'https://guias.eoscostarica.io/', label: 'Inicio'},
     {doc: 'pautas-para-codigo-abierto', label: 'Pautas para Desarrolladores'},
     {doc: 'aprender-eosio/protocolo-eosio', label: 'Aprender EOSIO'},
-    {href: 'https://guide.eoscostarica.io/', label: 'English'}
+    {href: 'https://guide.eoscostarica.io/', label: 'English'},
+    {search: true }
   ],
 
   // If you have users set above, you add it here:
@@ -104,8 +105,15 @@ const siteConfig = {
 
   //Google Analytics integration
   gaTrackingId: "UA-173987-66",
-  gaGtag: false
+  gaGtag: false,
 
+  //Algolia integration
+  algolia: {
+  apiKey: 'bc2a776159634dff6c77c849d8b80dc1',
+  indexName: 'eoscostarica_guias',
+  placeholder: 'Search',
+  algoliaOptions: {} // Optional, if provided by Algolia
+  }
 };
 
 module.exports = siteConfig;
