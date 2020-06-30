@@ -114,9 +114,6 @@ const siteConfig = {
   placeholder: 'Search',
   algoliaOptions: {} // Optional, if provided by Algolia
   }
-
-
-
 };
 
 module.exports = siteConfig;
