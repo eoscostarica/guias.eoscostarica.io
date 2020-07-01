@@ -14,9 +14,9 @@ sidebar_label: Proyectos de Código Abierto
 
 - **GitHub** : https://github.com/eoscostarica/eos-rate
 
-![EOS Rate](../img/OSS_screnshots/EOS_Rate.png)
+![EOS Rate](../../img/OSS_screnshots/EOS_Rate.png)
 
-![EOS Rate](../img/OSS_screnshots/EOS_Rate_2.png)
+![EOS Rate](../../img/OSS_screnshots/EOS_Rate_2.png)
 
 * * *
 
@@ -30,9 +30,9 @@ El propósito de LatamLink es ofrecer una red de prueba basada en EOSIO para res
 
 - **GitHub** : https://github.com/LatamLink
 
-![Latam Link](../img/OSS_screnshots/Latam_Link.png)
+![Latam Link](../../img/OSS_screnshots/Latam_Link.png)
 
-![Latam Link](../img/OSS_screnshots/Latam_Link_monitor.png)
+![Latam Link](../../img/OSS_screnshots/Latam_Link_monitor.png)
 
 
 * * *
@@ -43,9 +43,9 @@ Un Monitor de Infraestructura EOSIO y un tablero de node.
 
 - **GitHub** : https://github.com/eoscostarica/eosio-monitor
 
-![EOSIO network monitor](../img/OSS_screnshots/EOSIO_Network_monitor.png)
+![EOSIO network monitor](../../img/OSS_screnshots/EOSIO_Network_monitor.png)
 
-![EOSIO network monitor](../img/OSS_screnshots/EOSIO_Network_monitor_2.png)
+![EOSIO network monitor](../../img/OSS_screnshots/EOSIO_Network_monitor_2.png)
 
 * * *
 
@@ -59,9 +59,9 @@ Vemos a EOS Foundation como un contenedor para facilitar código, capital y cone
 
 - **GitHub** : https://github.com/eoscostarica/eos-foundation
 
-![EOS Fundation](../img/OSS_screnshots/EOS_Fundation_2.png)
+![EOS Fundation](../../img/OSS_screnshots/EOS_Fundation_2.png)
 
-![EOS Fundation](../img/OSS_screnshots/EOS_Fundation.png)
+![EOS Fundation](../../img/OSS_screnshots/EOS_Fundation.png)
 
 * * *
 
@@ -89,7 +89,7 @@ Lifebank es una iniciativa de EOS Costa Rica, una compañía que desarrolla solu
 
 - **GitHub** : https://github.com/eoscostarica/lifebank
 
-![LifeBank](../img/OSS_screnshots/LifeBank.png)
+![LifeBank](../../img/OSS_screnshots/LifeBank.png)
 
 * * *
 
