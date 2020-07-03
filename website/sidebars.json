@@ -10,14 +10,6 @@
       "material-ui",
       "recursos-visuales"
     ],
-    "Recursos Visuales":[
-      "recursos-visuales/material-ui",
-      "recursos-visuales/logos-de-eoscr",
-      "recursos-visuales/logos-de-eos-surf",
-      "recursos-visuales/logos-de-eos-rate",
-      "recursos-visuales/logos-de-eos-local",
-      "recursos-visuales/logos-de-lifebank"
-    ],
     "Aprender EOSIO": [
       "aprender-eosio/protocolo-eosio",
       "aprender-eosio/mecanismo-de-consenso",
