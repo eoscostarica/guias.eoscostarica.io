@@ -1,7 +1,7 @@
 ---
 id: material-ui
 title: Material UI
-sidebar_label: Material UI & Paquete NPM
+sidebar_label: Material UI Theme
 ---
 
 ## Logo y activos visuales
