@@ -73,6 +73,8 @@ Este Contrato Inteligente funciona como una herramienta para cualquier usuario q
 
 También permite que cualquiera que posea el documento pueda validar el registro en la cadena de bloques.
 
+- **Sitio Web** : https://notarize.eosio.cr
+
 - **GitHub** : https://github.com/eoscostarica/notarioeoscr
 
 * * *
