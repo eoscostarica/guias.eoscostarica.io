@@ -6,15 +6,9 @@
       "plantilla-para-aplicacion-web",
       "plantilla-para-backend",
       "proyectos-de-codigo-abierto",
-      "herramientas-para-desarrolladores"
-    ],
-    "Recursos Visuales":[
-      "recursos-visuales/material-ui",
-      "recursos-visuales/logos-de-eoscr",
-      "recursos-visuales/logos-de-eos-surf",
-      "recursos-visuales/logos-de-eos-rate",
-      "recursos-visuales/logos-de-eos-local",
-      "recursos-visuales/logos-de-lifebank"
+      "herramientas-para-desarrolladores",
+      "material-ui",
+      "recursos-visuales"
     ],
     "Aprender EOSIO": [
       "aprender-eosio/protocolo-eosio",
