@@ -6,7 +6,9 @@
       "plantilla-para-aplicacion-web",
       "plantilla-para-backend",
       "proyectos-de-codigo-abierto",
-      "herramientas-para-desarrolladores"
+      "herramientas-para-desarrolladores",
+      "material-ui",
+      "recursos-visuales"
     ],
     "Recursos Visuales":[
       "recursos-visuales/material-ui",
