@@ -33,7 +33,7 @@ Los canales de Telegram son una herramienta ideal para difundir mensajes a grand
 - [EOS Surf](https://t.me/eosbeach)
 - [Blockchain Costa Rica](https://t.me/blockchaincostarica)
 
-### Comunidad EOS Costa Rica
+### Comunidad Desarrolladores
 
 - [EOS Developers](https://t.me/joinchat/DQRZHEPktgcLlyfbl-bDuQ)
 - [EOS Design](https://t.me/EOSdesign)
