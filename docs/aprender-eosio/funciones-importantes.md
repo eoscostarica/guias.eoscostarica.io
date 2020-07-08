@@ -6,7 +6,7 @@ sidebar_label: Funciones Importantes
 
 ### Cuenta Privilegiada EOSIO
 
-Esta cuenta posee acceso ilimitado a los recursos CPU, NET, y RAM.  Esta cuenta privilegiada se denominará la cuenta `eosio`.
+Esta cuenta posee acceso ilimitado a los recursos CPU, NET, y RAM asi como funciones privilegiadas.  Esta cuenta privilegiada se denomina `eosio`. 
 
 ### Funciones Privilegiadas EOSIO
 
