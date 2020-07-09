@@ -6,7 +6,11 @@ sidebar_label: Proyectos de Código Abierto
 
 ## EOS Rate
 
-<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png" style="width:30%">
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png"
+  style={{ width: "30%" }}
+/>
+
 
 [EOS Rate](https://eosrate.io) es una herramienta visual de calificación manejada por la comunidad que permite a los titulares de los tokens de EOS calificar fácilmente a los Productores de Bloques en distintas categorías.
 
@@ -22,7 +26,10 @@ sidebar_label: Proyectos de Código Abierto
 
 ## TestNet de LatamLink
 
-<img src="https://raw.githubusercontent.com/LatamLink/latamlink.io/master/website/static/images/latamlink_logo-h-full-color-overwhite.png" style="width:30%" >
+<img
+  src="https://raw.githubusercontent.com/LatamLink/latamlink.io/master/website/static/images/latamlink_logo-h-full-color-overwhite.png"
+  style={{ width: "30%" }}
+/>
 
 El propósito de LatamLink es ofrecer una red de prueba basada en EOSIO para resaltar los beneficios de esta plataforma. LACChain es una iniciativa de BID Labs (parte del Banco Inter-Americano de Desarrollo) cuyo propósito es acompañar y acelear el desarrollo del ecosistema de cadenas de bloques en América Latina.
 
@@ -53,7 +60,10 @@ Un Monitor de Infraestructura EOSIO y un tablero de node.
 
 ## EOS Foundation
 
-<img src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png" style="width:30%">
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/eos-foundation/master/visual-guide/eos-foundation-logo.png"
+  style={{ width: "30%" }}
+/>
 
 Vemos a EOS Foundation como un contenedor para facilitar código, capital y conexiones en maneras que no han estado disponibles hasta entonces para la comuninad de la red principal EOS.
 
@@ -83,7 +93,10 @@ También permite que cualquiera que posea el documento pueda validar el registro
 
 ### LifeBank
 
-<img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg" style="width:50%">
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg"
+  style={{ width: "50%" }}
+/>
 
 Lifebank es una aplicación basada en EOSIO que ayuda a las comunidades locales a crear un círculo virtuoso de intercambio de valores entre tres partes: donantes de vida elegibles, centros de donación comunitarios y empresas locales participantes (patrocinadores).
 

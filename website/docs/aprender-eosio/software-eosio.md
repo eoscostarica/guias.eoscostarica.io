@@ -51,7 +51,7 @@ The basic relationship between these components is illustrated in the following 
 
 La relación básica entre estos componentes es ilustrada en el siguiente diagrama. En las siguientes secciones, usted construirá los componentes de EOSIO y desplegarlos en un único host, una configuración de un único nodo de red de prueba (testnet).
 <p style="align: center">
-	<img src="/img/eos-blockchain/eos-system-architecture.png" width="100%">
+	<img src="/img/eos-blockchain/eos-system-architecture.png" width="100%"></img>
   <br/>
   <small>fuente: developers.eos.io/eosio-nodeos/docs</small>
 </p>
