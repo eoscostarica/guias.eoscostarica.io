@@ -59,22 +59,6 @@ Es importante que las llaves privadas de producción estén respaldadas correcta
 
 Las redes EOSIO manejan un grupo de nodos productores de bloques registrados que pueden asumir el rol de productores de bloques con solo ser agregado al `schedule` de productores activos.
 
-### Rotación de nodos activos
-
-La rotación periódica de nodos productores de bloques activos favorece la descentralización Existe una herramieta que permite seleccionar los productores de bloques que se desea incluir o excluir en el `schedule`.
-
->**Por ejemplo:** Se puede definir una política de rotación de nodos activos semanalmente.
-
-Mas adelante se habilitrá la rotación periódica y automática basada en contratos inteligentes. De tal forma que sea imposible predecir quienes sean los productores de bloques activos seleccionados. (entropía externa)
-
-### Sustitución de un Productor de Bloques activo
-
-En caso de que algún nodo del grupo principal dejará de responder. Se podrá reemplazar manualmente los productores de bloques que presenten problemas de rendimiento o seguridad.
-
-## Contratos de sistema EOSIO a la medida
-
-Un contrato inteligente es un código que se puede ejecutar en una cadena de bloques y mantener el estado de ejecución del contrato como parte del historial inmutable de esa instancia de la cadena de bloques. Por lo tanto, los desarrolladores pueden confiar en esa cadena de bloques como un entorno de computación confiable en el que las entradas, la ejecución y los resultados de un contrato inteligente son independientes y libres de influencia externa.
-
 ## Delegated Proof of Stake (DPoS)
 
 <figure class="video_container">
