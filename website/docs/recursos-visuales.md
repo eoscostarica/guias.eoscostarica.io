@@ -22,7 +22,6 @@ sidebar_label: Recursos Visuales
       }}
     >
       <img
-        style={{}}
         src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png"
       />
     </div>
