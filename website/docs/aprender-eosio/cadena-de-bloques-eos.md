@@ -56,6 +56,24 @@ sidebar_label: Cadena de Bloques EOS
   </iframe>
 </figure>
 
+### EOS explicado por Dan Larimer   
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xkXuFeN-KMw" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+### Introducción a EOS
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IjrDj6KQGe8" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+### Economía interna
+
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2EgBTvUeH30" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 <br/>
 
 <p style={{ align: "center" }}>
