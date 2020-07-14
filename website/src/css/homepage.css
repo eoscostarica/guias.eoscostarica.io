@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
+
+.hero-header{
+    height: 561px;
+    padding-top: 95px;
+    background-color: rgba(0, 0, 0, 0.59);
+    background-image: url(https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1546959633000/photosp/addec163-6dbd-4a4a-a4f7-5bd2a3d82ee9/stock-photo-development-technology-computer-desinger-programming-coding-programmer-web-development-software-developer-addec163-6dbd-4a4a-a4f7-5bd2a3d82ee9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-header-img {
+    
+}
+
+.Mask {
+    width: 1440px;
+    height: 561px;
+    mix-blend-mode: color;
+    background-color: var(--ifm-color-primary-dark);
+}
+
+
+.title-container{
+    width: 519px;
+    height: 177px;
+    margin: auto;
+}
+
+.EOS-Costa-Rica-Devel {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 71.4px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -1.06px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.87);
+    }
+
+.text-style-1 {
+    font-size: 78.4px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 1.07;
+    letter-spacing: 0.53px;
+}
+
+
+.intro-container{
+    margin-top: 29px;
+    width: 495px;
+    height: 75px;
+    margin: auto;
+}
+
+.Wed-like-to-welcome {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21.1px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.87);
+  }
