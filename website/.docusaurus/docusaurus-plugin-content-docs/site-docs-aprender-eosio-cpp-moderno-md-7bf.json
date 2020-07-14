@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/cpp-moderno",
+  "isDocsHomePage": false,
+  "title": "C++ Moderno",
+  "description": "Bienvenido a C++",
+  "source": "@site/docs\\aprender-eosio\\cpp-moderno.md",
+  "permalink": "/docs/aprender-eosio/cpp-moderno",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "C++ Moderno",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Contrato Hola Mundo",
+    "permalink": "/docs/aprender-eosio/contrato-hola-mundo"
+  },
+  "next": {
+    "title": "Glosario",
+    "permalink": "/docs/herramientas/glosario"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/contrato-hola-mundo",
+  "isDocsHomePage": false,
+  "title": "Contrato Hola Mundo",
+  "description": "Contrato Hola Mundo",
+  "source": "@site/docs\\aprender-eosio\\contrato-hola-mundo.md",
+  "permalink": "/docs/aprender-eosio/contrato-hola-mundo",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Contrato Hola Mundo",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Instalación de Nodos",
+    "permalink": "/docs/aprender-eosio/instalacion-de-nodos"
+  },
+  "next": {
+    "title": "C++ Moderno",
+    "permalink": "/docs/aprender-eosio/cpp-moderno"
+  }
+}

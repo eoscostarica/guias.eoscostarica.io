@@ -1,0 +1,20 @@
+{
+  "id": "herramientas/explorador-de-bloques",
+  "isDocsHomePage": false,
+  "title": "Explorador de Bloques",
+  "description": "Un explorador de bloques es un programa o sitio web accesible a través de un navegador que permite a un usuario buscar y navegar por los bloques de una cadena de bloques, sus contenidos y sus detalles relevantes.",
+  "source": "@site/docs\\herramientas\\explorador-de-bloques.md",
+  "permalink": "/docs/herramientas/explorador-de-bloques",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Explorador de Bloques",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Línea de Comando",
+    "permalink": "/docs/herramientas/linea-de-comando"
+  },
+  "next": {
+    "title": "Librerías SDK",
+    "permalink": "/docs/herramientas/librerias-sdk"
+  }
+}

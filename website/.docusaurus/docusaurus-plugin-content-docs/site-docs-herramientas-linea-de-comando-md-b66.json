@@ -1,0 +1,20 @@
+{
+  "id": "herramientas/linea-de-comando",
+  "isDocsHomePage": false,
+  "title": "Línea de Comando",
+  "description": "CLEOS",
+  "source": "@site/docs\\herramientas\\linea-de-comando.md",
+  "permalink": "/docs/herramientas/linea-de-comando",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Línea de Comando",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Glosario",
+    "permalink": "/docs/herramientas/glosario"
+  },
+  "next": {
+    "title": "Explorador de Bloques",
+    "permalink": "/docs/herramientas/explorador-de-bloques"
+  }
+}

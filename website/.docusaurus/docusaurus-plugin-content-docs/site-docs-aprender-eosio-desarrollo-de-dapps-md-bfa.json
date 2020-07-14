@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/desarrollo-de-dapps",
+  "isDocsHomePage": false,
+  "title": "Desarrollo de Dapps",
+  "description": "EOSIO para el desarrollo de aplicaciones descentralizadas (dApps)",
+  "source": "@site/docs\\aprender-eosio\\desarrollo-de-dapps.md",
+  "permalink": "/docs/aprender-eosio/desarrollo-de-dapps",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Desarollo de Dapps",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Manejo de Llaves Privadas",
+    "permalink": "/docs/aprender-eosio/llaves-privadas"
+  },
+  "next": {
+    "title": "DevOps",
+    "permalink": "/docs/aprender-eosio/devops"
+  }
+}

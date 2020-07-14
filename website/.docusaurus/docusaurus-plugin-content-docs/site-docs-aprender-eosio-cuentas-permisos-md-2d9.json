@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/cuentas-permisos",
+  "isDocsHomePage": false,
+  "title": "Cuentas y Permisos",
+  "description": "Cuentas y Permisos",
+  "source": "@site/docs\\aprender-eosio\\cuentas-permisos.md",
+  "permalink": "/docs/aprender-eosio/cuentas-permisos",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Cuentas y Permisos",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Uso de recursos",
+    "permalink": "/docs/aprender-eosio/uso-de-recursos"
+  },
+  "next": {
+    "title": "Funciones Importantes en EOSIO",
+    "permalink": "/docs/aprender-eosio/funciones-importantes"
+  }
+}

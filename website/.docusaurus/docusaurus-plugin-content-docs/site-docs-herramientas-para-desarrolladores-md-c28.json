@@ -1,0 +1,20 @@
+{
+  "id": "herramientas-para-desarrolladores",
+  "isDocsHomePage": false,
+  "title": "Nuestras Herramientas Favoritas",
+  "description": "EOSIO",
+  "source": "@site/docs\\herramientas-para-desarrolladores.md",
+  "permalink": "/docs/herramientas-para-desarrolladores",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Nuestras Herramientas Favoritas",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Proyectos de Código Abierto",
+    "permalink": "/docs/proyectos-de-codigo-abierto"
+  },
+  "next": {
+    "title": "Material UI",
+    "permalink": "/docs/material-ui"
+  }
+}

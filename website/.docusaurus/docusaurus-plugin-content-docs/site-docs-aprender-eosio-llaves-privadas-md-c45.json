@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/llaves-privadas",
+  "isDocsHomePage": false,
+  "title": "Manejo de Llaves Privadas",
+  "description": "Crear cuenta en el blockchain público",
+  "source": "@site/docs\\aprender-eosio\\llaves-privadas.md",
+  "permalink": "/docs/aprender-eosio/llaves-privadas",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Llaves Privadas",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Funciones Importantes en EOSIO",
+    "permalink": "/docs/aprender-eosio/funciones-importantes"
+  },
+  "next": {
+    "title": "Desarrollo de Dapps",
+    "permalink": "/docs/aprender-eosio/desarrollo-de-dapps"
+  }
+}

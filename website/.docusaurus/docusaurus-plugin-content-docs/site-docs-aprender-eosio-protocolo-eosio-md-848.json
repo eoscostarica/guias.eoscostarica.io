@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/protocolo-eosio",
+  "isDocsHomePage": false,
+  "title": "Protocolo EOSIO",
+  "description": "EOSIO es software de código abierto que permite lanzar redes blockhain altamente configurables sobre las cuales desarrolladores y emprendedores pueden correr aplicaciones blockchain de alto rendimiento. EOSIO fue creado en el 2018 y es mantenido por la empresa Block One. La primera red pública lanzada sobre EOSIO se llama EOS, también referida como \"mainnet\". EOS es una de múltiples redes blockchain públicas actualmente utilizado EOSIO. Puede ver la siguiente lista de redes EOSIO. También existen múltiples redes privadas que actualmente utilizan EOSIO.",
+  "source": "@site/docs\\aprender-eosio\\protocolo-eosio.md",
+  "permalink": "/docs/aprender-eosio/protocolo-eosio",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Protocolo EOSIO",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Recursos Visuales",
+    "permalink": "/docs/recursos-visuales"
+  },
+  "next": {
+    "title": "Mecanismo de Consenso",
+    "permalink": "/docs/aprender-eosio/mecanismo-de-consenso"
+  }
+}

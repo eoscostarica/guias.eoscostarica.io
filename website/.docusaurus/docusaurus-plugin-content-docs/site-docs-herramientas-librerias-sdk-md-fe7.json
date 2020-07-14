@@ -1,0 +1,20 @@
+{
+  "id": "herramientas/librerias-sdk",
+  "isDocsHomePage": false,
+  "title": "Librerías SDK",
+  "description": "Librerías SDK para EOSIO",
+  "source": "@site/docs\\herramientas\\librerias-sdk.md",
+  "permalink": "/docs/herramientas/librerias-sdk",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Librerías SDK",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Explorador de Bloques",
+    "permalink": "/docs/herramientas/explorador-de-bloques"
+  },
+  "next": {
+    "title": "Canales de Telegram",
+    "permalink": "/docs/comunidad/canales-de-telegram"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/uso-de-recursos",
+  "isDocsHomePage": false,
+  "title": "Uso de recursos",
+  "description": "Tipos de Recursos",
+  "source": "@site/docs\\aprender-eosio\\uso-de-recursos.md",
+  "permalink": "/docs/aprender-eosio/uso-de-recursos",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Uso de recursos",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Mecanismo de Consenso",
+    "permalink": "/docs/aprender-eosio/mecanismo-de-consenso"
+  },
+  "next": {
+    "title": "Cuentas y Permisos",
+    "permalink": "/docs/aprender-eosio/cuentas-permisos"
+  }
+}

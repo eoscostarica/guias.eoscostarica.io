@@ -1,0 +1,20 @@
+{
+  "id": "proyectos-de-codigo-abierto",
+  "isDocsHomePage": false,
+  "title": "Proyectos de Código Abierto",
+  "description": "EOS Rate",
+  "source": "@site/docs\\proyectos-de-codigo-abierto.md",
+  "permalink": "/docs/proyectos-de-codigo-abierto",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Proyectos de Código Abierto",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Plantilla para Backend",
+    "permalink": "/docs/plantilla-para-backend"
+  },
+  "next": {
+    "title": "Nuestras Herramientas Favoritas",
+    "permalink": "/docs/herramientas-para-desarrolladores"
+  }
+}

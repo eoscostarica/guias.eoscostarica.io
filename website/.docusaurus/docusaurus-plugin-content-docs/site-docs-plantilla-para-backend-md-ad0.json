@@ -1,0 +1,20 @@
+{
+  "id": "plantilla-para-backend",
+  "isDocsHomePage": false,
+  "title": "Plantilla para Backend",
+  "description": "Una plantilla altamente escalable con las mejores prácticas, hecha para un inicio rápido de proyectos backend.",
+  "source": "@site/docs\\plantilla-para-backend.md",
+  "permalink": "/docs/plantilla-para-backend",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Plantilla para Backend",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Plantilla para Aplicación Web",
+    "permalink": "/docs/plantilla-para-aplicacion-web"
+  },
+  "next": {
+    "title": "Proyectos de Código Abierto",
+    "permalink": "/docs/proyectos-de-codigo-abierto"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/devops",
+  "isDocsHomePage": false,
+  "title": "DevOps",
+  "description": "En EOS Costa Rica nosotros seguimos los principios de DevOps para construir y desplegar software.",
+  "source": "@site/docs\\aprender-eosio\\devops.md",
+  "permalink": "/docs/aprender-eosio/devops",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "DevOps",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Desarrollo de Dapps",
+    "permalink": "/docs/aprender-eosio/desarrollo-de-dapps"
+  },
+  "next": {
+    "title": "Cadena de Bloques EOS",
+    "permalink": "/docs/aprender-eosio/cadena-de-bloques-eos"
+  }
+}

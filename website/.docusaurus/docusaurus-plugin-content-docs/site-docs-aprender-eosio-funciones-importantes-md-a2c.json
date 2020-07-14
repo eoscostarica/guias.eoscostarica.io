@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/funciones-importantes",
+  "isDocsHomePage": false,
+  "title": "Funciones Importantes en EOSIO",
+  "description": "Cuenta Privilegiada EOSIO",
+  "source": "@site/docs\\aprender-eosio\\funciones-importantes.md",
+  "permalink": "/docs/aprender-eosio/funciones-importantes",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Funciones Importantes",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Cuentas y Permisos",
+    "permalink": "/docs/aprender-eosio/cuentas-permisos"
+  },
+  "next": {
+    "title": "Manejo de Llaves Privadas",
+    "permalink": "/docs/aprender-eosio/llaves-privadas"
+  }
+}

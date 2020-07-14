@@ -1,0 +1,16 @@
+{
+  "id": "cultura-ingenieril",
+  "isDocsHomePage": false,
+  "title": "Cultura Ingenieril",
+  "description": "Somos una startup de ritmo rápido con ingenieros muy talentosos quienes aman el código abierto y los principios ágiles.",
+  "source": "@site/docs\\cultura-ingenieril.md",
+  "permalink": "/docs/cultura-ingenieril",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Cultura Ingenieril",
+  "sidebar": "docs",
+  "next": {
+    "title": "Pautas para Código Abierto",
+    "permalink": "/docs/pautas-para-codigo-abierto"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "comunidad/podcasts-eos",
+  "isDocsHomePage": false,
+  "title": "Podcasts EOS",
+  "description": "EOSIO",
+  "source": "@site/docs\\comunidad\\podcasts-eos.md",
+  "permalink": "/docs/comunidad/podcasts-eos",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Podcasts EOS",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Canales de Telegram",
+    "permalink": "/docs/comunidad/canales-de-telegram"
+  },
+  "next": {
+    "title": "Redes Blockchain basadas en EOSIO",
+    "permalink": "/docs/comunidad/redes-eosio"
+  }
+}

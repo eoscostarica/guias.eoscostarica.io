@@ -1,0 +1,11 @@
+{
+  "id": "aprender-eosio/software-eosio",
+  "isDocsHomePage": false,
+  "title": "Software EOSIO",
+  "description": "EOSIO es un protocolo de software de código abierto que provee a los desarrolladores y emprendedores una plataforma en la cual desarrollar, desplegar y correr aplicaciones descentralizadas de alto rendimiento.",
+  "source": "@site/docs\\aprender-eosio\\software-eosio.md",
+  "permalink": "/docs/aprender-eosio/software-eosio",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Software EOSIO"
+}

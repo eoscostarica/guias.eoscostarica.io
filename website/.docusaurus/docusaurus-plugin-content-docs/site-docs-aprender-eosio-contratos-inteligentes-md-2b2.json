@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/contratos-inteligentes",
+  "isDocsHomePage": false,
+  "title": "Contratos Inteligentes",
+  "description": "Un contrato es un acuerdo que rige los resultados de las acciones una vez dado un conjunto de datos de entrada o lo que se le denomina \"inputs\". Un contrato puede ir desde los tipo legal (ejemplo transacciones financieras) hasta algo más simple como las reglas de un juego. Las acciones típicas pueden ser transacciones de fondos (en el caso de un contrato financiero) o movimientos de juegos (en el caso de un contrato de juego).",
+  "source": "@site/docs\\aprender-eosio\\contratos-inteligentes.md",
+  "permalink": "/docs/aprender-eosio/contratos-inteligentes",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Contratos Inteligentes",
+  "sidebar": "docs",
+  "previous": {
+    "title": "C++ Moderno",
+    "permalink": "/docs/aprender-eosio/cpp-moderno"
+  },
+  "next": {
+    "title": "Como Iniciar",
+    "permalink": "/docs/aprender-eosio/como-iniciar"
+  }
+}

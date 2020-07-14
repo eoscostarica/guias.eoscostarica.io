@@ -1,0 +1,20 @@
+{
+  "id": "herramientas/glosario",
+  "isDocsHomePage": false,
+  "title": "Glosario",
+  "description": "Lista de términos necesarios para comprender un poco mas los contenidos presentes en esta guía.",
+  "source": "@site/docs\\herramientas\\glosario.md",
+  "permalink": "/docs/herramientas/glosario",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Glosario",
+  "sidebar": "docs",
+  "previous": {
+    "title": "C++ Moderno",
+    "permalink": "/docs/aprender-eosio/cpp-moderno"
+  },
+  "next": {
+    "title": "Línea de Comando",
+    "permalink": "/docs/herramientas/linea-de-comando"
+  }
+}

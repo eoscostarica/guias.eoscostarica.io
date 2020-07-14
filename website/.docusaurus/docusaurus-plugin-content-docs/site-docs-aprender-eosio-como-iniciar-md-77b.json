@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/como-iniciar",
+  "isDocsHomePage": false,
+  "title": "Como Iniciar",
+  "description": "Antes de iniciar",
+  "source": "@site/docs\\aprender-eosio\\como-iniciar.md",
+  "permalink": "/docs/aprender-eosio/como-iniciar",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Como Iniciar",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Contratos Inteligentes",
+    "permalink": "/docs/aprender-eosio/contratos-inteligentes"
+  },
+  "next": {
+    "title": "Instalación de Nodos",
+    "permalink": "/docs/aprender-eosio/instalacion-de-nodos"
+  }
+}

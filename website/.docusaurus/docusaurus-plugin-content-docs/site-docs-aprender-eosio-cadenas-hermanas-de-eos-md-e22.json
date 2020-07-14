@@ -1,0 +1,11 @@
+{
+  "id": "aprender-eosio/cadenas-hermanas-de-eos",
+  "isDocsHomePage": false,
+  "title": "Cadenas Hermanas de EOS",
+  "description": "Las cadenas hermanas son blockchains que utilizan el software EOSIO pero que tienen su propio token nativo usado para asignación de recursos.",
+  "source": "@site/docs\\aprender-eosio\\cadenas-hermanas-de-eos.md",
+  "permalink": "/docs/aprender-eosio/cadenas-hermanas-de-eos",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Cadenas Hermanas de EOS"
+}

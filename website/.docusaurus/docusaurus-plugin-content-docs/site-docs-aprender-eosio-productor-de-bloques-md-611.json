@@ -1,0 +1,11 @@
+{
+  "id": "aprender-eosio/productor-de-bloques",
+  "isDocsHomePage": false,
+  "title": "Productor de Bloques",
+  "description": "¿Qué es un productor de bloques?",
+  "source": "@site/docs\\aprender-eosio\\productor-de-bloques.md",
+  "permalink": "/docs/aprender-eosio/productor-de-bloques",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Productor de Bloques"
+}

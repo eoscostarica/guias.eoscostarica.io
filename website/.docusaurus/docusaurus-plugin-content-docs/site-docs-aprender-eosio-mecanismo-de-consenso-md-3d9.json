@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/mecanismo-de-consenso",
+  "isDocsHomePage": false,
+  "title": "Mecanismo de Consenso",
+  "description": "El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.",
+  "source": "@site/docs\\aprender-eosio\\mecanismo-de-consenso.md",
+  "permalink": "/docs/aprender-eosio/mecanismo-de-consenso",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Mecanismo de Consenso",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Protocolo EOSIO",
+    "permalink": "/docs/aprender-eosio/protocolo-eosio"
+  },
+  "next": {
+    "title": "Uso de recursos",
+    "permalink": "/docs/aprender-eosio/uso-de-recursos"
+  }
+}

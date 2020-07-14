@@ -1,0 +1,20 @@
+{
+  "id": "aprender-eosio/instalacion-de-nodos",
+  "isDocsHomePage": false,
+  "title": "Instalación de Nodos",
+  "description": "Versión EOSIO : v2.0.6",
+  "source": "@site/docs\\aprender-eosio\\instalacion-de-nodos.md",
+  "permalink": "/docs/aprender-eosio/instalacion-de-nodos",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Instalación de Nodos",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Como Iniciar",
+    "permalink": "/docs/aprender-eosio/como-iniciar"
+  },
+  "next": {
+    "title": "Contrato Hola Mundo",
+    "permalink": "/docs/aprender-eosio/contrato-hola-mundo"
+  }
+}

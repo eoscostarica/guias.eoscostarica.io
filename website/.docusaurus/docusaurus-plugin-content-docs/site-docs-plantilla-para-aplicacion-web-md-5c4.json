@@ -1,0 +1,20 @@
+{
+  "id": "plantilla-para-aplicacion-web",
+  "isDocsHomePage": false,
+  "title": "Plantilla para Aplicación Web",
+  "description": "Plantilla para Aplicación Web de React",
+  "source": "@site/docs\\plantilla-para-aplicacion-web.md",
+  "permalink": "/docs/plantilla-para-aplicacion-web",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Plantilla para Aplicación Web",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Pautas para Código Abierto",
+    "permalink": "/docs/pautas-para-codigo-abierto"
+  },
+  "next": {
+    "title": "Plantilla para Backend",
+    "permalink": "/docs/plantilla-para-backend"
+  }
+}

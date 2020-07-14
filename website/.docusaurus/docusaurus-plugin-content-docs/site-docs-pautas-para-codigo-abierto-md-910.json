@@ -1,0 +1,20 @@
+{
+  "id": "pautas-para-codigo-abierto",
+  "isDocsHomePage": false,
+  "title": "Pautas para Código Abierto",
+  "description": "Proceso de Desarrollo",
+  "source": "@site/docs\\pautas-para-codigo-abierto.md",
+  "permalink": "/docs/pautas-para-codigo-abierto",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Pautas para Código Abierto",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Cultura Ingenieril",
+    "permalink": "/docs/cultura-ingenieril"
+  },
+  "next": {
+    "title": "Plantilla para Aplicación Web",
+    "permalink": "/docs/plantilla-para-aplicacion-web"
+  }
+}
