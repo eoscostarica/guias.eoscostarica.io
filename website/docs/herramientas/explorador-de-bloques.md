@@ -23,9 +23,6 @@ https://eosq.app/
 
 https://eosflare.io/
 
-## EOS Hub
-
-https://eoshub.io/
 
 ## EOS Network Monitor
 
@@ -47,17 +44,9 @@ https://votetracker.io/
 
 https://explorer.eosdac.io
 
-## EOS Web
-
-https://eosweb.net/
-
 ## Cypherblock
 
 https://www.cypherblock.io/
-
-## EOS Tree
-
-https://eostree.io/
 
 ## EOS Radar
 
