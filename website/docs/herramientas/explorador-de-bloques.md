@@ -6,7 +6,6 @@ sidebar_label: Explorador de Bloques
 
 Un explorador de bloques es un programa o sitio web accesible a través de un navegador que permite a un usuario buscar y navegar por los bloques de una cadena de bloques, sus contenidos y sus detalles relevantes.
 
-
 ## Bloks.io
 
 https://bloks.io/
@@ -43,17 +42,9 @@ https://votetracker.io/
 
 https://explorer.eosdac.io
 
-## EOS Web
-
-https://eosweb.net/
-
 ## Cypherblock
 
 https://www.cypherblock.io/
-
-## EOS Tree
-
-https://eostree.io/
 
 ## EOS Radar
 
