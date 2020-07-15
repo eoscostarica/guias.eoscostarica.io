@@ -23,10 +23,6 @@ https://eosq.app/
 
 https://eosflare.io/
 
-## EOS Hub
-
-https://eoshub.io/
-
 ## EOS Network Monitor
 
 https://eosnetworkmonitor.io/
