@@ -2,30 +2,30 @@
 
 
 .hero-header{
+    position: relative;
     height: 561px;
-    padding-top: 95px;
+}
+
+.hero-img{
+    width: 100%;
+    height: 561px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.hero-content{
+    position: absolute; 
+    bottom: 0; 
     background-color: rgba(0, 0, 0, 0.59);
-    background-image: url(https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1546959633000/photosp/addec163-6dbd-4a4a-a4f7-5bd2a3d82ee9/stock-photo-development-technology-computer-desinger-programming-coding-programmer-web-development-software-developer-addec163-6dbd-4a4a-a4f7-5bd2a3d82ee9.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hero-header-img {
-    
-}
-
-.Mask {
-    width: 1440px;
+    color: #f1f1f1; 
+    width: 100%; 
     height: 561px;
-    mix-blend-mode: color;
-    background-color: var(--ifm-color-primary-dark);
 }
 
 
 .title-container{
-    width: 519px;
-    height: 177px;
     margin: auto;
+    margin-top: 95px;
 }
 
 .EOS-Costa-Rica-Devel {
@@ -52,12 +52,12 @@
 
 .intro-container{
     margin-top: 29px;
-    width: 495px;
-    height: 75px;
+    width: 540px;
     margin: auto;
+    margin-top: 29px;
 }
 
-.Wed-like-to-welcome {
+.intro-text{
     font-family: 'PT Sans', sans-serif;
     font-size: 21.1px;
     font-weight: bold;
@@ -68,3 +68,86 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.87);
   }
+
+
+.primary-buttom{
+    width: 131px;
+    height: 50px;
+    background-color: var(--secondary-main);
+    border: none;  
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    /*Text*/
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14.8px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.08;
+    letter-spacing: 1.25px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+
+.buttons-intro-container{
+    width: fit-content;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+
+.section-tittle{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 51.4px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.41px;
+    margin-bottom: 50px;
+}
+
+.section-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cardroot{
+    background-color: black;
+
+}
+
+.card-img-container{
+    height: 194px;
+    padding-top: 30px;
+}
+
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+    .EOS-Costa-Rica-Devel {
+        font-size: 41.4px;
+    }
+    
+    .text-style-1 {
+        font-size: 48.4px;   
+    }
+    
+    .intro-container{
+        width: 80%;
+    }
+    
+    .intro-text{
+        font-size: 20px;
+    }
+
+    .section-tittle{
+        font-size: 41.4px;
+    }
+    
+    
+}

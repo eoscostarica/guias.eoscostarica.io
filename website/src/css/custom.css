@@ -27,6 +27,18 @@
 	--ifm-color-primary-light: #5ECFE2;
 	--ifm-color-primary-lighter: #88DDEB;
 	--ifm-color-primary-lightest: #B6EBF3;
+
+
+	--error: #ef6a6e;
+	--surface-light: #ffffff;
+	--surface-dark: #f5f5f5;
+	--primary-dark: #000000;
+	--primary-main: #212121;
+	--primary-light: #757575;
+	--secondary-light: #5ecfe2;
+	--secondary-dark: #39abc0;
+	--secondary-main: #3ebbd3;
+	--elevation-shadow-00-dp: #fafafa;
 }
 
 
