@@ -136,7 +136,7 @@ const HeroSection  = () => {
           <p className="intro-text">Bienvenido a nuestra herramienta de aprendizaje colaborativa e introductoria a la tecnología de blockchain y todos los paradigmas que lo hacen posible.</p>
         </div>
         <div className="buttons-intro-container">
-          <Button className={classes.heroButton} href="/docs/cultura-ingenieril" >DOCUMENTOS</Button> 
+          <Button className={classes.heroButton} href="/docs/cultura-ingenieril" >EMPEZAR</Button> 
         </div>
       </div>
     </div>
