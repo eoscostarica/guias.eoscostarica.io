@@ -195,7 +195,7 @@ const CardsSection = () =>{
           title="Aprender EOSIO"
           body= "Conjunto de información necesaria para aprender sobre el protocolo EOSIO."
           href= "/docs/aprender-eosio/protocolo-eosio"
-          img="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/cards-icons/learneosio.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/cards-icons/icons-eosio.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
@@ -223,7 +223,7 @@ const CardsSection = () =>{
           title="Proyectos de código abierto"
           body= "Listado de proyectos de código abierto que realizamos."
           href= "docs/comunidad/canales-de-telegram"
-          img="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/cards-icons/guidelines.svg"></CustomCard>
+          img="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/cards-icons/icons-opensource.svg"></CustomCard>
       </Grid>
       
     </Grid>
