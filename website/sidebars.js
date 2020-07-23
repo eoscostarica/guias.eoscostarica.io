@@ -11,7 +11,6 @@ module.exports = {
                     "aprender-eosio/desarrollo-de-dapps",
                     "aprender-eosio/devops",
                     "aprender-eosio/cadena-de-bloques-eos",
-                    "aprender-eosio/cpp-moderno",
                     "aprender-eosio/contratos-inteligentes",
                     "aprender-eosio/contratos-ricardianos"
                   ],
