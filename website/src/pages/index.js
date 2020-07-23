@@ -1,10 +1,11 @@
-import React from 'react';
+import React,{ useState, useEffect } from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useThemeContext from '@theme/hooks/useThemeContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import '../css/homepage.css';
+
 
 import { Grid } from '@material-ui/core';
 import { Button } from '@material-ui/core';
@@ -225,79 +226,28 @@ const CardsSection = () =>{
           href= "docs/comunidad/canales-de-telegram"
           img="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/cards-icons/icons-opensource.svg"></CustomCard>
       </Grid>
-      
     </Grid>
     </div>
-    
-
-
   );
 }
 
-const CustomArticle= (props) =>{
-  const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
-  let classes=null;
-  if(!isDarkTheme){
-     classes = lightTheme();
-  }
-  else{
-     classes = DarkTheme();
-  }
-  
-  return (
-    <Card className="cardroot" className={classes.card} variant="outlined">
-      <CardMedia
-          className={classes.media}
-          image={props.img}
-        />
-      <CardContent>
-        <Typography className={classes.overline} gutterBottom>ARTÍCULO</Typography>
-        <Typography className={classes.title}  gutterBottom variant="h5" component="h2">{props.title}</Typography>
-        <Typography className={classes.body} variant="body2" component="p">{props.body}</Typography>
-      </CardContent>
-      <CardActions>
-        <Button className={classes.button} href={props.href} >Leer Más</Button>    
-      </CardActions>
-  </Card>
-  );
-}
 
-const MediumSection = () =>{
+const MediumSection = () =>{ 
+  try {
+    var widget = document.getElementById("medium-widget");
+    if(widget){
+      window.mediumWidget();
+    }
+  }catch(e){
+    window.location.reload();
+  }
   return (
     <div className="container section-container">
-       <h1 className="section-tittle">Artículos de Medium</h1>
-       <Grid
-        container
-        direction="row"
-        justify="center"
-        alignItems="center"
-        spacing={2}
-      >
-      <Grid item xs={12} sm={12} md={4}>
-        <CustomArticle 
-          title="Conozca EOS Costa Rica"
-          body= "Conozca más sobre nuestra historia, equipo y proyectos que realizamos."
-          href= "https://medium.com/@eoscostarica/get-to-know-eos-costa-rica-f91f5b0bb7c4"
-          img="https://miro.medium.com/max/700/1*x7OW2wAhH1YapNVZl_-SEA.png"></CustomArticle>
-      </Grid>
-      <Grid item xs={12} sm={12} md={4}>
-        <CustomArticle 
-          title="¿Qué es EOSIO?"
-          body= "Explicamos en qué consiste el protocolo blockchain EOSIO."
-          href= "https://medium.com/@eoscostarica/que-es-eosio-178e21ac2ebb"
-          img="https://miro.medium.com/max/700/1*Po0W5EAkJDn4LPTFytFl9A.png"></CustomArticle>
-      </Grid>
-      <Grid item xs={12} sm={12} md={4}>
-        <CustomArticle 
-          title="¿Cómo funciona una blockchain?"
-          body= "Explicamos, con ejemplos, qué es y cómo funciona una blockchain."
-          href= "https://medium.com/@eoscostarica/https-medium-com-eoscostarica-que-es-blockchain-d54d42439ef3"
-          img="https://miro.medium.com/max/700/1*iv_880P8jBGDlTKRwmNmfw.jpeg"></CustomArticle>
-      </Grid>
-    </Grid>
+      <h1 className="section-tittle">Artículos de Medium</h1>
+      <div id="medium-widget"></div>
     </div>
   );
-}
+};
 
 const HomePage = () => {
   const {siteConfig} = useDocusaurusContext();
@@ -313,5 +263,8 @@ const HomePage = () => {
   );
   
 };
+
+
+
 
 export default HomePage;

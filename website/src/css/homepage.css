@@ -22,7 +22,6 @@
     height: 561px;
 }
 
-
 .title-container{
     margin: auto;
     margin-top: 95px;
@@ -91,14 +90,11 @@
     color: rgba(0, 0, 0, 0.87);
 }
 
-
 .buttons-intro-container{
     width: fit-content;
     margin: auto;
     margin-top: 40px;
 }
-
-
 
 .section-tittle{
     font-family: 'PT Sans', sans-serif;
@@ -118,15 +114,12 @@
 
 .cardroot{
     background-color: black;
-
 }
 
 .card-img-container{
     height: 194px;
     padding-top: 30px;
 }
-
-
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
     .EOS-Costa-Rica-Devel {
