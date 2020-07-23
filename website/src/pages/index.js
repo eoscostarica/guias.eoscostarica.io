@@ -1,23 +1,17 @@
 import React,{ useState, useEffect } from 'react';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useThemeContext from '@theme/hooks/useThemeContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
-import '../css/homepage.css';
-
-
+import useThemeContext from '@theme/hooks/useThemeContext';
 import { Grid } from '@material-ui/core';
 import { Button } from '@material-ui/core';
 import { Card } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-
-import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
+import '../css/homepage.css';
 
 
 const lightTheme = makeStyles({
@@ -115,19 +109,20 @@ const DarkTheme = makeStyles({
 });
 
 const HeroSection  = () => {
+
   const images = ["https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/hero-images/heroe.png"];
   const background = images[Math.floor(Math.random() * images.length)];
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
   let classes=null;
+  
   if(!isDarkTheme){
      classes = lightTheme();
-  }
-  else{
+  }else{
      classes = DarkTheme();
   }
   return(  
     <div className=" hero-header">
-      <img className="hero-img" src={background} ></img>
+      <img className="hero-img" src={background}/>
       <div className="hero-content">
         <div className="title-container">
           <h1 className="EOS-Costa-Rica-Devel text-style-1 ">EOS Costa Rica</h1>
@@ -137,29 +132,27 @@ const HeroSection  = () => {
           <p className="intro-text">Bienvenido a nuestra herramienta de aprendizaje colaborativa e introductoria a la tecnología de blockchain y todos los paradigmas que lo hacen posible.</p>
         </div>
         <div className="buttons-intro-container">
-          <Button className={classes.heroButton} href="/docs/cultura-ingenieril" >EMPEZAR</Button> 
+          <Button className={classes.heroButton} href="/docs/cultura-ingenieril">EMPEZAR</Button> 
         </div>
       </div>
     </div>
   );
 }
 
+const CustomCard = (props) => {
 
-
-const CustomCard= (props) =>{
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
   let classes=null;
+
   if(!isDarkTheme){
      classes = lightTheme();
-  }
-  else{
+  }else{
      classes = DarkTheme();
   }
-  
   return (
     <Card className="cardroot" className={classes.card} variant="outlined">
       <div className="card-img-container"> 
-        <img src={props.img} className={classes.imgcard}></img>
+        <img src={props.img} className={classes.imgcard}/>
       </div>
       <CardContent>
         <Typography className={classes.overline} gutterBottom>SECCIÓN</Typography>
@@ -173,7 +166,7 @@ const CustomCard= (props) =>{
   );
 }
 
-const CardsSection = () =>{
+const CardsSection = () => {
   return (
     <div className="container section-container">
       <h1 className="section-tittle">Comience de inmediato</h1>
@@ -231,10 +224,11 @@ const CardsSection = () =>{
   );
 }
 
-
-const MediumSection = () =>{ 
+const MediumSection = () => { 
   try {
+
     var widget = document.getElementById("medium-widget");
+
     if(widget){
       window.mediumWidget();
     }
@@ -250,7 +244,9 @@ const MediumSection = () =>{
 };
 
 const HomePage = () => {
+
   const {siteConfig} = useDocusaurusContext();
+
   return (
     <Layout
       permalink="/"
@@ -263,8 +259,5 @@ const HomePage = () => {
   );
   
 };
-
-
-
 
 export default HomePage;
