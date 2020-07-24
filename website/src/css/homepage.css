@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
 
-
 .hero-header{
     position: relative;
     height: 561px;
@@ -48,7 +47,6 @@
     letter-spacing: 0.53px;
 }
 
-
 .intro-container{
     margin-top: 29px;
     width: 540px;
@@ -67,7 +65,6 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.87);
   }
-
 
 .primary-buttom{
     width: 131px;
@@ -140,7 +137,5 @@
 
     .section-tittle{
         font-size: 41.4px;
-    }
-    
-    
+    }   
 }

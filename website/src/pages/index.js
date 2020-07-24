@@ -13,7 +13,6 @@ import Typography from '@material-ui/core/Typography';
 
 import '../css/homepage.css';
 
-
 const lightTheme = makeStyles({
   heroButton:{
     width: 131,
@@ -109,7 +108,6 @@ const DarkTheme = makeStyles({
 });
 
 const HeroSection  = () => {
-
   const images = ["https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/hero-images/heroe.png"];
   const background = images[Math.floor(Math.random() * images.length)];
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
@@ -120,6 +118,7 @@ const HeroSection  = () => {
   }else{
      classes = DarkTheme();
   }
+
   return(  
     <div className=" hero-header">
       <img className="hero-img" src={background}/>
@@ -140,7 +139,6 @@ const HeroSection  = () => {
 }
 
 const CustomCard = (props) => {
-
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
   let classes=null;
 
@@ -149,6 +147,7 @@ const CustomCard = (props) => {
   }else{
      classes = DarkTheme();
   }
+
   return (
     <Card className="cardroot" className={classes.card} variant="outlined">
       <div className="card-img-container"> 
@@ -225,7 +224,6 @@ const CardsSection = () => {
 }
 
 const CustomArticle= (props) => {
-
   const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
   let classes=null;
 
@@ -234,6 +232,7 @@ const CustomArticle= (props) => {
   }else{
      classes = DarkTheme();
   }
+
   return (
     <Card className="cardroot" className={classes.card} variant="outlined">
       <CardMedia
@@ -252,7 +251,7 @@ const CustomArticle= (props) => {
   );
 }
 
-const MediumSection = () =>{
+const MediumSection = () => {
   return (
     <div className="container section-container">
        <h1 className="section-tittle">Artículos de Medium</h1>
@@ -290,7 +289,6 @@ const MediumSection = () =>{
 }
 
 const HomePage = () => {
-
   const {siteConfig} = useDocusaurusContext();
 
   return (
@@ -303,7 +301,6 @@ const HomePage = () => {
       <MediumSection></MediumSection>
     </Layout>
   );
-  
 };
 
 export default HomePage;
