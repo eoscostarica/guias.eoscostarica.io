@@ -224,24 +224,70 @@ const CardsSection = () => {
   );
 }
 
-const MediumSection = () => { 
-  try {
+const CustomArticle= (props) => {
 
-    var widget = document.getElementById("medium-widget");
+  const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext();
+  let classes=null;
 
-    if(widget){
-      window.mediumWidget();
-    }
-  }catch(e){
-    window.location.reload();
+  if(!isDarkTheme){
+     classes = lightTheme();
+  }else{
+     classes = DarkTheme();
   }
   return (
+    <Card className="cardroot" className={classes.card} variant="outlined">
+      <CardMedia
+          className={classes.media}
+          image={props.img}
+        />
+      <CardContent>
+        <Typography className={classes.overline} gutterBottom>ARTÍCULO</Typography>
+        <Typography className={classes.title}  gutterBottom variant="h5" component="h2">{props.title}</Typography>
+        <Typography className={classes.body} variant="body2" component="p">{props.body}</Typography>
+      </CardContent>
+      <CardActions>
+        <Button className={classes.button} href={props.href} >Leer Más</Button>    
+      </CardActions>
+  </Card>
+  );
+}
+
+const MediumSection = () =>{
+  return (
     <div className="container section-container">
-      <h1 className="section-tittle">Artículos de Medium</h1>
-      <div id="medium-widget"></div>
+       <h1 className="section-tittle">Artículos de Medium</h1>
+       <Grid
+        container
+        direction="row"
+        justify="center"
+        alignItems="center"
+        spacing={2}
+      >
+      <Grid item xs={12} sm={12} md={4}>
+        <CustomArticle 
+          title="¿Qué es un smart contract?"
+          body= "Explicamos como funcina la descentralización en sus registros, mediante contratos inteligentes."
+          href= "https://medium.com/@eoscostarica/qu%C3%A9-es-un-smart-contract-793d2042c65d"
+          img="https://miro.medium.com/max/700/1*rjtG8XyIEQM5xApCbLHk5A.png"></CustomArticle>
+      </Grid>
+      <Grid item xs={12} sm={12} md={4}>
+        <CustomArticle 
+          title="¿Qué es EOSIO?"
+          body= "Explicamos en qué consiste el protocolo blockchain EOSIO."
+          href= "https://medium.com/@eoscostarica/que-es-eosio-178e21ac2ebb"
+          img="https://miro.medium.com/max/700/1*Po0W5EAkJDn4LPTFytFl9A.png"></CustomArticle>
+      </Grid>
+      <Grid item xs={12} sm={12} md={4}>
+        <CustomArticle 
+          title="¿Cómo funciona una blockchain?"
+          body= "Explicamos, con ejemplos, qué es y cómo funciona una blockchain."
+          href= "https://medium.com/@eoscostarica/https-medium-com-eoscostarica-que-es-blockchain-d54d42439ef3"
+          img="https://miro.medium.com/max/700/1*iv_880P8jBGDlTKRwmNmfw.jpeg"></CustomArticle>
+      </Grid>
+    </Grid>
     </div>
   );
-};
+}
 
 const HomePage = () => {
 
