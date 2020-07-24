@@ -24,11 +24,10 @@ module.exports = {
     "Herramientas": [
                     "herramientas/glosario",
                     "herramientas/linea-de-comando",
+                    "herramientas/opciones-configuracion-nodeos",
                     "herramientas/explorador-de-bloques",
                     "herramientas/librerias-sdk"
                     ],
-                  
-
     "Comunidad": [
                     "comunidad/redes-sociales",
                     "comunidad/canales-de-telegram",
