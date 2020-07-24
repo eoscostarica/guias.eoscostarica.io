@@ -30,6 +30,7 @@ module.exports = {
                   
 
     "Comunidad": [
+                    "comunidad/redes-sociales",
                     "comunidad/canales-de-telegram",
                     "comunidad/podcasts-eos",
                     "comunidad/redes-eosio"
