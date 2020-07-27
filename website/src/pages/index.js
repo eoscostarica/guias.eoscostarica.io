@@ -215,7 +215,7 @@ const CardsSection = () => {
         <CustomCard 
           title="Proyectos de código abierto"
           body= "Listado de proyectos de código abierto que realizamos."
-          href= "docs/comunidad/canales-de-telegram"
+          href= "docs/proyectos-de-codigo-abierto"
           img="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/cards-icons/icons-opensource.svg"></CustomCard>
       </Grid>
     </Grid>
