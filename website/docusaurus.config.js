@@ -41,6 +41,9 @@ const siteConfig = {
         },*/
         {to: 'docs/pautas-para-codigo-abierto', label: 'Pautas para Desarrolladores', position: 'left'},
         {to: 'docs/aprender-eosio/protocolo-eosio', label: 'Aprender EOSIO', position: 'left'},
+        {to: 'docs/aprender-eosio/como-iniciar', label: 'Tutoriales', position: 'left'},
+        {to: 'docs/herramientas/glosario', label: 'Herramientas', position: 'left'},
+        {to: 'docs/comunidad/canales-de-telegram', label: 'Comunidad', position: 'left'},
         {
           href: 'https://guide.eoscostarica.io/',
           label: 'English',
