@@ -1,7 +1,15 @@
 
 module.exports = {
   docs: {
-    "Guías generales": ["cultura-ingenieril","pautas-para-codigo-abierto","plantilla-para-aplicacion-web","plantilla-para-backend","proyectos-de-codigo-abierto","herramientas-para-desarrolladores","material-ui","recursos-visuales"],
+    "Guías generales": ["cultura-ingenieril",
+                        "pautas-para-codigo-abierto",
+                        "metodologias-agiles",
+                        "plantilla-para-aplicacion-web",
+                        "plantilla-para-backend",
+                        "proyectos-de-codigo-abierto",
+                        "herramientas-para-desarrolladores",
+                        "material-ui","recursos-visuales"
+                      ],
     "Aprender EOSIO":["aprender-eosio/protocolo-eosio",
                     "aprender-eosio/mecanismo-de-consenso",
                     "aprender-eosio/uso-de-recursos",
