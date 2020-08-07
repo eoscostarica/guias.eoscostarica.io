@@ -1,4 +1,4 @@
-# Guías para desarrolladores
+# guias.eoscostarica.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -15,7 +15,7 @@ Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero 
 
 Informe los errores grandes y pequeños [abriendo un issue](https://github.com/eoscostarica/guias.eoscostarica.io/issues).
 
-## Guía rapida
+## Guía rápida
 
 ### Estructura de archivos
 
@@ -61,18 +61,18 @@ Es necesario contar con:
 $ git clone https://github.com/eoscostarica/guias.eoscostarica.io.git
 ```
 
-3. Ubiquese al directorio apropiado
+2. Ubiquese al directorio apropiado
 
 ```bash
 $ cd  guias.eoscostarica.io
 ```
 
-5. Instale las depencias:
+3. Instale las depencias:
 ```bash
 $ yarn install 
 ```
 
-6. Ejecute el proyecto:
+4. Ejecute el proyecto:
 ```bash		
 $ yarn start 
 ```
