@@ -1,33 +1,78 @@
-# Portal para desarrolladores
+# Guías para desarrolladores
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+Sitio de documentación para desarrolladores de EOS Costa Rica.
+
 En este sitio se encuentran los recursos recabados en el día a día de los colaboradores de EOS Costa Rica. Siéntete libre de colaborar, comentar y sugerir cambios/ideas para mejorar el sitio.
 
+## Contribuciones 
 
-## Instrucciones para correr el portal de forma local en Windows 10
-1. Asegúrese de tener instalada una versión reciente de nodejs y docusaurus.
+Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
 
-2. Descargue o clone el proyecto, mismo que podrá encontrar en el siguiente [enlace](https://github.com/eoscostarica/guias.eoscostarica.io.git).
+[Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto)
+
+Informe los errores grandes y pequeños [abriendo un issue](https://github.com/eoscostarica/guias.eoscostarica.io/issues).
+
+## Guía rapida
+
+### Estructura de archivos
+
+```bash
+guias.eoscostarica.io/
+├── .github
+│ ├── workflows
+│ | ├── nodejs.yml
+│ | └── services
+│ └── pull_request_template.md
+├── docs
+├── src
+│ ├── css
+│ | ├── custom.css
+│ | └── homepage.css
+│ ├── pages
+│ | └── index.js
+├── static
+│ ├── img
+│ ├── scripts
+│ └── CNAME
+├── .all-contributorsrc
+├── .gitignore
+├── docusaurus.config.JS
+├── package.json
+├── package.json
+├── yarn.lock
+└── README.md
+```
+
+### Antes de empezar
+Es necesario contar con: 
+* git
+* node.js
+
+
+### Instrucciones para ejecutar el portal de forma local en Windows 10
+
+
+1. Clone el respositorio
 
 ```bash
 $ git clone https://github.com/eoscostarica/guias.eoscostarica.io.git
 ```
 
-3. Abra la línea de comandos y diríjase al directorio donde se encuentra el proyecto.
+3. Ubiquese al directorio apropiado
 
 ```bash
 $ cd  guias.eoscostarica.io
 ```
 
-4. Una vez en el directorio donde está el proyecto ingrese a la carpeta llamada `website`.
-```bash
-$ cd website
-```
-
-5. Cuando se encuentre en el directorio `guias.eoscostarica.io/website` instale las dependencias:
+5. Instale las depencias:
 ```bash
 $ yarn install 
 ```
 
-6. Para finalizar ejecute el proyecto:
+6. Ejecute el proyecto:
 ```bash		
 $ yarn start 
 ```
