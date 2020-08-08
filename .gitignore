@@ -1,15 +1,13 @@
 .DS_Store
 
-node_modules
 
 lib/core/metadata.js
 lib/core/MetadataBlog.js
 
-website/translated_docs
-website/build
-website/yarn.lock
-website/node_modules
-website/i18n/*
+translated_docs
+yarn.lock
+node_modules
+i18n/*
 
 
 # dependencies
@@ -19,8 +17,8 @@ website/i18n/*
 /build
 
 # generated files
-website/.docusaurus
-website/.cache-loader
+.docusaurus
+.cache-loader
 
 # misc
 .DS_Store
