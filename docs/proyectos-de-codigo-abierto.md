@@ -18,9 +18,9 @@ sidebar_label: Proyectos de Código Abierto
 
 - **GitHub** : https://github.com/eoscostarica/eos-rate
 
-![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOS_Rate.PNG)
+![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Rate.PNG)
 
-![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOS_Rate_2.PNG)
+![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Rate_2.PNG)
 
 * * *
 
@@ -37,9 +37,9 @@ El propósito de LatamLink es ofrecer una red de prueba basada en EOSIO para res
 
 - **GitHub** : https://github.com/LatamLink
 
-![Latam Link](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/Latam_Link.PNG)
+![Latam Link](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/Latam_Link.PNG)
 
-![Latam Link](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/Latam_Link_monitor.PNG)
+![Latam Link](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/Latam_Link_monitor.PNG)
 
 
 * * *
@@ -52,9 +52,9 @@ Un Monitor de Infraestructura EOSIO y un tablero de node.
 
 - **GitHub** : https://github.com/eoscostarica/eosio-monitor
 
-![EOSIO network monitor](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOSIO_Network_monitor.PNG)
+![EOSIO network monitor](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor.PNG)
 
-![EOSIO network monitor](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOSIO_Network_monitor_2.PNG)
+![EOSIO network monitor](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor_2.PNG)
 
 * * *
 
@@ -71,9 +71,9 @@ Vemos a EOS Foundation como un contenedor para facilitar código, capital y cone
 
 - **GitHub** : https://github.com/eoscostarica/eos-foundation
 
-![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOS_Fundation.PNG)
+![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation.PNG)
 
-![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
+![EOS Fundation](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Fundation_2.PNG)
 
 * * *
 
@@ -106,7 +106,7 @@ Lifebank es una iniciativa de EOS Costa Rica, una compañía que desarrolla solu
 
 - **GitHub** : https://github.com/eoscostarica/lifebank
 
-![LifeBank](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/LifeBank.PNG)
+![LifeBank](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/LifeBank.PNG)
 
 * * *
 
