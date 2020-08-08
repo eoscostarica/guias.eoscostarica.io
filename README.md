@@ -9,11 +9,11 @@ En este sitio se encuentran los recursos recabados en el día a día de los cola
 
 ## Contribuciones 
 
-Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
+Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/orgs/eoscostarica/projects/2).
 
 [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto)
 
-Informe los errores grandes y pequeños [abriendo un issue](https://github.com/eoscostarica/guias.eoscostarica.io/issues).
+Informe los errores grandes y pequeños [creando un issue](https://github.com/eoscostarica/guias.eoscostarica.io/issues).
 
 ## Guía rápida
 
