@@ -65,7 +65,7 @@ Es necesario contar con:
 ### Instrucciones para ejecutar el portal de forma local en Windows 10
 
 
-1. Clone del repositorio
+1. Clone el repositorio
 
 ```bash
 $ git clone https://github.com/eoscostarica/guias.eoscostarica.io.git
@@ -74,7 +74,7 @@ $ git clone https://github.com/eoscostarica/guias.eoscostarica.io.git
 2. Ubíquese al directorio apropiado
 
 ```bash
-$ cd  guias.eoscostarica.io
+$ cd guias.eoscostarica.io
 ```
 
 3. Instale las dependencias:
