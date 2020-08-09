@@ -10,7 +10,7 @@ module.exports = {
             "herramientas-para-desarrolladores",
             "material-ui", "recursos-visuales"
         ],
-        "Aprender EOSIO": [
+        "Protocolo EOSIO": [
             "aprender-eosio/protocolo-eosio",
             "aprender-eosio/mecanismo-de-consenso",
             "aprender-eosio/uso-de-recursos",
