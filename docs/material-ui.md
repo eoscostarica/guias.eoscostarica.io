@@ -10,7 +10,7 @@ Contamos con una [sección exclusiva](https://guias.eoscostarica.io/docs/recurso
 
 ## Paleta de Colores
 
-![Preview tipografia](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/preview_color_scheme.PNG)
+![Preview tipografia](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/preview_color_scheme.PNG)
 
 Para ver una guía completa de los colores, puede visitar [este enlace](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
 
@@ -18,7 +18,7 @@ Para ver una guía completa de los colores, puede visitar [este enlace](https://
 
 La tipografia que utilizamos en nuestras aplicaciones esta basada en `PT Sans Regular`. 
 
-![Preview tipografia](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/website/static/img/OSS_screnshots/preview_typography_scale.PNG)
+![Preview tipografia](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/preview_typography_scale.PNG)
 
 Para ver una guía completa de los tamaños y formas de utilización de la fuente, puede visitar [este enlace](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf) 
 

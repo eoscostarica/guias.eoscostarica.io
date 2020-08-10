@@ -9,18 +9,18 @@ En este sitio se encuentran los recursos recabados en el día a día de los cola
 
 ## Contribuciones 
 
-Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/eoscostarica/guide.eoscostarica.io/projects/1).
+Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/orgs/eoscostarica/projects/2).
 
 [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto)
 
-Informe los errores grandes y pequeños [abriendo un issue](https://github.com/eoscostarica/guias.eoscostarica.io/issues).
+Informe los errores grandes y pequeños [creando un issue](https://github.com/eoscostarica/guias.eoscostarica.io/issues).
 
 ## Guía rápida
 
 ### Estructura de archivos
 
-```bash
-guias.eoscostarica.io/
+```sh
+guias.eoscostarica.io
 ├── .github
 │ ├── workflows
 │ | ├── nodejs.yml
@@ -31,20 +31,30 @@ guias.eoscostarica.io/
 │ ├── css
 │ | ├── custom.css
 │ | └── homepage.css
-│ ├── pages
-│ | └── index.js
+│ └── pages
+│ 	├── styles.module.css
+│   └── index.js
 ├── static
 │ ├── img
 │ ├── scripts
 │ └── CNAME
 ├── .all-contributorsrc
 ├── .gitignore
-├── docusaurus.config.JS
-├── package.json
+├── docusaurus.config.js
 ├── package.json
 ├── yarn.lock
 └── README.md
 ```
+### Resumen de la estructura del proyecto
+
+- `/docs/` - Contiene los archivos de Markdown para los documentos. Personaliza el orden de la barra lateral de documentos en  `sidebars.js`. Se pueden encontrar más detalles en la [guía de documentos](https://v2.docusaurus.io/docs/markdown-features).
+- `/src/` - Archivos que no son de documentación como páginas o componentes personalizados de React. No tiene que colocar estrictamente sus archivos que no son de documentación aquí, pero colocarlos en un directorio centralizado facilita la especificación en caso de que necesite hacer algún tipo de procesamiento.
+- `/src/pages` - Cualquier archivo dentro de este directorio se convertirá en una página de sitio web. Se pueden encontrar más detalles en la [guía de páginas](https://v2.docusaurus.io/docs/creating-pages).
+- `/static/` - Directorio estático. Cualquier contenido dentro de aquí se copiará en la raíz del directorio de compilación final `build`.
+- `/docusaurus.config.js` - El archivo de configuración para el sitio. Este es el equivalente de siteConfig.js en Docusaurus 1.
+- `/package.json` - Un sitio web de Docusaurus es una aplicación de React. Puede instalar y usar cualquier paquete npm que desee en ellos.
+- `/sidebar.js` - Utilizado por la documentación para especificar el orden de los documentos en la navegación lateral.
+
 
 ### Antes de empezar
 Es necesario contar con: 
@@ -55,26 +65,31 @@ Es necesario contar con:
 ### Instrucciones para ejecutar el portal de forma local en Windows 10
 
 
-1. Clone el respositorio
+1. Clone el repositorio
 
 ```bash
 $ git clone https://github.com/eoscostarica/guias.eoscostarica.io.git
 ```
 
-2. Ubiquese al directorio apropiado
+2. Ubíquese al directorio apropiado
 
 ```bash
-$ cd  guias.eoscostarica.io
+$ cd guias.eoscostarica.io
 ```
 
-3. Instale las depencias:
+3. Instale las dependencias:
 ```bash
 $ yarn install 
 ```
 
-4. Ejecute el proyecto:
+4. Compile el proyecto:
 ```bash		
-$ yarn start 
+$ yarn build 
+```
+
+5. Ejecute el servidor local:
+```bash		
+$ yarn serve 
 ```
 
 ## Contributors ✨
