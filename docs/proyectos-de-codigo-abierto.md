@@ -27,7 +27,7 @@ sidebar_label: Proyectos de Código Abierto
 ## TestNet de LatamLink
 
 <img
-  src="https://raw.githubusercontent.com/LatamLink/latamlink.io/master/website/static/images/latamlink_logo-h-full-color-overwhite.png"
+  src="https://raw.githubusercontent.com/LatamLink/latamlink.io/master/static/images/latamlink_logo-h-full-color-overwhite.png"
   style={{ width: "30%" }}
 />
 
