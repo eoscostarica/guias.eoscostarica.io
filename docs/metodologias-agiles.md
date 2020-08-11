@@ -16,22 +16,16 @@ Algunas de las metodologías agiles mas conocidas y utilizadas en la industria s
 
 Es una metodología ágil que se basa en la comunicación y revisión constante de las tareas que se realizan (sprints), por cada sprint se realizan los procesos de planificación, aseguramiento de la calidad, desarrollo, inspección de calidad y retroalimentación, esto reduce el costo en la corrección de errores debido a que un sprint se da por concluido hasta que el cliente acepta todos los **criterios de aceptación**. Los valores base de esta metodología son la innovación, flexibilidad, competitividad y productividad.
 
-<figure class="video_container">
-  <iframe width="750" height="315" src="https://www.youtube.com/embed/P25JP0u6UKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/P25JP0u6UKw" frameborder="0" allow="true" allowfullscreen></iframe>
 
 ### Kanban
 
 Consiste en la elaboración de un cuadro o diagrama en el que se reflejan tres columnas de tareas; pendientes, en proceso y terminadas. Este cuadro debe estar al alcance de todos los miembros del equipo, evitando así la repetición de tareas o la posibilidad de que se olvide alguna de ellas. Por tanto, ayuda a mejorar la productividad y eficiencia del equipo de trabajo. Dentro de sus objetivos esta mejorar la planificación del trabajo, mejorar el rendimiento, definir plazos de entrega continuos.
 
-<figure class="video_container">
-  <iframe width="750" height="315" src="https://www.youtube.com/embed/I-H-WXAX_oM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/I-H-WXAX_oM" frameborder="0" allow="true" allowfullscreen></iframe>
 
 ### Programación extrema (XP)
 
 Es una metodología basada en un conjunto de reglas y buenas prácticas para el desarrollo de software en ambientes muy cambiantes con requerimientos imprecisos, por ende, está enfocada en la retroalimentación continua entre el equipo de desarrollo y el cliente. XP tiene como base la simplicidad y como objetivo la satisfacción del cliente.
 
-<figure class="video_container">
-  <iframe width="750" height="315" src="https://www.youtube.com/embed/h34e1ph0aPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/h34e1ph0aPk" frameborder="0" allow="true" allowfullscreen></iframe>
