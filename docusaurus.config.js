@@ -134,7 +134,7 @@ const siteConfig = {
         docs: {
           // Docs folder path relative to website dir.
           path: './docs',
-          editUrl: 'https://github.com/eoscostarica/guias.eoscostarica.io/tree/master/website',
+          editUrl: 'https://github.com/eoscostarica/guias.eoscostarica.io/tree/master/',
           // Equivalent to `docsUrl`.
           routeBasePath: 'docs',
           // Sidebars file relative to website dir.
