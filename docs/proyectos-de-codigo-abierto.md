@@ -89,6 +89,24 @@ También permite que cualquiera que posea el documento pueda validar el registro
 
 * * *
 
+## Evodex
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/evodex/master/public/evodex-logo.png"
+  style={{ width: "30%" }}
+/>
+
+Evodex es un protocolo creado por EOS Argentina que permite a cualquier persona crear y lanzar sus propios pares comerciales en un intercambio descentralizado y obtener tarifas comerciales al agregar liquidez al grupo de tokens.
+
+EOS Costa Rica está trabajando con EOS Argentina creando una interfaz web que brindará acceso a liquidez entre todos los intercambios que se conectan a Evodex.
+
+
+- **Website** : https://evodex.netlify.app/evodex/exchange
+
+- **GitHub** : https://github.com/eoscostarica/evodex
+
+* * *
+
 ## EOSIO hackathons
 
 ### LifeBank
