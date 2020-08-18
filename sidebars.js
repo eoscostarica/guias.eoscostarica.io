@@ -40,6 +40,7 @@ module.exports = {
         "Comunidad": [
             "comunidad/redes-sociales",
             "comunidad/canales-de-telegram",
+            "comunidad/publicaciones-blog",
             "comunidad/podcasts-eos",
             "comunidad/redes-eosio"
         ]
