@@ -27,7 +27,8 @@ module.exports = {
             "aprender-eosio/como-iniciar",
             "aprender-eosio/instalacion-de-nodos",
             "aprender-eosio/contrato-hola-mundo",
-            "aprender-eosio/cpp-moderno"
+            "aprender-eosio/cpp-moderno",
+            "aprender-eosio/tutorial-flujo-trabajo-git"
         ],
         "Herramientas": [
             "herramientas/glosario",
