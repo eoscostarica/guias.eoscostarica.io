@@ -14,7 +14,7 @@ Los productores de bloques proveen la infraestructura requerida para procesar la
 ### Explicando el rol de un productor de bloques de EOS.
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 
@@ -62,7 +62,7 @@ Las redes EOSIO manejan un grupo de nodos productores de bloques registrados que
 ## Delegated Proof of Stake (DPoS)
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 Un Algoritmo de consenso es un proceso en Ciencias de la Computación usado para lograr acuerdo en un sólo valor de datos entre procesos o sistemas distribuidos.
