@@ -11,5 +11,5 @@ Los productores de bloques proveen la infraestructura requerida para procesar la
 ### Explicando el rol de un productor de bloques de EOS.
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>

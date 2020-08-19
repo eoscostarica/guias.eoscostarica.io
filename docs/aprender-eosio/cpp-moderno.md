@@ -7,14 +7,14 @@ sidebar_label: C++ Moderno
 ## Bienvenido a C++
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/18c3MTX0PK0" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/18c3MTX0PK0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
 
 ## Hola mundo en c++
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/DqbkxfUX5Kg" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/DqbkxfUX5Kg" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
@@ -22,7 +22,7 @@ sidebar_label: C++ Moderno
 ## La esencia de C++
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/86xWVb4XIyE" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/86xWVb4XIyE" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
@@ -30,7 +30,7 @@ sidebar_label: C++ Moderno
 ## C++ en un video
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Rub-JsjMhWY" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/Rub-JsjMhWY" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
@@ -38,7 +38,7 @@ sidebar_label: C++ Moderno
 ## Aprendiendo y enseñando C++
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/fX2W3nNjJIo" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/fX2W3nNjJIo" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
@@ -46,7 +46,7 @@ sidebar_label: C++ Moderno
 ## Elementos esenciales del estilo de C++ moderno
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/xnqTKD8uD64" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/xnqTKD8uD64" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
@@ -54,7 +54,7 @@ sidebar_label: C++ Moderno
 ## Algoritmos STL en menos de una hora
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/2olsGf6JIkU" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/2olsGf6JIkU" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
@@ -62,7 +62,7 @@ sidebar_label: C++ Moderno
 ## Diez pautas fundamentales
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/XkDEzfpdcSg" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/XkDEzfpdcSg" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
@@ -70,7 +70,7 @@ sidebar_label: C++ Moderno
 ## C++ 17 práctico
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/nnY4e4faNp0" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/nnY4e4faNp0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
@@ -78,7 +78,7 @@ sidebar_label: C++ Moderno
 ## Es complicado
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/tTexD26jIN4" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/tTexD26jIN4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *

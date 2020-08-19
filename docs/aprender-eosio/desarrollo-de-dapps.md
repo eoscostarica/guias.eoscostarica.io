@@ -7,21 +7,21 @@ sidebar_label: Desarollo de Dapps
 ## EOSIO para el desarrollo de aplicaciones descentralizadas (dApps)
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/UL4pUnWqq6E" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/UL4pUnWqq6E" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 
 ## Construyendo Aplicaciones Descentralizadas
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/J0SYv-GC3R0" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/J0SYv-GC3R0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 
 Puedes ver más en este canal: https://www.youtube.com/user/apexmaxable/videos
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/4OmQ7Ow9baI" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/4OmQ7Ow9baI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ## Empezando
@@ -32,7 +32,7 @@ Para obetenr mas informacion sobre los contratos inteligentes puede viisitar [es
 ## Jungle Testnet
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/s3EM3Hw1S8I" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/s3EM3Hw1S8I" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 More at https://jungletestnet.io
@@ -69,9 +69,9 @@ https://developers.eos.io/
 ## IPFS Almacenamiento Descentralizado - IPFS
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 <figure class="video_container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
