@@ -12,4 +12,4 @@ Este sitio muestra las diferentes redes sociales con las que cuenta EOS Costa Ri
 
 ## [Facebook](https://www.facebook.com/costaricaeos)
 
-## Telegrams Channels
+## [Telegrams Channels](https://t.me/eoscr)
