@@ -4,11 +4,13 @@ module.exports = {
             "cultura-ingenieril",
             "pautas-para-codigo-abierto",
             "metodologias-agiles",
+            "herramientas-para-desarrolladores",
+            "proyectos-de-codigo-abierto",
             "plantilla-para-aplicacion-web",
             "plantilla-para-backend",
-            "proyectos-de-codigo-abierto",
-            "herramientas-para-desarrolladores",
-            "material-ui", "recursos-visuales"
+            "material-ui", 
+            "recursos-visuales",
+            "comunidad/redes-sociales"
         ],
         "Blockchain EOSIO": [
             "aprender-eosio/protocolo-eosio",
@@ -38,7 +40,6 @@ module.exports = {
             "herramientas/librerias-sdk"
         ],
         "Comunidad": [
-            "comunidad/redes-sociales",
             "comunidad/canales-de-telegram",
             "comunidad/publicaciones-blog",
             "comunidad/podcasts-eos",
