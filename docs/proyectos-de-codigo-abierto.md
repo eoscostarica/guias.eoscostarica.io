@@ -101,7 +101,7 @@ Evodex es un protocolo creado por EOS Argentina que permite a cualquier persona 
 EOS Costa Rica está trabajando con EOS Argentina creando una interfaz web que brindará acceso a liquidez entre todos los intercambios que se conectan a Evodex.
 
 
-- **Website** : https://evodex.netlify.app/evodex/exchange
+- **Website** : https://evodex.io
 
 - **GitHub** : https://github.com/eoscostarica/evodex
 
