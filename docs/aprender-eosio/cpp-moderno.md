@@ -127,6 +127,7 @@ https://github.com/eoscostarica/awesome-modern-cpp
 
 ## Características modernas de C++
 
+https://github.com/AnthonyCalandra/modern-cpp-features
 https://github.com/eoscostarica/modern-cpp-features
 
 * * *
