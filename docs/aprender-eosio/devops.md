@@ -20,6 +20,49 @@ Comunicación continua y frecuentes llamadas de uno en uno así como programaci�
 
 * * *
 
+## Infrastructura como código en EOS Costa Rica
+
+* Documentación de Openstack
+
+https://github.com/edenia/openstack-docs
+
+* Documentación de Kubernetes 
+
+https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md
+
+
+## Kubernetes en EOS Costa Rica
+
+A continuación puedes encontrar un conjunto de sencillos tutoriales para aprender kubernetes desde cero:
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/
+
+Par probar los anteriores tutoriales en un ambiente real, podrías utilizar nuestra installación the kubernetes sobre Openstack. 
+Si así lo prefieres, también puedes crear un cluster local en tu propia máquina: 
+
+https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/. 
+
+Pídele a alguno de nuestros administradores accesso al dashboard de nuestra instalación de Openstack y el projecto Sandbox. 
+Luego puedes seguir los siguientes pasos:
+
+- Antes que nada conectate al nodo maestro usando tu herramienta de SSH:
+
+```
+ssh -i key.pem user@master-sandbox
+```
+
+- Obtén información acerca del cluster:
+
+```
+kubectl cluster-info
+```
+
+- Mostrar los nodos disponibles en el cluster:
+
+```
+kubectl get nodes
+```
+
 # ¿Qué es un contenedor?
 
 <figure class="video_container">
