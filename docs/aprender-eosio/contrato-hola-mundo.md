@@ -10,7 +10,7 @@ Explicamos con ejemplos cómo crear una cuenta y un contrato “Hello World” p
 
 ### Obtenga sus llaves privadas
 
-Mas información [sobre llaves privadas](https://guias.eoscostarica.io/docs/llaves-privadas).
+Mas información [sobre llaves privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
 
 ### Adquirir recurso RAM
 
@@ -57,5 +57,5 @@ Finalmente, esta es una muestra de cómo se puede interactuar con una blockchain
 
 ### Video-Tutorial
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/nMivNMvS09Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/nMivNMvS09Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
