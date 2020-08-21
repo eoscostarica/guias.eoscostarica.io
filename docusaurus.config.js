@@ -148,7 +148,9 @@ const siteConfig = {
       },
     ],
   ],
-  
+  scripts: [
+    "https://platform.twitter.com/widgets.js"
+  ] 
 };
 
 module.exports = siteConfig;
