@@ -4,6 +4,7 @@ module.exports = {
             "cultura-ingenieril",
             "pautas-para-codigo-abierto",
             "metodologias-agiles",
+            "devops",
             "herramientas-para-desarrolladores",
             "proyectos-de-codigo-abierto",
             "plantilla-para-aplicacion-web",
@@ -20,7 +21,6 @@ module.exports = {
             "aprender-eosio/funciones-importantes",
             "aprender-eosio/llaves-privadas",
             "aprender-eosio/desarrollo-de-dapps",
-            "aprender-eosio/devops",
             "aprender-eosio/cadena-de-bloques-eos",
             "aprender-eosio/contratos-inteligentes",
             "aprender-eosio/contratos-ricardianos"
