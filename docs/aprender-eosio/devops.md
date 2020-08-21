@@ -35,9 +35,9 @@ https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md
 
 A continuación puedes encontrar un conjunto de sencillos tutoriales para aprender kubernetes desde cero:
 
-https://kubernetes.io/docs/tutorials/kubernetes-basics/
+https://kubernetes.io/es/docs/tutorials/kubernetes-basics/
 
-Par probar los anteriores tutoriales en un ambiente real, podrías utilizar nuestra installación the kubernetes sobre Openstack. 
+Par probar los anteriores tutoriales en un ambiente real, podrías utilizar nuestra instalación de kubernetes sobre Openstack. 
 Si así lo prefieres, también puedes crear un cluster local en tu propia máquina: 
 
 https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/. 
