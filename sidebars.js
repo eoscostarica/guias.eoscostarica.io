@@ -11,7 +11,7 @@ module.exports = {
             "plantilla-para-backend",
             "material-ui", 
             "recursos-visuales",
-            "comunidad/redes-sociales"
+            "redes-sociales"
         ],
         "Blockchain EOSIO": [
             "aprender-eosio/protocolo-eosio",
