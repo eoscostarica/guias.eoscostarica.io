@@ -1,9 +1,8 @@
 ---
 id: tutorial-flujo-trabajo-git
 title: Tutorial de flujo de trabajo de Git
-sidebar_label: Tutorial de flujo de trabajo de Git
+sidebar_label: Flujo de trabajo de Git
 ---
-
 
 ## Tutorial de flujo de trabajo de Git
 
