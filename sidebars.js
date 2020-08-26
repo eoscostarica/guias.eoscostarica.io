@@ -26,11 +26,11 @@ module.exports = {
             "aprender-eosio/contratos-ricardianos"
         ],
         "Tutoriales": [
-            "aprender-eosio/como-iniciar",
-            "aprender-eosio/instalacion-de-nodos",
-            "aprender-eosio/contrato-hola-mundo",
-            "aprender-eosio/cpp-moderno",
-            "aprender-eosio/tutorial-flujo-trabajo-git"
+            "tutoriales/como-iniciar",
+            "tutoriales/instalacion-de-nodos",
+            "tutoriales/contrato-hola-mundo",
+            "tutoriales/cpp-moderno",
+            "tutoriales/tutorial-flujo-trabajo-git"
         ],
         "Herramientas": [
             "herramientas/glosario",
