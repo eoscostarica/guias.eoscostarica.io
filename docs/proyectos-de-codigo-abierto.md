@@ -44,17 +44,22 @@ El propósito de LatamLink es ofrecer una red de prueba basada en EOSIO para res
 
 * * *
 
-## Monitor de Red de EOSIO
+## Tablero de Red de EOSIO
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
+  style={{ width: "30%" }}
+/>
 
 Un Monitor de Infraestructura EOSIO y un tablero de node.
 
 - **Sitio web** : https://mainnet.eosio.cr
 
-- **GitHub** : https://github.com/eoscostarica/eosio-monitor
+- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
 
-![EOSIO network monitor](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor.PNG)
+![EOSIO network dashboard](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor.PNG)
 
-![EOSIO network monitor](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor_2.PNG)
+![EOSIO network dashboard](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor_2.PNG)
 
 * * *
 
