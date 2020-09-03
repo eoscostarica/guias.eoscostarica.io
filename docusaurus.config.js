@@ -34,11 +34,6 @@ const siteConfig = {
         srcDark: 'https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png'
       },
       items: [
-        /*{
-          href: 'https://guias.eoscostarica.io/',
-          label: 'Inicio',
-          position: 'left',
-        },*/
         {to: 'docs/pautas-para-codigo-abierto', label: 'Pautas para Desarrolladores', position: 'left'},
         {to: 'docs/aprender-eosio/protocolo-eosio', label: 'Blockchain EOSIO', position: 'left'},
         {to: 'docs/tutoriales/como-iniciar', label: 'Tutoriales', position: 'left'},
