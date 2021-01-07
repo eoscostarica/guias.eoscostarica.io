@@ -30,7 +30,8 @@ module.exports = {
             "tutoriales/instalacion-de-nodos",
             "tutoriales/contrato-hola-mundo",
             "tutoriales/cpp-moderno",
-            "tutoriales/tutorial-flujo-trabajo-git"
+            "tutoriales/tutorial-flujo-trabajo-git",
+            "tutoriales/guia-markdown"
         ],
         "Herramientas": [
             "herramientas/glosario",
