@@ -44,7 +44,8 @@ module.exports = {
             "comunidad/canales-de-telegram",
             "comunidad/publicaciones-blog",
             "comunidad/podcasts-eos",
-            "comunidad/redes-eosio"
+            "comunidad/redes-eosio" ,
+            "comunidad/enlaces-utiles"
         ]
 
     }
