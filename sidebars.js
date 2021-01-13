@@ -38,7 +38,8 @@ module.exports = {
             "herramientas/linea-de-comando",
             "herramientas/opciones-configuracion-nodeos",
             "herramientas/explorador-de-bloques",
-            "herramientas/librerias-sdk"
+            "herramientas/librerias-sdk",
+            "herramientas/preguntas-frecuentes"
         ],
         "Comunidad": [
             "comunidad/canales-de-telegram",
