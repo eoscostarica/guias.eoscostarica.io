@@ -194,7 +194,7 @@ const CardsSection = () => {
         <CustomCard 
           title="Tutoriales"
           body= "Información de apoyo necesaria para realizar la instalación y la ejecución de procesos. "
-          href= "docs/aprender-eosio/como-iniciar"
+          href= "docs/tutoriales/como-iniciar"
           img="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/cards-icons/tutorials.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
