@@ -31,7 +31,8 @@ module.exports = {
             "tutoriales/contrato-hola-mundo",
             "tutoriales/cpp-moderno",
             "tutoriales/tutorial-flujo-trabajo-git",
-            "tutoriales/guia-markdown"
+            "tutoriales/guia-markdown",
+            "tutoriales/guia-github"
         ],
         "Herramientas": [
             "herramientas/glosario",
