@@ -5,6 +5,7 @@ sidebar_label: Enlaces Útiles
 ---
 
 Aquí hay una lista de enlaces útiles relacionados con la comunidad EOS.
+
  
 
 * [¿Cómo aprender a desarrollar en EOSIO?](https://theblockstalk.medium.com/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f)
@@ -14,8 +15,4 @@ Aquí hay una lista de enlaces útiles relacionados con la comunidad EOS.
 * [Blog de CMichael](https://cmichel.io/)
 * [Aprenda como funciona EOSIO y gane tokens EOS](https://www.coinbase.com/es-LA/earn/eos/)
 * [Entrenamiento y Certificado EOSIO](https://training.eos.io/)
-
-
-
-
 
