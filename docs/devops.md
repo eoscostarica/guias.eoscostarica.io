@@ -47,14 +47,6 @@ https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md
 
 ## Introducción a Docker y Kubernetes
 
-### ¿Qué es un **contenedor**?
-
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/EnJ7qX9fkcU" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-* * *
-
 ### Contenedores 101
 
 <figure class="video_container">
