@@ -14,6 +14,8 @@ Aquí hay una lista de enlaces útiles relacionados con la comunidad EOS.
 * [Blog de CMichael](https://cmichel.io/)
 * [Aprenda como funciona EOSIO y gane tokens EOS](https://www.coinbase.com/es-LA/earn/eos/)
 * [Entrenamiento y Certificado EOSIO](https://training.eos.io/)
+* [Documentación Kubernetes](https://kubernetes.io/es/docs/tutorials/kubernetes-basics/)
+* [GitHub de Telos](https://github.com/telosnetwork/docs)
 
 
 
