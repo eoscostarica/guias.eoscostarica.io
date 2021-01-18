@@ -24,7 +24,7 @@ Para mayor información puede dar click en el siguiente link [¿Qué es Markdown
 | [Linea Horizontal](#horizontal-rule) | --- |
 | [Enlaces](https://www.markdownguide.org/basic-syntax/#links) | `[título](https://www.example.com)` |  
 | [Imagen](https://www.markdownguide.org/basic-syntax/#images-1) | `![texto](image.jpg)` |
-|[Salto de línea](#line-break) | texto + doble espacio |
+|[Salto de Línea](#line-break) | texto + doble espacio |
 | [Comentarios](#comments) | `<!---Comentario--->` |
 
 
