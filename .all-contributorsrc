@@ -61,6 +61,18 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "steph222",
+      "name": "Steph",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/31549144?v=4",
+      "profile": "https://www.linkedin.com/in/stephaniedelgadobrenes/",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7
