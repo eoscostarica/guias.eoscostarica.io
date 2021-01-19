@@ -88,9 +88,9 @@ title: Código fuente de la plantilla README
 
     #### **Prerrequisitos**
 
-    ```
+    `
     yarn
-    ```
+    `
 
     #### **Instalación**
 
