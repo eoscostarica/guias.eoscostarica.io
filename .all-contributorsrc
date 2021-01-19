@@ -86,6 +86,19 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "JeanVegaD",
+      "name": "Jean Vega",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19317138?v=4",
+      "profile": "https://github.com/JeanVegaD",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7
