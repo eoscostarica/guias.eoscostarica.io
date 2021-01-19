@@ -37,6 +37,18 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "Edgar097",
+      "name": "Edgar Parra",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/76976401?v=4",
+      "profile": "https://github.com/Edgar097",
+      "contributions": [
+        "code",
+        "content",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7
