@@ -13,24 +13,23 @@ Para mayor información puede dar click en el siguiente link [¿Qué es Markdown
 
 ## Sintaxis Básica
 
-| Sintaxis     | Detalle |
-| :----: | :----: | 
-| # H1    | Título   | 
-| ## H2    | Título  | 
-| ### H3  | Título | 
-| **** texto **** | Tipografía Negrita|
-| * * texto * * |Tipografía itálica|
-| texto + doble espacio| Salto de línea|
+| Componente | Sintaxis|
+| ----------- | ----------- |
+| [Encabezado](https://www.markdownguide.org/basic-syntax/#headings) |  # H1   <br /> ## H2 <br />  ### H3  |
+| [Tipografía Negrita](https://www.markdownguide.org/basic-syntax/#bold) |  `**Texto**` or `__texto__` |
+| [Tipografía Itálica](https://www.markdownguide.org/basic-syntax/#italic) |   `*texto*` or  `_texto_`|
+| [Citas en Bloque](https://www.markdownguide.org/basic-syntax/#blockquotes-1)    | > Citas en bloque  |
+| [Lista Numérica](#ordered-list) | 1. Primer Item <br /> 2. Segundo Item <br /> 3. Tercer Item  |
+| [Lista no Ordenada](#unordered-list) | - Primer Item <br /> - Segundo Item <br /> - Tercer Item |
+| [Linea Horizontal](#horizontal-rule) | --- |
+| [Enlaces](https://www.markdownguide.org/basic-syntax/#links) | `[título](https://www.example.com)` |  
+| [Imagen](https://www.markdownguide.org/basic-syntax/#images-1) | `![texto](image.jpg)` |
+|[Salto de Línea](#line-break) | texto + doble espacio |
+| [Comentarios](#comments) | `<!---Comentario--->` |
 
 
 
-Para optener más información puede consultar en los siguientes links. 
-
-- [Sintaxis Básico](https://www.markdownguide.org/cheat-sheet/)
-    - [Títulos](https://www.markdownguide.org/basic-syntax/#headings)
-    - [Tipografía Negrita](https://www.markdownguide.org/basic-syntax/#bold)
-    - [Tipografía Itálica](https://www.markdownguide.org/basic-syntax/#italic)
-- [Formas de texto](https://riptutorial.com/es/markdown/topic/549/formato-de-texto)
+> Puede obtener hasta 6 tamaños de títulos diferentes según el número de "#"
 
 * * *
 
@@ -39,95 +38,119 @@ Para optener más información puede consultar en los siguientes links.
 
 
 ### **Lista no ordenada**  
-Sintaxis
-```
+
+``` markdown title="Sintaxis"
     - Primer Item
         - Sub Item
     - Segundo Item
     - Tercer Item  
 ```
-Salida
+**Ejemplo:**
 - Primer Item
     - Sub Item
 - Segundo Item
 - Tercer Item
 
+>[Más información](https://www.markdownguide.org/basic-syntax/#unordered-lists)
+
 ### **Lista numérica**
-Sintaxis
-```
+
+``` markdown title="Sintaxis"
     1. Primer Item
         1. Sub Item
     2. Segundo Item
     3. Tercer Item
 ```
 
-Salida
+**Ejemplo:**
 1. Primer Item
     1. Sub Item
 2. Segundo Item
 3. Tercer Item
 
+>[Más información](https://www.markdownguide.org/basic-syntax/#ordered-lists)
+
 ### **Tablas**
 
-Sintaxis  
-```
+ 
+``` markdown title="Sintaxis"
     |Título Izquierda  | Título  | Título Derecha |  
     | :----  |  :----:  |  ----:  |  
     | Izquierda| Centro | Derecha |  
     | Izquierda | Centro | Derecha |  
 ```
-Salida  
+**Ejemplo:**  
 
 |Título Izquierda  | Título  | Título Derecha  |
 | :----  |  :----:  |  ----:  |
 | Izquierda | Centro | Derecha |
 | Izquierda | Centro | Derecha |
 
+>[Más información](https://www.markdownguide.org/extended-syntax/#tables)
+
 ### **Check List** 
-Sintaxis
-```
-    - [x] Prime opción
+
+``` markdown title="Sintaxis"
+    - [x] Primer opción
     - [ ] Segunda opción
     - [ ] Tercera opción
 ```
-
-Salida
-- [x] Prime opción
+**Ejemplo:**
+- [x] Primer opción
 - [ ] Segunda opción
 - [ ] Tercera opción
 
 
-Para optener más información puede consultar en los siguientes links. 
+> [Más información](https://www.markdownguide.org/extended-syntax/#task-lists)
 
-- [Listas](https://riptutorial.com/es/markdown/topic/554/creando-listas)  
-    - [Lista no ordenada](https://www.markdownguide.org/basic-syntax/#unordered-lists)
-    - [Lista Numérica](https://www.markdownguide.org/basic-syntax/#ordered-lists)
-- [Tablas](https://programminghistorian.org/es/lecciones/introduccion-a-markdown)
-- [Check List](https://www.markdownguide.org/extended-syntax/#task-lists)
+
+### **Salto de Línea**
+
+```markdown title="Sintaxis"
+    Texto  <!---Espacio Espacio--->
+    Otro texto
+```
+
+**Ejemplo:**
+
+Texto  
+Otro texto
+
+### **Comentarios**
+
+``` markdown title="Sintaxis"
+    [comentario]: <> (Este es un comentario, no se incluirá)
+
+    [//]: <> (Esto también es un comentario)
+
+    [//]: # (Este puede ser el comentario más independiente de la plataforma) `
+```
+
 
 * * *
 
 ## Otras Sintaxis 
 
 ### **Enlaces**
-Sintaxis
-```
+
+``` markdown title="Sintaxis"
 [Eos Costa Rica](https://es.eoscostarica.io)
 ```
-Salida  
+**Ejemplo:**  
 [Eos Costa Rica](https://es.eoscostarica.io)
 ### **Imágenes**
-Sintaxis
+
+``` markdown title="Sintaxis"
+![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 ```
-![](https://media-exp1.licdn.com/dms/image/C4E0BAQFBDxX8sb8eRQ/company-logo_200_200/0/1562012485976?e=2159024400&v=beta&t=gifOwJQ3a5xmVcAzmORT7thKl9uzaKH9bv74yp2vHns)
-```
-Salida  
-![](https://media-exp1.licdn.com/dms/image/C4E0BAQFBDxX8sb8eRQ/company-logo_200_200/0/1562012485976?e=2159024400&v=beta&t=gifOwJQ3a5xmVcAzmORT7thKl9uzaKH9bv74yp2vHns)
+**Ejemplo:**  
+
+![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 
 
 ### **Citas en bloque**
-Sintaxis
-```
+
+``` markdown title="Sintaxis"
 > Texto principal
 >> Texto
 >>
@@ -138,7 +161,7 @@ Sintaxis
 
 > Texto final
 ```
-Salida
+**Ejemplo:**
 
 > Texto principal
 >> Texto
@@ -152,13 +175,13 @@ Salida
 
 
 ### **Líneas horizontales**
-Sintaxis
-```
+
+``` markdown title="Sintaxis"
 ---
 ***
 - - - -
 ```
-Salida
+**Ejemplo:**
 
 ---
 
@@ -166,7 +189,8 @@ Salida
 
 - - - -
 
-Para optener más información puede consultar en los siguientes links. 
+> [Más información](https://www.markdownguide.org/basic-syntax/#horizontal-rules)
 
-- [Imagenes, enlaces, otros](https://support.squarespace.com/hc/es/articles/206543587-Apuntes-sobre-Markdown)
-- [Más Sintaxis](https://joedicastro.com/pages/markdown.html)
+***
+Para más información acerca de la sintaxis de Markdown, visitar
+[esta página](https://www.markdownguide.org/cheat-sheet/)
