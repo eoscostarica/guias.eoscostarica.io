@@ -22,7 +22,7 @@ Compose es una herramienta para definir y correr aplicaciones de docker con múl
 ### Requerimientos previos 
 1. [git](https://git-scm.com/)
 1. [nodejs](https://nodejs.org)
-1. [hasura](https://hasura.io/docs/2.0/graphql/manual/hasura-cli/install-hasura-cli.html#install-hasura-cli)
+1. [hasura](https://hasura.io/docs/1.0/graphql/core/hasura-cli/install-hasura-cli.html#install-hasura-cli)
 
 ### Paso a paso
 1. Clona el repo usando `git clone --depth=1 https://github.com/eoscostarica/backend-boilerplate.git`
