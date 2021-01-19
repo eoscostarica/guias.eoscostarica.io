@@ -11,7 +11,8 @@ module.exports = {
             "plantilla-para-backend",
             "material-ui", 
             "recursos-visuales",
-            "redes-sociales"
+            "redes-sociales",
+            "plantilla-readme"
         ],
         "Blockchain EOSIO": [
             "aprender-eosio/protocolo-eosio",
@@ -39,13 +40,15 @@ module.exports = {
             "herramientas/linea-de-comando",
             "herramientas/opciones-configuracion-nodeos",
             "herramientas/explorador-de-bloques",
-            "herramientas/librerias-sdk"
+            "herramientas/librerias-sdk",
+            "herramientas/preguntas-frecuentes"
         ],
         "Comunidad": [
             "comunidad/canales-de-telegram",
             "comunidad/publicaciones-blog",
             "comunidad/podcasts-eos",
-            "comunidad/redes-eosio"
+            "comunidad/redes-eosio" ,
+            "comunidad/enlaces-utiles"
         ]
 
     }
