@@ -28,7 +28,7 @@ La finalidad de este proceso es documentar de manera homogénea el trabajo de lo
 Por favor seguir estas indicaciones para alinear nuestros perfiles de LinkedIn. Preparamos este texto base para ayudarles a actualizar la descripción. 
 
 
-** *Siga los siguientes pasos:* **
+***Siga los siguientes pasos:***
 
 
 1. Incluya su **puesto**, el nombre de la **compañía**, la **ubicación**, y su **fecha de ingreso**. Asegúrese de marcar la casilla para  **actualizar su headline**.
@@ -47,7 +47,7 @@ Por favor seguir estas indicaciones para alinear nuestros perfiles de LinkedIn. 
 
 
 
-** *Estructura de la descripción:* **
+***Estructura de la descripción:***
 
 I am a [**specialization developer**] with industry experience building decentralized apps and blockchain-based enterprise solutions on the EOSIO platform. I specialize in [**main languages and frameworks**]. Also, I have experience working with [**secondary languages and frameworks**].  
 
@@ -58,7 +58,7 @@ More on:
 - Web: https://eoscostarica.io/
 - Telegram: https://t.me/eoscr
 
-** *Ejemplos de descripciones:* **
+***Ejemplos de descripciones:***
 
 - **Ejemplo 1:**  
 >I am a **Front End developer** with industry experience building decentralized applications and blockchain-based enterprise solutions on the EOSIO platform. I specialize in **JavaScript and C++**. Also, I have experience working with **Angular, Vue, and React**.  
@@ -98,7 +98,7 @@ More on:
 
 
 
-** *Ejemplos de descripciones:* **
+***Ejemplos de descripciones:***
 
 - **Ejemplo 1:**  
 >Software Intern  @eoscostarica - a blockchain development company.
