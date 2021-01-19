@@ -4,7 +4,7 @@ title: Plantilla readme
 sidebar_label: Plantilla readme
 ---
 
-README es un archivo que trae una pequeña descripción sobre todo el proyecto, que contiene una introducción y explicación de este. El tipo de información que se puede describir aquí es información solicitada para comprender el proyecto y su estructura o propósito. A continuación, brindamos una plantilla para crear un archivo README para un nuevo proyecto.
+README es un archivo que trae una pequeña descripción sobre todo el proyecto, que contiene una introducción y explicación de este. El tipo de información que se puede describir aquí es información solicitada para comprender el proyecto y su estructura o propósito. A continuación, brindamos una plantilla para crear un archivo README para un nuevo proyecto. Para copiar el código fuente Markdown de este README, [siga este enlace](plantilla-readme-codigo-fuente).
 
 ***
 
@@ -12,7 +12,7 @@ README es un archivo que trae una pequeña descripción sobre todo el proyecto, 
 
 Es simple y puede parecer muy fácil y sí, lo es, pero el impacto que puede producir un GIF o una imagen es demasiado grande. El espectador adquiere la información necesaria para interesarse por el proyecto. Por ejemplo:
 
-![Life bank](https://raw.githubusercontent.com/leisterfrancisco/guias.eoscostarica.io/feat/plantilla-readme/static/img/life-bank.png)
+![Life bank](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/life-bank.png)
 
 ## Sobre el proyecto
 
