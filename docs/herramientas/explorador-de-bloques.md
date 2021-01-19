@@ -36,7 +36,7 @@ https://eospark.com/
 
 ## Vote Tracker
 
-https://votetracker.io/
+https://park.io/
 
 ## EOSDAC Explorer
 
@@ -49,16 +49,3 @@ https://www.cypherblock.io/
 ## EOS Radar
 
 https://www.eos-radar.com/
-
-## Glass
-
-https://glass.cypherglass.com/map/main/top50
-
-## Telos Network Monitor
-
-https://monitor.telosfoundation.io/
-
-## Worbli Network Monitor
-
-https://worbli.io/network/
-
