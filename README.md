@@ -1,6 +1,6 @@
 # guias.eoscostarica.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Sitio de documentación para desarrolladores de EOS Costa Rica.
@@ -108,6 +108,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/stephaniedelgadobrenes/"><img src="https://avatars1.githubusercontent.com/u/31549144?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steph</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=steph222" title="Code">💻</a> <a href="#content-steph222" title="Content">🖋</a> <a href="#ideas-steph222" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3Asteph222" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/AngeloCG97"><img src="https://avatars3.githubusercontent.com/u/51149817?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AngeloCG97</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=AngeloCG97" title="Code">💻</a> <a href="#content-AngeloCG97" title="Content">🖋</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=AngeloCG97" title="Documentation">📖</a> <a href="#ideas-AngeloCG97" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3AAngeloCG97" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/JeanVegaD"><img src="https://avatars0.githubusercontent.com/u/19317138?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jean Vega</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=JeanVegaD" title="Code">💻</a> <a href="#content-JeanVegaD" title="Content">🖋</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=JeanVegaD" title="Documentation">📖</a> <a href="#ideas-JeanVegaD" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3AJeanVegaD" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ldrojas"><img src="https://avatars1.githubusercontent.com/u/29232417?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luis Diego Rojas</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=ldrojas" title="Code">💻</a> <a href="#content-ldrojas" title="Content">🖋</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=ldrojas" title="Documentation">📖</a> <a href="#ideas-ldrojas" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3Aldrojas" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
