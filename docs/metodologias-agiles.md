@@ -35,7 +35,7 @@ Es una metodología basada en un conjunto de reglas y buenas prácticas para el 
 
 ### **Historias de Usuarios**
 
-Una historia de usuario es un método ligero para capturar rápidamente el **quién**, **qué** y **por qué** de los requisitos de un producto. En términos simples, las historias de usuario son ideas expresadas de requisitos que expresan lo que necesitan los usuarios. Las historias de los usuarios son breves y cada elemento suele contener menos de 10 o 15 palabras cada uno.  
+Una historia de usuario es un método ligero para capturar rápidamente el **quién**, **qué** y **por qué** de los requisitos de un producto. En términos simples, las historias de usuario son ideas de requisitos que expresan lo que necesitan los usuarios. Las historias de los usuarios son breves y cada elemento suele contener menos de 10 o 15 palabras cada uno.  
 El propósito de una historia de usuario es articular cómo una pieza de trabajo devolverá un valor particular al cliente. Tenga en cuenta que los **clientes** no tienen que ser usuarios finales externos en el sentido tradicional, también pueden ser clientes internos o colegas dentro de su organización que dependen de su equipo.
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/Zi9E1aUO_1U" frameborder="0" allow="true" allowfullscreen></iframe>
