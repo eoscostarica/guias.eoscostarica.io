@@ -65,6 +65,16 @@ const lightTheme = makeStyles({
 });
 
 const DarkTheme = makeStyles({
+  heroButton:{
+    width: 131,
+    height: 50,
+    fontFamily: "PT Sans",
+    fontSize: 14.8,
+    border: 'none',
+    lineHeight: 1.8,
+    letterSpacing:1.25,
+    margin:"auto",
+  },
   card:{
     backgroundColor: '#242526'
   },
