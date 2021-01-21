@@ -47,7 +47,7 @@ function Footer() {
   const {
     copyright,
     links = [],
-    logo = {},
+    logo = {}
   } = footer || {};
   const [logoUrl, setLogoUrl] = useState(useBaseUrl(logo.src));
 
