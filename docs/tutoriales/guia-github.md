@@ -29,7 +29,7 @@ Para EOS Costa Rica, es de suma importancia que nuestros colaboradores se famili
 
 ### [GitHub para móviles](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/github-for-mobile)
 
-GitHub para [dispositivos móviles](https://play.google.com/store/apps/details?id=com.github.android&hl=es_419&gl=US) está disponible para Android e iOS, te ofrece una forma de realizar un trabajo de alto impacto en GitHub de forma rápida y desde cualquier lugar. Además se vuelve una manera segura y estable de acceder a tus datos de GitHub a través de una aplicación cliente confiable de primera parte.
+GitHub para [dispositivos móviles](https://play.google.com/store/apps/details?id=com.github.android&hl=es_419&gl=US) está disponible para Android e iOS, te ofrece una forma de realizar un trabajo de alto impacto en GitHub de forma rápida y desde cualquier lugar. Además se vuelve una manera segura y estable de acceder a los datos de GitHub a través de una aplicación cliente confiable de primera parte.
 
 <img alt="Imagen GitHub Móvil" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Movil.png' )} />
 
