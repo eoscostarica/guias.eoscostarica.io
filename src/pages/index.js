@@ -254,7 +254,7 @@ const CustomArticle= (props) => {
 const MediumSection = () => {
   return (
     <div className="container section-container">
-       <h1 className="section-tittle">Artículos de Medium</h1>
+       <h1 className="section-tittle">Artículos de blog</h1>
        <Grid
         container
         direction="row"
