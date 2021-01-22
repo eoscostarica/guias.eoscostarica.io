@@ -24,7 +24,8 @@ module.exports = {
             "aprender-eosio/desarrollo-de-dapps",
             "aprender-eosio/cadena-de-bloques-eos",
             "aprender-eosio/contratos-inteligentes",
-            "aprender-eosio/contratos-ricardianos"
+            "aprender-eosio/contratos-ricardianos",
+            "aprender-eosio/nucleo-eosio"
         ],
         "Tutoriales": [
             "tutoriales/como-iniciar",

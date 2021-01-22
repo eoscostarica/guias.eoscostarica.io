@@ -4,18 +4,6 @@ title: Línea de Comando
 sidebar_label: Línea de Comando
 ---
 
-## CLEOS
-
-`cleos` es una herramienta de línea de comandos que interactúa con la API REST expuesta por nodeos. Los desarrolladores también pueden usar cleos para implementar y probar contratos inteligentes EOSIO.
-
-## Instalación
-
-`cleos` se distribuye como parte de [EOSIO](https://github.com/EOSIO/eos/blob/master/README.md). Para instalar `cleos` siga las instrucciones descritas en la [sección de Instalación de software EOSIO](https://developers.eos.io/manuals/eos/latest/install/index).
-
-## Como utilizar Cleos
-
-Para usar `cleos`, necesita el dominio o dirección IP (y número de puerto) de una instancia de `nodeos` en ejecución. La instancia de `nodeos` debe configurarse para cargar `eosio :: chain_api_plugin` cuando se inicia. Esto permite que `nodeos` responda a las solicitudes de RPC que provienen de `cleos`.
-
 ### Comando Cleos 
 
 Ver referencia completa de comandos en el siguiente enlace a [Documentación Cleos](https://developers.eos.io/manuals/eos/latest/cleos/index)
