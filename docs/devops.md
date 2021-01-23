@@ -15,11 +15,11 @@ Se centra en unificar el desarrollo y las operaciones de TI a través de los pri
 
 ## Definiciones Claves
 
-- Integración continua (CI): aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera controlada y ágil. (Verificando todo el código en un repositorio centralizado diariamente)
-- Despliegue continuo (CD): Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
-- Entrega continua (CD): Automatización que garantiza la validación de la implementación; sin embargo, aún se requiere un paso manual para implementar en producción.
-- Implementación: La implementación (o transporte) de código a un entorno de nivel superior, hasta e incluida la producción.
-- Lanzamiento: el alcance definido y el objetivo comercial para un conjunto de características que se entregarán en un cierto plazo.
+- **Integración continua (CI)**: aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera controlada y ágil. (Verificando todo el código en un repositorio centralizado diariamente)
+- **Despliegue continuo (CD)**: Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
+- **Entrega continua (CD)**: Automatización que garantiza la validación de la implementación; sin embargo, aún se requiere un paso manual para implementar en producción.
+- **Implementación**: La implementación (o transporte) de código a un entorno de nivel superior, hasta e incluida la producción.
+- **Lanzamiento**: el alcance definido y el objetivo comercial para un conjunto de características que se entregarán en un cierto plazo.
 
 ## ¿Por qué DevOps?
 
@@ -42,9 +42,9 @@ En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 or
 
 Los principios de DevOps son aplicados y asistidos por las siguientes 3 áreas clave que trabajan juntas:
 
-- Personas: DevOps se basa en personas sólidas y una cultura sólida de experimentación, aprendizaje, colaboración y objetivos compartidos entre las operaciones de desarrollo, control de calidad y TI.
-- Procesos: DevOps se basa en Lean Agile y aplica conceptos de fabricación ajustada a las corrientes de valor de TI.
-- Herramientas: DevOps se basa en herramientas y tecnologías mejoradas, incluidas herramientas de automatización, telemetría y colaboración.
+- **Personas** - DevOps se basa en personas sólidas y una cultura sólida de experimentación, aprendizaje, colaboración y objetivos compartidos entre las operaciones de desarrollo, control de calidad y TI.
+- **Procesos** - DevOps se basa en Lean Agile y aplica conceptos de fabricación ajustada a las corrientes de valor de TI.
+- **Herramientas** - DevOps se basa en herramientas y tecnologías mejoradas, incluidas herramientas de automatización, telemetría y colaboración.
 
 ## ¿Cuál es el objetivo de DevOps?
 
@@ -166,9 +166,9 @@ kubectl get nodes
 
 # Referencias
 
-“Los principios detrás de DevOps son los mismos que transformaron la fabricación. En lugar de optimizar la forma en que las materias primas se transforman en productos terminados, DevOps muestra cómo optimizamos el flujo de valor de TI ... ”- Proyecto Phoenix
+*“Los principios detrás de DevOps son los mismos que transformaron la fabricación. En lugar de optimizar la forma en que las materias primas se transforman en productos terminados, DevOps muestra cómo optimizamos el flujo de valor de TI ... ”* - Proyecto Phoenix
 
-“Imagínese vivir en un mundo DevOps, donde los propietarios de productos, Desarrollo, Control de calidad, Operaciones de TI e InfoSec trabajan juntos sin descanso para ayudarse mutuamente y para que la organización en general gane. Permiten un flujo rápido del trabajo planificado hacia la producción, al tiempo que preservan la estabilidad, confiabilidad, disponibilidad y seguridad de clase mundial ". - Proyecto Phoenix
+*“Imagínese vivir en un mundo DevOps, donde los propietarios de productos, Desarrollo, Control de calidad, Operaciones de TI e InfoSec trabajan juntos sin descanso para ayudarse mutuamente y para que la organización en general gane. Permiten un flujo rápido del trabajo planificado hacia la producción, al tiempo que preservan la estabilidad, confiabilidad, disponibilidad y seguridad de clase mundial ".* - Proyecto Phoenix
 
 * [Tabla periódica de herramientas de DevOps](https://www.notion.so/Periodic-Table-of-DevOps-Tools-4e9b29562a944132b1235cfa7e400d68)
 * [Automatización](https://www.notion.so/Automation-e4dee021a4494d9cbdebb3ebc6205f4f)
