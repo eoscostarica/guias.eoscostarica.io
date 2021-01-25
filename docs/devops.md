@@ -15,9 +15,9 @@ Se centra en unificar el desarrollo y las operaciones de TI a través de los pri
 
 ## Definiciones Claves
 
-- **Integración continua (CI)**: aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera controlada y ágil. (Verificando todo el código en un repositorio centralizado diariamente)
-- **Despliegue continuo (CD)**: Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
-- **Entrega continua (CD)**: Automatización que garantiza la validación de la implementación; sin embargo, aún se requiere un paso manual para implementar en producción.
+- **Integración Continua (CI)**: aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera controlada y ágil. (Verificando todo el código en un repositorio centralizado diariamente)
+- **Despliegue Continuo (CD)**: Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
+- **Entrega Continua (CD)**: Automatización que garantiza la validación de la implementación; sin embargo, aún se requiere un paso manual para implementar en producción.
 - **Implementación**: La implementación (o transporte) de código a un entorno de nivel superior, hasta e incluida la producción.
 - **Lanzamiento**: el alcance definido y el objetivo comercial para un conjunto de características que se entregarán en un cierto plazo.
 
@@ -30,7 +30,7 @@ En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 or
 - 2x la tasa de éxito del cambio
 - MTTR 12 veces más rápido (tiempo medio de reparación)
 
-### ¿Algunos ejemplos de por qué DevOps?
+### Consequencias
 
 "*La ventaja competitiva que crea esta capacidad es enorme, lo que permite una comercialización más rápida de las funciones, mayor satisfacción del cliente, participación de mercado, productividad de los empleados y felicidad".*
 
