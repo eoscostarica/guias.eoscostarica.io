@@ -1,7 +1,7 @@
 ---
 id: uso-de-recursos
 title: Uso de recursos
-sidebar_label: Uso de recursos
+sidebar_label: Uso de Recursos
 ---
 
 ## Tipos de Recursos
