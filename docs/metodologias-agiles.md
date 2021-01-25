@@ -3,10 +3,24 @@ id: metodologias-agiles
 title: Metodologías Agiles
 sidebar_label: Metodologías Agiles
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## ¿Qué son las metodologías ágiles?
 
 Estas son metodologías de trabajo que permiten la adaptación a las circunstancias de los proyectos y reducen los procesos de documentación, generalmente se utilizan en proyectos que no tienen un alcance definido con certeza, lo que provoca sean muy propensos al cambio, debido a que en estas metodologías se hacen entregas en poco tiempo de productos funcionales (2 a 4 semanas) permite que el proceso de cambios y corrección de errores sea rápido y no tenga un costo muy alto para el proyecto en general. 
+
+
+## Agilidad moderna
+
+Agilidad moderna es mucho más amplio que el manifiesto ágil para el desarrollo de software. Es un concepto que tiene en cuenta muchas áreas diferentes, no solo el desarrollo de software, incluso se puede aplicar en organizaciones que no se dedican a ello.
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/ARon5Rj88Cw" frameborder="0" allow="true" allowfullscreen></iframe>  
+
+Para aclarar cómo llegó a ser agilidad moderna, aquí hay un fragmento del sitio web: Durante la última década, las empresas innovadoras, los líderes de pensamiento de la industria del software y los pioneros esbeltos/ágiles han descubierto formas más simples, resistentes y optimizadas de ser ágiles. Estos enfoques modernos comparten un enfoque en producir resultados excepcionales y desarrollar una cultura sobresaliente. Hoy en día, tiene mucho más sentido pasar por alto la agilidad anticuada en favor de enfoques modernos.
+
+Los métodos ágiles modernos se definen mediante cuatro principios rectores:
+
+<img alt="Imagen Modern Agile" src={ useBaseUrl( 'img/ModernAgile.png' )} />
 
 ## ¿Tipos de metodologías ágiles?
 
@@ -111,6 +125,24 @@ La preparación del backlog, también conocida como refinamiento del backlog o t
 corregir estimaciones a la luz de la información recién descubierta.
 5. Divide historias de usuarios que son de alta prioridad.
 6. Vuelva al trabajo.
+
+
+### **Sesión de Stand-up **
+
+Una reunión diaria de pie es una oportunidad para que el equipo discuta el progreso de un proyecto a un alto nivel. Estas reuniones duran aproximadamente 15 minutos y permiten a cada colaborador informar sobre sus logros desde la última reunión de Stand-up.
+
+Fiel a su nombre, todos los participantes en stand-ups suelen permanecer de pie para que las reuniones sean breves y centradas en el tema. Sin embargo, también es posible realizar stand-ups virtuales.
+
+En la gestión de proyectos ágil, las reuniones diarias de pie son esenciales, estas reuniones permiten que los miembros del proyecto compartan información crítica, discutan abiertamente los problemas y se responsabilicen a sí mismos.
+
+<iframe width = "100%" height = "350" src = "https://www.youtube.com/embed/16IoziutCZs" frameborder = "0" allow = "true" allowfullscreen> </iframe>
+
+### Beneficios de los stand-ups diarios
+
+- Las reuniones diarias permiten a los miembros del equipo trabajar en colaboración para alcanzar los objetivos del proyecto.
+- Las reuniones diarias de pie son importantes para mantener a los equipos enfocados en la tarea mientras brindan actualizaciones rápidas a nivel de proyecto para el resto del equipo.
+- La metodología Agile tiene que ver con la versatilidad y la flexibilidad, es importante hacer ajustes y mejoras en sus reuniones para satisfacer las necesidades de su equipo.
+- El stand-up diario debe informar y destacar los problemas para que pueda mantener el proyecto en marcha y adelantarse a los problemas antes de que surjan.
 
 ### **Sesión de Retrospectiva** 
 
