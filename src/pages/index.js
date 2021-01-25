@@ -65,6 +65,16 @@ const lightTheme = makeStyles({
 });
 
 const DarkTheme = makeStyles({
+  heroButton:{
+    width: 131,
+    height: 50,
+    fontFamily: "PT Sans",
+    fontSize: 14.8,
+    border: 'none',
+    lineHeight: 1.8,
+    letterSpacing:1.25,
+    margin:"auto",
+  },
   card:{
     backgroundColor: '#242526'
   },
@@ -254,7 +264,7 @@ const CustomArticle= (props) => {
 const MediumSection = () => {
   return (
     <div className="container section-container">
-       <h1 className="section-tittle">Artículos de Medium</h1>
+       <h1 className="section-tittle">Artículos de blog</h1>
        <Grid
         container
         direction="row"
