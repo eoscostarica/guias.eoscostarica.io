@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Estas son metodologías de trabajo que permiten la adaptación a las circunstancias de los proyectos y reducen los procesos de documentación, generalmente se utilizan en proyectos que no tienen un alcance definido con certeza, lo que provoca sean muy propensos al cambio, debido a que en estas metodologías se hacen entregas en poco tiempo de productos funcionales (2 a 4 semanas) permite que el proceso de cambios y corrección de errores sea rápido y no tenga un costo muy alto para el proyecto en general. 
 
 
-## Agilidad moderna
+### Agilidad moderna
 
 Agilidad moderna es mucho más amplio que el manifiesto ágil para el desarrollo de software. Es un concepto que tiene en cuenta muchas áreas diferentes, no solo el desarrollo de software, incluso se puede aplicar en organizaciones que no se dedican a ello.
 
@@ -47,14 +47,14 @@ Es una metodología basada en un conjunto de reglas y buenas prácticas para el 
 
 ## Gestión de proyectos ágiles
 
-### **Historias de Usuarios**
+### Historias de Usuarios
 
 Una historia de usuario es un método ligero para capturar rápidamente el **quién**, **qué** y **por qué** de los requisitos de un producto. En términos simples, las historias de usuario son ideas de requisitos que expresan lo que necesitan los usuarios. Las historias de los usuarios son breves y cada elemento suele contener menos de 10 o 15 palabras cada uno.  
 El propósito de una historia de usuario es articular cómo una pieza de trabajo devolverá un valor particular al cliente. Tenga en cuenta que los **clientes** no tienen que ser usuarios finales externos en el sentido tradicional, también pueden ser clientes internos o colegas dentro de su organización que dependen de su equipo.
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/Zi9E1aUO_1U" frameborder="0" allow="true" allowfullscreen></iframe>
 
-### Cómo escribir un historias de usuario
+#### ¿Cómo escribir un historias de usuario?
 
 - **Definición de Terminado:** La historia generalmente se “termina” cuando el usuario puede completar la tarea descrita.
 - **Resuma las subtareas o tareas:** Decida qué pasos específicos deben completarse y quién es responsable de cada uno de ellos.
@@ -64,7 +64,7 @@ El propósito de una historia de usuario es articular cómo una pieza de trabajo
 - **Tiempo:** Dado que las historias deben completarse en un sprint, las historias que pueden tardar semanas o meses en completarse deben dividirse en historias más pequeñas.
 
 
-### Ejemplos:
+#### Ejemplos:
 > - Como **Gerente**, quiero **poder comprender el progreso de mis colegas**, para **poder informar mejor nuestros éxitos y fracasos**.
 > - Como **Cliente**, quiero la **función de carrito de compras** para que **pueda comprar artículos fácilmente en línea**.
 > - Como **Gerente**, quiero **generar un informe** para que **pueda entender qué departamentos necesitan más recursos**.
@@ -72,7 +72,7 @@ El propósito de una historia de usuario es articular cómo una pieza de trabajo
 
 ## Reuniones de trabajo
 
-### **Sesión de Planning**
+### Sesión de Planning
 
 El planning del sprint es una sesión de trabajo con un intervalo de tiempo que dura aproximadamente 1 hora por cada semana de un sprint.
 Es un evento en el marco de Scrum donde el equipo determina los elementos del backlog en los que trabajarán durante ese sprint y analiza su plan inicial para completar esos elementos de la lista de productos.
@@ -82,7 +82,7 @@ Este acuerdo define la acumulación de sprints y se basa en la velocidad o capac
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/PsGsxhqI9dE" frameborder="0" allow="true" allowfullscreen></iframe>
 
 
-### ¿Quién esta implicado?
+#### ¿Quién esta implicado?
 
 - **Product Owner:** Identifica los elementos del backlog y sus prioridades relativas, además de proponer un objetivo de sprint.
 
@@ -90,7 +90,7 @@ Este acuerdo define la acumulación de sprints y se basa en la velocidad o capac
 
 - **Scrum Master:** Por lo general, facilita la planificación del sprint para garantizar que la discusión sea efectiva y que haya acuerdo con el objetivo del sprint y que los elementos apropiados se incluyan en el backlog del sprint.
 
-### Pasos para el planning
+#### Pasos para el planning
 
 1. Discuta cualquier información nueva que pueda afectar el plan.
 2. Confirme los problemas y preocupaciones actualmente conocidos y regístrelos según corresponda.
@@ -104,19 +104,19 @@ Este acuerdo define la acumulación de sprints y se basa en la velocidad o capac
 10. El equipo y el propietario del producto señalan si este es el mejor plan que pueden hacer teniendo en cuenta lo que saben en este momento.
 11. Vuelva al trabajo.
 
-### **Sesión de Grooming**
+### Sesión de Grooming
 
 La preparación del backlog, también conocida como refinamiento del backlog o tiempo de la historia, es un evento recurrente para los equipos ágiles de desarrollo de productos. El propósito principal de una sesión de preparación del backlog es garantizar que los siguientes sprints de historias de usuarios en el backlog, estén preparados para la planificación del sprint. Las sesiones regulares de preparación de trabajos pendientes, también ayudan a garantizar que se prioricen las historias adecuadas.
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjJ3cTc1v-s" frameborder="0" allow="true" allowfullscreen></iframe>
 
-### ¿Quién esta implicado?
+#### ¿Quién esta implicado?
 
 - **Product Owner:** Tiene la tarea de facilitar las sesiones de refinamiento del backlog. Sin embargo, eso no significa que sean los únicos responsables de realizar las sesiones de preparación pendientes.
 - **Miembros del equipo:** Estos eventos están destinados a ser colaborativos. Eso significa que todo el equipo multifuncional debe estar representado en las sesiones de refinamiento.
 - **Representantes de QA:** Se necesita la experiencia combinada de las diversas funciones de su equipo para desarrollar de manera efectiva sus historias de usuario.
 
-### Pasos para el grooming
+#### Pasos para el grooming
 
 1. Elimine historias de usuarios que ya no parecen relevantes.
 2. Cree nuevas historias de usuarios en respuesta a necesidades recién descubiertas.
@@ -127,7 +127,7 @@ corregir estimaciones a la luz de la información recién descubierta.
 6. Vuelva al trabajo.
 
 
-### **Sesión de Stand-up **
+### Sesión de Stand-up 
 
 Una reunión diaria de pie es una oportunidad para que el equipo discuta el progreso de un proyecto a un alto nivel. Estas reuniones duran aproximadamente 15 minutos y permiten a cada colaborador informar sobre sus logros desde la última reunión de Stand-up.
 
@@ -137,25 +137,25 @@ En la gestión de proyectos ágil, las reuniones diarias de pie son esenciales, 
 
 <iframe width = "100%" height = "350" src = "https://www.youtube.com/embed/16IoziutCZs" frameborder = "0" allow = "true" allowfullscreen> </iframe>
 
-### Beneficios de los stand-ups diarios
+#### Beneficios de los stand-ups diarios
 
 - Las reuniones diarias permiten a los miembros del equipo trabajar en colaboración para alcanzar los objetivos del proyecto.
 - Las reuniones diarias de pie son importantes para mantener a los equipos enfocados en la tarea mientras brindan actualizaciones rápidas a nivel de proyecto para el resto del equipo.
 - La metodología Agile tiene que ver con la versatilidad y la flexibilidad, es importante hacer ajustes y mejoras en sus reuniones para satisfacer las necesidades de su equipo.
 - El stand-up diario debe informar y destacar los problemas para que pueda mantener el proyecto en marcha y adelantarse a los problemas antes de que surjan.
 
-### **Sesión de Retrospectiva** 
+### Sesión de Retrospectiva 
 
 Es una reunión que se lleva a cabo después del envío de un producto para discutir lo que sucedió durante el desarrollo del producto y el proceso de lanzamiento, con el objetivo de mejorar las cosas en el futuro en función de esos aprendizajes y conversaciones.
 Una retrospectiva ágil obliga a todo el equipo a hacer una pausa y reflexionar sobre lo que ocurrió y discutir qué funcionó y qué no durante un proyecto en particular.
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/7wd61RrJAfo" frameborder="0" allow="true" allowfullscreen></iframe>
 
-### ¿Con qué frecuencia debes realizar retrospectivas?
+#### ¿Con qué frecuencia debes realizar retrospectivas?
 
 Las retrospectivas se pueden realizar con más frecuencia, incluso para lanzamientos menores, cada sprint o incluso en reuniones diarias o semanales.
 
-### **Sesión de Demo**
+### Sesión de Demo
 
 La demostración de sprint es invaluable para mantener a las partes interesadas al tanto del progreso del desarrollo de productos. Les permite retroalimentar y discutir con el Product Owner y el equipo Scrum cualquier posible modificación al Product Backlog que ayudaría a maximizar el valor.
 La demostración de Sprint no debería ocupar demasiado tiempo a un equipo Scrum. Asegurarse de que la reunión de revisión del sprint sea un asunto informal en el que las preguntas, los comentarios y la discusión sean bienvenidos, permite que el tiempo de preparación se mantenga al mínimo.
@@ -163,7 +163,7 @@ La demostración de Sprint no debería ocupar demasiado tiempo a un equipo Scrum
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/S-jjJf_cy7Q" frameborder="0" allow="true" allowfullscreen></iframe>
 
 
-### Pasos para el demo
+#### Pasos para el demo
 1. **Cuente una historia:** Este es uno de los factores más importantes para una gran demostración, y también el que más se pasa por alto. Dada la naturaleza estructurada de las historias, es fácil caer en la trampa de simplemente enumerar el trabajo que ha realizado, esto no es necesariamente malo, pero es poco probable que entusiasme a las partes interesadas no técnicas.
 2. **Deje que los desarrolladores participen:** Siempre que sea posible, es fantástico permitir que los desarrolladores presenten su propio trabajo, lo que ayuda a generar confianza, moral y un sentido de pertenencia. Un buen compromiso puede ser tener un orador organizador con un desarrollador "invitado" diferente que muestre su trabajo cada semana.
 3. **Establezca expectativas:** Establecer expectativas y proporcionar contexto es fundamental para una demostración exitosa.
