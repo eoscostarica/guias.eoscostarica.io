@@ -30,9 +30,10 @@ En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 or
 - 2x la tasa de éxito del cambio
 - MTTR 12 veces más rápido (tiempo medio de reparación)
 
-### Consecuencias
+***
+>"*La ventaja competitiva que crea esta capacidad es enorme, lo que permite una comercialización más rápida de las funciones, mayor satisfacción del cliente, participación de mercado, productividad de los empleados y felicidad".*
 
-"*La ventaja competitiva que crea esta capacidad es enorme, lo que permite una comercialización más rápida de las funciones, mayor satisfacción del cliente, participación de mercado, productividad de los empleados y felicidad".*
+***
 
 **- Proyecto Phoenix**
 
@@ -97,13 +98,13 @@ Terraform es un software de infraestructura como código desarrollado por HashiC
   </iframe>
 </figure>
 
-# Introducción a Docker y Kubernetes
+## Introducción a Docker y Kubernetes
 
-## Docker
+### Docker
 
 Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
 
-### Containers 101
+#### **Containers 101**
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
@@ -114,7 +115,7 @@ Docker es un proyecto de código abierto que automatiza el despliegue de aplicac
 
 * * *
 
-### ¿Qué es Docker?
+#### **¿Qué es Docker?**
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
@@ -122,13 +123,13 @@ Docker es un proyecto de código abierto que automatiza el despliegue de aplicac
 </figure>
 
 * * *
-## Kubernetes
+### Kubernetes
 
 Kubernetes es un sistema de código libre para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores​ que fue originalmente diseñado por Google y donado a la Cloud Native Computing Foundation. Soporta diferentes entornos para la ejecución de contenedores, incluido Docker.
 
 A continuación, puede encontrar un conjunto de tutoriales muy convenientes para aprender kubernetes desde cero:
 
-### Kubernetes en 5 minutos
+#### **Kubernetes en 5 minutos**
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
@@ -137,7 +138,7 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 
 * * *
 
-### Kubernetes vs.Docker: no es una cuestión de uno o el otro
+#### **Kubernetes vs.Docker: no es una cuestión de uno o el otro**
 
 <figure class="video_container">
   <iframe wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
@@ -175,7 +176,7 @@ kubectl cluster-info
 kubectl get nodes
 ```
 
-# Referencias
+## Referencias
 
 *“Los principios detrás de DevOps son los mismos que transformaron la fabricación. En lugar de optimizar la forma en que las materias primas se transforman en productos terminados, DevOps muestra cómo optimizamos el flujo de valor de TI ... ”* - Proyecto Phoenix
 
