@@ -33,6 +33,7 @@ En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 or
 ***
 >"*La ventaja competitiva que crea esta capacidad es enorme, lo que permite una comercialización más rápida de las funciones, mayor satisfacción del cliente, participación de mercado, productividad de los empleados y felicidad".*
 **- Proyecto Phoenix**
+
 ***
 
 
