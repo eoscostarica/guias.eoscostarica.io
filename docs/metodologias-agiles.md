@@ -20,11 +20,11 @@ Para aclarar cómo llegó a ser agilidad moderna, aquí hay un fragmento del sit
 
 Los métodos ágiles modernos se definen mediante cuatro principios rectores:
 
-<img alt="Imagen Modern Agile" src={ useBaseUrl( 'img/ModernAgile.png' )} />
+<img alt="Imagen Modern Agile" width="80%"  src={ useBaseUrl( 'img/ModernAgile.png' )} />
 
 ## ¿Tipos de metodologías ágiles?
 
-Algunas de las metodologías agiles mas conocidas y utilizadas en la industria son: 
+Algunas de las metodologías ágiles más conocidas y utilizadas en la industria son: 
 
 ### Scrum
 
