@@ -15,11 +15,11 @@ Se centra en unificar el desarrollo y las operaciones de TI a través de los pri
 
 ## Definiciones Claves
 
-- **Integración Continua (CI)**: aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera controlada y ágil. (Verificando todo el código en un repositorio centralizado diariamente)
+- **Integración Continua (CI)**: Aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera controlada y ágil. (Verificando todo el código en un repositorio centralizado diariamente)
 - **Despliegue Continuo (CD)**: Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
 - **Entrega Continua (CD)**: Automatización que garantiza la validación de la implementación; sin embargo, aún se requiere un paso manual para implementar en producción.
 - **Implementación**: La implementación (o transporte) de código a un entorno de nivel superior, hasta e incluida la producción.
-- **Lanzamiento**: el alcance definido y el objetivo comercial para un conjunto de características que se entregarán en un cierto plazo.
+- **Lanzamiento**: El alcance definido y el objetivo comercial para un conjunto de características que se entregarán en un cierto plazo.
 
 ## ¿Por qué DevOps?
 
@@ -30,7 +30,7 @@ En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 or
 - 2x la tasa de éxito del cambio
 - MTTR 12 veces más rápido (tiempo medio de reparación)
 
-### Consequencias
+### Consecuencias
 
 "*La ventaja competitiva que crea esta capacidad es enorme, lo que permite una comercialización más rápida de las funciones, mayor satisfacción del cliente, participación de mercado, productividad de los empleados y felicidad".*
 
@@ -54,7 +54,7 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 - Lograr un tiempo de comercialización más rápido
 - Menor índice de fallas de nuevos lanzamientos
 - Acortar el tiempo de espera entre arreglos
-- Mejorar el tiempo medio de recuperación.
+- Mejorar el tiempo medio de recuperación
 
 ## CI Systems - Ejemplos
 
@@ -70,6 +70,8 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 
 ## Infraestructura como código (IAC)
 
+Es el proceso de gestión y aprovisionamiento de centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactiva.
+
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
   </iframe>
@@ -78,6 +80,8 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 * * *
 
 ### Introducción a Terraform 
+
+Terraform es un software de infraestructura como código desarrollado por HashiCorp. Permite a los usuarios definir y configurar la infraestructura de un centro de datos en un lenguaje de alto nivel.
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
@@ -93,7 +97,11 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
   </iframe>
 </figure>
 
-## Introducción a Docker y Kubernetes
+# Introducción a Docker y Kubernetes
+
+## Docker
+
+Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
 
 ### Containers 101
 
@@ -102,7 +110,7 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
   </iframe>
 </figure>
 
-[Más informacion sobre containers](https://www.youtube.com/channel/UCdkGV51Nu0unDNT58bHt9bg/search?query=containers)
+>[Más informacion sobre containers](https://www.youtube.com/channel/UCdkGV51Nu0unDNT58bHt9bg/search?query=containers)
 
 * * *
 
@@ -114,6 +122,11 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 </figure>
 
 * * *
+## Kubernetes
+
+Kubernetes es un sistema de código libre para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores​ que fue originalmente diseñado por Google y donado a la Cloud Native Computing Foundation. Soporta diferentes entornos para la ejecución de contenedores, incluido Docker.
+
+A continuación, puede encontrar un conjunto de tutoriales muy convenientes para aprender kubernetes desde cero:
 
 ### Kubernetes en 5 minutos
 
@@ -134,8 +147,6 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 * * *
 
 ## Kubernetes en EOS Costa Rica
-
-A continuación, puede encontrar un conjunto de tutoriales muy convenientes para aprender kubernetes desde cero:
 
 [Aprenda los conceptos básicos de Kubernetes](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
 
