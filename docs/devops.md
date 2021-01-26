@@ -21,7 +21,7 @@ Se centra en unificar el desarrollo y las operaciones de TI a través de los pri
 - **Implementación**: La implementación (o transporte) de código a un entorno de nivel superior, hasta e incluida la producción.
 - **Lanzamiento**: El alcance definido y el objetivo comercial para un conjunto de características que se entregarán en un cierto plazo.
 
-## ¿Por qué DevOps?
+## ¿Por qué Implementar DevOps?
 
 En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 organizaciones de TI que usaban DevOps y encontró:
 
