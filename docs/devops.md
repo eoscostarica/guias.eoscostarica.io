@@ -44,7 +44,7 @@ En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 or
 
 Los principios de DevOps son aplicados y asistidos por las siguientes 3 áreas clave que trabajan juntas:
 
-- **Personas** - DevOps se basa en personas sólidas y una cultura sólida de experimentación, aprendizaje, colaboración y objetivos compartidos entre las operaciones de desarrollo, control de calidad y TI.
+- **Personas** - DevOps se basa en una cultura de personas sólidas en experimentación, aprendizaje, colaboración y objetivos compartidos entre las operaciones de desarrollo, control de calidad y TI.
 - **Procesos** - DevOps se basa en Lean Agile y aplica conceptos de fabricación ajustada a las corrientes de valor de TI.
 - **Herramientas** - DevOps se basa en herramientas y tecnologías mejoradas, incluidas herramientas de automatización, telemetría y colaboración.
 
@@ -112,7 +112,7 @@ Docker es un proyecto de código abierto que automatiza el despliegue de aplicac
   </iframe>
 </figure>
 
->[Más informacion sobre containers](https://www.youtube.com/channel/UCdkGV51Nu0unDNT58bHt9bg/search?query=containers)
+>[Más información sobre containers](https://www.youtube.com/channel/UCdkGV51Nu0unDNT58bHt9bg/search?query=containers)
 
 * * *
 
@@ -160,7 +160,7 @@ en Openstack. Si lo prefiere, también puede crear una configuración local en s
 Solicite a los administradores acceso a nuestro panel de instalación Openstack y al Sandbox
 proyect. Entonces puedes seguir los siguientes pasos:
 
-- Primero que nada conéctese al nodo maestro usando la herramienta SSH:
+- Primero que nada, conéctese al nodo maestro usando la herramienta SSH:
 
 ```shell
 ssh -i key.pem user@master-sandbox
@@ -171,7 +171,7 @@ ssh -i key.pem user@master-sandbox
 ```shell
 kubectl cluster-info
 ```
-- Muestrar nodos disponibles actualmente en el clúster:
+- Mostrar nodos disponibles actualmente en el clúster:
 
 ```shell
 kubectl get nodes
