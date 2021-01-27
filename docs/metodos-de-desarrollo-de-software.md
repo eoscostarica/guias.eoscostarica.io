@@ -34,14 +34,14 @@ Una de las reglas del pair programming establece que estos dos roles se intercam
 
 #### Beneficios
 - Puede mejorar la productividad general a través del proceso de colaboración.
-- Código de mayor calidad como resultado de la revisión en tiempo real
-- Mejores soluciones diseñadas a través de la colaboración compartida
-- Entrega más rápida porque las soluciones a problemas desafiantes se encuentran más rápidamente
-- Mayor enfoque en el código y la tarea de programación sin distracciones
-- Desbloqueo a los desarrolladores atascados
-- Feedback rápido
-- Menos distracciones en los equipos de desarrollo
-- Prácticas recomendadas compartidas
+- Código de mayor calidad como resultado de la revisión en tiempo real.
+- Mejores soluciones diseñadas a través de la colaboración compartida.
+- Entrega más rápida porque las soluciones a problemas desafiantes se encuentran más rápidamente.
+- Mayor enfoque en el código y la tarea de programación sin distracciones.
+- Desbloqueo a los desarrolladores atascados.
+- Feedback rápido.
+- Menos distracciones en los equipos de desarrollo.
+- Prácticas recomendadas compartidas.
 
 ### Mob Programming
 
@@ -68,15 +68,15 @@ paretto).
 - Feedback inmediato.
 - Aprender o contribuir.
 - Agilidad en comunicacion.
-- Retrospectiva!
+- Retrospectiva.
 - Empatia y respeto.
 
 #### Artefactos:
 
 - Backlog de problemas especificos definidos por el product owner o el Tech lead.
-- Alignment en programming katas (Código nuevo, bug fixing, test driven development, refactoring)
+- Alignment en programming katas (Código nuevo, bug fixing, test driven development, refactoring).
 - Test automation.
-- Repo - DevOps
+- Repo - DevOps.
 
 #### Tipos de mob programming:
 - **Expert-Expert:** Mayor productividad y resultados de alta calidad, mínima disrupción de los acercamientos y exploración a retar soluciones existentes.
@@ -86,7 +86,7 @@ cultura de la organización.
 - **With audience:** El equipo está trabajando con una audiencia de partes interesadas o usuarios.
 
 #### El valor del mobbing:
-- Soluciones se entregan mas rapido, con mayor calidad por medio del incremento del enfoque
+- Soluciones se entregan mas rapido, con mayor calidad por medio del incremento del enfoque.
 - Mitiga las tareas tediosas, tiene visibilidad 360 y mejora la automatizacion.
 - Apalanca el entrenamiento entre miembros del equipo.
 - Entrega resultados mas rapido reduciendo el tiempo del work in progress y eliminando tiempos de handoff entre equipos y mitiga los problemas de comunicación.
