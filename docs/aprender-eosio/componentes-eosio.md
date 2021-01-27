@@ -41,7 +41,7 @@ $ cleos wallet create -n mywallet --to-console
 
 ## EOSIO.CDT
 
-[EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) o **Contract Development Toolkit** es una cadena de herramientas para WebAssembly(WASM) con herramientas para facilitar el desarrollo de contratos inteligentes.Compilador de C++ a WASM y [**Aplication Binary Interface**](https://developers.eos.io/welcome/v2.0/getting-started/smart-contract-development/understanding-ABI-files)(ABI) conjunto generador de bibliotecas C/C++ para el desarrollo de contratos inteligentes.
+[EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) o **Contract Development Toolkit** es una cadena de herramientas para WebAssembly(WASM) con herramientas para facilitar el desarrollo de contratos inteligentes. Compilador de C++ a WASM y [**Aplication Binary Interface**](https://developers.eos.io/welcome/v2.0/getting-started/smart-contract-development/understanding-ABI-files)(ABI) conjunto generador de bibliotecas C/C++ para el desarrollo de contratos inteligentes.
 
 ## Obtenga sus llaves privadas
 
@@ -106,7 +106,7 @@ $ git clone --recursive https://github.com/eosio/eosio.cdt --branch v1.6.3 --sin
 ```
 La clonación del repositorio puede tardar hasta 30 minutos. Después de eso, use `$ cd eosio.cdt`
 
-* **Paso 4 : Construir el EOSIO.CDT**
+* **Paso 4: Construir el EOSIO.CDT**
 
 ```shell
 $ ./build.sh
