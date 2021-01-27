@@ -64,12 +64,12 @@ Un grupo de personas con mucha inteligencia, con grandes retos trabajando en equ
 paretto).
 - Use ejemplos para mantener la conversación caminando.
 - Las ideas de los navegadores solo se implementan por el conductor.
-- El skill level del conductor es clave para que los navegadores desarrollen mas las instrucciones.
+- El skill level del conductor es clave para que los navegadores desarrollen más las instrucciones.
 - Feedback inmediato.
 - Aprender o contribuir.
 - Agilidad en comunicación.
 - Retrospectiva.
-- Empatia y respeto.
+- Empatía y respeto.
 
 ### Artefactos:
 
@@ -94,7 +94,7 @@ cultura de la organización.
 - Satisfaccion se incrementa un 96% entre programadores.
 - Entrenamiento ágil.
 - Team building and communication.
-- Mas opciones de soluciones para varios problemas a la vez.
+- Más opciones de soluciones para varios problemas a la vez.
 
 ### Beneficios para otras organizaciones y servicios.
 - Recruiting.
