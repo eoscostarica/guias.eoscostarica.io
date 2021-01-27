@@ -54,7 +54,7 @@ El propósito de una historia de usuario es articular cómo una pieza de trabajo
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/Zi9E1aUO_1U" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### ¿Cómo escribir un historias de usuario?
+#### ¿Cómo escribir una historias de usuario?
 
 - **Definición de Terminado:** La historia generalmente se “termina” cuando el usuario puede completar la tarea descrita.
 - **Resuma las subtareas o tareas:** Decida qué pasos específicos deben completarse y quién es responsable de cada uno de ellos.
@@ -82,7 +82,7 @@ Este acuerdo define la acumulación de sprints y se basa en la velocidad o capac
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/PsGsxhqI9dE" frameborder="0" allow="true" allowfullscreen></iframe>
 
 
-#### ¿Quién esta implicado?
+#### ¿Quién está implicado?
 
 - **Product Owner:** Identifica los elementos del backlog y sus prioridades relativas, además de proponer un objetivo de sprint.
 
@@ -110,7 +110,7 @@ La preparación del backlog, también conocida como refinamiento del backlog o t
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjJ3cTc1v-s" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### ¿Quién esta implicado?
+#### ¿Quién está implicado?
 
 - **Product Owner:** Tiene la tarea de facilitar las sesiones de refinamiento del backlog. Sin embargo, eso no significa que sean los únicos responsables de realizar las sesiones de preparación pendientes.
 - **Miembros del equipo:** Estos eventos están destinados a ser colaborativos. Eso significa que todo el equipo multifuncional debe estar representado en las sesiones de refinamiento.
