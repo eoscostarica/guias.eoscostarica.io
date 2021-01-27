@@ -80,16 +80,16 @@ paretto).
 
 ### Tipos de mob programming:
 - **Expert-Expert:** Mayor productividad y resultados de alta calidad, mínima disrupción de los acercamientos y exploración a retar soluciones existentes.
-- **Expert-Novice:** Mayor oportunidad de exploración de soluciones y oportunidades de mentorship para personas nuevas en el equipo. El novato es mas propenso a retar soluciones existentes y aporta disrupción, y el experto al enseñar se puede replantear paradigmas existentes. El riesgo de que los expertos no puedan desarrollar paciencia para enseñar puede traer conflicto y afectar la
+- **Expert-Novice:** Mayor oportunidad de exploración de soluciones y oportunidades de mentorship para personas nuevas en el equipo. El novato es más propenso a retar soluciones existentes y aporta disrupción, y el experto al enseñar se puede replantear paradigmas existentes. El riesgo de que los expertos no puedan desarrollar paciencia para enseñar puede traer conflicto y afectar la
 cultura de la organización.
 - **Novice-Novice:** Normalmente no es recomendado para soluciones complejas pero bueno para innovación siempre y cuando se pueda desarrollar con un mentor que pueda generar un role model.
 - **With audience:** El equipo está trabajando con una audiencia de partes interesadas o usuarios.
 
 ### El valor del mobbing:
-- Soluciones se entregan mas rápido, con mayor calidad por medio del incremento del enfoque.
+- Soluciones se entregan más rápido, con mayor calidad por medio del incremento del enfoque.
 - Mitiga las tareas tediosas, tiene visibilidad 360 y mejora la automatización.
 - Apalanca el entrenamiento entre miembros del equipo.
-- Entrega resultados mas rápido reduciendo el tiempo del work in progress y eliminando tiempos de handoff entre equipos y mitiga los problemas de comunicación.
+- Entrega resultados más rápido reduciendo el tiempo del work in progress y eliminando tiempos de handoff entre equipos y mitiga los problemas de comunicación.
 - Puede incrementar el tiempo de entrega de una tarea por la cantidad de personas pensando alrededor de una tarea individual, pero bajan aprox 15% de defectos o margen de error, se mitiga refactoring y retrabajo y soporte de la tarea o el entregable.
 - Satisfaccion se incrementa un 96% entre programadores.
 - Entrenamiento ágil.
