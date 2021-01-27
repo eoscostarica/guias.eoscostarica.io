@@ -5,7 +5,7 @@ sidebar_label: React Js
 ---
 
 
-React es una libreria de JavaScript que servira para construir interfaces web y aplicaciones mobiles con una extension llamada [React Native](https://reactnative.dev/). React trabaja con unidades de código que se trabajan de forma independiente. React tambien utiliza una herramienta llamada JSX que permite una interacción muy sencilla con JavaScript, es decir se podrá utilizar con HTML tambien de forma sencilla.
+React es una librería de JavaScript que servirá para construir interfaces web y aplicaciones móviles con una extensión llamada [React Native](https://reactnative.dev/). React trabaja con unidades de código que se trabajan de forma independiente. React también utiliza una herramienta llamada JSX que permite una interacción muy sencilla con JavaScript, es decir se podrá utilizar con HTML también de forma sencilla.
 >[Más Información](https://es.reactjs.org/)
 
 ## Herramientas 
@@ -32,7 +32,7 @@ Estas extensiones son una recomendación para mejorar tu experiencia en el desar
 * * *
 ## Verificar Instalaciones
 
-Verificar Node js, con estos comandos se puede verificar la versión y además si estan instalados.
+Verificar Node js, con estos comandos se puede verificar la versión y además si están instalados.
 
 ```shell
 $ node -v
@@ -54,7 +54,7 @@ Ahora debes entrar a tu directorio de my-app y arrancar tu aplicación.
 $ cd my-app
 $ yarn start
 ```
-Para ver tu código debes utilizar ,duplicando tu terminal, lo siguiente: 
+Para ver tu código debes utilizar, duplicando tu terminal, lo siguiente: 
 
 ```shell
 $ code .
@@ -62,7 +62,7 @@ $ code .
 
 ## Primeros Pasos
 
-Una vez abierto tu código en tu editor, en este caso recomendablemente Visual Studio Code, puedes navegar hasta encontrar dentro de la carpeta *src* el archivo `App.js` con un contenido similar a este:
+Una vez abierto el código en tu editor, en este caso recomendablemente Visual Studio Code, puedes navegar hasta encontrar dentro de la carpeta *src* el archivo `App.js` con un contenido similar a este:
 ```javascript
 import logo from './logo.svg';
 import './App.css';
@@ -90,7 +90,7 @@ function App() {
 
 export default App;
 ```
-Puedes cambiar el contenido por el siguiente y hacer los cambios que desees como primeros pasos para tu aventura en React. Además puedes ver los cambios en tu navegador, para esto debes mantener tu terminal con el servidor abierto.
+Puedes cambiar el contenido por el siguiente y hacer los cambios que desees como primeros pasos para tu aventura en React. Además, puedes ver los cambios en tu navegador, para esto debes mantener tu terminal con el servidor abierto.
 
 ```javascript
 import { Component } from 'react';
@@ -111,17 +111,17 @@ export default App;
 
 ### Recomendaciones
 
-Es importante para el desarrollo de un buen proyecto la organización de los diferentes componentes del trabjo, por esto es recomendado generar carpetas que tengan contenido similar, algunos ejemplos son:
+Es importante para el desarrollo de un buen proyecto la organización de los diferentes componentes del trabajo, por esto es recomendado generar carpetas que tengan contenido similar, algunos ejemplos son:
 
-* Carpeta de *components*, en donde se guardan los componentes que necesiten
-* Carpeta de *styles*, en donde se guardan los estilos del proyecto por ejemplo los archivos `.css`
+* Carpeta de *components*, en donde se guardan los componentes que necesiten.
+* Carpeta de *styles*, en donde se guardan los estilos del proyecto por ejemplo los archivos `.css`.
 * Carpeta de *assets*, en donde se guardan los recursos estáticos de la aplicación como por ejemplo las imagenes.
 
 >Recordar cambiar las referencias una vez ordenado tu proyecto y no hacer cambios, a menos que sea realmente necesario, en el index.js
 
 ## Componentes
 
-Los componentes se define como una unidad única de código que tendrá una responsabilidad asignada de manera especifica que se podrá encapsular determinados comportamientos en los componentes.
+Los componentes se definen como una unidad única de código que tendrá una responsabilidad asignada de manera específica que se podrá encapsular determinados comportamientos en los componentes.
 
 Este es un ejemplo de un componente. Crea un nuevo archivo dentro de tu carpeta de `componentes` con el nombre de `header.js` y de esta manera poder utilizarlo posteriormente.
 
@@ -194,7 +194,7 @@ Se tiene
 * [Hook de Estado](https://es.reactjs.org/docs/hooks-state.html)
 * [Hook de Effecto](https://es.reactjs.org/docs/hooks-effect.html)
 
-Este es un ejemplo de utilización, se puede reemplazar el código de tu `App.js` para probarlo. En este ejemplo muestran las dimensiones de la pantalla aún cuando se re-dimensiona.
+Este es un ejemplo de utilización, se puede reemplazar el código de tu `App.js` para probarlo. En este ejemplo muestran las dimensiones de la pantalla aun cuando se re-dimensiona.
 
 ```javascript
 import React , {useState,useEffect} from "react";
