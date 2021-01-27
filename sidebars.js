@@ -25,10 +25,9 @@ module.exports = {
             "aprender-eosio/cadena-de-bloques-eos",
             "aprender-eosio/contratos-inteligentes",
             "aprender-eosio/contratos-ricardianos",
-            "aprender-eosio/nucleo-eosio"
+            "aprender-eosio/componentes-eosio"
         ],
         "Tutoriales": [
-            "tutoriales/como-iniciar",
             "tutoriales/instalacion-de-nodos",
             "tutoriales/contrato-hola-mundo",
             "tutoriales/cpp-moderno",

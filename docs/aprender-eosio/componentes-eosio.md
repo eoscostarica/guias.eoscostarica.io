@@ -1,7 +1,7 @@
 ---
-id: nucleo-eosio
-title: Núcleo EOSIO
-sidebar_label: Núcleo EOSIO
+id: componentes-eosio
+title: Componentes EOSIO
+sidebar_label: Componentes EOSIO
 ---
 
 ## Nodeos
@@ -13,13 +13,15 @@ sidebar_label: Núcleo EOSIO
 * Producir bloques que contengan transacciones válidas
 * Confirmar bloques para registrarlos en el blockchain
 
->[Más Información](/docs/herramientas/opciones-configuracion-nodeos)
+>[Más Información](https://guias.eoscostarica.io/docs/herramientas/opciones-configuracion-nodeos)
 
 ## Cleos
 
 [Cleos](https://developers.eos.io/manuals/eos/latest/cleos/index) es una herramienta de línea de comandos que interactúa con Nodeos con una utilidad de cartera (Keosd) responsable de la gestión de claves y la firma de transacciones. Los desarrolladores también pueden utilizar cleos para desplegar y probar los contratos inteligentes de EOSIO.
 
-Para utilizar Cleos, se necesita el punto final (dirección IP y número de puerto) de una instancia de Nodeos en ejecución.
+## Como utilizar Cleos
+
+Para usar **cleos**, necesita el dominio o dirección IP (y número de puerto) de una instancia de **nodeos** en ejecución. La instancia de nodeos debe configurarse para cargar `eosio :: chain_api_plugin` cuando se inicia. Esto permite que nodeos responda a las solicitudes de RPC que provienen de cleos.
 
 > [Keosd](https://developers.eos.io/manuals/eos/latest/keosd/index): es un daemon de servicio de administrador de claves para almacenar claves privadas y firmar mensajes digitales.
 
@@ -35,13 +37,19 @@ $cleos create account --help
 ```shell
 $ cleos wallet create -n mywallet --to-console
 ```
-> [Más Información](/docs/herramientas/linea-de-comando)
+> [Más Información](https://guias.eoscostarica.io/docs/herramientas/linea-de-comando)
 
 ## EOSIO.CDT
 
 [EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) o **Contract Development Toolkit** es una cadena de herramientas para WebAssembly(WASM) con herramientas para facilitar el desarrollo de contratos inteligentes.Compilador de C++ a WASM y [**Aplication Binary Interface**](https://developers.eos.io/welcome/v2.0/getting-started/smart-contract-development/understanding-ABI-files)(ABI) conjunto generador de bibliotecas C/C++ para el desarrollo de contratos inteligentes.
 
+## Obtenga sus llaves privadas
+
+Más información sobre [llaves privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
+
 ## Empezando (Windows)
+
+![](https://es.latamlink.io/img/diagramas/cleos.png)
 
 Como una forma de ayudarlo a comenzar en el mundo EOSIO, aquí hay una guía sobre cómo instalar el Kit de herramientas de desarrollo de contratos EOSIO. Si está utilizando un sistema operativo diferente en lugar de **Windows**, visite [este sitio](https://developers.eos.io/welcome/latest/getting-started/development-environment/before-you-begin) 
 para ver los requisitos previos y pasar a [Instalar binarios](#instalar-binarios).
@@ -53,7 +61,6 @@ Esta guía de instalación estará dirigida a **usuarios de Windows**, desafortu
 - Busque la opción y haga clic en **Subsistema de Windows para Linux** y pulse *Aceptar*
 - Ahora debe reiniciar su sistema operativo Windows
 - Por último, vaya a su *Microsoft Store* y busque el sistema operativo Linux que desee, le recomendamos que instale Ubuntu 18.04 LTS
-
 
 ### Usar Terminal de Linux
 
