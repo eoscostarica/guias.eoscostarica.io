@@ -103,7 +103,7 @@ cultura de la organización.
 
 >Información brindada por:
 >**Julian Alvarado**
->- Twitter @jascorecr  
+>- Twitter [@jascorecr](https://twitter.com/jascorecr)  
 >- Linkedin: [alvarado.lj.1](https://www.linkedin.com/in/alvaradolj1/)
 >- Telegram: https://t.me/joinchatJWCCqxZZe7tk7ITpztxTsw  
 >- Youtube: [Kata Collective](https://www.youtube.com/channel/UC8elsb71RJlP9mG6aQgTc_A)
