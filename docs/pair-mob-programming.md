@@ -21,7 +21,7 @@ El pair programming específica que siempre haya dos personas trabajando al mism
 ### ¿Cómo se hace?
 **Tamaño del team:** 2 personas.
 
-#### Roles:
+### Roles:
 - **Piloto:** Se encarga de escribir el código. 
 - **Copiloto:** Se encarga de supervisar ese código. 
 
