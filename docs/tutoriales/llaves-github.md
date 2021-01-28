@@ -10,7 +10,7 @@ Definamos primero a GitHub como un sistema de control de versiones distribuidas 
 
 El `SSH` es también conocido como Secure Shell o Secure Socket Shell. [Más sobre SSH en GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-ssh). Las claves SSH se utilizan para autenticar conexiones seguras que se generan a través de un algoritmo criptográfico de clave pública, siendo los más comunes RSA o DSA. Se trata de una fórmula unidireccional que garantiza que la clave pública puede derivarse de la clave privada, pero que la clave privada no puede derivarse de la clave pública.
 
-## ¿Cómo generar una nueva clave SSH?
+## ¿Cómo generar una nueva clave SSH en windows?
 
 Esta guía es para usuarios de Windows, más información para Linux y Mac [en este sitio](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
