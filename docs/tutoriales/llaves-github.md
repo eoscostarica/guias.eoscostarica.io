@@ -40,7 +40,7 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 ## Cómo añadir su clave SSH al ssh-agent
 
-- Asegúrate de que el ssh-agent se está ejecutando [más información](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases) , o inícialo manualmente:
+- Asegúrate de que el ssh-agent se está ejecutando [más información](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases), o inícialo manualmente:
 
 ```shell
 #iniciar el agente ssh en segundo plano
@@ -60,7 +60,7 @@ Si sigue este flujo de generación de claves ssh, no es necesario iniciar el age
 $ ssh-add ~/.ssh/id_ed25519
 ```
 
-- Ahora necesitas añadir tu clave pública a tu cuenta de **GitHub** , para ello [sigue estos pasos](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
+- Ahora necesitas añadir tu clave pública a tu cuenta de **GitHub**, para ello [sigue estos pasos](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
 
 Ya está listo.
 
