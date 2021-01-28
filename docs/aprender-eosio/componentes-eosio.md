@@ -25,18 +25,20 @@ Para usar **cleos**, necesita el dominio o dirección IP (y número de puerto) d
 
 > [Keosd](https://developers.eos.io/manuals/eos/latest/keosd/index): es un daemon de servicio de administrador de claves para almacenar claves privadas y firmar mensajes digitales.
 
-### Comandos Cleos 
+### Comandos Cleos
 
-```shell 
-$cleos --help
-$cleos create --help
-$cleos create account --help
+```shell
+$ cleos --help
+$ cleos create --help
+$ cleos create account --help
 ```
 
-### Ejemplo Cleos 
+### Ejemplo Cleos
+
 ```shell
 $ cleos wallet create -n mywallet --to-console
 ```
+
 > [Más Información](https://guias.eoscostarica.io/docs/herramientas/linea-de-comando)
 
 ## EOSIO.CDT
@@ -47,20 +49,20 @@ $ cleos wallet create -n mywallet --to-console
 
 Más información sobre [llaves privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
 
-## Empezando (Windows)
+## Empezando
 
-![](https://es.latamlink.io/img/diagramas/cleos.png)
+![imagen](https://es.latamlink.io/img/diagramas/cleos.png)
 
 Como una forma de ayudarlo a comenzar en el mundo EOSIO, aquí hay una guía sobre cómo instalar el Kit de herramientas de desarrollo de contratos EOSIO. Si está utilizando un sistema operativo diferente en lugar de **Windows**, visite [este sitio](https://developers.eos.io/welcome/latest/getting-started/development-environment/before-you-begin) 
 para ver los requisitos previos y pasar a [Instalar binarios](#instalar-binarios).
 Esta guía de instalación estará dirigida a **usuarios de Windows**, desafortunadamente, EOSIO no proporciona puertos e instrucciones de PowerShell para este sistema operativo. Como desarrollador tienes dos opciones *una* utilizar una Máquina Virtual o, como en este caso un Terminal Linux en Windows. Siga estos pasos:
 
-- Vaya a su Panel de Control
-- Vaya a Programas -> Programas y características
-- A continuación, haz clic en **Activar o desactivar características de Windows**
-- Busque la opción y haga clic en **Subsistema de Windows para Linux** y pulse *Aceptar*
-- Ahora debe reiniciar su sistema operativo Windows
-- Por último, vaya a su *Microsoft Store* y busque el sistema operativo Linux que desee, le recomendamos que instale Ubuntu 18.04 LTS
+-Vaya a su Panel de Control
+-Vaya a Programas -> Programas y características
+-A continuación, haz clic en **Activar o desactivar características de Windows**
+-Busque la opción y haga clic en **Subsistema de Windows para Linux** y pulse *Aceptar*
+-Ahora debe reiniciar su sistema operativo Windows
+-Por último, vaya a su *Microsoft Store* y busque el sistema operativo Linux que desee, le recomendamos que instale Ubuntu 18.04 LTS
 
 ### Usar Terminal de Linux
 
@@ -70,11 +72,13 @@ Este es un ejemplo de navegación con un disco "C"
 ```shell
 $ cd /mnt/c/
 ```
+
 Aquí está en su disco C donde puede ejecutar `$ ls -al` para ver sus archivos. El "nombre_de_usuario" es el usuario que tiene en su computadora.
 
 ```shell
 $ cd Users/"nombre_de_usuario"
 ```
+
 Una vez que esté en su carpeta deseada, puede seguir los siguientes pasos.
 
 ## Instalar Binarios
@@ -86,6 +90,7 @@ Esta guía utilizará las líneas de instalación de comandos de **Ubuntu 18.04*
 ```shell
 $ wget https://github.com/EOSIO/eos/releases/download/v2.0.0/eosio_2.0.0-1-ubuntu-18.04_amd64.deb
 ```
+
 ```shell
 $ sudo apt install ./eosio_2.0.0-1-ubuntu-18.04_amd64.deb
 ```
@@ -104,6 +109,7 @@ Obtenga su ruta de directorio con `$ pwd`, clone la versión de EOSIO de [GitHub
 ```shell
 $ git clone --recursive https://github.com/eosio/eosio.cdt --branch v1.6.3 --single-branch
 ```
+
 La clonación del repositorio puede tardar hasta 30 minutos. Después de eso, use `$ cd eosio.cdt`
 
 * **Paso 4: Construir el EOSIO.CDT**
@@ -111,11 +117,13 @@ La clonación del repositorio puede tardar hasta 30 minutos. Después de eso, us
 ```shell
 $ ./build.sh
 ```
+
 La instalación de eosio.cdt hará que el binario compilado sea global, por lo que puede ser accesible desde cualquier lugar. Para este tutorial, se recomienda encarecidamente que no omita el paso de instalación de eosio.cdt.
 
 ```shell
 $ sudo ./install.sh
 ```
+
 >Para obtener más información sobre cómo instalar el contrato DEV. Kit de herramientas, vaya a [esta página](https://developers.eos.io/welcome/latest/getting-started/development-environment/install-the-CDT)
 
 Ahora está listo para crear una billetera de desarrollo con la ayuda de Cleos. [Más información](https://developers.eos.io/welcome/latest/getting-started/development-environment/create-development-wallet)
