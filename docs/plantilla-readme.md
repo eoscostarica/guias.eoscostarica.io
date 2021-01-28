@@ -123,7 +123,7 @@ yarn
     yarn start
     `
 
-## Estructura de archivo
+## Estructura de Archivo
 Esto podría ayudar al lector a comprender la organización dentro del proyecto, por ejemplo:
 
 ```text title="modificar"
