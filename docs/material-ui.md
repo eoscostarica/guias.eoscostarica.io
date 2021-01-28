@@ -6,17 +6,17 @@ sidebar_label: Material UI Theme
 
 ## Logo y activos visuales
 
-Contamos con una [sección exclusiva](https://guias.eoscostarica.io/docs/recursos-visuales) en la cual puede ver y obtener los logos de nuestros proyectos y EOS Costa Rica en general.
+En este [enlace](https://github.com/eoscostarica/design-assets) tiene acceso a Logos y activos visuales
 
 ## Paleta de Colores
 
-![Preview tipografia](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/preview_color_scheme.PNG)
+![Color Scheme Primary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.PNG)
+
+![Color Scheme Segundary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.PNG)
 
 Para ver una guía completa de los colores, puede visitar [este enlace](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
 
 ## Tipografía
-
-La tipografia que utilizamos en nuestras aplicaciones esta basada en `PT Sans Regular`. 
 
 ![Preview tipografia](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/preview_typography_scale.PNG)
 
