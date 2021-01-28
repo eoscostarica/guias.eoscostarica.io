@@ -8,18 +8,18 @@ sidebar_label: Componentes EOSIO
 
 [Nodeos](https://developers.eos.io/manuals/eos/latest/nodeos/index) es el daemon de servicio central que se ejecuta en cada nodo de EOSIO, puede ser configurado con plugins para ejecutar un nodo. Además, se conecta y sincroniza datos con otros nodos de la red a través de P2P. Puede ser configurado para procesar:
 
-* Contratos inteligentes
-* Validar transacciones
-* Producir bloques que contengan transacciones válidas
-* Confirmar bloques para registrarlos en el blockchain
+* Contratos inteligentes.
+* Validar transacciones.
+* Producir bloques que contengan transacciones válidas.
+* Confirmar bloques para registrarlos en el blockchain.
 
 >[Más Información](https://guias.eoscostarica.io/docs/herramientas/opciones-configuracion-nodeos)
 
 ## Cleos
 
-[Cleos](https://developers.eos.io/manuals/eos/latest/cleos/index) es una herramienta de línea de comandos que interactúa con Nodeos con una utilidad de cartera (Keosd) responsable de la gestión de claves y la firma de transacciones. Los desarrolladores también pueden utilizar cleos para desplegar y probar los contratos inteligentes de EOSIO.
+[Cleos](https://developers.eos.io/manuals/eos/latest/cleos/index) es una herramienta de línea de comandos que interactúa con Nodeos con una utilidad de billetera (Keosd) responsable de la gestión de claves y la firma de transacciones. Los desarrolladores también pueden utilizar cleos para desplegar y probar los contratos inteligentes de EOSIO.
 
-## Como utilizar Cleos
+### Como utilizar Cleos
 
 Para usar **cleos**, necesita el dominio o dirección IP (y número de puerto) de una instancia de **nodeos** en ejecución. La instancia de nodeos debe configurarse para cargar `eosio :: chain_api_plugin` cuando se inicia. Esto permite que nodeos responda a las solicitudes de RPC que provienen de cleos.
 
@@ -43,15 +43,18 @@ $ cleos wallet create -n mywallet --to-console
 
 ## EOSIO.CDT
 
-[EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) o **Contract Development Toolkit** es una cadena de herramientas para WebAssembly(WASM) con herramientas para facilitar el desarrollo de contratos inteligentes. Compilador de C++ a WASM y [**Aplication Binary Interface**](https://developers.eos.io/welcome/v2.0/getting-started/smart-contract-development/understanding-ABI-files)(ABI) conjunto generador de bibliotecas C/C++ para el desarrollo de contratos inteligentes.
+[EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) o **Contract Development Toolkit** es un
+kit de herramientas para WebAssembly(WASM) para facilitar el desarrollo de contratos inteligentes. Compilador de C++ a WASM y [**Aplication Binary Interface**](https://developers.eos.io/welcome/v2.0/getting-started/smart-contract-development/understanding-ABI-files)(ABI) conjunto generador de bibliotecas C/C++ para el desarrollo de contratos inteligentes.
 
 ## Obtenga sus llaves privadas
 
 Más información sobre [llaves privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
 
-## Empezando
+## Empecemos
 
 ![imagen](https://es.latamlink.io/img/diagramas/cleos.png)
+
+### Instalación en Windows
 
 Como una forma de ayudarlo a comenzar en el mundo EOSIO, aquí hay una guía sobre cómo instalar el Kit de herramientas de desarrollo de contratos EOSIO. Si está utilizando un sistema operativo diferente en lugar de **Windows**, visite [este sitio](https://developers.eos.io/welcome/latest/getting-started/development-environment/before-you-begin) 
 para ver los requisitos previos y pasar a [Instalar binarios](#instalar-binarios).
