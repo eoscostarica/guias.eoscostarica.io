@@ -64,6 +64,8 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 
 ## Infraestructura como Código (IAC)
 
+El proceso de administrar y aprovisionar centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactivas.
+
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
@@ -127,7 +129,7 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 
 * * *
 
-### Kubernetes vs. Docker: No es una pregunta de ambos o uno
+### Kubernetes vs Docker: No es una pregunta de ambos o uno
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true"> </iframe>
