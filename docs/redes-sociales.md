@@ -14,9 +14,9 @@ Sea respetuoso, cuide su lenguaje y mantenga lo profesional al representar a la 
 
 ## [LinkedIn](https://www.linkedin.com/company/eoscostarica/)
 
-### **Instrucciones:**
+### **Instrucciones**
 
-- Crear una cuenta y seguir a [EOS Costa Rica](https://www.linkedin.com/company/eoscostarica/)
+- Crear una cuenta y seguir a [EOS Costa Rica](https://www.linkedin.com/company/eoscostarica/).
 
 - Compartir las publicaciones de EOS Costa Rica con la comunidad.
 
@@ -69,7 +69,7 @@ More on:
 - **Ejemplo 3:**  
 >I am a **software intern** learning to develop decentralized applications on the EOSIO platform. I specialize in **JavaScript and C++**. Also, I know **Angular, Vue, and React**.  
 
-### **Así es como se vería:**
+### **Así es como se vería**
 
 <div style={{  textAlign: "center" }}>
     <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/LinkedResultado.png" />
@@ -78,14 +78,14 @@ More on:
 
 ## [Twitter](https://twitter.com/EOSCostaRica)
 
-### **Instrucciones:**  
+### **Instrucciones**  
 - Seguir a [EOS Costa Rica](https://twitter.com/EOSCostaRica) si tiene una cuenta.
 - Compartir las publicaciones de EOS Costa Rica con la comunidad.
 
 ## [GitHub](https://github.com/eoscostarica)
 
-### **Instrucciones:** 
-- Crear una cuenta y seguir a [EOS Costa Rica](https://github.com/eoscostarica)
+### **Instrucciones** 
+- Crear una cuenta y seguir a [EOS Costa Rica](https://github.com/eoscostarica).
 - Revise los repositorios y solicite permisos.
 - Edite el perfil para que aparezca como colaborador de EOS Costa Rica.
 
@@ -97,8 +97,7 @@ More on:
 </div>
 
 
-
-***Ejemplos de descripciones:***
+** *Ejemplos de descripciones:* **
 
 - **Ejemplo 1:**  
 >Software Intern  @eoscostarica - a blockchain development company.
@@ -106,7 +105,7 @@ More on:
 - **Ejemplo 2:**  
 >Communications Strategist @eoscostarica - a blockchain development company.
 
-### **Así es como se vería:**
+### **Así es como se vería**
 <div style={{  textAlign: "center" }}>
     <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/GitHubResultado.png" />
 </div>
@@ -114,7 +113,7 @@ More on:
 
 ## [Telegram](https://t.me/eoscr)
 
-### **Instrucciones:**  
+### **Instrucciones**  
 - Crear una cuenta y seguir a [EOS Costa Rica](https://t.me/eoscr).
 - Buscar los canales:
     - https://t.me/blockchaincostarica
