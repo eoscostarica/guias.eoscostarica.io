@@ -54,7 +54,7 @@ El propósito de una historia de usuario es articular cómo una pieza de trabajo
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/Zi9E1aUO_1U" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### ¿Cómo escribir una historias de usuario?
+#### ¿Cómo escribir una historia de usuario?
 
 - **Definición de Terminado:** La historia generalmente se “termina” cuando el usuario puede completar la tarea descrita.
 - **Resuma las subtareas o tareas:** Decida qué pasos específicos deben completarse y quién es responsable de cada uno de ellos.
