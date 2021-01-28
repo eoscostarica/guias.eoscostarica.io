@@ -22,8 +22,8 @@ El pair programming específica que siempre haya dos personas trabajando al mism
 **Tamaño del team:** 2 personas.
 
 ### Roles:
-- **Piloto:** Se encarga de escribir el código. 
-- **Copiloto:** Se encarga de supervisar ese código. 
+- **Conductor:** Se encarga de escribir el código. 
+- **Navegador:** Se encarga de supervisar ese código. 
 
 Una de las reglas del pair programming establece que estos dos roles se intercambien con regularidad, de esta manera se evita una posible brecha jerárquica.
 
