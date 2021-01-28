@@ -95,9 +95,9 @@ Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemp
 
 #### **Prerrequisitos**
 
-```
+`
 yarn
-```
+`
 
 #### **Instalación**
 
