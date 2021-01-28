@@ -60,7 +60,7 @@ Un grupo de personas con mucha inteligencia, con grandes retos trabajando en equ
 ### Bias for action:
 - Evitar quedarse en conversaciones abstractas por mucho tiempo.
 - No discuta un problema por más de 10 minutos (Recomendado).
-- Si hay mas de una solución a un problema experimente con dos o 3 (Use
+- Si hay más de una solución a un problema experimente con dos o 3 (Use
 paretto).
 - Use ejemplos para mantener la conversación caminando.
 - Las ideas de los navegadores solo se implementan por el conductor.
@@ -90,7 +90,7 @@ cultura de la organización.
 - Mitiga las tareas tediosas, tiene visibilidad 360 y mejora la automatización.
 - Apalanca el entrenamiento entre miembros del equipo.
 - Entrega resultados más rápido reduciendo el tiempo del work in progress y eliminando tiempos de handoff entre equipos y mitiga los problemas de comunicación.
-- Puede incrementar el tiempo de entrega de una tarea por la cantidad de personas pensando alrededor de una tarea individual, pero bajan aprox 15% de defectos o margen de error, se mitiga refactoring y retrabajo y soporte de la tarea o el entregable.
+- Puede incrementar el tiempo de entrega de una tarea por la cantidad de personas pensando alrededor de una tarea individual, pero bajan aproximadamente 15% de defectos o margen de error, se mitiga refactoring y retrabajo y soporte de la tarea o el entregable.
 - Satisfaccion se incrementa un 96% entre programadores.
 - Entrenamiento ágil.
 - Team building and communication.
@@ -98,7 +98,7 @@ cultura de la organización.
 
 ### Beneficios para otras organizaciones y servicios.
 - Recruiting.
-- Diseño(Service, UX, Production).
+- Diseño (Service, UX, Production).
 - Tech debt and refactoring.
 
 >Información brindada por:
