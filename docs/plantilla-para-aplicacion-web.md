@@ -1,7 +1,7 @@
 ---
 id: plantilla-para-aplicacion-web
 title: Plantilla para Aplicación Web
-sidebar_label: Plantilla para Aplicación Web
+sidebar_label: Plantilla Para Aplicación Web
 ---
 
 ## Plantilla para Aplicación Web de React

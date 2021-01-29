@@ -1,7 +1,7 @@
 ---
 id: plantilla-para-backend
 title: Plantilla para Backend
-sidebar_label: Plantilla para Backend
+sidebar_label: Plantilla Para Backend
 ---
 
 Una plantilla altamente escalable con las mejores prácticas, hecha para un inicio rápido de proyectos backend. Esta plantilla presenta todas las últimas herramientas y buenas prácticas en la industria. Puedes encontrar el repositorio [aquí](https://github.com/eoscostarica/backend-boilerplate).

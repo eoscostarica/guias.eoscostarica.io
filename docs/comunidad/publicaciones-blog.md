@@ -1,7 +1,7 @@
 ---
 id: publicaciones-blog
 title: Publicaciones de blog
-sidebar_label: Publicaciones de blog
+sidebar_label: Publicaciones de Blog
 ---
 
 ## ¿Qué es blockchain?
