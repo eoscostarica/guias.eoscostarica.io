@@ -19,7 +19,6 @@ Los productores de bloques proveen la infraestructura requerida para procesar la
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
 ### Productores de Bloques Activos
 
 Los nodos autorizados como productores de bloques activos pertenecen a un grupo que comparte la responsabilidad de validar y escribir todas las acciones en la red.
