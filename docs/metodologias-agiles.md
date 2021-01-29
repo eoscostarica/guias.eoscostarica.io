@@ -1,7 +1,7 @@
 ---
 id: metodologias-agiles
-title: Metodologías Agiles
-sidebar_label: Metodologías Agiles
+title: Metodologías Ágiles
+sidebar_label: Metodologías Ágiles
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -120,7 +120,7 @@ La preparación del backlog, también conocida como refinamiento del backlog o t
 
 1. Elimine historias de usuarios que ya no parecen relevantes.
 2. Cree nuevas historias de usuarios en respuesta a necesidades recién descubiertas.
-3. Reevalue la prioridad relativa de las historias.
+3. Reevalúe la prioridad relativa de las historias.
 4. Asigne estimaciones a las historias que aún no han recibido una,
 corregir estimaciones a la luz de la información recién descubierta.
 5. Divide historias de usuarios que son de alta prioridad.
