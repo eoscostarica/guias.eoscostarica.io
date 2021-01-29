@@ -1,7 +1,7 @@
 ---
 id: pautas-para-codigo-abierto
 title: Pautas para Código Abierto
-sidebar_label: Pautas para Código Abierto
+sidebar_label: Pautas Para Código Abierto
 ---
 
 ## Proceso de Desarrollo
