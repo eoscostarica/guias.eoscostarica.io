@@ -8,8 +8,10 @@ DevOps es la práctica y la cultura de aplicar los principios de fabricación aj
 
 Se centra en unificar el desarrollo y las operaciones de TI a través de los principios de flujo, retroalimentación y experimentación.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/OOGFxVzW35w" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe
+   width="100%" height="315" src="https://www.youtube.com/embed/OOGFxVzW35w" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -36,10 +38,6 @@ En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 or
 
 ***
 
-
-
-![](https://user-images.githubusercontent.com/5632966/105532539-95abdd00-5cb0-11eb-81ff-b854c4ec1784.png)
-
 ## Áreas de énfasis
 
 Los principios de DevOps son aplicados y asistidos por las siguientes 3 áreas clave que trabajan juntas:
@@ -60,22 +58,22 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 
 ## CI Systems - Ejemplos
 
-![](https://user-images.githubusercontent.com/5632966/105532576-a0ff0880-5cb0-11eb-99fb-5176d5b823e4.png)
+![imagen](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png)
 
 ## CD Systems - Ejemplos
 
-![](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
-
+![imagen](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
 
 * * *
-
 
 ## Infraestructura como código (IAC)
 
 Es el proceso de gestión y aprovisionamiento de centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactiva.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe
+   width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -85,8 +83,10 @@ Es el proceso de gestión y aprovisionamiento de centros de datos informáticos 
 
 Terraform es un software de infraestructura como código desarrollado por HashiCorp. Permite a los usuarios definir y configurar la infraestructura de un centro de datos en un lenguaje de alto nivel.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -94,8 +94,10 @@ Terraform es un software de infraestructura como código desarrollado por HashiC
 
 ### Introducción a HashiCorp Terraform 
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -107,8 +109,10 @@ Docker es un proyecto de código abierto que automatiza el despliegue de aplicac
 
 #### **Containers 101**
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
+<figure
+ class="video_container">
+  <iframe
+   width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -118,12 +122,15 @@ Docker es un proyecto de código abierto que automatiza el despliegue de aplicac
 
 #### **¿Qué es Docker?**
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
+<figure 
+class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
 * * *
+
 ### Kubernetes
 
 Kubernetes es un sistema de código libre para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores​ que fue originalmente diseñado por Google y donado a la Cloud Native Computing Foundation. Soporta diferentes entornos para la ejecución de contenedores, incluido Docker.
@@ -132,8 +139,10 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 
 #### **Kubernetes en 5 minutos**
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
+<figure
+   class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -141,8 +150,10 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 
 #### **Kubernetes vs.Docker: no es una cuestión de uno o el otro**
 
-<figure class="video_container">
-  <iframe wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe
+   wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -171,6 +182,7 @@ ssh -i key.pem user@master-sandbox
 ```shell
 kubectl cluster-info
 ```
+
 - Mostrar nodos disponibles actualmente en el clúster:
 
 ```shell
