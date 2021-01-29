@@ -14,12 +14,13 @@ En una red EOSIO, la RAM es el espacio de almacenamiento de memoria donde la cad
 
 RAM es un recurso muy importante y es limitado. Se utiliza al ejecutar muchas acciones que están disponibles en la cadena de bloques, al crear una nueva cuenta, por ejemplo, la información de esa cuenta se almacena en la memoria de la cadena de bloques. Además, cuando una cuenta acepta un nuevo tipo de token, se debe crear un nuevo registro en algún lugar de la memoria de blockchain que contenga el saldo del nuevo token aceptado, y esa memoria, el espacio de almacenamiento en blockchain, debe ser comprada por el cuenta que transfiere el token o por la cuenta que acepta el nuevo tipo de token.
 
-RAM es referido como `memory` en el siguiente resultado del comando `cleos get account` :
+RAM es referido como `memory` en el siguiente resultado del comando `cleos get account`:
 
-```c++
-    memory: 
-     quota:     86.68 KiB    used:     11.62 KiB  
-```
+`
+    memory:
+    quota: 86.68 KiB
+    used: 11.62 KiB
+`
 
 Puede encontrar más detalles sobre RAM como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram ).
 
