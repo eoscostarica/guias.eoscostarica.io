@@ -5,12 +5,12 @@ sidebar_label: Metodologías Ágiles
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## ¿Qué son las metodologías ágiles?
+## ¿Qué son las Metodologías Ágiles?
 
 Estas son metodologías de trabajo que permiten la adaptación a las circunstancias de los proyectos y reducen los procesos de documentación, generalmente se utilizan en proyectos que no tienen un alcance definido con certeza, lo que provoca sean muy propensos al cambio, debido a que en estas metodologías se hacen entregas en poco tiempo de productos funcionales (2 a 4 semanas) permite que el proceso de cambios y corrección de errores sea rápido y no tenga un costo muy alto para el proyecto en general. 
 
 
-### Agilidad moderna
+### Agilidad Moderna
 
 Agilidad moderna es mucho más amplio que el manifiesto ágil para el desarrollo de software. Es un concepto que tiene en cuenta muchas áreas diferentes, no solo el desarrollo de software, incluso se puede aplicar en organizaciones que no se dedican a ello.
 
@@ -24,7 +24,7 @@ Los métodos ágiles modernos se definen mediante cuatro principios rectores:
 <img alt="Imagen Modern Agile"   src={ useBaseUrl( 'img/AgilidadModerna.jpg' )} />
 </div>
 
-## ¿Tipos de metodologías ágiles?
+## ¿Tipos de Metodologías Ágiles?
 
 Algunas de las metodologías ágiles más conocidas y utilizadas en la industria son: 
 
@@ -40,14 +40,14 @@ Consiste en la elaboración de un cuadro o diagrama en el que se reflejan tres c
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/I-H-WXAX_oM" frameborder="0" allow="true" allowfullscreen></iframe>
 
-### Programación extrema (XP)
+### Programación Extrema (XP)
 
 Es una metodología basada en un conjunto de reglas y buenas prácticas para el desarrollo de software en ambientes muy cambiantes con requerimientos imprecisos, por ende, está enfocada en la retroalimentación continua entre el equipo de desarrollo y el cliente. XP tiene como base la simplicidad y como objetivo la satisfacción del cliente.
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/h34e1ph0aPk" frameborder="0" allow="true" allowfullscreen></iframe>
 
 
-## Gestión de proyectos ágiles
+## Gestión de Proyectos Ágiles
 
 ### Historias de Usuarios
 
@@ -56,7 +56,7 @@ El propósito de una historia de usuario es articular cómo una pieza de trabajo
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/Zi9E1aUO_1U" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### ¿Cómo escribir una historia de usuario?
+#### ¿Cómo Escribir una Historia de Usuario?
 
 - **Definición de Terminado:** La historia generalmente se “termina” cuando el usuario puede completar la tarea descrita.
 - **Resuma las subtareas o tareas:** Decida qué pasos específicos deben completarse y quién es responsable de cada uno de ellos.
@@ -72,7 +72,7 @@ El propósito de una historia de usuario es articular cómo una pieza de trabajo
 > - Como **Gerente**, quiero **generar un informe** para que **pueda entender qué departamentos necesitan más recursos**.
 
 
-## Reuniones de trabajo
+## Reuniones de Trabajo
 
 ### Sesión de Planning
 
@@ -84,7 +84,7 @@ Este acuerdo define la acumulación de sprints y se basa en la velocidad o capac
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/PsGsxhqI9dE" frameborder="0" allow="true" allowfullscreen></iframe>
 
 
-#### ¿Quién está implicado?
+#### ¿Quién está Implicado?
 
 - **Product Owner:** Identifica los elementos del backlog y sus prioridades relativas, además de proponer un objetivo de sprint.
 
@@ -92,7 +92,7 @@ Este acuerdo define la acumulación de sprints y se basa en la velocidad o capac
 
 - **Scrum Master:** Por lo general, facilita la planificación del sprint para garantizar que la discusión sea efectiva y que haya acuerdo con el objetivo del sprint y que los elementos apropiados se incluyan en el backlog del sprint.
 
-#### Pasos para el planning
+#### Pasos para el Planning
 
 1. Discuta cualquier información nueva que pueda afectar el plan.
 2. Confirme los problemas y preocupaciones actualmente conocidos y regístrelos según corresponda.
@@ -112,13 +112,13 @@ La preparación del backlog, también conocida como refinamiento del backlog o t
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjJ3cTc1v-s" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### ¿Quién está implicado?
+#### ¿Quién está Implicado?
 
 - **Product Owner:** Tiene la tarea de facilitar las sesiones de refinamiento del backlog. Sin embargo, eso no significa que sean los únicos responsables de realizar las sesiones de preparación pendientes.
 - **Miembros del equipo:** Estos eventos están destinados a ser colaborativos. Eso significa que todo el equipo multifuncional debe estar representado en las sesiones de refinamiento.
 - **Representantes de QA:** Se necesita la experiencia combinada de las diversas funciones de su equipo para desarrollar de manera efectiva sus historias de usuario.
 
-#### Pasos para el grooming
+#### Pasos para el Grooming
 
 1. Elimine historias de usuarios que ya no parecen relevantes.
 2. Cree nuevas historias de usuarios en respuesta a necesidades recién descubiertas.
@@ -139,7 +139,7 @@ En la gestión de proyectos ágil, las reuniones diarias de pie son esenciales, 
 
 <iframe width = "100%" height = "350" src = "https://www.youtube.com/embed/16IoziutCZs" frameborder = "0" allow = "true" allowfullscreen> </iframe>
 
-#### Beneficios de los stand-ups diarios
+#### Beneficios de los Stand-ups Diarios
 
 - Las reuniones diarias permiten a los miembros del equipo trabajar en colaboración para alcanzar los objetivos del proyecto.
 - Las reuniones diarias de pie son importantes para mantener a los equipos enfocados en la tarea mientras brindan actualizaciones rápidas a nivel de proyecto para el resto del equipo.
@@ -153,7 +153,7 @@ Una retrospectiva ágil obliga a todo el equipo a hacer una pausa y reflexionar 
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/7wd61RrJAfo" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### ¿Con qué frecuencia debes realizar retrospectivas?
+#### ¿Con qué Frecuencia debes Realizar Retrospectivas?
 
 Las retrospectivas se pueden realizar con más frecuencia, incluso para lanzamientos menores, cada sprint o incluso en reuniones diarias o semanales.
 
@@ -165,7 +165,8 @@ La demostración de Sprint no debería ocupar demasiado tiempo a un equipo Scrum
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/S-jjJf_cy7Q" frameborder="0" allow="true" allowfullscreen></iframe>
 
 
-#### Pasos para el demo
+#### Pasos para el Demo
+
 1. **Cuente una historia:** Este es uno de los factores más importantes para una gran demostración, y también el que más se pasa por alto. Dada la naturaleza estructurada de las historias, es fácil caer en la trampa de simplemente enumerar el trabajo que ha realizado, esto no es necesariamente malo, pero es poco probable que entusiasme a las partes interesadas no técnicas.
 2. **Deje que los desarrolladores participen:** Siempre que sea posible, es fantástico permitir que los desarrolladores presenten su propio trabajo, lo que ayuda a generar confianza, moral y un sentido de pertenencia. Un buen compromiso puede ser tener un orador organizador con un desarrollador "invitado" diferente que muestre su trabajo cada semana.
 3. **Establezca expectativas:** Establecer expectativas y proporcionar contexto es fundamental para una demostración exitosa.
