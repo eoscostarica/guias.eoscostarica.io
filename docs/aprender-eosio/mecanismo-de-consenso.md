@@ -60,7 +60,7 @@ Es importante que las llaves privadas de producción estén respaldadas correcta
 
 Las redes EOSIO manejan un grupo de nodos productores de bloques registrados que pueden asumir el rol de productores de bloques con solo ser agregado al schedule de productores activos.
 
-##### Delegated Proof of Stake (DPoS)
+### Delegated Proof of Stake (DPoS)
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
