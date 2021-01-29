@@ -40,10 +40,18 @@ GitHub para [dispositivos móviles](https://play.google.com/store/apps/details?i
 
 <img alt="Imagen Git Bash" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Bash.png' )} />
 
+### [Hub](https://hub.github.com)
+
+[Hub](https://github.com/github/hub) es una extensión de línea de comandos de git, que te ayuda a realizar las tareas diarias de GitHub sin tener que salir de la terminal.
+
+
+### [Git-extras](https://www.mankier.com/1/git-extras)
+[Git-extras](https://github.com/tj/git-extras) repo aloja más de 60 scripts que se suman a la funcionalidad básica de Git. Más información sobre [Comandos](https://github.com/tj/git-extras/blob/master/Commands.md).
+
 * * * 
 ## **Comandos** 
 
-### **Iniciar Repositorio**
+### Iniciar Repositorio
 
 Crear un directorio nuevo.
 ```
@@ -57,7 +65,7 @@ git clone <url>
 
 >[Más información](https://dominicode.com/git-como-empezar/#:~:text=Para%20iniciar%20tu%20primer%20proyecto,ejecuta%20el%20comando%20git%20init%20.&text=Deberías%20tener%20un%20mensaje%20de,la%20carpeta%20no%20verás%20nada.)
 
-### **Manejo de Ramas**
+### Manejo de Ramas
 
 Lista las ramas existentes.
 ```
@@ -86,7 +94,7 @@ git branch -d <nombre de la rama>
 ```
 >[Más información](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Gestión-de-Ramas)
 
-### **Subir Cambios**
+### Subir Cambios
 
 Actualizar tu repositorio local.
 ```
@@ -129,7 +137,7 @@ git merge <nombre de la rama>
 ```
 >[Más información](https://rogerdudler.github.io/git-guide/index.es.html)
 
-### **Fork**
+### Fork
 
 Descargar remote de un fork
 ```
@@ -143,7 +151,7 @@ git merge upstream/master
 ```
 >[Más información](https://aprendegit.com/fork-de-repositorios-para-que-sirve/)
 
-### **Otros Comandos**
+### Otros Comandos
 
 Revisar logs de los commits.
 ```
