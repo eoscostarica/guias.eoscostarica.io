@@ -1,7 +1,7 @@
 ---
-id: pair-mob-programming
-title: Desarrollo de Software en Parejas o Grupos
-sidebar_label: Desarrollo de Software en Parejas o Grupos
+id: programacion-parejas-grupos
+title: Programación en Parejas o Grupos
+sidebar_label: Programación en Parejas o Grupos
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -19,7 +19,7 @@ El pair programming específica que siempre haya dos personas trabajando al mism
 <img alt="Imagen Pair Programing"  src={ useBaseUrl( 'img/metodosProgramacion/PairProgramming.png' )} /> </div>
 
 ### ¿Cómo se hace?
-**Tamaño del team:** 2 personas.
+**Tamaño del equipo:** 2 personas.
 
 ### Roles:
 - **Conductor:** Se encarga de escribir el código. 
@@ -28,7 +28,7 @@ El pair programming específica que siempre haya dos personas trabajando al mism
 Una de las reglas del pair programming establece que estos dos roles se intercambien con regularidad, de esta manera se evita una posible brecha jerárquica.
 
 ### Tipos de pair programming:
-- **Backset Navigator:** El navegador asume más de los roles tácticos del conductor. En la navegación por asiento trasero, el controlador sigue controlando el teclado y escribiendo, pero el navegador dicta instrucciones sintácticas, como qué nombre llamar a una variable o qué método específico llamar. El estilo de navegador del asiento trasero funciona mejor con un principiante como conductor y experto como el navegante, permitiendo que el principiante aprenda haciendo.
+- **Navegador:** El navegador asume más de los roles tácticos del conductor. En la navegación, el controlador sigue controlando el teclado y escribiendo, pero el navegador dicta instrucciones sintácticas, como qué nombre llamar a una variable o qué método específico llamar. El estilo de navegador del asiento trasero funciona mejor con un principiante como conductor y experto como el navegante, permitiendo que el principiante aprenda haciendo.
 - **Ping Pong Pairing:**  Permite a los roles cambiar con frecuencia y obliga a los ingenieros a prestar atención a los aspectos de codificación y pruebas del desarrollo, ganando familiaridad con el proceso.
 - **Pomodoro:** Una sesión de emparejamiento típica al estilo Pomodoro dura 25 minutos seguida de un descanso de 5 minutos. El controlador y el navegador cambian de posición. Después de cuatro sesiones de 25 minutos, ambos programadores toman un descanso más largo de 20 minutos. Los descansos forzados y el cambio de posición regular ayudan a garantizar que ambos programadores estén siempre productivos, enfocados y actualizados cuando comienza una sesión.
 
@@ -51,7 +51,7 @@ Un grupo de personas con mucha inteligencia, con grandes retos trabajando en equ
 <img alt="Imagen Mob Programing" width="70%" src={ useBaseUrl( 'img/metodosProgramacion/MobProgramming.png' )} /> </div>
 
 ### ¿Cómo se hace?
-**Tamaño del team:** 3-6 personas.
+**Tamaño del equipo:** 3-6 personas.
 
 ### Roles:
 - **Conductor:** Recibe input del equipo y ejecuta la implementación de las ideas.
@@ -64,7 +64,7 @@ Un grupo de personas con mucha inteligencia, con grandes retos trabajando en equ
 paretto).
 - Use ejemplos para mantener la conversación caminando.
 - Las ideas de los navegadores solo se implementan por el conductor.
-- El skill level del conductor es clave para que los navegadores desarrollen más las instrucciones.
+- El nivel de habilidad del conductor es clave para que los navegadores desarrollen más las instrucciones.
 - Feedback inmediato.
 - Aprender o contribuir.
 - Agilidad en comunicación.
@@ -72,9 +72,8 @@ paretto).
 - Empatía y respeto.
 
 ### Artefactos:
-
-- Backlog de problemas específicos definidos por el product owner o el Tech lead.
-- Alignment en programming katas (Código nuevo, bug fixing, test driven development, refactoring).
+- Backlog de problemas específicos definidos por el product owner o el tech lead.
+- Alineación en programación de katas (Código nuevo, corrección de errores, desarrollo impulsado por pruebas, refactorización).
 - Test automation.
 - Repo - DevOps.
 
@@ -90,16 +89,16 @@ cultura de la organización.
 - Mitiga las tareas tediosas, tiene visibilidad 360 y mejora la automatización.
 - Apalanca el entrenamiento entre miembros del equipo.
 - Entrega resultados más rápido reduciendo el tiempo del work in progress y eliminando tiempos de handoff entre equipos y mitiga los problemas de comunicación.
-- Puede incrementar el tiempo de entrega de una tarea por la cantidad de personas pensando alrededor de una tarea individual, pero bajan aproximadamente 15% de defectos o margen de error, se mitiga refactoring y retrabajo y soporte de la tarea o el entregable.
-- Satisfaccion se incrementa un 96% entre programadores.
+- Puede incrementar el tiempo de entrega de una tarea por la cantidad de personas pensando alrededor de una tarea individual, pero bajan aproximadamente 15% de defectos o margen de error, se mitiga refactoring, retrabajo y soporte de la tarea o el entregable.
+- Satisfacción se incrementa un 96% entre programadores.
 - Entrenamiento ágil.
-- Team building and communication.
+- Team building y comunicación.
 - Más opciones de soluciones para varios problemas a la vez.
 
 ### Beneficios para otras organizaciones y servicios.
-- Recruiting.
-- Diseño (Service, UX, Production).
-- Tech debt and refactoring.
+- Reclutamiento.
+- Diseño (Servicio, UX, Producción).
+- Deuda tecnológica y refactorización.
 
 >Información brindada por:
 >**Julian Alvarado**

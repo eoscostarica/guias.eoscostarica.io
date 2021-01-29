@@ -4,7 +4,7 @@ module.exports = {
             "cultura-ingenieril",
             "pautas-para-codigo-abierto",
             "metodologias-agiles",
-            "pair-mob-programming",
+            "programacion-parejas-grupos",
             "devops",
             "herramientas-para-desarrolladores",
             "proyectos-de-codigo-abierto",
