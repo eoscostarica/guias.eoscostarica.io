@@ -4,7 +4,7 @@ title: DevOps
 sidebar_label: DevOps
 ---
 
-DevOps es la práctica y la cultura de aplicar los principios de fabricación ajustada al flujo de valor de TI para aumentar la velocidad del software, reducir el desperdicio y mejorar la calidad con énfasis en aprovechar * las personas, los procesos y las herramientas. *
+DevOps es la práctica y la cultura de aplicar los principios de fabricación ajustada al flujo de valor de TI para aumentar la velocidad del software, reducir el desperdicio y mejorar la calidad con énfasis en aprovechar *las personas, los procesos y las herramientas*.
 
 Se centra en unificar el desarrollo y las operaciones de TI a través de los principios de flujo, retroalimentación y experimentación.
 
@@ -15,11 +15,11 @@ Se centra en unificar el desarrollo y las operaciones de TI a través de los pri
 
 ## Definiciones clave
 
-- ** Integración continua (CI) **: Aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera ágil y controlada. (Verificando todo el código en un repositorio centralizado diariamente)
-- ** Despliegue continuo (CD) **: Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
-- ** Entrega continua (CD) **: Automatización que garantiza la validación de la implementación; sin embargo, aún se requieren pasos manuales para implementar en producción.
-- ** Implementación **: La implementación (o transporte) de código a un entorno de nivel superior, hasta e incluida la producción.
-- ** Lanzamiento **: El alcance definido y el objetivo comercial para un conjunto de características que se entregarán en un cierto plazo.
+- **Integración continua (CI)**: Aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera ágil y controlada. (Verificando todo el código en un repositorio centralizado diariamente)
+- **Despliegue continuo (CD)**: Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
+- **Entrega continua (CD)**: Automatización que garantiza la validación de la implementación; sin embargo, aún se requieren pasos manuales para implementar en producción.
+- **Implementación**: La implementación (o transporte) de código a un entorno de nivel superior, hasta e incluida la producción.
+- **Lanzamiento**: El alcance definido y el objetivo comercial para un conjunto de características que se entregarán en un cierto plazo.
 
 ## ¿Por qué implementar DevOps?
 
@@ -54,15 +54,13 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 - Logre un tiempo de comercialización más rápido
 - Menor índice de fallas de nuevos lanzamientos
 - Acortar el tiempo de espera entre arreglos
-- Mejorar el tiempo medio de recuperación.
+- Mejorar el tiempo medio de recuperación
 
 ## CI Systems - Ejemplos
 
 ![](https://user-images.githubusercontent.com/5632966/105532576-a0ff0880-5cb0-11eb-99fb-5176d5b823e4.png)
 
-* * *
-
-## Infraestructura como Código (IAC)
+## Infraestructura como código (IAC)
 
 El proceso de administrar y aprovisionar centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactivas.
 
@@ -77,7 +75,8 @@ El proceso de administrar y aprovisionar centros de datos informáticos a travé
 Terraform es un software de infraestructura como código, desarrollado por HashiCorp. Permite a los usuarios definir y configurar la infraestructura de un centro de datos en un lenguaje de alto nivel.
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
+  </iframe>
 </figure>
 
 * * *
@@ -85,7 +84,8 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 ## Introducción a HashiCorp Terraform
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
+  </iframe>
 </figure>
 
 ## Infrastructura como código en EOS CR
@@ -95,10 +95,11 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 
 ## Introducción a Kubernetes y Docker
 
-### Contenedores 101
+### **Containers 101**
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
+  </iframe>
 </figure>
 
 [Más información acerca de contenedores](https://www.youtube.com/embed/EnJ7qX9fkcU&list=PL7bmigfV0EqQt5_pBPQ8tsZjI1w68-e0H)
@@ -110,21 +111,23 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 Docker es un proyecto de código abierto que automatiza la implementación de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
+  </iframe>
 </figure>
 
 * * *
 
 ### Kubernetes
 
-Kubernetes es un sistema de código abierto para automatizar la implementación, el escalado y el manejo de aplicaciones en contenedores que fue diseñado originalmente por Google y donado a Cloud Native Computing Foundation. Admite diferentes entornos para ejecutar contenedores, incluido Docker.
+Kubernetes es un sistema de código libre para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores​ que fue originalmente diseñado por Google y donado a la Cloud Native Computing Foundation. Soporta diferentes entornos para la ejecución de contenedores, incluido Docker.
 
 A continuación, puede encontrar un conjunto de tutoriales muy convenientes para aprender kubernetes desde cero:
 
 ### Kubernetes en 5 minutos
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
+  </iframe>
 </figure>
 
 * * *
@@ -132,8 +135,11 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 ### Kubernetes vs Docker: No es una pregunta de ambos o uno
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
+  </iframe>
 </figure>
+
+* * *
 
 ## Kubernetes en EOS Costa Rica
 
@@ -142,24 +148,23 @@ Si así lo prefieres, también puedes crear un cluster local en tu propia máqui
 
 [Instalar Minikube](https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/) 
 
-Pídele a alguno de nuestros administradores accesso al dashboard de nuestra instalación de Openstack y el projecto Sandbox. 
-Luego puedes seguir los siguientes pasos:
+Solicite a los administradores acceso a nuestro panel de instalación Openstack y al Sandbox
+proyect. Entonces puedes seguir los siguientes pasos:
 
-- Antes que nada conectate al nodo maestro usando tu herramienta de SSH:
+- Primero que nada, conéctese al nodo maestro usando la herramienta SSH:
 
-```
+```shell
 ssh -i key.pem user@master-sandbox
 ```
 
-- Obtén información acerca del cluster:
+- Obtener información sobre el clúster:
 
-```
+```shell
 kubectl cluster-info
 ```
+- Mostrar nodos disponibles actualmente en el clúster:
 
-- Mostrar los nodos disponibles en el cluster:
-
-```
+```shell
 kubectl get nodes
 ```
 
