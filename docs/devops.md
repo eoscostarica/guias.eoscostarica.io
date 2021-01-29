@@ -15,9 +15,9 @@ Se centra en unificar el desarrollo y las operaciones de TI a través de los pri
 
 ## Definiciones clave
 
-- **Integración continua (CI)**: Aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera ágil y controlada. (Verificando todo el código en un repositorio centralizado diariamente)
-- **Despliegue continuo (CD)**: Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
-- **Entrega continua (CD)**: Automatización que garantiza la validación de la implementación; sin embargo, aún se requieren pasos manuales para implementar en producción.
+- **Integración Continua (CI)**: Aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera ágil y controlada. (Verificando todo el código en un repositorio centralizado diariamente)
+- **Despliegue Continuo (CD)**: Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
+- **Entrega Continua (CD)**: Automatización que garantiza la validación de la implementación; sin embargo, aún se requieren pasos manuales para implementar en producción.
 - **Implementación**: La implementación (o transporte) de código a un entorno de nivel superior, hasta e incluida la producción.
 - **Lanzamiento**: El alcance definido y el objetivo comercial para un conjunto de características que se entregarán en un cierto plazo.
 
@@ -51,7 +51,7 @@ Los principios de DevOps son aplicados y asistidos por las siguientes 3 áreas c
 Mejorar la colaboración entre todas las partes interesadas desde la planificación hasta la entrega y la automatización del proceso de entrega para:
 
 - Mejorar la frecuencia de implementación
-- Logre un tiempo de comercialización más rápido
+- Lograr un tiempo de comercialización más rápido
 - Menor índice de fallas de nuevos lanzamientos
 - Acortar el tiempo de espera entre arreglos
 - Mejorar el tiempo medio de recuperación
@@ -70,7 +70,7 @@ El proceso de administrar y aprovisionar centros de datos informáticos a travé
 
 * * *
 
-## Introducción a Terraform
+### Introducción a HashiCorp Terraform
 
 Terraform es un software de infraestructura como código, desarrollado por HashiCorp. Permite a los usuarios definir y configurar la infraestructura de un centro de datos en un lenguaje de alto nivel.
 
@@ -78,10 +78,6 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
-
-* * *
-
-## Introducción a HashiCorp Terraform
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">

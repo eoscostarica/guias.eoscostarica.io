@@ -10,29 +10,29 @@ Un Contrato Inteligente de EOSIO es software registrado en el blockchain y ejecu
 
 Lee más aquí : https://guias.eoscostarica.io/docs/tutoriales/cpp-moderno
 
-## Framework de diseño de Contratos Inteligentes
+## Framework de Diseño de Contratos Inteligentes
 
 Escazes Digital [github repo](https://github.com/digital-scarcity/equiprental) tiene un ejemplo diseñado para proveer un framework paso a paso y ejemplo de cómmo crear un Contrato Inteligente en EOS. Usa un simple caso de alquiler de equipos que lista el equipo para alquilar y los alquiladores que pagan por el alquier de dicho equipo.
 
-### Pasos del proceso
+### Pasos del Proceso
 
 Aquí se pueden ver los pasos generales para desarrollar un Contrato Inteligente.
-![alt text](/img/contracts/steps.png "Steps")
+![alt text](/img/contracts/steps.png "Pasos")
 
-### Modelo de datos
+### Modelo de Datos
 
 Define la información que persistirá en el Contrato Inteligente.
-![alt text](/img/contracts/datamodel.png "Data Model")
+![alt text](/img/contracts/datamodel.png "Modelo de Datos")
 
 ### Acciones
 
 Define las acciones o el estado de cambio que deben existir en el Contrato Inteligente.
-![alt text](/img/contracts/actions.png "Actions")
+![alt text](/img/contracts/actions.png "Acciones")
 
-### Pre y Post-Condiciones
+### Pre- y Post- Condiciones
 
 Define las acciones o el estado de cambios que deben existir en tu Contrato Inteligente.
-![alt text](/img/contracts/prepostconditions.png "Pre- and Post-Conditions")
+![alt text](/img/contracts/prepostconditions.png "Pre y Post Condiciones")
 
 ## Contratos Inteligentes de Código Abierto
 
@@ -40,12 +40,11 @@ Nosotros manteneos una lista de Contratos Inteligentes de EOS de código de abie
 
 https://github.com/eoscostarica/eos-contracts
 
-También, échale un vistazo a esta lista de Contratos Inteligenes de EOS de código abierto mantenida por César Rodríguez:
+También, revisar la siguiente lista de Contratos Inteligenes de EOS de código abierto mantenida por César Rodríguez:
 
 https://github.com/kesar/eos-awesome-contracts
 
-
-## Esquema de contrato inteligente basico 
+## Esquema de Contrato Inteligente Básico 
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/EbWDHrm2ETY" frameborder="0" allowfullscreen="true"> </iframe>
