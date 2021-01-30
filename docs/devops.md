@@ -58,11 +58,11 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 
 ## CI Systems - Ejemplos
 
-![imagen](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png)
+![imagen_CI_System](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png)
 
 ## CD Systems - Ejemplos
 
-![imagen](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
+![imagen_CD_System](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
 
 * * *
 
