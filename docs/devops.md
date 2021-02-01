@@ -8,12 +8,14 @@ DevOps es la práctica y la cultura de aplicar los principios de fabricación aj
 
 Se centra en unificar el desarrollo y las operaciones de TI a través de los principios de flujo, retroalimentación y experimentación.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/OOGFxVzW35w" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe
+   width="100%" height="315" src="https://www.youtube.com/embed/OOGFxVzW35w" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
-## Definiciones clave
+## Definiciones Clave
 
 - **Integración Continua (CI)**: Aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera ágil y controlada. (Verificando todo el código en un repositorio centralizado diariamente)
 - **Despliegue Continuo (CD)**: Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
@@ -38,13 +40,13 @@ En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 or
 
 ![](https://user-images.githubusercontent.com/5632966/105532539-95abdd00-5cb0-11eb-81ff-b854c4ec1784.png)
 
-## Áreas de énfasis
+## Áreas de Énfasis
 
 Los principios de DevOps son aplicados y asistidos por las siguientes 3 áreas clave que trabajan juntas:
 
-- ** Personas **: DevOps se basa en personas sólidas y una cultura sólida de experimentación, aprendizaje, colaboración y objetivos compartidos entre las operaciones de desarrollo, control de calidad y TI.
-- ** Procesos **: DevOps se basa en Lean Agile y aplica conceptos de fabricación ajustada a las corrientes de valor de TI.
-- ** Herramientas **: DevOps se basa en herramientas y tecnologías mejoradas, incluidas herramientas de automatización, telemetría y colaboración.
+- **Personas**: DevOps se basa en personas sólidas y una cultura sólida de experimentación, aprendizaje, colaboración y objetivos compartidos entre las operaciones de desarrollo, control de calidad y TI.
+- **Procesos**: DevOps se basa en Lean Agile y aplica conceptos de fabricación ajustada a las corrientes de valor de TI.
+- **Herramientas**: DevOps se basa en herramientas y tecnologías mejoradas, incluidas herramientas de automatización, telemetría y colaboración.
 
 ## ¿Cuál es el objetivo de DevOps?
 
@@ -58,14 +60,23 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 
 ## CI Systems - Ejemplos
 
-![](https://user-images.githubusercontent.com/5632966/105532576-a0ff0880-5cb0-11eb-99fb-5176d5b823e4.png)
+![imagen_CI_System](https://user-images.githubusercontent.com/5632966/106228974-2f442480-61b2-11eb-9ceb-6d47ef5acb67.png)
 
-## Infraestructura como código (IAC)
+## CD Systems - Ejemplos
+
+![imagen_CD_System](https://user-images.githubusercontent.com/5632966/105532713-d0ae1080-5cb0-11eb-8d8b-5d3751b7df37.png)
+
+* * *
+
+## Infraestructura como Código (IAC)
 
 El proceso de administrar y aprovisionar centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactivas.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true"> </iframe>
+<figure 
+  class="video_container">
+  <iframe
+   width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
+  </iframe>
 </figure>
 
 * * *
@@ -74,17 +85,25 @@ El proceso de administrar y aprovisionar centros de datos informáticos a travé
 
 Terraform es un software de infraestructura como código, desarrollado por HashiCorp. Permite a los usuarios definir y configurar la infraestructura de un centro de datos en un lenguaje de alto nivel.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
+* * *
+
+### Introducción a HashiCorp Terraform 
+
+<figure 
+  class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
-## Infrastructura como código en EOS CR
+## Infrastructura como Código en EOS Costa Rica
 
 * [Documentación de Openstack](https://github.com/edenia/openstack-docs)
 * [Documentación de Kubernetes](https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md)
@@ -93,8 +112,10 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 
 ### **Containers 101**
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
+<figure
+ class="video_container">
+  <iframe
+   width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -106,8 +127,10 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 
 Docker es un proyecto de código abierto que automatiza la implementación de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
+<figure 
+class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -121,8 +144,10 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 
 ### Kubernetes en 5 minutos
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
+<figure
+   class="video_container">
+  <iframe 
+  width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -130,8 +155,10 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 
 ### Kubernetes vs Docker: No es una pregunta de ambos o uno
 
-<figure class="video_container">
-  <iframe wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
+<figure 
+  class="video_container">
+  <iframe
+   wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
   </iframe>
 </figure>
 
@@ -158,6 +185,7 @@ ssh -i key.pem user@master-sandbox
 ```shell
 kubectl cluster-info
 ```
+
 - Mostrar nodos disponibles actualmente en el clúster:
 
 ```shell
