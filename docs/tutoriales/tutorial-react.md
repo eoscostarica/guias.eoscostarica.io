@@ -21,12 +21,12 @@ Para React se sugieren las siguientes herramientas, las herramientas con * son n
 
 Estas extensiones son una recomendación para mejorar tu experiencia en el desarrollo con React.
 
-* Instalar [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=es),  esta se encuentra en la chrome web store (Navegador Web)
-* Debugger for Chrome (Visual Studio Code)
-* React Extension Pack (Visual Studio Code)
-* Auto Close Tag (Visual Studio Code)
-* Prettier - Code Formatter (Visual Studio Code)
-* ESLint - Estandares de JavaScript (Visual Studio Code)
+* Instalar [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=es),  esta se encuentra en la chrome web store (Navegador Web).
+* Debugger for Chrome (Visual Studio Code).
+* React Extension Pack (Visual Studio Code).
+* Auto Close Tag (Visual Studio Code).
+* Prettier - Code Formatter (Visual Studio Code).
+* ESLint - Estandares de JavaScript (Visual Studio Code).
 
 ## Recomendaciones
 
@@ -48,7 +48,7 @@ Es importante seguir los estandares de JavaScript, es recomendado utilizar la li
 
 React se dio cuenta que actualizar la pantalla completa es una tarea que puede tener muchos costos en rendimiento y tiempo. Entonces creo un DOM Virtual. Este objeto DOM virtual es identico al objeto DOM de JavaScript.
 
-### ¿Cómo funciona?
+### ¿Cómo Funciona?
 
 * El DOM virtual completo se actualiza.
 * El DOM virtual se compara con una versión anterior a la actualización. React se da cuenta de cuales objetos cambiaron.
@@ -70,7 +70,7 @@ $ npm -v
 #6.14.9
 ```
 
-## Iniciar la primera aplicación con React
+## Iniciar la Primera Aplicación con React
 
 Vamos a crear una primera aplicación con React en donde se van a ver reflejados algunas de las funcionalidades de React, en este caso debes cambiar "nombre_de_tu_aplicación" por el nombre que desees, para hacer más sencilla la lectura de ahora en adelante se utilizara my-app.
 
@@ -170,13 +170,13 @@ import { Component } from 'react';
 
 import './styles/App.css';
 
-import Header from "./components/header" //Se debe agregar el import del componente
+import Header from "./components/header" // Se debe agregar el import del componente
 
 class App extends Component{
   render(){
   return (
     <div className="App">
-      <Header />  /*Se agrega el componente*/
+      <Header />  /* Se agrega el componente */
     </div>
   );
 }
@@ -233,7 +233,7 @@ A continuación, te damos una lista de elementos que se toman de la documentaci�
 * [Levantando el Estado](https://es.reactjs.org/docs/lifting-state-up.html)
 * [Composición vs. Herencia](https://es.reactjs.org/docs/composition-vs-inheritance.html)
 
-## Lo nuevo en React
+## Lo Nuevo en React
 
 ### Hooks
 
