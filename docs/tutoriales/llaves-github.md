@@ -6,25 +6,25 @@ sidebar_label: Llaves de GitHub
 
 ## ¿Por qué necesitamos Llaves de GitHub?
 
-Definamos primero a GitHub como un sistema de control de versiones distribuidas en línea basado en un navegador para aquellos desarrolladores de software que utilizan el sistema de control de revisiones Git. Git utiliza la autenticación de clave pública SSH y no una autenticación por contraseña.  Cada usuario del sistema tiene que generar una clave. 
+Definamos primero a GitHub como un sistema de control de versiones distribuidas en línea basado en un navegador para aquellos desarrolladores de software que utilizan el sistema de control de revisiones Git. Git utiliza la autenticación de clave pública SSH y no una autenticación por contraseña.  Cada usuario del sistema tiene que generar una clave.
 
 El `SSH` es también conocido como Secure Shell o Secure Socket Shell. [Más sobre SSH en GitHub](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/about-ssh). Las claves SSH se utilizan para autenticar conexiones seguras que se generan a través de un algoritmo criptográfico de clave pública, siendo los más comunes RSA o DSA. Se trata de una fórmula unidireccional que garantiza que la clave pública puede derivarse de la clave privada, pero que la clave privada no puede derivarse de la clave pública.
 
 ## ¿Cómo generar una nueva clave SSH en windows?
 
-Esta guía es para usuarios de Windows, más información para Linux y Mac [en este sitio](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+Esta guía es para usuarios de Windows, más información para Linux y Mac [en este sitio](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-Los entornos Windows no tienen un shell Unix estándar por defecto. Será necesario instalar programas de shell externos para tener una experiencia completa de keygen. La opción más directa es utilizar Git Bash. 
+Los entornos Windows no tienen un shell Unix estándar por defecto. Será necesario instalar programas de shell externos para tener una experiencia completa de keygen. La opción más directa es utilizar Git Bash.
 
 - Abra Git Bash
 
-- Pega el texto de abajo, sustituyendo `"your_email@example.com"` por tu dirección de correo electrónico de GitHub.
+- Pega el texto de abajo, sustituyendo `"your_email@example.com"` por tu dirección de correo electrónico de GitHub
 
 ```shell
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 ---
->**NOTA:** 
+**NOTA:** 
 Si está utilizando un sistema heredado que no soporta el algoritmo `ed25519`, utilice:
 
 ```shell
@@ -38,7 +38,7 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 ¡Ahora tienes una nueva clave SSH!
 
-## Cómo añadir su clave SSH al ssh-agent
+## Cómo añadir su Clave SSH al ssh-agent
 
 - Asegúrate de que el ssh-agent se está ejecutando [más información](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases), o inícialo manualmente:
 
@@ -49,7 +49,7 @@ $ eval $(ssh-agent -s)
 ```
 ---
 
->**NOTA:** 
+**NOTA:** 
 Si sigue este flujo de generación de claves ssh, no es necesario iniciar el agente ssh.
 
 ---
@@ -64,4 +64,4 @@ $ ssh-add ~/.ssh/id_ed25519
 
 Ya está listo.
 
-[Más información sobre cómo funciona](https://www.preveil.com/blog/public-and-private-key/)
+[Más información sobre cómo funciona](https://www.preveil.com/blog/public-and-private-key/).
