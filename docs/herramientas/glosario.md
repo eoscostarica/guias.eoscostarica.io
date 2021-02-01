@@ -44,7 +44,7 @@ Es un método general para colocar tokens en cuentas EOS. Es una distribución d
 
 ### Airgrab
 
-El modelo  `Airgrab ` está diseñado para ser una forma más eficiente de capital para implementar tokens para desarrolladores de dApp. Si utiliza el token Airgrab, significa que usará su propia RAM personal y no los desarrolladores de dApp como lo hace en un Airdrop, por lo que es más barato para el desarrollador de dApp.
+El modelo  `Airgrab` está diseñado para ser una forma más eficiente de capital para implementar tokens para desarrolladores de dApp. Si utiliza el token Airgrab, significa que usará su propia RAM personal y no los desarrolladores de dApp como lo hace en un Airdrop, por lo que es más barato para el desarrollador de dApp.
 
 
 * * *
