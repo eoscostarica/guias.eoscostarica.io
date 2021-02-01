@@ -17,13 +17,13 @@ Es un filtros de tráfico de una lista de redes y acciones correlacionadas usado
 
 ### Actions (EOSIO)
 
-Funcionalidad expuesta por un contrato inteligente que se ejerce al pasar los parámetros correctos a través de una transacción aprobada a una red  `EOSIO `.
+Funcionalidad expuesta por un contrato inteligente que se ejerce al pasar los parámetros correctos a través de una transacción aprobada a una red `EOSIO `.
 
 * * *
 
 ### Actions (Hasura)
 
-Las  `acciones ` son una forma de extender el esquema de Hasura con lógica empresarial personalizada mediante consultas y mutaciones personalizadas.
+Las `acciones` son una forma de extender el esquema de Hasura con lógica empresarial personalizada mediante consultas y mutaciones personalizadas.
 
 Se pueden agregar acciones a Hasura para manejar varios casos de uso, como la validación de datos, el enriquecimiento de datos de fuentes externas y cualquier otra lógica empresarial compleja.
 
