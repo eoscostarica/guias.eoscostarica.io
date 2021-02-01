@@ -14,14 +14,14 @@ sidebar_label: C++ Moderno
 
 * * *
 
-## Hola mundo en c++
+## Hola Mundo en c++
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/DqbkxfUX5Kg" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
 
-## La esencia de C++
+## La Esencia de C++
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/86xWVb4XIyE" frameborder="0" allowfullscreen="true"> </iframe>
@@ -29,7 +29,7 @@ sidebar_label: C++ Moderno
 
 * * *
 
-## C++ en un video
+## C++ en un Video
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/Rub-JsjMhWY" frameborder="0" allowfullscreen="true"> </iframe>
@@ -37,7 +37,7 @@ sidebar_label: C++ Moderno
 
 * * *
 
-## Aprendiendo y enseñando C++
+## Aprendiendo y Enseñando C++
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/fX2W3nNjJIo" frameborder="0" allowfullscreen="true"> </iframe>
@@ -45,7 +45,7 @@ sidebar_label: C++ Moderno
 
 * * *
 
-## Elementos esenciales del estilo de C++ moderno
+## Elementos Esenciales del Estilo de C++ Moderno
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/xnqTKD8uD64" frameborder="0" allowfullscreen="true"> </iframe>
@@ -53,7 +53,7 @@ sidebar_label: C++ Moderno
 
 * * *
 
-## Algoritmos STL en menos de una hora
+## Algoritmos STL en Menos de una Hora
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/2olsGf6JIkU" frameborder="0" allowfullscreen="true"> </iframe>
@@ -61,7 +61,7 @@ sidebar_label: C++ Moderno
 
 * * *
 
-## Diez pautas fundamentales
+## 10 Pautas Fundamentales
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/XkDEzfpdcSg" frameborder="0" allowfullscreen="true"> </iframe>
@@ -69,7 +69,7 @@ sidebar_label: C++ Moderno
 
 * * *
 
-## C++ 17 práctico
+## C++ 17 Práctico
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/nnY4e4faNp0" frameborder="0" allowfullscreen="true"> </iframe>
@@ -77,7 +77,7 @@ sidebar_label: C++ Moderno
 
 * * *
 
-## Es complicado
+## Es Complicado
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/tTexD26jIN4" frameborder="0" allowfullscreen="true"> </iframe>
@@ -85,13 +85,13 @@ sidebar_label: C++ Moderno
 
 * * *
 
-## "The Cherno Project"
+## El Proyecto Cherno
 
 https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw
 
 * * *
 
-## Mejor código por Sean Parent
+## Mejor Código por Sean Parent
 
 https://www.youtube.com/watch?v=QGcVXgEVMJg&list=PLiWEEi8ezRkXoi4nJcPzyPlbXhnSA2VvB
 
@@ -115,19 +115,19 @@ https://www.youtube.com/user/BoostCon
 
 * * *
 
-## Las pautas fundamentales de C++
+## Las Pautas Fundamentales de C++
 
 https://github.com/eoscostarica/CppCoreGuidelines
 
 * * *
 
-## Increíble C++ moderno
+## Increíble C++ Moderno
 
 https://github.com/eoscostarica/awesome-modern-cpp
 
 * * *
 
-## Características modernas de C++
+## Características Modernas de C++
 
 https://github.com/AnthonyCalandra/modern-cpp-features
 https://github.com/eoscostarica/modern-cpp-features
@@ -140,6 +140,6 @@ https://abseil.io/tips/
 
 * * *
 
-## C++ de Google
+## Clase C++ de Google
 
 https://developers.google.com/edu/c++/
