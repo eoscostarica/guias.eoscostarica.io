@@ -75,4 +75,4 @@ A continuación, incluimos una lista de algunas otras redes publicas lanzadas so
 
 * * *
 
-Puede ver una descripción completa de varias cadenas de bloques públicas de EOSIO aquí en [eos.io](https://eos.io/)
+Puede ver una descripción completa de varias cadenas de bloques públicas de EOSIO aquí en [eos.io](https://eos.io/).
