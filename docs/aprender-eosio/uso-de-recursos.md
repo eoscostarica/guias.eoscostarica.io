@@ -99,14 +99,14 @@ La utilización promedio de la CPU se calcula utilizando un EMA (Promedio móvil
 
 
 ```python
-def update_elastic_limit(current_limit, average_usage, elastic_resource_limit) {
-result = current_limit
-if average_usage > elastic_resource_limit.target:
-    result = result * elastic_resource_limit.contract_rate
-else:
-    result = result * elastic_resource_limit.expand_rate
+def update_elastic_limit(current_limit, average_usage, elastic_resource_limit):
+    result = current_limit
+    if average_usage > elastic_resource_limit.target:
+        result = result * elastic_resource_limit.contract_rate
+    else:
+        result = result * elastic_resource_limit.expand_rate
 
-return min(max(result, elastic_resource_limit.max), elastic_resource_limit.max * elastic_resource_limit.max_multiplier)
+    return min(max(result, elastic_resource_limit.max), elastic_resource_limit.max * elastic_resource_limit.max_multiplier)
 ```
 
 ## Asignación de Recursos de EOS
