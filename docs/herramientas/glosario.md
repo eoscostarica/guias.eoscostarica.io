@@ -96,7 +96,7 @@ Se define como el número de bloques en la cadena entre un bloque dado y el prim
 
 ### Block one
 
- `Block.one ` es la compañía que creó el software EOSIO. Es un productor de software de código abierto altamente escalable y de alto rendimiento, está a la vanguardia del desarrollo de la próxima generación de Internet.
+ `Block.one` es la compañía que creó el software EOSIO. Es un productor de software de código abierto altamente escalable y de alto rendimiento, está a la vanguardia del desarrollo de la próxima generación de Internet.
 
 * * *
 
@@ -140,7 +140,7 @@ Una ID de cadena es una configuración de blockchain que afecta la formación de
 
 ### Cleos 
 
-Es la herramientas de lineas de comandos que se conecta con el API expuesto por `nodeos` y funciona para administrar la billetera, cuenta, llaves, transacciones y contratos inteligentes
+Es la herramientas de lineas de comandos que se conecta con el API expuesto por `nodeos` y funciona para administrar la billetera, cuenta, llaves, transacciones y contratos inteligentes.
 
 * * *
 
@@ -229,8 +229,7 @@ EOS Costa Rica es una startup derivada de la empresa pionera Sistemas Edenia Int
 
 ### Eosfinex
 
-`Eosfinex` es un intercambio descentralizado de alto rendimiento construido en EOS.io. tecnología.
-`Eosfinex` combina la escalabilidad y la velocidad de EOS con la experiencia líder de la industria de Bitfinex para ofrecer un intercambio "en cadena" construido en torno a una plataforma rápida, transparente y sin confianza para el comercio de activos digitales.
+`Eosfinex` es un intercambio descentralizado de alto rendimiento construido en EOS.io. tecnología. `Eosfinex` combina la escalabilidad y la velocidad de EOS con la experiencia líder de la industria de Bitfinex para ofrecer un intercambio `en cadena` construido en torno a una plataforma rápida, transparente y sin confianza para el comercio de activos digitales.
 
 * * *
 
@@ -243,7 +242,7 @@ Su tecnología intenta resolver problemas históricos al usar blockchains para e
 
 ### EOSJS
 
-Es una biblioteca creada para controlar fácilmente la cadena de bloques EOS con Javascript. Se puede decir que fue hecho para usar fácilmente la API `HTTP de EOS (nodeos)`. (web3.js en Ethereum, neon-js en Neo)
+Es una biblioteca creada para controlar fácilmente la cadena de bloques EOS con Javascript. Se puede decir que fue hecho para usar fácilmente la API `HTTP de EOS (nodeos)`. (web3.js en Ethereum, neon-js en Neo).
 
 * * *
 
@@ -387,7 +386,7 @@ Es una liviana y flexible línea de comandos para procesar archivos JSON.
 
 ### Jungle Testnet
 
-Jungle TestNet sirve como `sand box` para muchos equipos de desarrollo y productores de bloques EOS, el cual cuenta con un monitor de net.
+`Jungle TestNet` sirve como `sand box` para muchos equipos de desarrollo y productores de bloques EOS, el cual cuenta con un monitor de net.
 
 * * *
 
@@ -395,13 +394,13 @@ Jungle TestNet sirve como `sand box` para muchos equipos de desarrollo y product
 
 ### Kanban 
 
-Un tablero Kanban es una herramienta que nos permite visualizar un flujo de trabajo de un equipo, creando columnas con las etapas más importante del desarrollo del proyecto. En él se asignan tareas a los miembros del equipo, permitiendo una mejor organización del tiempo y los recursos.
+Un tablero `Kanban` es una herramienta que nos permite visualizar un flujo de trabajo de un equipo, creando columnas con las etapas más importante del desarrollo del proyecto. En él se asignan tareas a los miembros del equipo, permitiendo una mejor organización del tiempo y los recursos.
 
 * * *
 
 ### KEOSD
 
-Funciona como billetera para manejar las llaves para EOSIO. Es el componente que almacena de forma segura las claves EOSIO en billeteras. 
+Funciona como billetera para manejar las llaves para EOSIO. Es el componente que almacena de forma segura las claves EOSIO en billeteras.
 
 `keosd = clave + eos`
 
@@ -409,7 +408,7 @@ Funciona como billetera para manejar las llaves para EOSIO. Es el componente que
 
 ### Kubernetes
 
-Kubernetes es una plataforma portátil, extensible y de código abierto para gestionar cargas de trabajo y servicios en contenedores, que facilita tanto la configuración declarativa como la automatización. Tiene un ecosistema grande y de rápido crecimiento. Los servicios, el soporte y las herramientas de Kubernetes están ampliamente disponibles.
+`Kubernetes` es una plataforma portátil, extensible y de código abierto para gestionar cargas de trabajo y servicios en contenedores, que facilita tanto la configuración declarativa como la automatización. Tiene un ecosistema grande y de rápido crecimiento. Los servicios, el soporte y las herramientas de Kubernetes están ampliamente disponibles.
 
 * * *
 
@@ -417,13 +416,13 @@ Kubernetes es una plataforma portátil, extensible y de código abierto para ges
 
 ### LACCHAIN
 
-LACChain es una iniciativa de BID Labs (parte del Banco Interamericano de Desarrollo) cuyo propósito es acompañar y acelerar el desarrollo del ecosistema de blockchain en Latinoamérica. LACChain busca establecer consorcios nacionales en la región, desarrollar y promover estándares de interoperablidad en redes, y desarrollar y dar mantenimiento a infraestructuras interoperables de blockchain.
+`LACChain` es una iniciativa de BID Labs (parte del Banco Interamericano de Desarrollo) cuyo propósito es acompañar y acelerar el desarrollo del ecosistema de blockchain en Latinoamérica. LACChain busca establecer consorcios nacionales en la región, desarrollar y promover estándares de interoperablidad en redes, y desarrollar y dar mantenimiento a infraestructuras interoperables de blockchain.
 
 * * *
 
 ### LatamLink 
 
-LatamLink es una alianza regional voluntaria liderada por empresas tecnológicas latinoamericanas. Desarrollamos un testnet basado en EOSIO para la red LACChain con el fin de resaltar los beneficios de esta tecnología. LatamLink utiliza una versión pública permisionada de la tecnología EOSIO para que desarrolladores y organizaciones puedan probar sus aplicaciones descentralizadas e infraestructura.
+`LatamLink` es una alianza regional voluntaria liderada por empresas tecnológicas latinoamericanas. Desarrollamos un testnet basado en EOSIO para la red LACChain con el fin de resaltar los beneficios de esta tecnología. LatamLink utiliza una versión pública permisionada de la tecnología EOSIO para que desarrolladores y organizaciones puedan probar sus aplicaciones descentralizadas e infraestructura.
 
 * * *
 
@@ -539,7 +538,7 @@ Conjunto de sitios relacionados con EOS en el cual constantemente se esta agrega
 
 Los `pull request` permiten informar a otros usuarios sobre los cambios que ha realizado en una rama de un repositorio en GitHub. 
 
-Una vez que se abre un `pull request`, se puede analizar y revisar los posibles cambios con los colaboradores y agregar confirmaciones de seguimiento antes de que sus cambios se fusionen en la rama base.
+Una vez que se abre un `pull request`, se puede analizar y revisar los posibles cambios con los colaboradores y agregar `commits` de seguimiento antes de que sus cambios se fusionen en la rama base.
 
 * * * 
 
@@ -569,7 +568,7 @@ La RAM es un tipo de memoria utilizada para almacenar información de la cuenta,
 
 ### Recursos
 
-Las cuentas de EOSIO cuenta con tres tipos de recursos que deben mantener: `RAM`, `CPU` Y `Net`
+Las cuentas de EOSIO cuenta con tres tipos de recursos que deben mantener: `RAM`, `CPU` Y `Net`.
 
 * * *
 
@@ -581,7 +580,7 @@ Las cuentas de EOSIO cuenta con tres tipos de recursos que deben mantener: `RAM`
 
 ### Ricardian Contract
 
-En el contexto de blockchain basado en EOSIO, Ricardian Contract es un documento digital que acompaña a un contrato inteligente y define los términos y condiciones de una interacción entre el contrato inteligente y sus usuarios, escrito en texto legible para humanos, que luego se firma y verifica criptográficamente. Es fácilmente legible tanto para humanos como para programas, y ayuda a proporcionar claridad a cualquier situación que pueda surgir en las interacciones entre el contrato inteligente y sus usuarios.
+En el contexto de blockchain basado en EOSIO, `Ricardian Contract` es un documento digital que acompaña a un contrato inteligente y define los términos y condiciones de una interacción entre el `contrato inteligente` y sus usuarios, escrito en texto legible para humanos, que luego se firma y verifica criptográficamente. Es fácilmente legible tanto para humanos como para programas, y ayuda a proporcionar claridad a cualquier situación que pueda surgir en las interacciones entre el `contrato inteligente` y sus usuarios.
 
 * * *
 
@@ -625,7 +624,7 @@ Son un conjunto de aproximadamente 100 nodos completos que han expresado el dese
 
 ### StoryBook
 
-[StoryBook](https://storybook.js.org/) es una herramienta de codigo abierto para desarrollar componentes de UI de forma aislada para React, Vue y Angular
+[StoryBook](https://storybook.js.org/) es una herramienta de codigo abierto para desarrollar componentes de UI de forma aislada para React, Vue y Angular.
 
 * * * 
 
@@ -633,7 +632,7 @@ Son un conjunto de aproximadamente 100 nodos completos que han expresado el dese
 
 Todo lo que forma parte de EOSIO que no es parte del núcleo se denomina sistema, Ejemplo: cuentas del sistema, cuentas privilegiadas, contratos del sistema. 
 
-Desde un punto de vista arquitectónico, los componentes del sistema se ubican sobre los componentes principales / nativos
+Desde un punto de vista arquitectónico, los componentes del sistema se ubican sobre los componentes principales / nativos.
 
 * * *
 
@@ -659,7 +658,7 @@ Desde un punto de vista arquitectónico, los componentes del sistema se ubican s
 
 ### TestNet
 
-Una red de prueba o testnet es una instancia de la plataforma EOSIO destinada a fines de prueba. En general, el token nativo no tiene valor y se entrega a los desarrolladores para que puedan probarlo.
+Una `red` de prueba o `testnet` es una instancia de la plataforma EOSIO destinada a fines de prueba. En general, el token nativo no tiene valor y se entrega a los desarrolladores para que puedan probarlo.
 
 * * * 
 
@@ -705,7 +704,7 @@ La votación es una parte fundamental del sistema EOSIO. La aplicación de votac
 
 ### Vote Decay
 
-Para evitar a los usuarios de emitir un voto por Block Producers y luego no actualizar su voto periódicamente, se introdujo una disminución en la fuerza relativa de los votos antiguos. Para mantener la fuerza máxima de voto, un usuario debe votar al menos una vez por semana.
+Para evitar a los usuarios de emitir un voto por Block Producers y luego no actualizar su `voto` periódicamente, se introdujo una disminución en la fuerza relativa de los votos antiguos. Para mantener la fuerza máxima de voto, un usuario debe votar al menos una vez por semana.
 
 * * *
 
@@ -751,7 +750,7 @@ Es un sistema a través del cual los fondos comunales se utilizarían para apoya
 
 ### Yarn
 
-[Yarn](https://yarnpkg.com/) es un administrador de paquetes para proyectos web compatible con la estructura del administrador de paquetes npm (package.json y node_modules)
+[Yarn](https://yarnpkg.com/) es un administrador de paquetes para proyectos web compatible con la estructura del administrador de paquetes npm (package.json y node_modules).
 
 * * * 
 
