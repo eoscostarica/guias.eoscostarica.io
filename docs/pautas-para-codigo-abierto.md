@@ -24,7 +24,7 @@ Los nuevos y reabiertos `pull request` son autómaticamente añadidos al tablero
 
 Cuando un pull request cerrado es movido a la columna `Done` automáticamente. Si el pull request se cierra y no tiene problemas, se indica correctamente con las palabras clave de GitHub que se cierra el pull request y se mueve automáticamente a la columna `Done`. 
 
-## Pautas para los pull request
+## Pautas para los Pull Request
 
 * Por favor revisa para asegurarte que no hay ningún `pull request` existente tratando de localizar o vincular el `issue` mecionado.
 * Busca los `issues` relacionados en el `registro de issues`.
@@ -36,13 +36,13 @@ Cuando un pull request cerrado es movido a la columna `Done` automáticamente. S
 
 Soportamos únicamente **squash merge** de los `pull requests` como una buena práctica para asegurar que el registro de la rama `master` es mantenido limpio y relevante, sin requerir que el pull request sea modificado. Esta estrategia requiere que todos los pull request sea hechos de forma `atómica`, en otras palabras, que resuelvan una única cosa. Un pull request por característica, bug o actualizacón de documentación.
 
-## Pautas para mensajes en los commits
+## Pautas para Mensajes en los Commits
 
 Tenemos reglas muy precisas acerca de cómo los mensajes de los commits de `git` deben ser formateados. Esto permite **mensajes más legibles** que son fáciles de seguir cuando se está buscando entre la **historia del proyecto**. Pero también, usamos los mensajes de commit de `git` para generar el **registro de cambios del proyecto**.
 
 Seguimos las convenciones de mensajes de commit como se muestra a continuación:
 
-### Formato del mensaje del commit
+### Formato de Mensaje del Commit
 
 Cada mensaje de commit consiste en un **encabezado**, un **cuerpo** y un **pié**. El encabezado tiene un especial formato que incluye un **tipo**, un **ámbito** y un **aspecto o tema**:
 ```
@@ -157,11 +157,11 @@ Cuando una nueva característica es añadida, esto puede ser tan pequeña como p
 
 Cuando una característica documentada no se comporta como está documentada, o cuando un problema de seguridad es descubierto y arreglado sin alterar el comportamiento documentado.
 
-### Generación de Registro de cambios
+### Generación de Registro de Cambios
 
 En cada nuevo lanzamiento, generamos un archivo de registro de cambios usando el estándar [git-changelog](https://github.com/rafinskipg/git-changelog). Hay una tarea de npm para esto.
 
-## Herramientas de git avanzadas
+## Herramientas de Git Avanzadas
 
 Hay también herramientas como [Hub](https://hub.github.com/) y [git-extras](https://github.com/tj/git-extras) que facilitan la interacción con GitHub. Puedes aprovechar estas herramientas para contribuir a este repositorio.
 

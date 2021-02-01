@@ -225,7 +225,7 @@ sidebar_label: Recursos Visuales
   </div>
 </div>
 
-### De un color
+### De un Color
 
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>

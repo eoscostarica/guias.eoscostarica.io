@@ -69,7 +69,7 @@ More on:
 - **Ejemplo 3:**  
 >I am a **software intern** learning to develop decentralized applications on the EOSIO platform. I specialize in **JavaScript and C++**. Also, I know **Angular, Vue, and React**.  
 
-### **Así es como se vería**
+### **Así es como se Vería**
 
 <div style={{  textAlign: "center" }}>
     <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/LinkedResultado.png" />
@@ -105,7 +105,7 @@ More on:
 - **Ejemplo 2:**  
 >Communications Strategist @eoscostarica - a blockchain development company.
 
-### **Así es como se vería**
+### **Así es como se Vería**
 <div style={{  textAlign: "center" }}>
     <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/GitHubResultado.png" />
 </div>
@@ -121,7 +121,7 @@ More on:
     - https://t.me/evodex_io 
     - https://t.me/latamlink
 
-## Otros canales para seguir a EOS Costa Rica:
+## Otros Canales para Seguir a EOS Costa Rica:
 - ### [Facebook](https://www.facebook.com/costaricaeos)
 - ### [Instagram](https://www.instagram.com/eoscostarica/)
 - ### [Youtube](https://www.youtube.com/channel/UCvYinCH3O1iKpi-_dNfQAGQ)

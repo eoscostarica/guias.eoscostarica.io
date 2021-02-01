@@ -92,8 +92,6 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 
 * * *
 
-### Introducción a HashiCorp Terraform 
-
 <figure 
   class="video_container">
   <iframe 

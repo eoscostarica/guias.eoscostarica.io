@@ -82,25 +82,25 @@ Es una lista creciente de registros, llamados bloques, que están vinculados med
 
 * * *
 
-### Block explorer (Explorador de bloques)
+### Block Explorer (Explorador de Bloques)
 
 Un explorador de bloques es un programa o sitio web accesible a través de un navegador que permite a un usuario buscar y navegar por los bloques de una cadena de bloques, sus contenidos y sus detalles relevantes.
 
 * * *
 
-### Block height (altura del bloque)
+### Block Height (Altura del Bloque)
 
 Se define como el número de bloques en la cadena entre un bloque dado y el primer bloque en la cadena de bloques. Por ejemplo una altura de bloque de 500 se refiere al bloque número 500 de esa cadena. 
 
 * * *
 
-### Block one
+### Block One
 
  `Block.one` es la compañía que creó el software EOSIO. Es un productor de software de código abierto altamente escalable y de alto rendimiento, está a la vanguardia del desarrollo de la próxima generación de Internet.
 
 * * *
 
-### Block producer (productor de bloques)
+### Block Producer (Productor de Bloques)
 
 Los productores de bloques son una de las innovaciones principales de Block.one, son las entidades descentralizadas que rigen la cadena de bloques EOSIO. En lugar de ser administrado por un pequeño número de grupos mineros, EOSIO tendrá un grupo en constante cambio de 21 productores de bloques.
 
@@ -126,7 +126,7 @@ Es utilizado para la comunicación entre diferentes formatos de datos. Una forma
 
 ## **C**
 
-### CDT (Herramientas de desarrollo de contratos)
+### CDT (Herramientas de Desarrollo de Contratos)
 
 Es un kit de herramientas de desarrollo de contratos inteligentes completo con un conjunto de herramientas y utilidades necesarias para el desarrollo de EOSIO Smart Contracts. Proporciona soporte para el Gnu & C++ 11 style creando una forma más confiable de declarar su estructura de contrato inteligente y las estructuras de datos asociadas.
 
@@ -144,7 +144,7 @@ Es la herramientas de lineas de comandos que se conecta con el API expuesto por 
 
 * * *
 
-### Contratos inteligentes
+### Contratos Inteligentes
 
 Es software registrado en el blockchain y ejecutado en los nodos de EOSIO, esto implementa las semánticas de un contracto cuyo registro de solicitudes de acciones están siendo guardadas en el blockchain. El Contrato Inteligente define la interfaz (acciones, parámetros, estructuras de datos) y el código que implementa la interfaz.
 
@@ -300,7 +300,7 @@ Es un servicio backend para lógica de negocios personalizadas, integrado con Ha
 
 * * *
 
-### Hardware biométrico
+### Hardware Biométrico
 
 Estos son dispositivos tecnológicos que permiten percibir datos biométricos de los seres humanos u otros objetos, un ejemplo de ello es el reconocimiento fácil con el que cuentan algunas cámaras de seguridad y dispositivos móviles, también el desbloqueo de artefactos por medio de huellas dactilares, por mencionar algunos.
 
@@ -334,19 +334,19 @@ Es un cliente HTTP de línea de comandos fácil de usar para la era API. Viene c
 
 ## **I**
 
-### IAC (infraestructura como código)
+### IAC (Infraestructura como Código)
 
 Es el proceso de gestión de centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactivas.
 
 * * *
 
-### IBC (comunicación Inter-Blockchain)
+### IBC (Comunicación Inter-Blockchain)
 
 Es una herramienta por la cual múltiples blockchains pueden comunicarse entre sí. Esta puede usarse para enviar tokens de una cadena a otra, o para expandir la capacidad de una red al aumentar el número de cadenas que se ejecutan en paralelo.
 
 * * *
 
-### ICO (oferta inicial de manedas)
+### ICO (Oferta Inicial de Manedas)
 
 Método popular para distribuir el suministro inicial de monedas (tokens)  vendiéndolos a cambio de moneda fiduciaria u otras criptomonedas.
 
@@ -438,13 +438,13 @@ Término utilizado para referirse a el comienzo de una cadena de bloques.
 
 * * * 
 
-### LIB (Último bloque irreversible)
+### LIB (Último Bloque Irreversible)
 
 Un bloque se considera irreversible (es decir, inmutable) en una cadena de bloques basada en EOSIO cuando 2/3 de los productores de bloques elegidos actualmente lo han reconocido.
 
 * * *
 
-### Llaves privadas
+### Llaves Privadas
 
 Una llave privada es una clave secreta utilizada para firmar transacciones. En EOSIO, la autoridad de una clave privada está determinada por su asignación a un nombre de cuenta EOSIO.
 
@@ -534,7 +534,7 @@ Conjunto de sitios relacionados con EOS en el cual constantemente se esta agrega
 
 * * * 
 
-### Pull request
+### Pull Request
 
 Los `pull request` permiten informar a otros usuarios sobre los cambios que ha realizado en una rama de un repositorio en GitHub. 
 
@@ -592,13 +592,13 @@ En cualquier momento dado, se puede tomar una instantánea (`Snapshot`) del esta
 
 * * *
 
-### SPOF (punto único de falla)
+### SPOF (Punto Único de Falla)
 
 Es una parte de un sistema que si falla detendrá el funcionamiento de todo el sistema. Estos no son deseables en ningún sistema con un objetivo de alta disponibilidad o confiabilidad.
 
 * * * 
 
-### Squash merge
+### Squash Merge
 
 El Squash es una opción de `merge` que permite condensar el historial de  Git de un `branch` cuando se completa un `pull request`. Este proceso toma todas los `commits` de un `branch` especifico y los agrega en un solo commit dentro de la rama predeterminada. 
 
@@ -674,7 +674,7 @@ Es una combinación de una o más acciones. Por lo general, el resultado de la e
 
 * * * 
 
-### TPS (transacciones por segundo)
+### TPS (Transacciones por Segundo)
 
 Una métrica mediante la cual se mide el rendimiento de una cadena de bloques.
 
@@ -736,7 +736,7 @@ Una lista blanca es una medida subjetiva que un nodo de blockchain puede poner e
 
 * * *
 
-### WPS (sistemas de propuestas de trabajadores)
+### WPS (Sistemas de Propuestas de Trabajadores)
 
 Es un sistema a través del cual los fondos comunales se utilizarían para apoyar mejoras en la cadena de bloques, proyectos comunitarios y cualquier cosa que la comunidad considerara merecedora de fondos públicos. Está configurado para ser financiado a través de una parte de la inflación.
 

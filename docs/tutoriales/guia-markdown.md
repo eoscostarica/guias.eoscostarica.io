@@ -36,9 +36,7 @@ Markdown, creado por John Gruber en 2004, es ahora uno de los lenguajes de marca
 
 ## Sintaxis de Estructura
 
-
-
-### **Lista no ordenada**  
+### **Lista no Ordenada**  
 
 ``` markdown title="Sintaxis"
     - Primer Item
@@ -54,7 +52,7 @@ Markdown, creado por John Gruber en 2004, es ahora uno de los lenguajes de marca
 
 [Más información](https://www.markdownguide.org/basic-syntax/#unordered-lists).
 
-### **Lista ordenada**
+### **Lista Ordenada**
 
 ``` markdown title="Sintaxis"
     1. Primer Item
@@ -149,7 +147,7 @@ Otro texto
 ![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 
 
-### **Citas en bloque**
+### **Citas en Bloque**
 
 ``` markdown title="Sintaxis"
 > Texto principal
@@ -170,7 +168,7 @@ Otro texto
 > Texto 
 > Texto final
 
-### **Líneas horizontales**
+### **Líneas Horizontales**
 
 ``` markdown title="Sintaxis"
 ---

@@ -60,7 +60,7 @@ https://github.com/postgres/postgres
 
 * * *
 
-## PostMan
+## Postman
 
 Permite a los desarrolladores probar llamadas a API. Los usuarios de cartero ingresan datos. Los datos se envían a una dirección de servidor web especial. Por lo general, se devuelve información que Postman presenta al usuario.
 

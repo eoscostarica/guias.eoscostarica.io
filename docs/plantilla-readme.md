@@ -7,17 +7,17 @@ sidebar_label: Plantilla Readme
 README es un archivo que trae una pequeña descripción sobre todo el proyecto, que contiene una introducción y explicación de este. El tipo de información que se puede describir aquí es información solicitada para comprender el proyecto y su estructura o propósito. A continuación, brindamos una plantilla para crear un archivo README para un nuevo proyecto.
 
 
-### Para copiar esta plantilla readme como código fuente markdown [haga clic aquí](plantilla-readme-codigo-fuente)
+### Para Copiar esta Plantilla Readme como Código Fuente Markdown [haga clic aquí](plantilla-readme-codigo-fuente)
 
 ***
 
-## Introducción con GIF o imágenes
+## Introducción con GIF o Imágenes
 
 Es simple y puede parecer muy fácil y sí, lo es, pero el impacto que puede producir un GIF o una imagen es demasiado grande. El espectador adquiere la información necesaria para interesarse por el proyecto. Por ejemplo:
 
 ![Life bank](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/life-bank.png)
 
-## Sobre el proyecto
+## Sobre el Proyecto
 
 Dar una descripción general del proyecto brinda una visión general sobre el ** proyecto como producto **, por ejemplo:
 
@@ -25,10 +25,10 @@ Dar una descripción general del proyecto brinda una visión general sobre el **
 
 *Lifebank es una iniciativa de EOS Costa Rica, una empresa que desarrolla soluciones basadas en blockchain para resolver problemas del mundo real. Lifebank es nuestra entrada al desafío Coding para el cambio organizado por la empresa líder de blockchain, Block.one ".*
 
-## Tabla de contenidos
+## Tabla de Contenidos
 Con una buena visión de la estructura de la información se puede hacer que el lector acceda a la información específica necesaria, por lo que luego dar una buena visión de la información con una Tabla de Contenidos facilitará este proceso. Por ejemplo:
 
-**Tabla de contenidos**
+**Tabla de Contenidos**
 1. Introducción con GIF o imágenes
 2. Sobre el proyecto
 3. Tabla de contenidos
@@ -42,7 +42,7 @@ Con una buena visión de la estructura de la información se puede hacer que el 
 11. Colaboradores
 12. Sobre EOS Costa Rica
 
-## Propósito del proyecto
+## Propósito del Proyecto
 
 Describe la razón por la que se hizo esto, por ejemplo:
 
@@ -76,7 +76,7 @@ El propósito es que el usuario conozca las principales tecnologías que se nece
 - Styles - Material-UI Theme (customizable)
 
 
-## Entorno de desarrollo
+## Entorno de Desarrollo
 
 Especifique dónde se desarrolló el proyecto, en caso de que alguien más quiera hacer una contribución al progreso del proyecto, por ejemplo:
 
@@ -84,7 +84,7 @@ Especifique dónde se desarrolló el proyecto, en caso de que alguien más quier
 
 [jungle.evodex.io](https://jungle.evodex.io/) se ejecuta en Jungle 3 TestNet y se crea a partir de la rama de desarrollo utilizada para el desarrollo, la integración y la prueba de nuevas funciones.
 
-### Inicio rápido
+### Inicio Rápido
 
 - Clona este repositorio usando `git clone https://github.com/YOUR_PROJECT_NAME.git`
 - Moverse al directorio apropiado: `cd <YOUR_PROJECT_NAME>`

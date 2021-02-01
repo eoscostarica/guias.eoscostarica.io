@@ -24,7 +24,7 @@ Otra característica importante de una red blockchain basada en el protocolo EOS
 
 Esta flexibilidad se debe a que los contratos de sistema constituyen un módulo separado del protocolo base de EOSIO. De esta forma, las funciones centrales de los nodos y el mecanismo de producción de bloques se mantiene separado de los **contratos de sistema**.
 
-## Contratos del sistema
+## Contratos del Sistema
 
 Los contratos de sistema permiten a las redes EOSIO:
 

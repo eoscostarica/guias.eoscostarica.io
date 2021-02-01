@@ -30,7 +30,7 @@ Una red EOSIO esta configurada por defecto para utilizar 21 productores activos 
 
 > EOSIO permite hasta 125 productores de bloque activos, especificado mediante `max_producers` en [config.hpp](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L106)
 
-### Cronograma de producción
+### Cronograma de Producción
 
 En redes EOSIO, los productores de bloques activos se enumeran en un cronograma, llamado **schedule**.
 
@@ -40,13 +40,13 @@ Cada productor recibe una ventana de 12 bloques para firmar antes de que el sigu
 
 Si un nodo productor no está listo o no está disponible, no hay nadie para producir los 12 bloques, por lo que todas las transacciones especulativas se retrasan hasta que el próximo productor comience a firmar.
 
-### Tolerancia a fallas bizantinas
+### Tolerancia a Fallas Bizantinas
 
 Los bloques no se consideran irreversibles en la cadena hasta que hayan sido validados por 2/3 +1 de los productores activos. De tal manera que si un productor del grupo inserta un bloque invalido los nodos siguientes lo rechazaran y las transacciones y no serán incluidas sin que 2/3 +1 hayan validado ese bloque.
 
 > **Ejemplo:** Una red de 21 productores activos requiere validación de 15 nodos (2/3 +1), lo cual toma en promedio 90 segundos para obtener irreversibilidad de un bloque nuevo
 
-### Tolerancia a fallas en nodos
+### Tolerancia a Fallas en Nodos
 
 Una vez que se firma un bloque, otros productores lo validan en el cronograma y pasa a un estado irreversible después de que 2/3 + 1 productores lo hayan validado. Entonces, si 1/3 o más de todos los productores están fuera de línea, el último número de bloque irreversible, conocido como **Last Irreversible Block** o **LIB**, no aumentaría y la cadena de bloques se detendrá.
 

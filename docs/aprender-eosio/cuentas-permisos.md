@@ -49,6 +49,7 @@ Existe una biblioteca que permite a las aplicaciones usar fácilmente diferentes
 La librería [Universal Authenticator Library (UAL)](https://github.com/EOSIO/universal-authenticator-library) logra este objetivo al abstraer la lógica comercial interna de muchos proveedores de autenticación y exponer una única API universal.
 
 ### Autenticadores Disponibles:
+
 - [UAL for Scatter](https://github.com/EOSIO/ual-scatter)
 - [UAL for Lynx](https://github.com/EOSIO/ual-lynx)
 - [UAL for Ledger](https://github.com/EOSIO/ual-ledger)

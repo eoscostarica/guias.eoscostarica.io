@@ -4,7 +4,7 @@ title: Tutorial de flujo de trabajo de Git
 sidebar_label: Flujo de Trabajo de Git
 ---
 
-## Tutorial de flujo de trabajo de Git
+## Tutorial de Flujo de Trabajo de Git
 
 En este tutorial, explicamos paso a paso cómo programar un proyecto de código abierto usando la plataforma **GitHub**. Este es un repositorio con acceso a diversas funciones y herramientas para el desarrollo y administración de proyectos.
 

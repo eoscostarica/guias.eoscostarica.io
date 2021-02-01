@@ -112,7 +112,7 @@ EOS Costa Rica está trabajando con EOS Argentina creando una interfaz web que b
 
 * * *
 
-## EOSIO hackathons
+## EOSIO Hackathons
 
 ### LifeBank
 
