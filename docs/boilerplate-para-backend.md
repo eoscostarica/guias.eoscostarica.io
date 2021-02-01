@@ -19,7 +19,7 @@ Compose es una herramienta para definir y correr aplicaciones de docker con múl
 ## Instalación
 *Se requieren conocimientos básicos sobre Docker, Docker Compose y NodeJS.*
 
-### Prerrequesitos
+### Prerrequisitos
 1. [git](https://git-scm.com/)
 1. [nodejs](https://nodejs.org)
 1. [hasura](https://hasura.io/docs/1.0/graphql/core/hasura-cli/install-hasura-cli.html#install-hasura-cli)

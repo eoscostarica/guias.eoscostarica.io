@@ -18,7 +18,7 @@ A continuación, incluimos una lista de algunas otras redes publicas lanzadas so
 
 * * *
 
-- [EOS FORCE](https://medium.com/@forceusa.io/eos-vs-eos-force-what-are-the-differences-5382242f4217): Es una red de cadena de bloques estructurada de cadenas múltiples de alto rendimiento, con la cadena principal desarrollada por el equipo de EOSForce basada en EOSIO de código abierto 
+- [EOS FORCE](https://medium.com/@forceusa.io/eos-vs-eos-force-what-are-the-differences-5382242f4217): Es una red de cadena de bloques estructurada de cadenas múltiples de alto rendimiento, con la cadena principal desarrollada por el equipo de EOSForce basada en EOSIO de código abierto.
 
 <figure class="video_container">
   <iframe width="100%" height="350" src="https://www.youtube.com/embed/UdDZCzwKCDo" frameborder="0" allowfullscreen="true">
@@ -55,7 +55,7 @@ A continuación, incluimos una lista de algunas otras redes publicas lanzadas so
 
 * * *
 
-- [Voice](https://voice.com/): Una cadena de bloques para impulsar la red social descentralizada construida por Block.one
+- [Voice](https://voice.com/): Una cadena de bloques para impulsar la red social descentralizada construida por Block.one.
 
 * * *
 

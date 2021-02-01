@@ -49,7 +49,7 @@ El modelo  `Airgrab` está diseñado para ser una forma más eficiente de capita
 
 * * *
 
-### API (Interfaz de programación de aplicaciones) 
+### API (Interfaz de Programación de Aplicaciones) 
 
 Conjunto de funciones y procedimientos que permiten la creación de aplicaciones que acceden a las características o datos de un sistema operativo, aplicación u otro servicio especifico.
 
@@ -118,7 +118,7 @@ Es la primera cadena de bloques DPOS equipada con IBC. Su objetivo es refactoriz
 
 * * * 
 
-### Bytecode canónico
+### Bytecode Canónico
 
 Es utilizado para la comunicación entre diferentes formatos de datos. Una forma de integración de aplicaciones empresariales, pretende reducir los costos y estandarizar las definiciones acordadas de datos asociados con la integración de los sistemas de negocio.
 

@@ -38,8 +38,6 @@ En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 or
 
 ***
 
-![](https://user-images.githubusercontent.com/5632966/105532539-95abdd00-5cb0-11eb-81ff-b854c4ec1784.png)
-
 ## Áreas de Énfasis
 
 Los principios de DevOps son aplicados y asistidos por las siguientes 3 áreas clave que trabajan juntas:
