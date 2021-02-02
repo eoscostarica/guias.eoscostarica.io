@@ -39,7 +39,7 @@ const siteConfig = {
         {to: 'docs/tutoriales/instalacion-de-nodos', label: 'Tutoriales', position: 'left'},
         {to: 'docs/herramientas/glosario', label: 'Herramientas', position: 'left'},
         {to: 'docs/comunidad/canales-de-telegram', label: 'Comunidad', position: 'left'},
-        
+        {to: 'https://eoscostarica.io/', label: 'Website', position: 'left'},
         {
           href: 'https://guide.eoscostarica.io/',
           label: 'English',
