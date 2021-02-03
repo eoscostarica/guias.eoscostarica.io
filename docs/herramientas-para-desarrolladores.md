@@ -59,7 +59,7 @@ EOSIO es un software de código abierto que permite el lanzamiento de redes de b
 
 Aquí hay algunas razones por las que usamos EOSIO:
 
-1.**Es escalable**. Para las empresas que necesitan realizar transacciones con miles de clientes simultáneamente, por ejemplo, esta velocidad de transacción es insuficiente. EOSIO, por otro lado, ha sido evaluado para procesar más de 4.000 transacciones por segundo en su blockchain pública, lo que significa que es 200 veces más rápido que su competidor más cercano y eso es solo la red pública.
+1. **Es escalable**. Para las empresas que necesitan realizar transacciones con miles de clientes simultáneamente, por ejemplo, esta velocidad de transacción es insuficiente. EOSIO, por otro lado, ha sido evaluado para procesar más de 4.000 transacciones por segundo en su blockchain pública, lo que significa que es 200 veces más rápido que su competidor más cercano y eso es solo la red pública.
 
 2. **Es rápido**. Al usar aplicaciones EOSIO, los consumidores y las empresas ni siquiera necesitan saber que están usando una "aplicación blockchain"; todo lo que saben es que cualquier dato que hayan ingresado para cualquier transacción es más seguro pero no más lento que su aplicación normal que no es blockchain.
 
