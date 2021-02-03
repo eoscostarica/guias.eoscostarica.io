@@ -83,6 +83,6 @@ Obtenga más información en [PostgresDB](https://guias.eoscostarica.io/docs/her
 
 El Full-Stack Boilerplate contiene tanto el software del cliente como el del servidor. Hemos creado un esqueleto altamente escalable con las mejores prácticas, fullstack monorepo que contiene nuestras boilerplates de front-end y back-end.
 
-### Diagrama Full Stack
+### Diagrama Full-Stack
 
 ![full-stack-boilerplate](https://user-images.githubusercontent.com/5632966/106770009-2cf32780-6603-11eb-98dd-c1a6a9aa8451.png)
