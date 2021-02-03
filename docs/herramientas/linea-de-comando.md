@@ -98,11 +98,11 @@ Options:
   --delay-sec UINT            set the delay_sec seconds, defaults to 0s
 ```
 
-## Ejemplo de cleos
+## Ejemplo de Cleos
 
 El siguiente comando `cleos` crea una billetera local llamada `mibilletera` y muestra la contraseña en la pantalla:
 
-``` bash 
+```bash
 cleos wallet create -n mibilletera --to-console
 ```
 

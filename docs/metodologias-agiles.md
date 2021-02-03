@@ -56,7 +56,7 @@ El propósito de una historia de usuario es articular cómo una pieza de trabajo
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/Zi9E1aUO_1U" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### ¿Cómo Escribir una Historia de Usuario?
+#### ¿Cómo escribir una Historia de Usuario?
 
 - **Definición de Terminado:** La historia generalmente se “termina” cuando el usuario puede completar la tarea descrita.
 - **Resuma las subtareas o tareas:** Decida qué pasos específicos deben completarse y quién es responsable de cada uno de ellos.
@@ -153,7 +153,7 @@ Una retrospectiva ágil obliga a todo el equipo a hacer una pausa y reflexionar 
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/7wd61RrJAfo" frameborder="0" allow="true" allowfullscreen></iframe>
 
-#### ¿Con qué Frecuencia debes Realizar Retrospectivas?
+#### ¿Con qué frecuencia debes realizar Retrospectivas?
 
 Las retrospectivas se pueden realizar con más frecuencia, incluso para lanzamientos menores, cada sprint o incluso en reuniones diarias o semanales.
 
@@ -163,7 +163,6 @@ La demostración de sprint es invaluable para mantener a las partes interesadas 
 La demostración de Sprint no debería ocupar demasiado tiempo a un equipo Scrum. Asegurarse de que la reunión de revisión del sprint sea un asunto informal en el que las preguntas, los comentarios y la discusión sean bienvenidos, permite que el tiempo de preparación se mantenga al mínimo.
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/S-jjJf_cy7Q" frameborder="0" allow="true" allowfullscreen></iframe>
-
 
 #### Pasos para el Demo
 

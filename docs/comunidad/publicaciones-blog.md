@@ -4,7 +4,7 @@ title: Publicaciones de blog
 sidebar_label: Publicaciones de Blog
 ---
 
-## ¿Qué es blockchain?
+## ¿Qué es Blockchain?
 
 La tecnología Blockchain ofrece seguridad, transparencia, privacidad, trazabilidad y eficiencia mejoradas para empresas y organizaciones.
 
@@ -12,7 +12,7 @@ Una cadena de bloques actúa como un libro mayor distribuido de información com
 
 Vea más contenido de **Blockchain** en este [enlace](https://medium.com/@eoscostarica/what-is-blockchain-an-introduction-9535ed3e6005)
 
-## ¿Qué es un contrato inteligente?
+## ¿Qué es un Contrato Inteligente?
 
 Los contratos inteligentes tienen la capacidad de ejecutarse de forma autónoma y automática a través de códigos informáticos, lo que evita tener que pasar por interpretaciones de terceros. Un contrato inteligente será válido como un código visible para todas las partes y no se puede modificar.
 
