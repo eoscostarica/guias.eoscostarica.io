@@ -7,7 +7,7 @@ sidebar_label: Boilerplate de Proyecto
 
 Un boilerplate es un marco o plantilla para el desarrollo de un proyecto. Es una estructura de proyecto ya definida de antemano que sirve para agilizar la organización y el desarrollo del software. Acelera la integración de soluciones y formatos que sirven para conducir el desarrollo de un nuevo proyecto a la producción.
 
-En EOS Costa Rica hemos creado tres repositorios boilerplate :: **FrontEnd**, **BackEnd** y **Full Stack**.
+En EOS Costa Rica hemos creado tres repositorios boilerplate: **FrontEnd**, **BackEnd** y **Full Stack**.
 
 ## Front End
 
@@ -56,13 +56,13 @@ La consola de Hasura le brinda herramientas de interfaz de usuario que aceleran 
 
 El motor Hasura GraphQL le permite hacer cualquier cosa que normalmente haría con Postgres al proporcionar GraphQL sobre construcciones nativas de Postgres.
 
-Obtenga más información en [Hasura](https://hasura.io)
+Obtenga más información en [Hasura](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#hasura)
 
 ### HTTP API (HAPI)
 
 hapi.js (comúnmente conocido como hapi) son las siglas de HTTP API. Es un marco rico para crear aplicaciones y servicios. Fue diseñado originalmente para el rápido desarrollo de servicios de API RESTful usando JavaScript, pero desde entonces ha crecido hasta convertirse en un marco de aplicación web completo con características listas para usar plantillas, validación de entrada, autenticación, almacenamiento en caché y, más recientemente, soporte. para aplicaciones en tiempo real con soporte web socket.
 
-Obtenga más información en [hapi](https://hapi.dev/)
+Obtenga más información en [hapi](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#hapi)
 
 ### EOSIO
 
@@ -75,7 +75,7 @@ Obtenga más información en [Componentes EOSIO](https://guias.eoscostarica.io/d
 *"PostgreSQL es un potente sistema de base de datos relacional de objetos de código abierto con más de 30 años de desarrollo activo que le ha ganado una sólida reputación por su fiabilidad, solidez y rendimiento".*
 
 PostgreSQL viene con muchas características destinadas a ayudar a los desarrolladores a crear aplicaciones, a los administradores a proteger la integridad de los datos y a crear entornos tolerantes a fallas, y a administrar sus datos sin importar cuán grande o pequeño sea el conjunto de datos.
-Obtenga más información en [PostgresDB](https://www.postgresql.org/about/)
+Obtenga más información en [PostgresDB](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#postgresdb)
 
 ## Full-Stack
 
