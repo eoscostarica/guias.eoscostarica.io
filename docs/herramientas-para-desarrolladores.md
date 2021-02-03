@@ -145,7 +145,7 @@ Hapi es un marco Node.js de código abierto. Hapi es un marco para crear aplicac
 ### ¿Por qué usamos HAPI?
 
 1. **Respaldado por cuerpos principales**. Esto significa que el apoyo de la comunidad será sólido y estará a su disposición en futuras versiones. Es fácil encontrar gente apasionada de Hapi, y hay buenos tutoriales por ahí. A partir de esta fecha de publicación, npm y Walmart usan Hapi.
-2. **Facilitar el trabajo**. Puede facilitar el trabajo de equipos distribuidos que trabajan en varias partes de los servicios de backend sin tener que tener un conocimiento completo del resto de la superficie de la API (la arquitectura de complementos de Hapi es el epítome de esta calidad).
+2. **Facilitar el trabajo**. Puede facilitar el trabajo de equipos distribuidos que trabajan en varias partes de los servicios de backend sin tener un conocimiento completo del resto de la superficie de la API (la arquitectura de complementos de Hapi es el epítome de esta calidad).
 3. **Deje que el marco haga lo que se supone que debe hacer un marco: configurar cosas**. Después de eso, el marco debería ser invisible y permitir a los desarrolladores concentrar su energía creativa real en desarrollar la lógica empresarial.
 
 ### Instalación de HAPI
