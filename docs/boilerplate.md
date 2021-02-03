@@ -7,17 +7,17 @@ sidebar_label: Boilerplate de Proyecto
 
 Un boilerplate es un marco o plantilla para el desarrollo de un proyecto. Es una estructura de proyecto ya definida de antemano que sirve para agilizar la organización y el desarrollo del software. Acelera la integración de soluciones y formatos que sirven para conducir el desarrollo de un nuevo proyecto a la producción.
 
-En EOS Costa Rica hemos creado tres repositorios boilerplate: **FrontEnd**, **BackEnd** y **Full Stack**.
+En EOS Costa Rica hemos creado tres repositorios boilerplate: **Front-End Boilerplate**, **Back-End Boilerplate** y **Full-Stack Boilerplate**.
 
-## Front End
+## Front-End Boilerplate
 
-[**EOS Costa Rica Frontend Boilerplate**](https://github.com/eoscostarica/webapp-boilerplate)
+[**EOS Costa Rica Front-End Boilerplate**](https://github.com/eoscostarica/webapp-boilerplate)
 
 "Front-end" se refiere a la interfaz de usuario y en el contexto de una aplicación web es la aplicación que se ejecuta en el navegador web de los usuarios.
 
 Utilizamos [React JS](https://guias.eoscostarica.io/docs/tutoriales/tutorial-react), una biblioteca de JavaScript para la construcción de interfaces de usuario de alto rendimiento y basada en componentes que facilita el desarrollo de interfaces de usuario complejas con código predecible y fácil de depurar.
 
-### FrontEnd Tech Stack
+### Front-End Tech Stack
 
 - [React](https://reactjs.org/)
 - [Apollo Client](https://www.apollographql.com/docs/react/v3.0-beta/)
@@ -29,13 +29,13 @@ Utilizamos [React JS](https://guias.eoscostarica.io/docs/tutoriales/tutorial-rea
 Hemos desarrollado una colección de componentes en React para EOSIO. Puede ver los componentes que hemos construido en nuestro [EOS Costa Rica React Components Storybook](https://guias.eoscostarica.io/docs/tutoriales/tutorial-react#componentes-en-eos-costa-rica)
 Para más información sobre los componentes puede visitar [Repositorio de Componentes](https://github.com/eoscostarica/eoscr-components)
 
-## BackEnd
+## Back-End Boilerplate
 
-[**EOS Costa Rica Backend Boilerplate**](https://github.com/eoscostarica/backend-boilerplate)
+[**EOS Costa Rica Back-End Boilerplate**](https://github.com/eoscostarica/backend-boilerplate)
 
 "Back-end" se refiere a la aplicación del servidor, se puede describir es la capa de acceso a los datos de una aplicación que contiene la lógica de negocio para la gestión de datos dentro de la aplicación.
 
-### Backend Tech Stack
+### Back-End Tech Stack
 
 - [Hasura](https://hasura.io/)
 - [Hapi](https://hapi.dev/)
@@ -77,11 +77,11 @@ Obtenga más información en [Componentes EOSIO](https://guias.eoscostarica.io/d
 PostgreSQL viene con muchas características destinadas a ayudar a los desarrolladores a crear aplicaciones, a los administradores a proteger la integridad de los datos y a crear entornos tolerantes a fallas, y a administrar sus datos sin importar cuán grande o pequeño sea el conjunto de datos.
 Obtenga más información en [PostgresDB](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#postgresdb)
 
-## Full-Stack
+## Full-Stack Boilerplate
 
 [**EOS Costa Rica Full-Stack Boilerplate**](https://github.com/eoscostarica/full-stack-boilerplate)
 
-El full stack boilerplate contiene tanto el software del cliente como el del servidor. Hemos creado un esqueleto altamente escalable con las mejores prácticas, fullstack monorepo que contiene nuestras boilerplates de front-end y back-end.
+El Full-Stack Boilerplate contiene tanto el software del cliente como el del servidor. Hemos creado un esqueleto altamente escalable con las mejores prácticas, fullstack monorepo que contiene nuestras boilerplates de front-end y back-end.
 
 ### Diagrama Full Stack
 
