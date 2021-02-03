@@ -1,92 +1,81 @@
 ---
 id: boilerplate
-title: Boilerplate
-sidebar_label: Boilerplate
+title: Boilerplate de Proyecto
+sidebar_label: Boilerplate de Proyecto
 ---
-
-
 ## ¿Qué es un Boilerplate?
 
-Se le puede asociar a un framework o plantilla para el desarrollo de un proyecto. Es una estructura de soporte que ya esta definido por anteoridad que sirve para agilizar la organización y desarrollo de software. Integra soluciones y formatos que sirven para impulsar el desarrollo de un nuevo proyecto a producción.
+Un boilerplate es un marco o plantilla para el desarrollo de un proyecto. Es una estructura de proyecto ya definida de antemano que sirve para agilizar la organización y el desarrollo del software. Acelera la integración de soluciones y formatos que sirven para conducir el desarrollo de un nuevo proyecto a la producción.
 
-Se divira el boilerplate en dos secciones, poder dividir el proyecto en FrontEnd sus tecnologías utilizadas y el BackEnd.
-
-## Antes de Empezar
-
-Esto lo necesitamos para empezar:
-
-- [git](https://guias.eoscostarica.io/docs/tutoriales/guia-github#git-bash)
-- [node.js](https://guias.eoscostarica.io/docs/tutoriales/tutorial-react#herramientas)
-- [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
-- [Hasura CLI](https://hasura.io/docs/1.0/graphql/core/hasura-cli/install-hasura-cli.html#install-hasura-cli)
+Hay tres repositorios de boilerplate: **FrontEnd**, **BackEnd** y **Full Stack**.
 
 ## Front End
 
-Frontend es el acceso directo de los usuarios a las funcionalidades del programa es sumamente importante para el flujo correcto y sencillo de casos de uso que pueda tener el software.
+[**EOS Costa Rica Frontend Boilerplate**](https://github.com/eoscostarica/webapp-boilerplate)
 
-[**GitHub Frontend Boilerplate**](https://github.com/eoscostarica/webapp-boilerplate)
+"Front-end" se refiere a la interfaz de usuario y en el contexto de una aplicación web es la aplicación que se ejecuta en el navegador web de los usuarios.
 
-### Instalación
+Utilizamos [React JS](https://reactjs.org/), una biblioteca de JavaScript para la construcción de interfaces de usuario de alto rendimiento y basada en componentes que facilita el desarrollo de interfaces de usuario complejas con código predecible y fácil de depurar. 
 
-**Pasos**:
+### FrontEnd Tech Stack
 
-1. Clonar el repo:
+- [React](https://reactjs.org/)
+- [Apollo Client](https://www.apollographql.com/docs/react/v3.0-beta/)
+- [Material UI](https://material-ui.com/)
+- [i18 next](https://react.i18next.com/)
 
-```shell
-$ git clone --depth=1 https://github.com/eoscostarica/webapp-boilerplate.git <YOUR_PROJECT_NAME>
-```
+### Colecciones de Componentes React
 
-2. Moverse al directorio:
-
-```shell
-$ cd <YOUR_PROJECT_NAME>
-```
-
-3. Correr proyecto:
-
-```shell
-$ yarn start
-```
-
-### Componentes de React de EOSCR
-
-Una colección de componentes de React para EOSIO. Para más información sobre los componentes puede visitar [Componentes en EOS Costa Rica](https://guias.eoscostarica.io/docs/tutoriales/tutorial-react#componentes-en-eos-costa-rica)
-
->[GitHub](https://github.com/eoscostarica/eoscr-components)
+Hemos desarrollado una colección de componentes en React para EOSIO. Puede ver los componentes que hemos construido en nuestro [EOS Costa Rica React Components Storybook](https://guias.eoscostarica.io/docs/tutoriales/tutorial-react#componentes-en-eos-costa-rica)
+Para más información sobre los componentes puede visitar [Repositorio de Componentes](https://github.com/eoscostarica/eoscr-components)
 
 ## BackEnd
 
-Backend es la capa de acceso a los datos de un programa o cualquier dispositivo que tenga un acceso directo con los usuarios. Este contiene la lógica del manejo de los datos dentro del programa, se le asocia a una caja negra en donde tenemos entrada y salidas, son los únicos datos que podemos observar como usuarios.
+[**EOS Costa Rica Backend Boilerplate**](https://github.com/eoscostarica/backend-boilerplate)
 
-[**GitHub Backend Boilerplate**](https://github.com/eoscostarica/backend-boilerplate).
+"Back-end" se refiere a la aplicación del servidor , se puede describir es la capa de acceso a los datos de una aplicación que contiene la lógica de negocio para la gestión de datos dentro de la aplicación.
 
-### Instalación Backend
+### Backend Tech Stack
 
-**Pasos**:
+- [Hasura](https://hasura.io/)
+- [Hapi](https://hapi.dev/)
+- [IPFS](https://ipfs.io/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [EOS](https://eos.io/)
 
-1. Clonar el repo:
+### Infraestructura
 
-```shell
-$ git clone --depth=1 https://github.com/eoscostarica/backend-boilerplate.git <YOUR_PROJECT_NAME>
-```
+- [Docker](https://www.docker.com/)
+- [K8s](https://kubernetes.io/)
 
-2. Moverse al directorio:
+### GraphQL / Hasura
 
-```shell
-$ cd <YOUR_PROJECT_NAME>
-```
+El motor Hasura GraphQL genera automáticamente su esquema GraphQL y resolutores basados ​​en sus tablas / vistas en Postgres. No es necesario que escriba un esquema GraphQL o solucionadores.
 
-3. Actualizar variables:
+La consola de Hasura le brinda herramientas de interfaz de usuario que aceleran su proceso de modelado de datos o el trabajo con su base de datos existente. La consola también genera automáticamente migraciones o archivos de metadatos que puede editar directamente y verificar en su control de versiones.
 
-```shell
-$ .env.example
-```
+El motor Hasura GraphQL le permite hacer cualquier cosa que normalmente haría con Postgres al proporcionar GraphQL sobre construcciones nativas de Postgres.
 
-4. Es necesario contar con una terminal que pueda ejecutar el archivo `makefile` que se encuentra en la raíz del proyecto. Correr proyecto:
+Obtenga más información en [https://hasura.io](https://hasura.io)
 
-```shell
-$ make run
-```
+### HTTP API (HAPI)
 
->hapi: `http://localhost:9090`  
-hasura: `http://localhost:9695`
+hapi.js (comúnmente conocido como hapi) son las siglas de HTTP API. Es un marco rico para crear aplicaciones y servicios. Fue diseñado originalmente para el rápido desarrollo de servicios de API RESTful usando JavaScript, pero desde entonces ha crecido hasta convertirse en un marco de aplicación web completo con características listas para usar plantillas, validación de entrada, autenticación, almacenamiento en caché y, más recientemente, soporte. para aplicaciones en tiempo real con soporte web socket.
+
+Obtenga más información en [https://hapi.dev/](https://hapi.dev/)
+
+### EOSIO
+
+EOSIO es un blockchain de tercera generación que permitirá alcanzar el objetivo de proporcionar un registro inmmutable, permanente, trazable y verificable de toda la actividad en los depósitos de contenedores. Estos datos serán públicos y podrán ser consumidos por cualquier tercero externo.
+
+### PostgresDB
+
+## Full-Stack
+
+[**EOS Costa Rica Full-Stack Boilerplate**](https://github.com/eoscostarica/full-stack-boilerplate)
+
+El full stack boilerplate contiene tanto el software del cliente como el del servidor. Hemos creado un esqueleto altamente escalable con las mejores prácticas, fullstack monorepo que contiene nuestras boilerplates de front-end y back-end.
+
+### Diagrama Full Stack
+
+![full-stack-boilerplate](https://user-images.githubusercontent.com/5632966/106770009-2cf32780-6603-11eb-98dd-c1a6a9aa8451.png)
