@@ -5,19 +5,17 @@ sidebar_label: Guía GitHub
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
-
-[GitHub](https://docs.github.com/en/free-pro-team@latest/github) es un sistema de gestión de proyectos en la nube que permite a los desarrolladores almacenar y tener un control de versiones de código. Esta plataforma te permite trabajar en colaboración con otras personas alrededor del mundo, realizar seguimientos de trabajos y administrar proyectos.  
-[Conoce más de GitHub](https://www.xataka.com/basics/que-github-que-que-le-ofrece-a-desarrolladores)  
+[GitHub](https://docs.github.com/en/free-pro-team@latest/github) es un sistema de gestión de proyectos en la nube que permite a los desarrolladores almacenar y tener un control de versiones de código. Esta plataforma te permite trabajar en colaboración con otras personas alrededor del mundo, realizar seguimientos de trabajos y administrar proyectos. [Conoce más de GitHub](https://www.xataka.com/basics/que-github-que-que-le-ofrece-a-desarrolladores).
 
 Para EOS Costa Rica, es de suma importancia que nuestros colaboradores se familiaricen con esta herramienta, por lo que les ofrecemos a continuación una guía base para empezar en el mundo de GitHub.
 
 * * *
+
 ## **Herramientas**
 
 ### [GitHub CLI](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/github-cli)
 
-[CLI](https://cli.github.com) de GitHub es una herramienta de línea de comandos para utilizar la funciones de GitHub en su propia computadora. 
+[CLI](https://cli.github.com) de GitHub es una herramienta de línea de comandos para utilizar la funciones de GitHub en su propia computadora.
 
 <img alt="Imagen GitHub CLI" src={ useBaseUrl( 'img/LogosGitHub/GitHub-CLI.png' )} />
 
@@ -40,10 +38,18 @@ GitHub para [dispositivos móviles](https://play.google.com/store/apps/details?i
 
 <img alt="Imagen Git Bash" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Bash.png' )} />
 
+### [Hub](https://hub.github.com)
+
+[Hub](https://github.com/github/hub) es una extensión de línea de comandos de git, que te ayuda a realizar las tareas diarias de GitHub sin tener que salir de la terminal.
+
+
+### [Git-extras](https://www.mankier.com/1/git-extras)
+[Git-extras](https://github.com/tj/git-extras) repo aloja más de 60 scripts que se suman a la funcionalidad básica de Git. Más información sobre [Comandos](https://github.com/tj/git-extras/blob/master/Commands.md).
+
 * * * 
 ## **Comandos** 
 
-### **Iniciar Repositorio**
+### Iniciar Repositorio
 
 Crear un directorio nuevo.
 ```
@@ -55,9 +61,9 @@ Clonar un repositorio existente.
 git clone <url>
 ```
 
->[Más información](https://dominicode.com/git-como-empezar/#:~:text=Para%20iniciar%20tu%20primer%20proyecto,ejecuta%20el%20comando%20git%20init%20.&text=Deberías%20tener%20un%20mensaje%20de,la%20carpeta%20no%20verás%20nada.)
+[Más información](https://dominicode.com/git-como-empezar/#:~:text=Para%20iniciar%20tu%20primer%20proyecto,ejecuta%20el%20comando%20git%20init%20.&text=Deberías%20tener%20un%20mensaje%20de,la%20carpeta%20no%20verás%20nada.).
 
-### **Manejo de Ramas**
+### Ramas
 
 Lista las ramas existentes.
 ```
@@ -84,9 +90,9 @@ Borrar una rama.
 ```
 git branch -d <nombre de la rama> 
 ```
->[Más información](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Gestión-de-Ramas)
+[Más información](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Gestión-de-Ramas).
 
-### **Subir Cambios**
+### Subir Cambios
 
 Actualizar tu repositorio local.
 ```
@@ -127,9 +133,9 @@ Fusionar otra rama a la actual.
 ```
 git merge <nombre de la rama> 
 ```
->[Más información](https://rogerdudler.github.io/git-guide/index.es.html)
+[Más información](https://rogerdudler.github.io/git-guide/index.es.html).
 
-### **Fork**
+### Fork
 
 Descargar remote de un fork
 ```
@@ -141,9 +147,9 @@ Hacer merge con master
 git fetch upstream
 git merge upstream/master 
 ```
->[Más información](https://aprendegit.com/fork-de-repositorios-para-que-sirve/)
+[Más información](https://aprendegit.com/fork-de-repositorios-para-que-sirve/).
 
-### **Otros Comandos**
+### Otros Comandos
 
 Revisar logs de los commits.
 ```
@@ -184,4 +190,4 @@ Borrar archivo del repositorio.
 ```
 git rm <archivo> 
 ```
->[Más información](https://gist.github.com/dasdo/9ff71c5c0efa037441b6)
+[Más información](https://gist.github.com/dasdo/9ff71c5c0efa037441b6).

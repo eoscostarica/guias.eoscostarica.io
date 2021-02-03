@@ -4,11 +4,12 @@ module.exports = {
             "cultura-ingenieril",
             "pautas-para-codigo-abierto",
             "metodologias-agiles",
+            "programacion-parejas-grupos",
             "devops",
             "herramientas-para-desarrolladores",
             "proyectos-de-codigo-abierto",
-            "plantilla-para-aplicacion-web",
-            "plantilla-para-backend",
+            "boilerplate-para-aplicacion-web",
+            "boilerplate-para-backend",
             "material-ui", 
             "recursos-visuales",
             "redes-sociales",
@@ -24,16 +25,19 @@ module.exports = {
             "aprender-eosio/desarrollo-de-dapps",
             "aprender-eosio/cadena-de-bloques-eos",
             "aprender-eosio/contratos-inteligentes",
-            "aprender-eosio/contratos-ricardianos"
+            "aprender-eosio/contratos-ricardianos",
+            "aprender-eosio/componentes-eosio"
         ],
         "Tutoriales": [
-            "tutoriales/como-iniciar",
             "tutoriales/instalacion-de-nodos",
             "tutoriales/contrato-hola-mundo",
             "tutoriales/cpp-moderno",
             "tutoriales/tutorial-flujo-trabajo-git",
             "tutoriales/guia-markdown",
-            "tutoriales/guia-github"
+            "tutoriales/guia-github" ,
+            "tutoriales/llaves-github",
+            "tutoriales/tutorial-react"
+
         ],
         "Herramientas": [
             "herramientas/glosario",
