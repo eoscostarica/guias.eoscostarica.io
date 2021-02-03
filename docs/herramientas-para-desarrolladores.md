@@ -234,7 +234,6 @@ PostgreSQL es un potente sistema de base de datos relacional de objetos de códi
 * * *
 
 ## Postman
-<<<<<<< HEAD
 
 ### ¿Qué es Postman?
 
@@ -247,8 +246,6 @@ Permite a los desarrolladores probar llamadas a API. Los usuarios de Postman ing
 3. **Rentable:** Aparte de los muchos beneficios que nos brinda esta herramienta, esta herramienta también es muy rentable. Puede utilizar Postman en su plan gratuito, que consta de funciones limitadas pero muy útiles.
 
 ### Instalación de Postman
-=======
->>>>>>> master
 
 [Instalación de Postman](https://developers.sw.com.mx/knowledge-base/guia-se-instalacion-y-funcionamiento-de-postman/)
 
