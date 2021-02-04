@@ -4,6 +4,8 @@ title: Proyectos de Código Abierto
 sidebar_label: Proyectos de Código Abierto
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## EOS Rate
 
 <img
@@ -57,9 +59,15 @@ Un Monitor de Infraestructura EOSIO y un tablero de node.
 
 - **GitHub** : https://github.com/eoscostarica/eosio-dashboard
 
-![EOSIO network dashboard](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor.PNG)
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.png')}
+/>
 
-![EOSIO network dashboard](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor_2.PNG)
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.png')}
+/>
 
 * * *
 
@@ -112,7 +120,7 @@ EOS Costa Rica está trabajando con EOS Argentina creando una interfaz web que b
 
 * * *
 
-## EOSIO hackathons
+## EOSIO Hackathons
 
 ### LifeBank
 

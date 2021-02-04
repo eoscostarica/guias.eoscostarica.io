@@ -6,7 +6,7 @@ sidebar_label: Librerías SDK
 
 ## Librerías SDK para EOSIO
 
-APIs para integrarse con blockchains basadas en EOSIO
+APIs para integrarse con blockchains basadas en EOSIO.
 
 ## Javascript SDK
 
@@ -53,4 +53,4 @@ Una implementación de proveedor de RPC de Android para usar dentro de EOSIO SDK
 Un ejemplo de proveedor de firmas conectable para EOSIO SDK para Java.
 
 ### [eosio-android-keystore-signature-provider](https://github.com/EOSIO/eosio-android-keystore-signature-provider)
-Un ejemplo de proveedor de firmas conectable para EOSIO SDK para Java escrito en Kotlin
+Un ejemplo de proveedor de firmas conectable para EOSIO SDK para Java escrito en Kotlin.

@@ -17,13 +17,13 @@ Es un filtros de tráfico de una lista de redes y acciones correlacionadas usado
 
 ### Actions (EOSIO)
 
-Funcionalidad expuesta por un contrato inteligente que se ejerce al pasar los parámetros correctos a través de una transacción aprobada a una red  `EOSIO `.
+Funcionalidad expuesta por un contrato inteligente que se ejerce al pasar los parámetros correctos a través de una transacción aprobada a una red `EOSIO `.
 
 * * *
 
 ### Actions (Hasura)
 
-Las  `acciones ` son una forma de extender el esquema de Hasura con lógica empresarial personalizada mediante consultas y mutaciones personalizadas.
+Las `acciones` son una forma de extender el esquema de Hasura con lógica empresarial personalizada mediante consultas y mutaciones personalizadas.
 
 Se pueden agregar acciones a Hasura para manejar varios casos de uso, como la validación de datos, el enriquecimiento de datos de fuentes externas y cualquier otra lógica empresarial compleja.
 
@@ -44,12 +44,12 @@ Es un método general para colocar tokens en cuentas EOS. Es una distribución d
 
 ### Airgrab
 
-El modelo  `Airgrab ` está diseñado para ser una forma más eficiente de capital para implementar tokens para desarrolladores de dApp. Si utiliza el token Airgrab, significa que usará su propia RAM personal y no los desarrolladores de dApp como lo hace en un Airdrop, por lo que es más barato para el desarrollador de dApp.
+El modelo  `Airgrab` está diseñado para ser una forma más eficiente de capital para implementar tokens para desarrolladores de dApp. Si utiliza el token Airgrab, significa que usará su propia RAM personal y no los desarrolladores de dApp como lo hace en un Airdrop, por lo que es más barato para el desarrollador de dApp.
 
 
 * * *
 
-### API (Interfaz de programación de aplicaciones) 
+### API (Interfaz de Programación de Aplicaciones) 
 
 Conjunto de funciones y procedimientos que permiten la creación de aplicaciones que acceden a las características o datos de un sistema operativo, aplicación u otro servicio especifico.
 
@@ -82,25 +82,25 @@ Es una lista creciente de registros, llamados bloques, que están vinculados med
 
 * * *
 
-### Block explorer (Explorador de bloques)
+### Block Explorer (Explorador de Bloques)
 
 Un explorador de bloques es un programa o sitio web accesible a través de un navegador que permite a un usuario buscar y navegar por los bloques de una cadena de bloques, sus contenidos y sus detalles relevantes.
 
 * * *
 
-### Block height (altura del bloque)
+### Block Height (Altura del Bloque)
 
 Se define como el número de bloques en la cadena entre un bloque dado y el primer bloque en la cadena de bloques. Por ejemplo una altura de bloque de 500 se refiere al bloque número 500 de esa cadena. 
 
 * * *
 
-### Block one
+### Block One
 
- `Block.one ` es la compañía que creó el software EOSIO. Es un productor de software de código abierto altamente escalable y de alto rendimiento, está a la vanguardia del desarrollo de la próxima generación de Internet.
+ `Block.one` es la compañía que creó el software EOSIO. Es un productor de software de código abierto altamente escalable y de alto rendimiento, está a la vanguardia del desarrollo de la próxima generación de Internet.
 
 * * *
 
-### Block producer (productor de bloques)
+### Block Producer (Productor de Bloques)
 
 Los productores de bloques son una de las innovaciones principales de Block.one, son las entidades descentralizadas que rigen la cadena de bloques EOSIO. En lugar de ser administrado por un pequeño número de grupos mineros, EOSIO tendrá un grupo en constante cambio de 21 productores de bloques.
 
@@ -118,7 +118,7 @@ Es la primera cadena de bloques DPOS equipada con IBC. Su objetivo es refactoriz
 
 * * * 
 
-### Bytecode canónico
+### Bytecode Canónico
 
 Es utilizado para la comunicación entre diferentes formatos de datos. Una forma de integración de aplicaciones empresariales, pretende reducir los costos y estandarizar las definiciones acordadas de datos asociados con la integración de los sistemas de negocio.
 
@@ -126,7 +126,7 @@ Es utilizado para la comunicación entre diferentes formatos de datos. Una forma
 
 ## **C**
 
-### CDT (Herramientas de desarrollo de contratos)
+### CDT (Herramientas de Desarrollo de Contratos)
 
 Es un kit de herramientas de desarrollo de contratos inteligentes completo con un conjunto de herramientas y utilidades necesarias para el desarrollo de EOSIO Smart Contracts. Proporciona soporte para el Gnu & C++ 11 style creando una forma más confiable de declarar su estructura de contrato inteligente y las estructuras de datos asociadas.
 
@@ -140,11 +140,11 @@ Una ID de cadena es una configuración de blockchain que afecta la formación de
 
 ### Cleos 
 
-Es la herramientas de lineas de comandos que se conecta con el API expuesto por `nodeos` y funciona para administrar la billetera, cuenta, llaves, transacciones y contratos inteligentes
+Es la herramientas de lineas de comandos que se conecta con el API expuesto por `nodeos` y funciona para administrar la billetera, cuenta, llaves, transacciones y contratos inteligentes.
 
 * * *
 
-### Contratos inteligentes
+### Contratos Inteligentes
 
 Es software registrado en el blockchain y ejecutado en los nodos de EOSIO, esto implementa las semánticas de un contracto cuyo registro de solicitudes de acciones están siendo guardadas en el blockchain. El Contrato Inteligente define la interfaz (acciones, parámetros, estructuras de datos) y el código que implementa la interfaz.
 
@@ -229,8 +229,7 @@ EOS Costa Rica es una startup derivada de la empresa pionera Sistemas Edenia Int
 
 ### Eosfinex
 
-`Eosfinex` es un intercambio descentralizado de alto rendimiento construido en EOS.io. tecnología.
-`Eosfinex` combina la escalabilidad y la velocidad de EOS con la experiencia líder de la industria de Bitfinex para ofrecer un intercambio "en cadena" construido en torno a una plataforma rápida, transparente y sin confianza para el comercio de activos digitales.
+`Eosfinex` es un intercambio descentralizado de alto rendimiento construido en EOS.io. tecnología. `Eosfinex` combina la escalabilidad y la velocidad de EOS con la experiencia líder de la industria de Bitfinex para ofrecer un intercambio `en cadena` construido en torno a una plataforma rápida, transparente y sin confianza para el comercio de activos digitales.
 
 * * *
 
@@ -243,7 +242,7 @@ Su tecnología intenta resolver problemas históricos al usar blockchains para e
 
 ### EOSJS
 
-Es una biblioteca creada para controlar fácilmente la cadena de bloques EOS con Javascript. Se puede decir que fue hecho para usar fácilmente la API `HTTP de EOS (nodeos)`. (web3.js en Ethereum, neon-js en Neo)
+Es una biblioteca creada para controlar fácilmente la cadena de bloques EOS con Javascript. Se puede decir que fue hecho para usar fácilmente la API `HTTP de EOS (nodeos)`. (web3.js en Ethereum, neon-js en Neo).
 
 * * *
 
@@ -301,7 +300,7 @@ Es un servicio backend para lógica de negocios personalizadas, integrado con Ha
 
 * * *
 
-### Hardware biométrico
+### Hardware Biométrico
 
 Estos son dispositivos tecnológicos que permiten percibir datos biométricos de los seres humanos u otros objetos, un ejemplo de ello es el reconocimiento fácil con el que cuentan algunas cámaras de seguridad y dispositivos móviles, también el desbloqueo de artefactos por medio de huellas dactilares, por mencionar algunos.
 
@@ -335,19 +334,19 @@ Es un cliente HTTP de línea de comandos fácil de usar para la era API. Viene c
 
 ## **I**
 
-### IAC (infraestructura como código)
+### IAC (Infraestructura como Código)
 
 Es el proceso de gestión de centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactivas.
 
 * * *
 
-### IBC (comunicación Inter-Blockchain)
+### IBC (Comunicación Inter-Blockchain)
 
 Es una herramienta por la cual múltiples blockchains pueden comunicarse entre sí. Esta puede usarse para enviar tokens de una cadena a otra, o para expandir la capacidad de una red al aumentar el número de cadenas que se ejecutan en paralelo.
 
 * * *
 
-### ICO (oferta inicial de manedas)
+### ICO (Oferta Inicial de Manedas)
 
 Método popular para distribuir el suministro inicial de monedas (tokens)  vendiéndolos a cambio de moneda fiduciaria u otras criptomonedas.
 
@@ -387,7 +386,7 @@ Es una liviana y flexible línea de comandos para procesar archivos JSON.
 
 ### Jungle Testnet
 
-Jungle TestNet sirve como `sand box` para muchos equipos de desarrollo y productores de bloques EOS, el cual cuenta con un monitor de net.
+`Jungle TestNet` sirve como `sand box` para muchos equipos de desarrollo y productores de bloques EOS, el cual cuenta con un monitor de net.
 
 * * *
 
@@ -395,13 +394,13 @@ Jungle TestNet sirve como `sand box` para muchos equipos de desarrollo y product
 
 ### Kanban 
 
-Un tablero Kanban es una herramienta que nos permite visualizar un flujo de trabajo de un equipo, creando columnas con las etapas más importante del desarrollo del proyecto. En él se asignan tareas a los miembros del equipo, permitiendo una mejor organización del tiempo y los recursos.
+Un tablero `Kanban` es una herramienta que nos permite visualizar un flujo de trabajo de un equipo, creando columnas con las etapas más importante del desarrollo del proyecto. En él se asignan tareas a los miembros del equipo, permitiendo una mejor organización del tiempo y los recursos.
 
 * * *
 
 ### KEOSD
 
-Funciona como billetera para manejar las llaves para EOSIO. Es el componente que almacena de forma segura las claves EOSIO en billeteras. 
+Funciona como billetera para manejar las llaves para EOSIO. Es el componente que almacena de forma segura las claves EOSIO en billeteras.
 
 `keosd = clave + eos`
 
@@ -409,7 +408,7 @@ Funciona como billetera para manejar las llaves para EOSIO. Es el componente que
 
 ### Kubernetes
 
-Kubernetes es una plataforma portátil, extensible y de código abierto para gestionar cargas de trabajo y servicios en contenedores, que facilita tanto la configuración declarativa como la automatización. Tiene un ecosistema grande y de rápido crecimiento. Los servicios, el soporte y las herramientas de Kubernetes están ampliamente disponibles.
+`Kubernetes` es una plataforma portátil, extensible y de código abierto para gestionar cargas de trabajo y servicios en contenedores, que facilita tanto la configuración declarativa como la automatización. Tiene un ecosistema grande y de rápido crecimiento. Los servicios, el soporte y las herramientas de Kubernetes están ampliamente disponibles.
 
 * * *
 
@@ -417,13 +416,13 @@ Kubernetes es una plataforma portátil, extensible y de código abierto para ges
 
 ### LACCHAIN
 
-LACChain es una iniciativa de BID Labs (parte del Banco Interamericano de Desarrollo) cuyo propósito es acompañar y acelerar el desarrollo del ecosistema de blockchain en Latinoamérica. LACChain busca establecer consorcios nacionales en la región, desarrollar y promover estándares de interoperablidad en redes, y desarrollar y dar mantenimiento a infraestructuras interoperables de blockchain.
+`LACChain` es una iniciativa de BID Labs (parte del Banco Interamericano de Desarrollo) cuyo propósito es acompañar y acelerar el desarrollo del ecosistema de blockchain en Latinoamérica. LACChain busca establecer consorcios nacionales en la región, desarrollar y promover estándares de interoperablidad en redes, y desarrollar y dar mantenimiento a infraestructuras interoperables de blockchain.
 
 * * *
 
 ### LatamLink 
 
-LatamLink es una alianza regional voluntaria liderada por empresas tecnológicas latinoamericanas. Desarrollamos un testnet basado en EOSIO para la red LACChain con el fin de resaltar los beneficios de esta tecnología. LatamLink utiliza una versión pública permisionada de la tecnología EOSIO para que desarrolladores y organizaciones puedan probar sus aplicaciones descentralizadas e infraestructura.
+`LatamLink` es una alianza regional voluntaria liderada por empresas tecnológicas latinoamericanas. Desarrollamos un testnet basado en EOSIO para la red LACChain con el fin de resaltar los beneficios de esta tecnología. LatamLink utiliza una versión pública permisionada de la tecnología EOSIO para que desarrolladores y organizaciones puedan probar sus aplicaciones descentralizadas e infraestructura.
 
 * * *
 
@@ -439,13 +438,13 @@ Término utilizado para referirse a el comienzo de una cadena de bloques.
 
 * * * 
 
-### LIB (Último bloque irreversible)
+### LIB (Último Bloque Irreversible)
 
 Un bloque se considera irreversible (es decir, inmutable) en una cadena de bloques basada en EOSIO cuando 2/3 de los productores de bloques elegidos actualmente lo han reconocido.
 
 * * *
 
-### Llaves privadas
+### Llaves Privadas
 
 Una llave privada es una clave secreta utilizada para firmar transacciones. En EOSIO, la autoridad de una clave privada está determinada por su asignación a un nombre de cuenta EOSIO.
 
@@ -535,11 +534,11 @@ Conjunto de sitios relacionados con EOS en el cual constantemente se esta agrega
 
 * * * 
 
-### Pull request
+### Pull Request
 
 Los `pull request` permiten informar a otros usuarios sobre los cambios que ha realizado en una rama de un repositorio en GitHub. 
 
-Una vez que se abre un `pull request`, se puede analizar y revisar los posibles cambios con los colaboradores y agregar confirmaciones de seguimiento antes de que sus cambios se fusionen en la rama base.
+Una vez que se abre un `pull request`, se puede analizar y revisar los posibles cambios con los colaboradores y agregar `commits` de seguimiento antes de que sus cambios se fusionen en la rama base.
 
 * * * 
 
@@ -569,7 +568,7 @@ La RAM es un tipo de memoria utilizada para almacenar información de la cuenta,
 
 ### Recursos
 
-Las cuentas de EOSIO cuenta con tres tipos de recursos que deben mantener: `RAM`, `CPU` Y `Net`
+Las cuentas de EOSIO cuenta con tres tipos de recursos que deben mantener: `RAM`, `CPU` Y `Net`.
 
 * * *
 
@@ -581,7 +580,7 @@ Las cuentas de EOSIO cuenta con tres tipos de recursos que deben mantener: `RAM`
 
 ### Ricardian Contract
 
-En el contexto de blockchain basado en EOSIO, Ricardian Contract es un documento digital que acompaña a un contrato inteligente y define los términos y condiciones de una interacción entre el contrato inteligente y sus usuarios, escrito en texto legible para humanos, que luego se firma y verifica criptográficamente. Es fácilmente legible tanto para humanos como para programas, y ayuda a proporcionar claridad a cualquier situación que pueda surgir en las interacciones entre el contrato inteligente y sus usuarios.
+En el contexto de blockchain basado en EOSIO, `Ricardian Contract` es un documento digital que acompaña a un contrato inteligente y define los términos y condiciones de una interacción entre el `contrato inteligente` y sus usuarios, escrito en texto legible para humanos, que luego se firma y verifica criptográficamente. Es fácilmente legible tanto para humanos como para programas, y ayuda a proporcionar claridad a cualquier situación que pueda surgir en las interacciones entre el `contrato inteligente` y sus usuarios.
 
 * * *
 
@@ -593,13 +592,13 @@ En cualquier momento dado, se puede tomar una instantánea (`Snapshot`) del esta
 
 * * *
 
-### SPOF (punto único de falla)
+### SPOF (Punto Único de Falla)
 
 Es una parte de un sistema que si falla detendrá el funcionamiento de todo el sistema. Estos no son deseables en ningún sistema con un objetivo de alta disponibilidad o confiabilidad.
 
 * * * 
 
-### Squash merge
+### Squash Merge
 
 El Squash es una opción de `merge` que permite condensar el historial de  Git de un `branch` cuando se completa un `pull request`. Este proceso toma todas los `commits` de un `branch` especifico y los agrega en un solo commit dentro de la rama predeterminada. 
 
@@ -625,7 +624,7 @@ Son un conjunto de aproximadamente 100 nodos completos que han expresado el dese
 
 ### StoryBook
 
-[StoryBook](https://storybook.js.org/) es una herramienta de codigo abierto para desarrollar componentes de UI de forma aislada para React, Vue y Angular
+[StoryBook](https://storybook.js.org/) es una herramienta de codigo abierto para desarrollar componentes de UI de forma aislada para React, Vue y Angular.
 
 * * * 
 
@@ -633,7 +632,7 @@ Son un conjunto de aproximadamente 100 nodos completos que han expresado el dese
 
 Todo lo que forma parte de EOSIO que no es parte del núcleo se denomina sistema, Ejemplo: cuentas del sistema, cuentas privilegiadas, contratos del sistema. 
 
-Desde un punto de vista arquitectónico, los componentes del sistema se ubican sobre los componentes principales / nativos
+Desde un punto de vista arquitectónico, los componentes del sistema se ubican sobre los componentes principales / nativos.
 
 * * *
 
@@ -659,7 +658,7 @@ Desde un punto de vista arquitectónico, los componentes del sistema se ubican s
 
 ### TestNet
 
-Una red de prueba o testnet es una instancia de la plataforma EOSIO destinada a fines de prueba. En general, el token nativo no tiene valor y se entrega a los desarrolladores para que puedan probarlo.
+Una `red` de prueba o `testnet` es una instancia de la plataforma EOSIO destinada a fines de prueba. En general, el token nativo no tiene valor y se entrega a los desarrolladores para que puedan probarlo.
 
 * * * 
 
@@ -675,7 +674,7 @@ Es una combinación de una o más acciones. Por lo general, el resultado de la e
 
 * * * 
 
-### TPS (transacciones por segundo)
+### TPS (Transacciones por Segundo)
 
 Una métrica mediante la cual se mide el rendimiento de una cadena de bloques.
 
@@ -705,7 +704,7 @@ La votación es una parte fundamental del sistema EOSIO. La aplicación de votac
 
 ### Vote Decay
 
-Para evitar a los usuarios de emitir un voto por Block Producers y luego no actualizar su voto periódicamente, se introdujo una disminución en la fuerza relativa de los votos antiguos. Para mantener la fuerza máxima de voto, un usuario debe votar al menos una vez por semana.
+Para evitar a los usuarios de emitir un voto por Block Producers y luego no actualizar su `voto` periódicamente, se introdujo una disminución en la fuerza relativa de los votos antiguos. Para mantener la fuerza máxima de voto, un usuario debe votar al menos una vez por semana.
 
 * * *
 
@@ -737,7 +736,7 @@ Una lista blanca es una medida subjetiva que un nodo de blockchain puede poner e
 
 * * *
 
-### WPS (sistemas de propuestas de trabajadores)
+### WPS (Sistemas de Propuestas de Trabajadores)
 
 Es un sistema a través del cual los fondos comunales se utilizarían para apoyar mejoras en la cadena de bloques, proyectos comunitarios y cualquier cosa que la comunidad considerara merecedora de fondos públicos. Está configurado para ser financiado a través de una parte de la inflación.
 
@@ -751,7 +750,7 @@ Es un sistema a través del cual los fondos comunales se utilizarían para apoya
 
 ### Yarn
 
-[Yarn](https://yarnpkg.com/) es un administrador de paquetes para proyectos web compatible con la estructura del administrador de paquetes npm (package.json y node_modules)
+[Yarn](https://yarnpkg.com/) es un administrador de paquetes para proyectos web compatible con la estructura del administrador de paquetes npm (package.json y node_modules).
 
 * * * 
 

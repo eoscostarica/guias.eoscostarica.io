@@ -77,7 +77,7 @@ Para obtener más información sobre las pautas a seguir, consulte [este enlace]
 Un Blockchain es un registro de datos que funciona como un gran libro de cuentas compartido entre varios usuarios o "nodos" en el que las transacciones se registran de forma confiable y segura. En este libro mayor, se registran "bloques", que son colecciones de datos. Estos bloques están conectados entre sí de forma cronológica creando una especie de cadena.
 Para obtener más detalles, consulte [¿Cómo funciona una cadena de bloques?](https://eoscostarica.medium.com/https-medium-com-eoscostarica-que-es-blockchain-d54d42439ef3)
 
-## ¿Cómo funciona un contrato inteligente?
+## ¿Cómo funciona un Contrato Inteligente?
 
 Un contrato es simplemente un acuerdo de formalización entre dos o más partes. Debe definir el alcance, la forma de actuar y las consecuencias de actuar de forma diferente. Sin embargo, los contratos tradicionales pueden presentar un problema: están sujetos a interpretación.
 Para obtener más detalles sobre un contrato inteligente, puede ver [¿Qué es un contrato inteligente?](https://eoscostarica.medium.com/qu%C3%A9-es-un-smart-contract-793d2042c65d)

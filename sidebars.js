@@ -34,6 +34,7 @@ module.exports = {
             "tutoriales/tutorial-flujo-trabajo-git",
             "tutoriales/guia-markdown",
             "tutoriales/guia-github" ,
+            "tutoriales/llaves-github",
             "tutoriales/tutorial-react"
 
         ],

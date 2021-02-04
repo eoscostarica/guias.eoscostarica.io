@@ -15,15 +15,15 @@ Se centra en unificar el desarrollo y las operaciones de TI a través de los pri
   </iframe>
 </figure>
 
-## Definiciones Claves
+## Definiciones Clave
 
-- **Integración Continua (CI)**: Aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera controlada y ágil. (Verificando todo el código en un repositorio centralizado diariamente)
+- **Integración Continua (CI)**: Aborda la creación de software a partir de las contribuciones de desarrolladores individuales de una manera ágil y controlada. (Verificando todo el código en un repositorio centralizado diariamente)
 - **Despliegue Continuo (CD)**: Despliegue automatizado (o transporte) de código a producción sin necesidad de pasos manuales. Este no será el plan con todas las aplicaciones.
-- **Entrega Continua (CD)**: Automatización que garantiza la validación de la implementación; sin embargo, aún se requiere un paso manual para implementar en producción.
+- **Entrega Continua (CD)**: Automatización que garantiza la validación de la implementación; sin embargo, aún se requieren pasos manuales para implementar en producción.
 - **Implementación**: La implementación (o transporte) de código a un entorno de nivel superior, hasta e incluida la producción.
 - **Lanzamiento**: El alcance definido y el objetivo comercial para un conjunto de características que se entregarán en un cierto plazo.
 
-## ¿Por qué Implementar DevOps?
+## ¿Por qué implementar DevOps?
 
 En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 organizaciones de TI que usaban DevOps y encontró:
 
@@ -33,18 +33,18 @@ En 2012, el "informe sobre el estado de DevOps" de Puppet Labs comparó 4.039 or
 - MTTR 12 veces más rápido (tiempo medio de reparación)
 
 ***
->"*La ventaja competitiva que crea esta capacidad es enorme, lo que permite una comercialización más rápida de las funciones, mayor satisfacción del cliente, participación de mercado, productividad de los empleados y felicidad".*
-**- Proyecto Phoenix**
+
+> "*La ventaja competitiva que crea esta capacidad es enorme, lo que permite una comercialización más rápida de las funciones, mayor satisfacción del cliente, participación de mercado, productividad de los empleados y felicidad".* ** - Proyecto Phoenix **
 
 ***
 
-## Áreas de énfasis
+## Áreas de Énfasis
 
 Los principios de DevOps son aplicados y asistidos por las siguientes 3 áreas clave que trabajan juntas:
 
-- **Personas** - DevOps se basa en una cultura de personas sólidas en experimentación, aprendizaje, colaboración y objetivos compartidos entre las operaciones de desarrollo, control de calidad y TI.
-- **Procesos** - DevOps se basa en Lean Agile y aplica conceptos de fabricación ajustada a las corrientes de valor de TI.
-- **Herramientas** - DevOps se basa en herramientas y tecnologías mejoradas, incluidas herramientas de automatización, telemetría y colaboración.
+- **Personas**: DevOps se basa en personas sólidas y una cultura sólida de experimentación, aprendizaje, colaboración y objetivos compartidos entre las operaciones de desarrollo, control de calidad y TI.
+- **Procesos**: DevOps se basa en Lean Agile y aplica conceptos de fabricación ajustada a las corrientes de valor de TI.
+- **Herramientas**: DevOps se basa en herramientas y tecnologías mejoradas, incluidas herramientas de automatización, telemetría y colaboración.
 
 ## ¿Cuál es el objetivo de DevOps?
 
@@ -66,9 +66,9 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 
 * * *
 
-## Infraestructura como código (IAC)
+## Infraestructura como Código (IAC)
 
-Es el proceso de gestión y aprovisionamiento de centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactiva.
+El proceso de administrar y aprovisionar centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactivas.
 
 <figure 
   class="video_container">
@@ -79,9 +79,9 @@ Es el proceso de gestión y aprovisionamiento de centros de datos informáticos 
 
 * * *
 
-### Introducción a Terraform 
+### Introducción a HashiCorp Terraform
 
-Terraform es un software de infraestructura como código desarrollado por HashiCorp. Permite a los usuarios definir y configurar la infraestructura de un centro de datos en un lenguaje de alto nivel.
+Terraform es un software de infraestructura como código, desarrollado por HashiCorp. Permite a los usuarios definir y configurar la infraestructura de un centro de datos en un lenguaje de alto nivel.
 
 <figure 
   class="video_container">
@@ -92,8 +92,6 @@ Terraform es un software de infraestructura como código desarrollado por HashiC
 
 * * *
 
-### Introducción a HashiCorp Terraform 
-
 <figure 
   class="video_container">
   <iframe 
@@ -101,13 +99,14 @@ Terraform es un software de infraestructura como código desarrollado por HashiC
   </iframe>
 </figure>
 
-## Introducción a Docker y Kubernetes
+## Infrastructura como Código en EOS Costa Rica
 
-### Docker
+* [Documentación de Openstack](https://github.com/edenia/openstack-docs)
+* [Documentación de Kubernetes](https://github.com/edenia/openstack-docs/blob/master/Kubernetes.md)
 
-Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
+## Introducción a Kubernetes y Docker
 
-#### **Containers 101**
+### **Containers 101**
 
 <figure
  class="video_container">
@@ -116,11 +115,13 @@ Docker es un proyecto de código abierto que automatiza el despliegue de aplicac
   </iframe>
 </figure>
 
->[Más información sobre containers](https://www.youtube.com/channel/UCdkGV51Nu0unDNT58bHt9bg/search?query=containers)
+[Más información acerca de contenedores](https://www.youtube.com/embed/EnJ7qX9fkcU&list=PL7bmigfV0EqQt5_pBPQ8tsZjI1w68-e0H)
 
 * * *
 
-#### **¿Qué es Docker?**
+### ¿Qué es Docker?
+
+Docker es un proyecto de código abierto que automatiza la implementación de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
 
 <figure 
 class="video_container">
@@ -137,7 +138,7 @@ Kubernetes es un sistema de código libre para la automatización del despliegue
 
 A continuación, puede encontrar un conjunto de tutoriales muy convenientes para aprender kubernetes desde cero:
 
-#### **Kubernetes en 5 minutos**
+### Kubernetes en 5 Minutos
 
 <figure
    class="video_container">
@@ -148,7 +149,7 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 
 * * *
 
-#### **Kubernetes vs.Docker: no es una cuestión de uno o el otro**
+### Kubernetes vs Docker: No es una Pregunta de Ambos o Uno
 
 <figure 
   class="video_container">
@@ -161,12 +162,10 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 
 ## Kubernetes en EOS Costa Rica
 
-[Aprenda los conceptos básicos de Kubernetes](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+Par probar los anteriores [tutoriales](https://kubernetes.io/docs/tutorials/kubernetes-basics/) en un ambiente real, podrías utilizar nuestra instalación de kubernetes sobre Openstack. 
+Si así lo prefieres, también puedes crear un cluster local en tu propia máquina: 
 
-Para poder probar estos tutoriales en un entorno real, puede probar nuestra instalación de Kubernetes
-en Openstack. Si lo prefiere, también puede crear una configuración local en su propia máquina:
-
-[Instalar Minikube](https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/)
+[Instalar Minikube](https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/) 
 
 Solicite a los administradores acceso a nuestro panel de instalación Openstack y al Sandbox
 proyect. Entonces puedes seguir los siguientes pasos:
@@ -191,9 +190,9 @@ kubectl get nodes
 
 ## Referencias
 
-*“Los principios detrás de DevOps son los mismos que transformaron la fabricación. En lugar de optimizar la forma en que las materias primas se transforman en productos terminados, DevOps muestra cómo optimizamos el flujo de valor de TI ... ”* - Proyecto Phoenix
+*“Los principios detrás de DevOps son los mismos que transformaron la fabricación. En lugar de optimizar la forma en que las materias primas se transforman en productos terminados, DevOps muestra cómo optimizamos el flujo de valor de TI ...”* - Proyecto Phoenix
 
-*“Imagínese vivir en un mundo DevOps, donde los propietarios de productos, Desarrollo, Control de calidad, Operaciones de TI e InfoSec trabajan juntos sin descanso para ayudarse mutuamente y para que la organización en general gane. Permiten un flujo rápido del trabajo planificado hacia la producción, al tiempo que preservan la estabilidad, confiabilidad, disponibilidad y seguridad de clase mundial ".* - Proyecto Phoenix
+*“Imagínese vivir en un mundo DevOps, donde los propietarios de productos, Desarrollo, Control de Calidad, Operaciones de TI e InfoSec trabajan juntos sin descanso para ayudarse mutuamente y para que la organización en general gane. Permiten un flujo rápido del trabajo planificado hacia la producción, al tiempo que preservan la estabilidad, confiabilidad, disponibilidad y seguridad de clase mundial”.* - Proyecto Phoenix
 
 * [Tabla periódica de herramientas de DevOps](https://www.notion.so/Periodic-Table-of-DevOps-Tools-4e9b29562a944132b1235cfa7e400d68)
 * [Automatización](https://www.notion.so/Automation-e4dee021a4494d9cbdebb3ebc6205f4f)
