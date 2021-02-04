@@ -127,7 +127,7 @@ Lea las [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para
 
 Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<link a la sección del issue del proyecto>`
 
-## Colaboradores ✨
+## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
