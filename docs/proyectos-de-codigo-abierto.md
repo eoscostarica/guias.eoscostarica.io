@@ -61,20 +61,12 @@ Un Monitor de Infraestructura EOSIO y un tablero de node.
 
 <img
   alt="EOSIO network dashboard"
-<<<<<<< HEAD
   src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')}
-=======
-  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.png')}
->>>>>>> master
 />
 
 <img
   alt="EOSIO network dashboard"
-<<<<<<< HEAD
   src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')}
-=======
-  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.png')}
->>>>>>> master
 />
 
 * * *
