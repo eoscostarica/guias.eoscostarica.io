@@ -123,7 +123,7 @@ Si desea hacer una contribución, siga los siguientes pasos:
 5. Push del Branch (`git push origin feature/AmazingFeature`)
 6. Abra un Pull Request
 
-Lea las [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto) para obtener más información sobre las convenciones de programación.
+Lea las [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto) de EOS Costa Rica, para obtener más información sobre las convenciones de programación.
 
 Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<link a la sección del issue del proyecto>`
 
