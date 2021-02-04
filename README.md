@@ -5,22 +5,82 @@
 
 Sitio de documentación para desarrolladores de EOS Costa Rica.
 
+![Guide front page](static/img/guide-page.png)
+
+## Sobre el Proyecto
+
 En este sitio se encuentran los recursos recabados en el día a día de los colaboradores de EOS Costa Rica. Siéntete libre de colaborar, comentar y sugerir cambios/ideas para mejorar el sitio.
 
-## Contribuciones 
+## Tabla de Contenido
 
-Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/orgs/eoscostarica/projects/2).
+1. Sobre el Proyecto
+2. Tabla de Contenido
+3. Objetivo del Proyecto
+4. Versión
+5. Tech Stack
+6. Entorno de Desarrollo
+7. Estructura de Archivo
+8. Licencia
+9. Contribuciones
+10. Colaboradores
+11. Acerca de EOS Costa Rica
 
-[Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto)
+## Objetivo del Proyecto
 
-Informe los errores grandes y pequeños [creando un issue](https://github.com/eoscostarica/guias.eoscostarica.io/issues).
+Este proyecto está destinado a servir como una herramienta para ayudar en la incorporación de nuevos desarrolladores. Creado inicialmente por un grupo de estudiantes universitarios para facilitar una guía a otros miembros del equipo y contribuir en proyectos de código abierto. Su objetivo principal es brindar orientación a los nuevos miembros del equipo y acelerar el proceso de familiarización con los procesos y la cultura en EOS Costa Rica.
 
-## Guía rápida
+## Versión
+:::nota
+Estamos en version 0.2.0
+:::
+
+## Tech Stack
+- React.js - React 16✨, React Router 5
+- Material-ui/core - Componentes de React para un desarrollo web más rápido y fácil, biblioteca-autenticador-universal - Una biblioteca para permitir que las aplicaciones utilicen fácilmente diferentes proveedores de autenticación
+- Core - Componentes de React para un desarrollo web más rápido y sencillo
+- Lint- ESlint
+- Estilos - Tema Material-UI (personalizable)
+
+### Empezando
+
+Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemplo:
+
+#### **Requisitos Previos**
+
+- `yarn`
+- `git`
+- `node.js`
+
+#### **Instalación**
+
+1. Clona el repositorio
+
+  `
+  git clone https://github.com/eoscostarica/guias.eoscostarica.io.git
+  `
+
+2. Mover el directorio apropiado
+
+  `
+  cd guide.eoscostarica.io.git
+  `
+
+3. Instale los paquetes de yarn
+
+  `
+  yarn
+  `
+
+4. Ejecute el proyecto
+
+  `
+  yarn start
+  `
 
 ### Estructura de archivos
 
 ```sh
-guias.eoscostarica.io
+guias.eoscostarica.io/
 ├── .github
 │ ├── workflows
 │ | ├── nodejs.yml
@@ -32,7 +92,6 @@ guias.eoscostarica.io
 │ | ├── custom.css
 │ | └── homepage.css
 │ └── pages
-│ 	├── styles.module.css
 │   └── index.js
 ├── static
 │ ├── img
@@ -45,54 +104,30 @@ guias.eoscostarica.io
 ├── yarn.lock
 └── README.md
 ```
-### Resumen de la estructura del proyecto
 
-- `/docs/` - Contiene los archivos de Markdown para los documentos. Personaliza el orden de la barra lateral de documentos en  `sidebars.js`. Se pueden encontrar más detalles en la [guía de documentos](https://v2.docusaurus.io/docs/markdown-features).
-- `/src/` - Archivos que no son de documentación como páginas o componentes personalizados de React. No tiene que colocar estrictamente sus archivos que no son de documentación aquí, pero colocarlos en un directorio centralizado facilita la especificación en caso de que necesite hacer algún tipo de procesamiento.
-- `/src/pages` - Cualquier archivo dentro de este directorio se convertirá en una página de sitio web. Se pueden encontrar más detalles en la [guía de páginas](https://v2.docusaurus.io/docs/creating-pages).
-- `/static/` - Directorio estático. Cualquier contenido dentro de aquí se copiará en la raíz del directorio de compilación final `build`.
-- `/docusaurus.config.js` - El archivo de configuración para el sitio. Este es el equivalente de siteConfig.js en Docusaurus 1.
-- `/package.json` - Un sitio web de Docusaurus es una aplicación de React. Puede instalar y usar cualquier paquete npm que desee en ellos.
-- `/sidebar.js` - Utilizado por la documentación para especificar el orden de los documentos en la navegación lateral.
+## Licencia
 
+MIT © [EOS Costa Rica](https://eoscostarica.io)
 
-### Antes de empezar
-Es necesario contar con: 
-* git
-* node.js
+## Contribuciones 
+
+Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/orgs/eoscostarica/projects/2).
 
 
-### Instrucciones para ejecutar el portal de forma local en Windows 10
+Si desea hacer una contribución, siga los siguientes pasos:
 
+1. Fork del Proyecto
+2. Cree su Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Agregue sus cambios al Commit (`git add <Nombre del archivo>`)
+4. Confirme sus cambios (`git commit -m '<type>(<scope>): <subject>'`)
+5. Push del Branch (`git push origin feature/AmazingFeature`)
+6. Abra un Pull Request
 
-1. Clone el repositorio
+Lea las [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto) para obtener más información sobre las convenciones de programación.
 
-```bash
-$ git clone https://github.com/eoscostarica/guias.eoscostarica.io.git
-```
+Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<link a la sección del issue del proyecto>`
 
-2. Ubíquese al directorio apropiado
-
-```bash
-$ cd guias.eoscostarica.io
-```
-
-3. Instale las dependencias:
-```bash
-$ yarn install 
-```
-
-4. Compile el proyecto:
-```bash		
-$ yarn build 
-```
-
-5. Ejecute el servidor local:
-```bash		
-$ yarn serve 
-```
-
-## Contributors ✨
+## Colaboradores ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -120,3 +155,14 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+
+## Acerca de EOS Costa Rica
+
+<div style={{ display: "block", textAlign: "center" }}>
+    <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
+</div>
+
+EOS Costa Rica es un productor independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para EOSIO blockchains. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
+
+[eoscostarica.io](https://eoscostarica.io/)
