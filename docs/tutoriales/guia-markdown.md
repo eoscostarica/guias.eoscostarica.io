@@ -4,10 +4,11 @@ title: Guía Markdown
 sidebar_label: Guia Markdown
 ---
 
-## MarkDown
-Markdown es un lenguaje de marcado, pensado para la elaboración de textos que permitan formaterarse de una forma más sencilla, esto como otra alternativa al HTML.  
+## ¿Qué es Markdown?
 
-Para mayor información puede dar click en el siguiente link [¿Qué es Markdown?](https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo)
+Markdown es un lenguaje de marcado ligero que puede usar para agregar elementos de formato a documentos de texto sin formato.
+
+Markdown, creado por John Gruber en 2004, es ahora uno de los lenguajes de marcado más populares del mundo. [Más sobre Markdown](https://www.markdownguide.org/getting-started/).
 
 * * *
 
@@ -29,15 +30,13 @@ Para mayor información puede dar click en el siguiente link [¿Qué es Markdown
 
 
 
-> Puede obtener hasta 6 tamaños de títulos diferentes según el número de "#"
+> Puede obtener hasta 6 tamaños de títulos diferentes según el número de `#`
 
 * * *
 
 ## Sintaxis de Estructura
 
-
-
-### **Lista no ordenada**  
+### **Lista no Ordenada**  
 
 ``` markdown title="Sintaxis"
     - Primer Item
@@ -51,9 +50,9 @@ Para mayor información puede dar click en el siguiente link [¿Qué es Markdown
 - Segundo Item
 - Tercer Item
 
->[Más información](https://www.markdownguide.org/basic-syntax/#unordered-lists)
+[Más información](https://www.markdownguide.org/basic-syntax/#unordered-lists).
 
-### **Lista numérica**
+### **Lista Ordenada**
 
 ``` markdown title="Sintaxis"
     1. Primer Item
@@ -68,17 +67,17 @@ Para mayor información puede dar click en el siguiente link [¿Qué es Markdown
 2. Segundo Item
 3. Tercer Item
 
->[Más información](https://www.markdownguide.org/basic-syntax/#ordered-lists)
+[Más información](https://www.markdownguide.org/basic-syntax/#ordered-lists).
 
-### **Tablas**
+### **Tabla**
 
- 
 ``` markdown title="Sintaxis"
-    |Título Izquierda  | Título  | Título Derecha |  
-    | :----  |  :----:  |  ----:  |  
-    | Izquierda| Centro | Derecha |  
-    | Izquierda | Centro | Derecha |  
+|Título Izquierda  | Título centro | Título Derecha |  
+| :----  |  :----:  |  ----:  |  
+| Izquierda| Centro | Derecha |  
+| Izquierda | Centro | Derecha |  
 ```
+
 **Ejemplo:**  
 
 |Título Izquierda  | Título  | Título Derecha  |
@@ -86,14 +85,14 @@ Para mayor información puede dar click en el siguiente link [¿Qué es Markdown
 | Izquierda | Centro | Derecha |
 | Izquierda | Centro | Derecha |
 
->[Más información](https://www.markdownguide.org/extended-syntax/#tables)
+[Más información](https://www.markdownguide.org/extended-syntax/#tables).
 
 ### **Check List** 
 
 ``` markdown title="Sintaxis"
-    - [x] Primer opción
-    - [ ] Segunda opción
-    - [ ] Tercera opción
+- [x] Primer opción
+- [ ] Segunda opción
+- [ ] Tercera opción
 ```
 **Ejemplo:**
 - [x] Primer opción
@@ -101,14 +100,14 @@ Para mayor información puede dar click en el siguiente link [¿Qué es Markdown
 - [ ] Tercera opción
 
 
-> [Más información](https://www.markdownguide.org/extended-syntax/#task-lists)
+[Más información](https://www.markdownguide.org/extended-syntax/#task-lists).
 
 
 ### **Salto de Línea**
 
 ```markdown title="Sintaxis"
-    Texto  <!---Espacio Espacio--->
-    Otro texto
+Texto  <!---Espacio Espacio--->
+Otro texto
 ```
 
 **Ejemplo:**
@@ -119,13 +118,12 @@ Otro texto
 ### **Comentarios**
 
 ``` markdown title="Sintaxis"
-    [comentario]: <> (Este es un comentario, no se incluirá)
+[comentario]: <> (Este es un comentario, no se incluirá)
 
-    [//]: <> (Esto también es un comentario)
+[//]: <> (Esto también es un comentario)
 
-    [//]: # (Este puede ser el comentario más independiente de la plataforma) `
+[//]: # (Este puede ser el comentario más independiente de la plataforma) `
 ```
-
 
 * * *
 
@@ -134,10 +132,11 @@ Otro texto
 ### **Enlaces**
 
 ``` markdown title="Sintaxis"
-[Eos Costa Rica](https://es.eoscostarica.io)
+[EOS Costa Rica](https://es.eoscostarica.io)
 ```
 **Ejemplo:**  
-[Eos Costa Rica](https://es.eoscostarica.io)
+[EOS Costa Rica](https://es.eoscostarica.io)
+
 ### **Imágenes**
 
 ``` markdown title="Sintaxis"
@@ -148,7 +147,7 @@ Otro texto
 ![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 
 
-### **Citas en bloque**
+### **Citas en Bloque**
 
 ``` markdown title="Sintaxis"
 > Texto principal
@@ -156,9 +155,7 @@ Otro texto
 >>
 > * Item
 > * Item
-
-> Texto 
-
+> Texto
 > Texto final
 ```
 **Ejemplo:**
@@ -168,13 +165,10 @@ Otro texto
 >>
 > * Item
 > * Item
-
 > Texto 
-
 > Texto final
 
-
-### **Líneas horizontales**
+### **Líneas Horizontales**
 
 ``` markdown title="Sintaxis"
 ---
@@ -184,13 +178,12 @@ Otro texto
 **Ejemplo:**
 
 ---
-
 ***
-
 - - - -
 
-> [Más información](https://www.markdownguide.org/basic-syntax/#horizontal-rules)
+[Más información](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
 
 ***
+
 Para más información acerca de la sintaxis de Markdown, visitar
 [esta página](https://www.markdownguide.org/cheat-sheet/)

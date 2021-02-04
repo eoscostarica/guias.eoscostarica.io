@@ -13,13 +13,13 @@ sidebar_label: Componentes EOSIO
 * Producir bloques que contengan transacciones válidas.
 * Confirmar bloques para registrarlos en el blockchain.
 
->[Más Información](https://guias.eoscostarica.io/docs/herramientas/opciones-configuracion-nodeos)
+> [Más Información](https://guias.eoscostarica.io/docs/herramientas/opciones-configuracion-nodeos)
 
 ## Cleos
 
 [Cleos](https://developers.eos.io/manuals/eos/latest/cleos/index) es una herramienta de línea de comandos que interactúa con Nodeos con una utilidad de billetera (Keosd) responsable de la gestión de claves y la firma de transacciones. Los desarrolladores también pueden utilizar cleos para desplegar y probar los contratos inteligentes de EOSIO.
 
-### Como utilizar Cleos
+### ¿Cómo utilizar Cleos?
 
 Para usar **cleos**, necesita el dominio o dirección IP (y número de puerto) de una instancia de **nodeos** en ejecución. La instancia de nodeos debe configurarse para cargar `eosio :: chain_api_plugin` cuando se inicia. Esto permite que nodeos responda a las solicitudes de RPC que provienen de cleos.
 
@@ -39,14 +39,14 @@ $ cleos create account --help
 $ cleos wallet create -n mywallet --to-console
 ```
 
-> [Más Información](https://guias.eoscostarica.io/docs/herramientas/linea-de-comando)
+[Más Información](https://guias.eoscostarica.io/docs/herramientas/linea-de-comando)
 
 ## EOSIO.CDT
 
 [EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) o **Contract Development Toolkit** es un
-kit de herramientas para WebAssembly(WASM) para facilitar el desarrollo de contratos inteligentes. Compilador de C++ a WASM y [**Aplication Binary Interface**](https://developers.eos.io/welcome/v2.0/getting-started/smart-contract-development/understanding-ABI-files)(ABI) conjunto generador de bibliotecas C/C++ para el desarrollo de contratos inteligentes.
+kit de herramientas para WebAssembly(WASM) para facilitar el desarrollo de contratos inteligentes. Compilador de C++ a WASM y [**Aplication Binary Interface**](https://developers.eos.io/welcome/v2.0/getting-started/smart-contract-development/understanding-ABI-files) (ABI) conjunto generador de bibliotecas C/C++ para el desarrollo de contratos inteligentes.
 
-## Obtenga sus llaves privadas
+## Obtenga sus Llaves Privadas
 
 Más información sobre [llaves privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
 
@@ -60,17 +60,17 @@ Como una forma de ayudarlo a comenzar en el mundo EOSIO, aquí hay una guía sob
 para ver los requisitos previos y pasar a [Instalar binarios](#instalar-binarios).
 Esta guía de instalación estará dirigida a **usuarios de Windows**, desafortunadamente, EOSIO no proporciona puertos e instrucciones de PowerShell para este sistema operativo. Como desarrollador tienes dos opciones *una* utilizar una Máquina Virtual o, como en este caso un Terminal Linux en Windows. Siga estos pasos:
 
--Vaya a su Panel de Control
--Vaya a Programas -> Programas y características
--A continuación, haz clic en **Activar o desactivar características de Windows**
--Busque la opción y haga clic en **Subsistema de Windows para Linux** y pulse *Aceptar*
--Ahora debe reiniciar su sistema operativo Windows
--Por último, vaya a su *Microsoft Store* y busque el sistema operativo Linux que desee, le recomendamos que instale Ubuntu 18.04 LTS
+- Vaya a su Panel de Control
+- Vaya a Programas -> Programas y características
+- A continuación, haz clic en **Activar o desactivar características de Windows**
+- Busque la opción y haga clic en **Subsistema de Windows para Linux** y pulse *Aceptar*
+- Ahora debe reiniciar su sistema operativo Windows
+- Por último, vaya a su *Microsoft Store* y busque el sistema operativo Linux que desee, le recomendamos que instale Ubuntu 18.04 LTS
 
 ### Usar Terminal de Linux
 
 Le pedirá el nombre de usuario y la contraseña de UNIX, puede configurarlo como desee.
-Este es un ejemplo de navegación con un disco "C"
+Este es un ejemplo de navegación con un disco "C".
 
 ```shell
 $ cd /mnt/c/
@@ -113,7 +113,7 @@ Obtenga su ruta de directorio con `$ pwd`, clone la versión de EOSIO de [GitHub
 $ git clone --recursive https://github.com/eosio/eosio.cdt --branch v1.6.3 --single-branch
 ```
 
-La clonación del repositorio puede tardar hasta 30 minutos. Después de eso, use `$ cd eosio.cdt`
+La clonación del repositorio puede tardar hasta 30 minutos. Después de eso, use `$ cd eosio.cdt`.
 
 * **Paso 4: Construir el EOSIO.CDT**
 
@@ -127,6 +127,6 @@ La instalación de eosio.cdt hará que el binario compilado sea global, por lo q
 $ sudo ./install.sh
 ```
 
->Para obtener más información sobre cómo instalar el contrato DEV. Kit de herramientas, vaya a [esta página](https://developers.eos.io/welcome/latest/getting-started/development-environment/install-the-CDT)
+>Para obtener más información sobre cómo instalar el contrato DEV. Kit de herramientas, vaya a [esta página](https://developers.eos.io/welcome/latest/getting-started/development-environment/install-the-CDT).
 
-Ahora está listo para crear una billetera de desarrollo con la ayuda de Cleos. [Más información](https://developers.eos.io/welcome/latest/getting-started/development-environment/create-development-wallet)
+Ahora está listo para crear una billetera de desarrollo con la ayuda de Cleos. [Más información](https://developers.eos.io/welcome/latest/getting-started/development-environment/create-development-wallet).

@@ -8,8 +8,8 @@ module.exports = {
             "devops",
             "herramientas-para-desarrolladores",
             "proyectos-de-codigo-abierto",
-            "plantilla-para-aplicacion-web",
-            "plantilla-para-backend",
+            "boilerplate-para-aplicacion-web",
+            "boilerplate-para-backend",
             "material-ui", 
             "recursos-visuales",
             "redes-sociales",
@@ -35,6 +35,7 @@ module.exports = {
             "tutoriales/tutorial-flujo-trabajo-git",
             "tutoriales/guia-markdown",
             "tutoriales/guia-github" ,
+            "tutoriales/llaves-github",
             "tutoriales/tutorial-react"
 
         ],

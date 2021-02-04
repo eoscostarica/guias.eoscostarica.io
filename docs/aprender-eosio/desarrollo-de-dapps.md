@@ -4,12 +4,11 @@ title: Desarrollo de Dapps
 sidebar_label: Desarollo de Dapps
 ---
 
-## EOSIO para el desarrollo de aplicaciones descentralizadas (dApps)
+## EOSIO para el Desarrollo de Aplicaciones Descentralizadas (dApps)
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/UL4pUnWqq6E" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-
 
 ## Construyendo Aplicaciones Descentralizadas
 
@@ -17,8 +16,7 @@ sidebar_label: Desarollo de Dapps
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/J0SYv-GC3R0" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-
-Puedes ver más en este canal: https://www.youtube.com/user/apexmaxable/videos
+Puedes ver más en el [canal de Max G](https://www.youtube.com/user/apexmaxable/videos)
 
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/4OmQ7Ow9baI" frameborder="0" allowfullscreen="true"> </iframe>
@@ -27,7 +25,6 @@ Puedes ver más en este canal: https://www.youtube.com/user/apexmaxable/videos
 ## Empezando
 
 Para obetenr mas informacion sobre los contratos inteligentes puede viisitar [este enlace](https://guias.eoscostarica.io/docs/aprender-eosio/contratos-inteligentes). 
-
 
 ## Jungle Testnet
 
@@ -43,7 +40,6 @@ https://www.cryptokylin.io/
 
 ## Development Environment
 
-EOS Local provides a really quick way to setup an EOS local network with IPFS using docker.
 **EOS Local** provee una realmente rápida manera de configuar una red local de EOS con IPFS usando docker.
 
 https://github.com/eoscostarica/eos-local
@@ -56,7 +52,7 @@ Contratos de desarrollo de EOSIO basados en python y framework de pruebas.
 
 https://github.com/tokenika/eosfactory
 
-## Plantilla de EOSIO de Aplicaciones Descentralizadas
+## Boilerplate de EOSIO de Aplicaciones Descentralizadas
 
 Esta plantilla provee una muy rápida manera de empezar con el desarrollo de aplicaciones en la plataforma de EOSIO. Es una opinada selección de tecnologías que te permitirán construir aplicaciones descentralizadas EOSIO escalables y de alto rendimiento.
 
