@@ -41,7 +41,7 @@ Para más información sobre los componentes puede visitar [Repositorio de Compo
 - [Hapi](https://hapi.dev/)
 - [IPFS](https://ipfs.io/)
 - [PostgreSQL](https://www.postgresql.org/)
-- [EOS](https://eos.io/)
+- [EOSIO](https://eos.io/)
 
 ### Infraestructura
 
