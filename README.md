@@ -7,13 +7,13 @@ Sitio de documentación para desarrolladores de EOS Costa Rica.
 
 ![Guide front page](static/img/guide-page.png)
 
-## Sobre el Proyecto
+## Acerca del Proyecto
 
 En este sitio se encuentran los recursos recolectados en el día a día de los colaboradores de EOS Costa Rica. Siéntete libre de colaborar, comentar y sugerir cambios/ideas para mejorar el sitio.
 
 ## Tabla de Contenido
 
-1. Sobre el Proyecto
+1. Acerca del Proyecto
 2. Tabla de Contenido
 3. Objetivo del Proyecto
 4. Versión
