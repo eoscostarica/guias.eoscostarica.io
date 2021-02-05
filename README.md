@@ -73,17 +73,35 @@ Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemp
   yarn start
   `
 
-### Estructura de archivos
+### Estructura de Archivos
 
 ```sh
 guias.eoscostarica.io/
-├── contracts ..................... Contrato Inteligente de Activos Simples
-├── docs .......................... Docusaurus Generador de Documentación
-├── hasura ........................ Hasura GraphQL Engine
-├── hapi .......................... HTTP API 
-├── kubernetes .................... Manifiestos de Kubernetes 
-├── wallet ........................ EOSIO Wallet Service
-└── webapp ........................ Aplicación Web ReactJS 
+├── .github ...................... Sistema de gestión de versiones
+│ ├── workflows .................. Flujo de trabajo 
+│ | └── nodejs.yml 
+│ └── ISSUE_TEMPLATE.md .......... Plantillas para solicitudes o reportar problemas
+│   ├── bug_report.md 
+│   └── feature_request.md
+├── docs ......................... Archivos Markdown
+├── src .......................... Componentes personalizados de React  
+│ ├── css ........................ Hojas de estilo
+│ | ├── custom.css
+│ | └── homepage.css
+│ └── pages ...................... Componentes que forman la estructura principal de la página web
+│ 	├── styles.module.css
+│   ├── index.js
+│   └── Footer
+├── static ....................... Directorio estático
+│ ├── img
+│ └── CNAME
+├── .all-contributorsrc .......... Información de los Contribuidores 
+├── .gitignore ................... Determina que archivos o directorios no deben subirse a Git 
+├── docusaurus.config.js ......... Configuración de Docusaurus
+├── package.json ................. Historial de los paquetes instalados y optimización de dependencias
+├── sidebar.js ................... Especifica el orden de los documentos en la navegación lateral 
+├── yarn.lock .................... Historial de versiones de las dependencias
+└── README.md .................... Documentación de guias.eoscostarica.io
 ```
 
 ## Licencia
