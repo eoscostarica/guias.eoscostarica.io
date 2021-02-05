@@ -3,26 +3,25 @@ id: docker
 title: Docker
 sidebar_label: Docker
 ---
+Docker es una herramienta que permite crear, probar y desplegar aplicaciones rápidamente. La idea detrás de Docker es crear "contenedores" que sean ligeros y portátiles para que las aplicaciones puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo.
 
-Docker es una herramienta que permite crear, probar e implementar aplicaciones rápidamente. La idea detrás de Docker es crear “contenedores” que sean ligeros y portátiles para que las aplicaciones se puedan ejecutar en cualquier máquina con Docker instalado, independientemente del sistema operativo.
+Por ejemplo, cada nodo de la red blockchain o servicio / aplicación desarrollada se compilará en una imagen Docker que contiene todas sus dependencias y se despliega en uno de los varios proveedores de infraestructura con Docker disponible.
 
-Por ejemplo cada nodo de la red blockchain o servicio / aplicación desarrollado será compilado en una imagen docker que contiene la totalidad de sus dependencias y es desplegada a una a varios proveedores de infraestructura con docker disponible.
+[Estructura Docker](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Docker-containerized-and-vm-transparent-bg.png/800px-Docker-containerized-and-vm-transparent-bg.png)
 
-![aplicación_docker](https://user-images.githubusercontent.com/5632966/107060181-47acd400-679c-11eb-8cd9-e3eb6a2cdda4.png)
+Además de Docker, utilizamos una herramienta de "orquestación" de contenedores llamada Kubernetes (K8s).
 
-Adicional a Docker utilizamos una herramienta “orquestadora” de contenedores llamada Kubernetes (K8s).
-
-Kubernetes ayuda a administrar los contenedores en los cuales están alojadas las aplicaciones de una forma fácil, rápida y escalable. Además, también cuenta con monitoreo y balanceo de carga. Sobre los servidores virtuales. [Más Información](https://guide.eoscostarica.io/docs/devops#introduction-to-kubernetes-and-docker).
+Kubernetes te ayuda a gestionar los contenedores en los que se alojan tus aplicaciones de forma fácil, rápida y escalable. Además, también dispone de monitorización y balanceo de carga. Sobre los servidores virtuales. [Más información](https://guias.eoscostarica.io/docs/devops#introducci%C3%B3n-a-kubernetes-y-docker).
 
 ## Docker Engine
 
 Docker Engine es una tecnología de contenedores de código abierto para construir y contenerizar sus aplicaciones. Docker Engine actúa como una aplicación cliente-servidor con:
 
 - Un servidor con un proceso daemon de larga duración [dockerd](https://docs.docker.com/engine/reference/commandline/dockerd).
-- APIs que especifican interfaces que los programas pueden utilizar para hablar con el demonio Docker y darle instrucciones.
-- Un cliente de interfaz de línea de comandos (CLI) [docker](https://docs.docker.com/engine/reference/commandline/cli/).
+- APIs que especifican interfaces que los programas pueden utilizar para hablar con el daemon Docker y darle instrucciones.
+- Una interfaz de línea de comandos (CLI) [docker](https://docs.docker.com/engine/reference/commandline/cli/).
 
-La CLI utiliza [Docker APIs](https://docs.docker.com/engine/api/) para controlar o interactuar con el daemon Docker a través de scripts o comandos directos de la CLI. Muchas otras aplicaciones de Docker utilizan la API y la CLI subyacentes. El daemon crea y gestiona objetos Docker, como imágenes, contenedores, redes y volúmenes.
+La CLI utiliza [Docker APIs](https://docs.docker.com/engine/api/) para controlar o interactuar con el daemon Docker a través de scripts o comandos directos de la CLI. Muchas otras aplicaciones de Docker utilizan la API y la CLI subyacentes. El demonio crea y gestiona objetos Docker, como imágenes, contenedores, redes y volúmenes.
 
 Para más detalles, véase [Arquitectura Docker](https://docs.docker.com/get-started/overview/#docker-architecture).
 
@@ -40,10 +39,9 @@ El uso de Compose es básicamente un proceso de tres pasos:
 
 1. Define el entorno de tu aplicación con un Dockerfile para que pueda ser reproducido en cualquier lugar.
 1. Define los servicios que componen tu app en docker-compose.yml para que puedan ejecutarse juntos en un entorno aislado.
-1. Ejecuta `docker-compose up` y ejecuta e inicia toda tu app.
+1. Ejecuta docker-compose y Compose inicia y ejecuta toda tu app.
 
 Un docker-compose.yml tiene el siguiente aspecto:
-
 ```yml
 version: "3.9"  # optional since v1.27.0
 services:
@@ -62,11 +60,11 @@ volumes:
   logvolume01: {}
 ```
 
-## Cómo empezar
+### Cómo Iniciar
 
 Para iniciar nuestro primer proyecto Docker, vamos a crear la configuración necesaria para que arranque y diga `Hola mundo, somos EOS Costa Rica 🦋`. En primer lugar, necesitamos la configuración principal, así que sigue los siguientes pasos para obtenerla.
 
-### Estructura de Proyecto
+### Estructura del proyecto
 
 ```
 /
@@ -80,7 +78,7 @@ Para iniciar nuestro primer proyecto Docker, vamos a crear la configuración nec
 └── yarn.lock
 ```
 
-### Desglose del Código
+### Desglose del código
 
 #### Dockerfile
 
@@ -139,10 +137,37 @@ app.listen(port, () => console.log(`app listening on http://localhost:${port}`) 
 
 ### Comandos
 
-#### Build the Image
+#### Construir Imagen
 
 `docker build -t eoscostarica/helloworld:1.0 .`
 
-#### Correr el Container
+#### Correr contenedor
 
 `docker run -p 5000:8080 <image-id>`
+
+### Docker Compose Example
+
+#### docker-compose.yml 
+
+```yml
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+  db:
+    image: "mysql"
+    environment: 
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - db-data:/foo
+volumes:
+  db-data:
+```
+
+### Ejecutar Multiples Contenedores
+
+#### Comando
+
+`docker-compose up`
