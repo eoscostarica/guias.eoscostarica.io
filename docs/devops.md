@@ -140,6 +140,8 @@ Kubernetes es un sistema de código libre para la automatización del despliegue
 
 A continuación, puede encontrar un conjunto de tutoriales muy convenientes para aprender kubernetes desde cero:
 
+[Más Información](/docs/kubernetes)
+
 ### Kubernetes en 5 Minutos
 
 <figure
