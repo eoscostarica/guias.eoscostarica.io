@@ -4,6 +4,16 @@ title: Docker
 sidebar_label: Docker
 ---
 
+Docker es una herramienta que permite crear, probar e implementar aplicaciones rápidamente. La idea detrás de Docker es crear “contenedores” que sean ligeros y portátiles para que las aplicaciones se puedan ejecutar en cualquier máquina con Docker instalado, independientemente del sistema operativo.
+
+Por ejemplo cada nodo de la red blockchain o servicio / aplicación desarrollado será compilado en una imagen docker que contiene la totalidad de sus dependencias y es desplegada a una a varios proveedores de infraestructura con docker disponible.
+
+![aplicación_docker](https://user-images.githubusercontent.com/5632966/107060181-47acd400-679c-11eb-8cd9-e3eb6a2cdda4.png)
+
+Adicional a Docker utilizamos una herramienta “orquestadora” de contenedores llamada Kubernetes (K8s).
+
+Kubernetes ayuda a administrar los contenedores en los cuales están alojadas las aplicaciones de una forma fácil, rápida y escalable. Además, también cuenta con monitoreo y balanceo de carga. Sobre los servidores virtuales. [Más Información](https://guide.eoscostarica.io/docs/devops#introduction-to-kubernetes-and-docker).
+
 ## Docker Engine
 
 Docker Engine es una tecnología de contenedores de código abierto para construir y contenerizar sus aplicaciones. Docker Engine actúa como una aplicación cliente-servidor con:
