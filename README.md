@@ -77,7 +77,7 @@ Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemp
 
 ```sh
 guias.eoscostarica.io/
-├── contracts ..................... Contrato inteligente de activos simples
+├── contracts ..................... Contrato Inteligente de Activos Simples
 ├── docs .......................... Docusaurus Generador de Documentación
 ├── hasura ........................ Hasura GraphQL Engine
 ├── hapi .......................... HTTP API 
