@@ -16,23 +16,18 @@ En este sitio se encuentran los recursos recolectados en el día a día de los c
 1. Acerca del Proyecto
 2. Tabla de Contenido
 3. Objetivo del Proyecto
-4. Versión
-5. Tech Stack
-6. Entorno de Desarrollo
-7. Estructura de Archivo
-8. Licencia
-9. Contribuciones
-10. Colaboradores
-11. Acerca de EOS Costa Rica
+4. Tech Stack
+5. Entorno de Desarrollo
+6. Estructura de Archivo
+7. Licencia
+8. Contribuciones
+9. Colaboradores
+10. Acerca de EOS Costa Rica
 
 ## Objetivo del Proyecto
 
 Este proyecto está destinado a servir como una herramienta para ayudar en la incorporación de nuevos desarrolladores. Creado inicialmente por un grupo de estudiantes universitarios para facilitar una guía a otros miembros del equipo y contribuir en proyectos de código abierto. Su objetivo principal es brindar orientación a los nuevos miembros del equipo y acelerar el proceso de familiarización con los procesos y la cultura en EOS Costa Rica.
 
-## Versión
-:::nota
-Estamos en version 0.2.0
-:::
 
 ## Tech Stack
 - React.js - React 16✨, React Router 5
@@ -40,6 +35,7 @@ Estamos en version 0.2.0
 - Core - Componentes de React para un desarrollo web más rápido y sencillo
 - Lint- ESlint
 - Estilos - Tema Material-UI (personalizable)
+- Docusaurus - Herramienta de código abierto para construir, implementar y mantener la documentación web.
 
 ### Empezando
 
@@ -81,28 +77,13 @@ Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemp
 
 ```sh
 guias.eoscostarica.io/
-├── .github
-│ ├── workflows
-│ | ├── nodejs.yml
-│ | └── services
-│ └── pull_request_template.md
-├── docs
-├── src
-│ ├── css
-│ | ├── custom.css
-│ | └── homepage.css
-│ └── pages
-│   └── index.js
-├── static
-│ ├── img
-│ ├── scripts
-│ └── CNAME
-├── .all-contributorsrc
-├── .gitignore
-├── docusaurus.config.js
-├── package.json
-├── yarn.lock
-└── README.md
+├── contracts ..................... Contrato inteligente de activos simples
+├── docs .......................... Docusaurus Generador de Documentación
+├── hasura ........................ Hasura GraphQL Engine
+├── hapi .......................... HTTP API 
+├── kubernetes .................... Manifiestos de Kubernetes 
+├── wallet ........................ EOSIO Wallet Service
+└── webapp ........................ Aplicación Web ReactJS 
 ```
 
 ## Licencia
