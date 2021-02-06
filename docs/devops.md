@@ -123,6 +123,8 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 
 Docker es un proyecto de código abierto que automatiza la implementación de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
 
+[Más Información sobre Docker](/docs/tutoriales/docker)
+
 <figure 
 class="video_container">
   <iframe 
