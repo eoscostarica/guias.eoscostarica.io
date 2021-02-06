@@ -124,7 +124,7 @@ Si desea hacer una contribución, siga los siguientes pasos:
 
 Lea las [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto) de EOS Costa Rica, para obtener más información sobre las convenciones de programación.
 
-Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<link a la sección del issue del proyecto>`
+Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** [`<link a la sección del issue del proyecto>`](https://github.com/eoscostarica/guias.eoscostarica.io/issues/new/choose)
 
 ## Contributors ✨
 
@@ -162,6 +162,6 @@ This project follows the [all-contributors](https://github.com/all-contributors/
     <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
 </div>
 
-EOS Costa Rica es un productor independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para EOSIO blockchains. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
+EOS Costa Rica es un productor de bloques independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para EOSIO blockchains. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
 
 [eoscostarica.io](https://eoscostarica.io/)
