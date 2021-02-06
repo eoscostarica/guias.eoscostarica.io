@@ -30,11 +30,11 @@ Este proyecto está destinado a servir como una herramienta para ayudar en la in
 
 
 ## Tech Stack
-- React.js - React 16✨, React Router 5
-- Material-ui/core - Componentes de React para un desarrollo web más rápido y fácil, biblioteca-autenticador-universal - Una biblioteca para permitir que las aplicaciones utilicen fácilmente diferentes proveedores de autenticación
-- Core - Componentes de React para un desarrollo web más rápido y sencillo
-- Lint- ESlint
-- Estilos - Tema Material-UI (personalizable)
+- React.js - React 16✨, React Router 5.
+- Material-ui/core - Componentes de React para un desarrollo web más rápido y fácil, biblioteca-autenticador-universal - Una biblioteca para permitir que las aplicaciones utilicen fácilmente diferentes proveedores de autenticación.
+- Core - Componentes de React para un desarrollo web más rápido y sencillo.
+- Lint- ESlint.
+- Estilos - Tema Material-UI (personalizable).
 - Docusaurus - Herramienta de código abierto para construir, implementar y mantener la documentación web.
 
 ### Empezando
@@ -124,7 +124,7 @@ Si desea hacer una contribución, siga los siguientes pasos:
 
 Lea las [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto) de EOS Costa Rica, para obtener más información sobre las convenciones de programación.
 
-Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** [`<link a la sección del issue del proyecto>`](https://github.com/eoscostarica/guias.eoscostarica.io/issues/new/choose)
+Si encuentra un error, informe los errores grandes y pequeños [**abriendo un issue**](https://github.com/eoscostarica/guias.eoscostarica.io/issues/new/choose) `<link a la sección del issue del proyecto>`
 
 ## Contributors ✨
 
@@ -158,8 +158,8 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## Acerca de EOS Costa Rica
 
-<div style={{ display: "block", textAlign: "center" }}>
-    <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
+<div display= "block" textAlign= "center" >
+    <img width="50%" src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
 </div>
 
 EOS Costa Rica es un productor de bloques independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para EOSIO blockchains. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
