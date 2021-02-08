@@ -1,3 +1,10 @@
+---
+id: instalacion-de-red-privada
+title: Instalación y Configuración de Red Privada
+sidebar_label: Instalación y Configuración de Red Privada
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 - [Instalación y configuración de una red privada](#instalación-y-configuración-de-una-red-privada)
 - [Requisitos previos de software](#requisitos-previos-de-software)
   - [Instalación de los binarios precompilados de EOSIO](#instalación-de-los-binarios-precompilados-de-eosio)
@@ -30,7 +37,7 @@
 # Instalación y configuración de una red privada
 Se pueden diseñar varias topologías en el sentido de cantidad de nodos o redundancia de los datos, sin embargo, para la practicidad de este tutorial, se utiliza la siguiente topología como referencia principal:
 <p style={{ align: "center" }}>
-  <img src={useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
+  <img src={ useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
 </p>
 
 # Requisitos previos de software
