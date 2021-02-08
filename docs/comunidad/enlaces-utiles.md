@@ -16,3 +16,4 @@ Aquí hay una lista de enlaces útiles relacionados con la comunidad EOS.
 * [Entrenamiento y Certificado EOSIO](https://training.eos.io/)
 * [Documentación Kubernetes](https://kubernetes.io/es/docs/tutorials/kubernetes-basics/)
 * [Documentación de Telos](https://github.com/telosnetwork/docs)
+* [Aprendiendo el desarrollo de EOSIO (Telos, EOS y otras blockchains)](https://theblockstalk.medium.com/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f)
