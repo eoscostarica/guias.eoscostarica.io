@@ -13,6 +13,7 @@ module.exports = {
             "recursos-visuales",
             "redes-sociales",
             "plantilla-readme",
+            "herramientas-para-desarrolladores-ux-ui",
             "kubernetes"
         ],
         "Blockchain EOSIO": [
