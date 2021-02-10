@@ -260,7 +260,6 @@ width="100%" height="315" src="https://www.youtube.com/embed/qsejysrhJiU" frameb
 
 ### ¿Qué es Vault?
 
-
 HashiCorp Vault es una herramienta de código abierto que permite almacenar de forma segura datos confidenciales y secretos en entornos dinámicos de la nube. HashiCorp Vault está diseñado para ayudar a las organizaciones en administrar el acceso a secretos y transmitirlos de forma segura dentro de una organización. Los secretos se definen como cualquier forma de credenciales confidenciales que deben controlarse y monitorearse estrictamente, pueden usarse para desbloquear información confidencial.
 
 ### ¿Por qué usamos Vault?
