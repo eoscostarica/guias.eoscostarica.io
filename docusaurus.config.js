@@ -26,6 +26,7 @@ const siteConfig = {
 
 
   themeConfig: {
+    respectPrefersColorScheme: true,
     navbar: {
       title: ' ',
       logo: {
