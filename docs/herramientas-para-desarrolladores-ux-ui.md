@@ -36,7 +36,7 @@ Zeplin es un complemento y una aplicación para Mac y Windows especializada para
 
 ### ¿Por qué usamos Zeplin?
 
-Zeplin facilita la transferencia de diseños al tomarlos de Sketch, Adobe XD, Figma y Photoshop y exportarlos a un formato que puede generar fácilmente fragmentos de código, guías de estilo, especificaciones y activos.
+Zeplin facilita la transferencia de diseños al tomarlos de Sketch, Adobe XD, Figma y Photoshop y exportarlos a un formato que puede generar fácilmente fragmentos de código, guías de estilo, especificaciones y activos. También se utiliza como fuente de verdad para las entregas de diseños.
 
 ### Instalación de Zeplin
 
@@ -51,7 +51,7 @@ width="100%" height="315" src="https://www.youtube.com/embed/x1RPNx8Jsp4" frameb
 
 ### ¿Qué es Sketch?
 
-Es un editor gráfico para macOS desarrollado por Dutch Company.
+Es un editor gráfico de diseño web basado en vectores para macOS, desarrollado por Dutch Company.
 
 ### ¿Por qué usamos Sketch?
 
@@ -66,17 +66,17 @@ width="100%" height="315" src="https://www.youtube.com/embed/ilcwjXTqyNM"  frame
 
 * * *
 
-## Material.io
+## Material Design
 
-### Qué es Material.io
+### Qué es Material Design
 
 Sistema de diseño creado por Google con el propósito de brindar una experiencia de alta calidad en la construcción para Android, iOS, Flutter y software web.
 
-### ¿Por qué usamos Material.io?
+### ¿Por qué usamos Material Design?
 
 Se lo conoce como un ecosistema de diseño completo, donde los activos tienen casos de uso complejos que ayudan en el desarrollo de una aplicación. Es una biblioteca de diseño bastante flexible que hace que los componentes sean fáciles de usar e implementar.
 
-[Componentes de Material.io](https://material.io/components)
+[Componentes de Material Design](https://material.io/components)
 
 <iframe
 width="100%" height="315" src="https://www.youtube.com/embed/ckCe0xZv3Co"  frameborder="0" allowfullscreen="true"> </iframe>

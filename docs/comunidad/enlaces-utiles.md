@@ -18,9 +18,9 @@ Aquí hay una lista de enlaces útiles relacionados con la comunidad EOS.
 * [Documentación de Telos(Github)](https://github.com/telosnetwork/docs)
 * [Aprendiendo el desarrollo de EOSIO (Telos, EOS y otras blockchains)](https://theblockstalk.medium.com/learning-eosio-development-telos-eos-and-other-blockchains-94d384a8b09f)
 
-**UX/UI**
+## UX/UI
 
 * [Material Design](https://material.io/)
-* [Figma Page](https://www.figma.com/ui-design-tool/)
-* [Why Zeplin?](https://zeplin.io/why-zeplin)
-* [Sketch Blog](https://www.sketch.com/blog/)
+* [Página de Figma](https://www.figma.com/ui-design-tool/)
+* [¿Por qué Zeplin?](https://zeplin.io/why-zeplin)
+* [Blog de Sketch](https://www.sketch.com/blog/)
