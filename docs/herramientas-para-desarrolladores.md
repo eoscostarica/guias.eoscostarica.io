@@ -253,3 +253,26 @@ Permite a los desarrolladores probar llamadas a API. Los usuarios de Postman ing
 
 <iframe
 width="100%" height="315" src="https://www.youtube.com/embed/qsejysrhJiU" frameborder="0" allowfullscreen="true"> </iframe>
+
+* * *
+
+## Vault
+
+### ¿Qué es Vault?
+
+HashiCorp Vault es una herramienta de código abierto que permite almacenar de forma segura datos confidenciales y secretos en entornos dinámicos de la nube. HashiCorp Vault está diseñado para ayudar a las organizaciones en administrar el acceso a secretos y transmitirlos de forma segura dentro de una organización. Los secretos se definen como cualquier forma de credenciales confidenciales que deben controlarse y monitorearse estrictamente, pueden usarse para desbloquear información confidencial.
+
+### ¿Por qué usamos Vault?
+
+1. Vault **reduce** la necesidad de credenciales estáticas y codificadas.
+2. Utiliza **identidades confiables** para centralizar contraseñas y controlar el acceso.
+3. **Cifra datos confidenciales** tanto en tránsito como en reposo utilizando claves de cifrado protegidas y administradas de forma centralizada, todo a través de una única API y flujo de trabajo.
+
+### Instalación de Vault
+
+[Instalación de Vault](http://es.javierblog.com/instalacion-de-hashicorp-vault-para-produccion-part-1/)
+
+[Vault GitHub](https://github.com/hashicorp/vault)
+
+<iframe
+width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg" frameborder="0" allowfullscreen="true"> </iframe>
