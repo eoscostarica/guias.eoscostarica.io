@@ -17,6 +17,11 @@ const siteConfig = {
   baseUrl: '/', // Base URL for your project */
   //cname: "guias.eoscostarica.io",
 
+  i18n: {
+    defaultLocale: 'es',
+    locales: ['es']
+  },
+
 
   // Used for publishing and more
   projectName: 'guias.eoscostarica.io',
