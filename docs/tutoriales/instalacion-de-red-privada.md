@@ -34,18 +34,18 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - [Reiniciar nodeos desde Cero](#reiniciar-nodeos-desde-cero)
 - [Interactuar con la Red](#interactuar-con-la-red)
   - [Obtener Datos Almacenados](#obtener-datos-almacenados)
-# Instalación y Configuración de una Red Privada
+## Instalación y Configuración de una Red Privada
 Se pueden diseñar varias topologías en el sentido de cantidad de nodos o redundancia de los datos, sin embargo, para la practicidad de este tutorial, se utiliza la siguiente topología como referencia principal:
 <p style={{ align: "center" }}>
   <img src={ useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
 </p>
 
-# Requisitos Previos de Software
+## Requisitos Previos de Software
 A la hora de configurar una red privada EOSIO hay algunos requisitos de instalación de software:
 1. Instalación de los binarios precompilados de EOSIO
 1. Instalación de los binarios EOSIO.CDT
 
-## Instalación de los Binarios Precompilados de EOSIO
+### Instalación de los Binarios Precompilados de EOSIO
 Ejecute los siguientes comandos para instalar los binarios precompilados de EOSIO:
 ```bash
 $ wget https://github.com/eosio/eos/releases/download/v2.0.9/eosio_2.0.9-1-ubuntu-18.04_amd64.deb
@@ -53,13 +53,13 @@ $ sudo apt install ./eosio_2.0.9-1-ubuntu-18.04_amd64.deb
 ```
 Una vez instalados los binarios de EOSIO; nodeos, una configuración de blockchain desde cero e interacciones con redes P2P son algunas de las funcionalidades disponibles que ofrece el protocolo.
 > Para desinstalar EOSIO ejecute `$ sudo apt remove eosio`
-## Instalación de los Binarios EOSIO.CDT (Contract Development Toolkit)
+### Instalación de los Binarios EOSIO.CDT (Contract Development Toolkit)
 EOSIO.CDT es un kit de herramientas que facilita el desarrollo de contratos inteligentes en una red de blockchain EOSIO. Para instalar EOSIO.CDT v1.6.3 ejecute los siguientes comandos:
 ```bash
 $ wget https://github.com/eosio/eosio.cdt/releases/download/v1.6.3/eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
 $ sudo apt install ./eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
 ```
-# Configuración del Nodo Génesis
+## Configuración del Nodo Génesis
 Antes de configurar el nodo genesis, es necesario crear un directorio llamado `~/biosboot/genesis`, esto debido a las particularidades del protocolo. Así que, para esto ejecute lo siguiente:
 ```bash
 $ mkdir ~/biosboot
@@ -98,7 +98,7 @@ Copie y pegue el siguiente contenido en el archivo creado anteriormente:
 ```
 > Esto puede ser cambiado más adelante utilizando la función privilegiada `set_param`. Puedes ver más [aquí](https://guias.eoscostarica.io/docs/aprender-eosio/funciones-importantes#docsNav)
 
-# Iniciar el Servicio nodeos
+## Iniciar el Servicio nodeos
 Antes de iniciar el servicio nodeos, es necesario crear el archivo `genesis_start.sh`. Para ello, ejecute los siguientes comandos:
 1. Cree el archivo
     ```bash
@@ -153,7 +153,7 @@ Antes de iniciar el servicio nodeos, es necesario crear el archivo `genesis_star
 1. Escuchar solicitudes de conexión con otros nodos en `127.0.0.1:9010`.
 1. Imprimir la salida de los contratos inteligentes en el terminal
 
-# Registros del Servicio nodeos
+## Registros del Servicio nodeos
 Puedes inspeccionar los registros de servicios de nodeos con los siguientes comandos:
 ```bash
 $ cd ~/biosboot/genesis/
@@ -161,7 +161,7 @@ $ tail -f ./blockchain/nodeos.log
 ``` 
 > Para salir del modo de impresión de registros, pulse CTRL+C.
 
-# Configuración y Compilación de `eosio.contracts`
+## Configuración y Compilación de `eosio.contracts`
 Es necesario instalar la última versión de `eosio.contracts` junto con la versión **v1.8.0**. Para facilitar la comprensión de los pasos aquí descritos, la última versión será referida como `EOSIO_CONTRACTS_DIRECTORY` y la `v1.8.0` como `EOSIO_OLD_CONTRACTS_DIRECTORY`.
 Los siguientes pasos de instalación deben seguirse en el orden en que aparecen.
 1. Clone y compile los `eosio.contracts`:
@@ -186,15 +186,15 @@ Los siguientes pasos de instalación deben seguirse en el orden en que aparecen.
     $ ./build.sh
     $ cd ./build/contracts/
     ```
-# Despliegue del Contrato `eosio.bios`
-## Activar `PREACTIVATE_FEATURE`
+## Despliegue del Contrato `eosio.bios`
+### Activar `PREACTIVATE_FEATURE`
 Debido a las actualizaciones introducidas en la v1.8 y v2.0, es necesario activar una característica del protocolo llamada PREACTIVATE_FEATURE. Para activar esta característica, ejecute el siguiente comando:
 ```bash
 $ curl --request POST \
 	--url http://127.0.0.1:8888/v1/producer/schedule_protocol_feature_activations \
 	-d '{"protocol_features_to_activate": ["0ec7e080177b2c02b278d5088611686b49d739925a92d9bfcacd7fc6b74053bd"]}' 
 ```
-## Despliegue de la Versión **Antigua** de los Contratos
+### Despliegue de la Versión **Antigua** de los Contratos
 Ahora es necesario desplegar la versión antigua de los contratos inteligentes (`EOSIO_OLD_CONTRACTS_DIRECTORY`), para ello ejecuta el siguiente comando:
 ```bash
 $ cleos set contract eosio EOSIO_OLD_CONTRACTS_DIRECTORY/eosio.bios/
@@ -246,7 +246,7 @@ cleos push action eosio activate '["4fca8bd82bbd181e714e283f83e1b45d95ca5af40fb8
 # WTMSIG_BLOCK_SIGNATURES
 cleos push action eosio activate '["299dcb6af692324b899b39f16d5a530a33062804e41f09dc97e9f156b4476707"]' -p eosio
 ```
-## Desplegar la Última Versión de los Contratos
+### Desplegar la Última Versión de los Contratos
 Una vez desplegada la versión antigua de los contratos y activadas las características, se procede a desplegar la versión reciente de los contratos:
 ```bash
 $ cleos set contract eosio.bios EOSIO_CONTRACTS_DIRECTORY/eosio.bios/
@@ -260,7 +260,7 @@ executed transaction: 17fa4e06ed0b2f52cadae2cd61dee8fb3d89d3e46d5b133333816a04d2
 #         eosio <= eosio::setcode               {"account":"eosio.bios","vmtype":0,"vmversion":0,"code":"0061736d01000000017f1560037f7e7f0060057f7e...
 #         eosio <= eosio::setabi                {"account":"eosio.bios","abi":{"types":[],"structs":[{"name":"transfer","base":"","fields":[{"name"...
 ```
-# Nodos Productores de Bloques: Configuración y Ejecución
+## Nodos Productores de Bloques: Configuración y Ejecución
 Debemos crear los directorios de configuración para cada productor de bloques. Ya que se concibieron tres productores de bloques en la [topología](##instalación-y-configuración-de-una-red-privada), procedamos a crear sus directorios. Para ello, ejecute los siguientes comandos:
 ```bash
 $ cd ~
@@ -274,7 +274,7 @@ $ cp -R producer1 producer2
 $ cp -R producer1 producer3
 ```
 Una vez creados los archivos, proceda a copiar el contenido con el archivo correspondiente:
-## `config.ini`
+### `config.ini`
 ```bash
 agent-name = producer1
 
@@ -310,7 +310,7 @@ p2p-peer-address = producer2:9876        # change according to the directory of 
 p2p-peer-address = producer3:9876        # change according to the directory of this file
 p2p-peer-address = api-node:9876
 ```
-## `genesis.json`
+### `genesis.json`
 ```json
 {
 	"initial_timestamp": "2020-08-11T04:20:00.000",
@@ -337,7 +337,7 @@ p2p-peer-address = api-node:9876
 	"initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
 }
 ```
-## `start.sh`
+### `start.sh`
 ```bash
 #!/usr/bin/env bash
 echo "Starting Producer Node...";
@@ -401,7 +401,7 @@ Una vez realizados los pasos necesarios para poner en marcha los nodos productor
 ```bash
 $ cleos -u http://localhost:8888 push action eosio setprods {"schedule":[{"producer_name":"producer1","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"producer2","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]},{"producer_name":"producer3","authority": [{"threshold":1,"keys":[{"key":"EOS_PUB_DEV_KEY","weight":1}]}]}]}
 ```
-# Nodo API: Configuración y Ejecución
+## Nodo API: Configuración y Ejecución
 ```bash
 $ cd ~
 $ mkdir api-node
@@ -411,7 +411,7 @@ $ touch genesis.json
 $ touch start.sh
 ```
 Ahora copie el contenido del fragmento de código en el archivo correspondiente:
-## `config.ini`
+### `config.ini`
 ```bash
 agent-name = api-node
 
@@ -448,7 +448,7 @@ p2p-peer-address = producer2:9876
 p2p-peer-address = producer3:9876
 p2p-peer-address = seed:9876
 ```
-## `genesis.json`
+### `genesis.json`
 ```json
 {
   "initial_timestamp": "2020-08-11T04:20:00.000",
@@ -475,7 +475,7 @@ p2p-peer-address = seed:9876
   "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
 }
 ```
-## `start.sh`
+### `start.sh`
 ```bash
 #!/usr/bin/env bash
 echo "Starting API Node...";
@@ -534,7 +534,7 @@ Para iniciar el nodo, asigne permisos de ejecución a `start.sh` y ejecútelo:
 $ chmod 755 start.sh
 $ ./start.sh
 ```
-# Nodo Semilla: Configuración y Ejecución
+## Nodo Semilla: Configuración y Ejecución
 ```bash
 $ cd ~
 $ mkdir seed
@@ -543,7 +543,7 @@ $ touch genesis.json
 $ touch start.sh 
 ```
 Ahora copie el contenido del fragmento de código en el archivo correspondiente:
-## `config.ini`
+### `config.ini`
 ```bash
 # EOSIO Testnet SEED NODE Config file
 # https://eoscostarica.io
@@ -568,7 +568,7 @@ p2p-peer-address = producer2:9876
 p2p-peer-address = producer3:9876
 p2p-peer-address = api-node:9876
 ```
-## `genesis.json`
+### `genesis.json`
 ```json
 {
   "initial_timestamp": "2020-08-11T04:20:00.000",
@@ -595,7 +595,7 @@ p2p-peer-address = api-node:9876
   "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
 }
 ```
-## `start.sh`
+### `start.sh`
 ```bash
 #!/usr/bin/env bash
 echo "Starting SEED Node...";
@@ -654,7 +654,7 @@ Para iniciar el nodo semilla, simplemente asigne permisos de ejecución al archi
 $ chmod 755 start.sh
 $ ./start.sh
 ```
-# Detener el Servicio nodeos
+## Detener el Servicio nodeos
 Crea el archivo `stop.sh` en el directorio `~/biosboot/genesis/` y copia el siguiente contenido:
 ```bash
 #!/bin/bash
@@ -679,7 +679,7 @@ Ahora puede ejecutar el archivo `stop.sh`:
 $ chmod 755 stop.sh 
 $ ./stop.sh
 ```
-# Reiniciar el Servicio nodeos
+## Reiniciar el Servicio nodeos
 Es importante tener en cuenta que una vez que el nodo está produciendo bloques no es posible reiniciar el servicio nodeos utilizando el mismo script creado en la sección [Iniciar el servicio nodeos](#iniciar-el-servicio-nodeos), ya que la base de datos del blockchain ya contiene información de la ejecución inicial. Por eso se recomienda crear un nuevo script con el nombre `start.sh`. Este archivo puede seguir utilizándose para futuros reinicios del nodo una vez que el proceso se haya detenido.
 Copie y pegue el siguiente contenido en el archivo `start.sh`:
 ```bash
@@ -759,7 +759,7 @@ echo $! > $DATADIR"/eosd.pid"
 ```
 > **"perhaps we need to replay"**: este error puede producirse al reiniciar nodeos debido a que falta la bandera `--hard-replay-blockchain` (parámetro que reproduce todas las transacciones del nodo génesis). Para solucionar este error, ejecute el script `hard_replay.sh`.
 
-# Reiniciar nodeos desde Cero
+## Reiniciar nodeos desde Cero
 Para reiniciar el servicio nodeos desde cero, crea el script `clean.sh`, copia el siguiente contenido y dale permisos de ejecución (`chmod 755 clean.sh`):
 ```bash
 #!/bin/bash
@@ -773,13 +773,13 @@ $ ./stop.sh
 $ ./clean.sh
 $ ./genesis_start.sh
 ```
-# Interactuar con la Red
+## Interactuar con la Red
 En este punto, la red es capaz de albergar cualquier contrato. Supongamos que quieres desplegar un contrato como [easycontract](https://github.com/eoscostarica/eoscr-smart-contracts/tree/master/easycontract) el repo de ejemplo de EOS Costa Rica. Después de seguir las instrucciones especificadas allí, puede llamar a la acción `save` de easycontract de la siguiente manera:
 ```bash
 cleos -u URL_NODO_AQUI push action easycontract save '{"date":"2021/01/10 21:01:35","filename":"ejemplo.pdf","path":"/var/www/docs"}' -p easycontract@active
 ```
 Tras la ejecución, obtendrá una salida en el terminal.
-## Obtener Datos Almacenados
+### Obtener Datos Almacenados
 ```bash
 cleos -u URL_NODO_AQUI ID_TRANSACCION_AQUI
 ```
