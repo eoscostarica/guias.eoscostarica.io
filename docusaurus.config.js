@@ -17,6 +17,11 @@ const siteConfig = {
   baseUrl: '/', // Base URL for your project */
   //cname: "guias.eoscostarica.io",
 
+  i18n: {
+    defaultLocale: 'es',
+    locales: ['es']
+  },
+
 
   // Used for publishing and more
   projectName: 'guias.eoscostarica.io',
@@ -36,9 +41,9 @@ const siteConfig = {
       items: [
         {to: 'docs/pautas-para-codigo-abierto', label: 'Pautas para Desarrolladores', position: 'left'},
         {to: 'docs/aprender-eosio/protocolo-eosio', label: 'Blockchain EOSIO', position: 'left'},
-        {to: 'docs/tutoriales/instalacion-de-nodos', label: 'Tutoriales', position: 'left'},
+        {to: 'docs/tutoriales/guia-markdown', label: 'Tutoriales', position: 'left'},
         {to: 'docs/herramientas/glosario', label: 'Herramientas', position: 'left'},
-        {to: 'docs/comunidad/canales-de-telegram', label: 'Comunidad', position: 'left'},
+        {to: 'docs/comunidad/redes-eosio', label: 'Comunidad', position: 'left'},
         {to: 'https://eoscostarica.io/', label: 'Website', position: 'left'},
         {
           href: 'https://guide.eoscostarica.io/',

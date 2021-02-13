@@ -138,7 +138,7 @@ const HeroSection  = () => {
           <h1 className="EOS-Costa-Rica-Devel">GUÍAS GENERALES</h1>
         </div>
         <div className="intro-container">
-          <p className="intro-text">Bienvenido a nuestra herramienta de aprendizaje colaborativa e introductoria a la tecnología de blockchain y todos los paradigmas que lo hacen posible.</p>
+          <p className="intro-text">Le damos la bienvenida a nuestro portal de aprendizaje de código abierto. Comience su viaje para aprender sobre la tecnología blockchain y todo lo que la hace posible.</p>
         </div>
         <div className="buttons-intro-container">
           <Button className={classes.heroButton} href="/docs/cultura-ingenieril">EMPEZAR</Button> 
@@ -178,7 +178,7 @@ const CustomCard = (props) => {
 const CardsSection = () => {
   return (
     <div className="container section-container">
-      <h1 className="section-tittle">Comience de inmediato</h1>
+      <h1 className="section-title">Empiece con estos recursos</h1>
       <Grid
         container
         direction="row"
@@ -264,7 +264,7 @@ const CustomArticle= (props) => {
 const MediumSection = () => {
   return (
     <div className="container section-container">
-       <h1 className="section-tittle">Artículos de blog</h1>
+       <h1 className="section-title">Artículos de blog</h1>
        <Grid
         container
         direction="row"
