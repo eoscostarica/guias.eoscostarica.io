@@ -11,6 +11,8 @@ module.exports = {
             "material-ui", 
             "recursos-visuales",
             "redes-sociales",
+            "plantilla-readme",
+            "herramientas-para-desarrolladores-ux-ui",
             "devops"           
         ],
         "Blockchain EOSIO": [
