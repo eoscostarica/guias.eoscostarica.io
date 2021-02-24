@@ -11,7 +11,6 @@ module.exports = {
       "material-ui",
       "recursos-visuales",
       "redes-sociales",
-      "plantilla-readme",
       "herramientas-para-desarrolladores-ux-ui",
       "devops",
     ],
@@ -49,6 +48,7 @@ module.exports = {
       "herramientas/opciones-configuracion-nodeos",
       "herramientas/explorador-de-bloques",
       "herramientas/librerias-sdk",
+      "herramientas/plantilla-readme",
       "herramientas/preguntas-frecuentes",
     ],
     Comunidad: [
