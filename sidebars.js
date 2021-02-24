@@ -49,7 +49,6 @@ module.exports = {
       "herramientas/opciones-configuracion-nodeos",
       "herramientas/explorador-de-bloques",
       "herramientas/librerias-sdk",
-      "herramientas/plantilla-readme",
       "herramientas/preguntas-frecuentes",
     ],
     Comunidad: [
