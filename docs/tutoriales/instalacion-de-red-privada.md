@@ -1,7 +1,7 @@
 ---
 id: instalacion-de-red-privada
-title: Instalación de una Red Privada EOSIO
-sidebar_label: Instalación de una Red Privada EOSIO
+title: Instalación Red Privada EOSIO
+sidebar_label: Instalación Red Privada EOSIO
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
