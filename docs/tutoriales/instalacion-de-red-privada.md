@@ -5,7 +5,6 @@ sidebar_label: Instalación y Configuración de Red Privada
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Instalación y Configuración de una Red Privada
 Se pueden diseñar varias topologías en el sentido de cantidad de nodos o redundancia de los datos, sin embargo, para la practicidad de este tutorial, se utiliza la siguiente topología como referencia principal:
 <p style={{ align: "center" }}>
   <img src={ useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
