@@ -39,9 +39,9 @@ Para poder publicar paquetes, es necesario generar un *Personal Access Token* o 
 
 ## Registro de Paquetes de Github
 *Github Package Registry* es un registro de paquetes que entre sus ventajas ofrece:
-- Manejo de las mismas credenciales que se utilizan en Github
-- Posibilidad de integración con *Github Actions* y *Webhooks*
-- Paquetes privados que se mantienen dentro del mismo ámbito o *scope* de la organización
+- Manejo de las mismas credenciales que se utilizan en Github.
+- Posibilidad de integración con *Github Actions* y *Webhooks*.
+- Paquetes privados que se mantienen dentro del mismo ámbito o *scope* de la organización.
 
 ## Autenticación Utilizando `npm login`
 Para autenticarse en el *Github Registry* es necesario utilizar el comando `npm login` de la siguiente manera:
