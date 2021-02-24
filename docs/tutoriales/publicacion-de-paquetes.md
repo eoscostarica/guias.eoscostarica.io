@@ -5,15 +5,6 @@ sidebar_label: Publicación de Paquetes
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-- [Publicación de Paquetes](#publicación-de-paquetes)
-- [Generación del Personal Access Token](#generación-del-personal-access-token)
-- [Registro de Paquetes de Github](#registro-de-paquetes-de-github)
-- [Autenticación Utilizando `npm login`](#autenticación-utilizando-npm-login)
-- [Publicar un Paquete](#publicar-un-paquete)
-- [Desplegar una Nueva Versión del Paquete](#desplegar-una-nueva-versión-del-paquete)
-- [Instalar el Paquete Publicado](#instalar-el-paquete-publicado)
-- [Referencias](#referencias)
-
 ## Publicación de Paquetes
 La modularización en el contexto del software es importante para la separación de código y archivos que tengan relevancia entre sí, así como también facilitar el consumo de módulos que son comunes entre 2 o más proyectos. Aunque existen distintos tipos de paquetes y formas de publicarlos, este tutorial se basa en la publicación de paquetes de NPM.
 
@@ -36,7 +27,7 @@ Para poder publicar paquetes, es necesario generar un *Personal Access Token* o 
     <p style={{ align: "center" }}>
       <img src={ useBaseUrl( '/img/publicacion-de-paquetes/GenerateNewToken.png' )} width="100%" />
     </p>
-1. Ahora el el *scope* o **ámbito** adecuado para el token, como se muestra en la siguiente imagen
+1. Ahora seleccioone el *scope* o **ámbito** adecuado para el token, como se muestra en la siguiente imagen
     <p style={{ align: "center" }}>
       <img src={ useBaseUrl( '/img/publicacion-de-paquetes/TokenScope.png' )} width="100%" />
     </p>
@@ -48,7 +39,7 @@ Para poder publicar paquetes, es necesario generar un *Personal Access Token* o 
 
 ## Registro de Paquetes de Github
 *Github Package Registry* es un registro de paquetes que entre sus ventajas ofrece:
-- Manejo de las mismas credencias que se utilizan en Github
+- Manejo de las mismas credenciales que se utilizan en Github
 - Posibilidad de integración con *Github Actions* y *Webhooks*
 - Paquetes privados que se mantienen dentro del mismo ámbito o *scope* de la organización
 
@@ -80,7 +71,7 @@ En el archivo `package.json` es necesario agregar un elemento más llamado `publ
     $ npm publish
     ```
 ## Desplegar una Nueva Versión del Paquete
-A hora publicar una nueva versión, es necesario cambiar la entrada `version` en el archivo `package.json`. Para esto se está siguiendo el estándar [Semantic Versioning](https://docs.npmjs.com/about-semantic-versioning) de npm.
+A la hora publicar una nueva versión, es necesario cambiar la entrada `version` en el archivo `package.json`. Para esto se está siguiendo el estándar [Semantic Versioning](https://docs.npmjs.com/about-semantic-versioning) de npm.
 
 ## Instalar el Paquete Publicado
 Para instalar el paquete, es necesario ejecutar el siguiente código:
