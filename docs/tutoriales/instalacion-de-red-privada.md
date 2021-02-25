@@ -1,40 +1,10 @@
 ---
 id: instalacion-de-red-privada
-title: Instalación y Configuración de Red Privada
-sidebar_label: Instalación y Configuración de Red Privada
+title: Instalación Red Privada EOSIO
+sidebar_label: Instalación Red Privada EOSIO
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-- [Instalación y Configuración de una Red Privada](#instalación-y-configuración-de-una-red-privada)
-- [Requisitos Previos de Software](#requisitos-previos-de-software)
-  - [Instalación de los Binarios Precompilados de EOSIO](#instalación-de-los-binarios-precompilados-de-eosio)
-  - [Instalación de los Binarios EOSIO.CDT (Contract Development Toolkit)](#instalación-de-los-binarios-eosiocdt-contract-development-toolkit)
-- [Configuración del Nodo Génesis](#configuración-del-nodo-génesis)
-- [Iniciar el Servicio nodeos](#iniciar-el-servicio-nodeos)
-- [Registros del Servicio nodeos](#registros-del-servicio-nodeos)
-- [Configuración y Compilación de `eosio.contracts`](#configuración-y-compilación-de-eosiocontracts)
-- [Despliegue del Contrato `eosio.bios`](#despliegue-del-contrato-eosiobios)
-  - [Activar `PREACTIVATE_FEATURE`](#activar-preactivate_feature)
-  - [Despliegue de la Versión **Antigua** de los Contratos](#despliegue-de-la-versión-antigua-de-los-contratos)
-  - [Desplegar la Última Versión de los Contratos](#desplegar-la-última-versión-de-los-contratos)
-- [Nodos Productores de Bloques: Configuración y Ejecución](#nodos-productores-de-bloques-configuración-y-ejecución)
-  - [`config.ini`](#configini)
-  - [`genesis.json`](#genesisjson)
-  - [`start.sh`](#startsh)
-- [Nodo API: Configuración y Ejecución](#nodo-api-configuración-y-ejecución)
-  - [`config.ini`](#configini-1)
-  - [`genesis.json`](#genesisjson-1)
-  - [`start.sh`](#startsh-1)
-- [Nodo Semilla: Configuración y Ejecución](#nodo-semilla-configuración-y-ejecución)
-  - [`config.ini`](#configini-2)
-  - [`genesis.json`](#genesisjson-2)
-  - [`start.sh`](#startsh-2)
-- [Detener el Servicio nodeos](#detener-el-servicio-nodeos)
-- [Reiniciar el Servicio nodeos](#reiniciar-el-servicio-nodeos)
-- [Reiniciar nodeos desde Cero](#reiniciar-nodeos-desde-cero)
-- [Interactuar con la Red](#interactuar-con-la-red)
-  - [Obtener Datos Almacenados](#obtener-datos-almacenados)
-## Instalación y Configuración de una Red Privada
 Se pueden diseñar varias topologías en el sentido de cantidad de nodos o redundancia de los datos, sin embargo, para la practicidad de este tutorial, se utiliza la siguiente topología como referencia principal:
 <p style={{ align: "center" }}>
   <img src={ useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
