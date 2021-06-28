@@ -1,48 +1,48 @@
 ---
 id: pautas-para-codigo-abierto
 title: Pautas para Código Abierto
-sidebar_label: Pautas para Código Abierto
+sidebar_label: Pautas Para Código Abierto
 ---
 
 ## Proceso de Desarrollo
 
 Utilizamos un estilo de tablero Kanban para priorizar nuestro trabajo. Por ejemplo, puedes mirar [EOS rate project board](https://github.com/eoscostarica/eos-rate/projects/1).
 
-Hemos añadido una columna adicional al diseño automatizado por defecto para mantener una columna "Por Hacer" (To Do) priorizada.
+Hemos añadido una columna adicional al diseño automatizado por defecto para mantener una columna `To Do` priorizada.
+
 Cuando nuevos issues son creados, necesitas usar explícitamente la opción de proyecto en el issue de GitHub para incluirlo en el tablero; una vez que lo haces, el issue quedará automáticamente agregado a la columna de issues nuevos.
 
-Periódicamente movemos los nuevos issues a la columna "Por Hacer" y manualmente le damos la prioridad apropiada.
+Periódicamente movemos los nuevos issues a la columna `To Do` y manualmente le damos la prioridad apropiada.
 
-Cuando comienzas a trabajar en una tarea, deberías moverla manualmente a la columna "En Progreso".
+Cuando comienzas a trabajar en una tarea, deberías moverla manualmente a la columna `In Progress`.
 
-Usamos el flujo de GitHub https://guides.github.com/introduction/flow/ para solicitar cambios en el código. Desarrollamos en la rama <code>master</code> y <code>release</code> usando etiquetas y versionamiento.
+Usamos el flujo de GitHub https://guides.github.com/introduction/flow/ para solicitar cambios en el código. Desarrollamos en la rama `master` y `release` usando etiquetas y versionamiento.
 
 ![](https://gaboesquivel.com/img/2018/05/github-flow.png)
 
-New and reopened pull request are automatically added to the board in the In Progress column.
-Los nuevos y reabiertos <code>pull request</code> son autómaticamente añadidos al tablero en la columna "En Progreso".
+Los nuevos y reabiertos `pull request` son autómaticamente añadidos al tablero en la columna `En Progreso`.
 
-Cuando un <code>pull request</code> cerrado es movido a la columna "Hecho - Terminado" automáticamente. 
+Cuando un pull request cerrado es movido a la columna `Done` automáticamente. Si el pull request se cierra y no tiene problemas, se indica correctamente con las palabras clave de GitHub que se cierra el pull request y se mueve automáticamente a la columna `Done`. 
 
-## Pautas para los <code>pull request</code>
+## Pautas para los Pull Request
 
-* Por favor revisa para asegurarte que no hay ningún <code>pull request</code> existente tratando de localizar o vincular el <code>issue</code> mecionado.
-* Busca los <code>issues</code> relacionados en el registro de <code>issues</code>.
-* Los cambios no triviales deberían ser discutidos primero en un <code>issue</code>
+* Por favor revisa para asegurarte que no hay ningún `pull request` existente tratando de localizar o vincular el `issue` mecionado.
+* Busca los `issues` relacionados en el `registro de issues`.
+* Los cambios no triviales deberían ser discutidos primero en un issue.
 * Desarrolla en una rama específica para características (código no estable), nunca en la master: `git checkout -b topic-branch`.
 * Haz amplias y claras descripciones de los `pull requests`.
 * Realiza `pull requests` atómicos y con un ámbito bien definido. 1 PR por característica o bug.
-* Vincula el `issue` con la descripción `pull request`para referencia entre el código y los `issues`.
+* Vincula el `issue` con la descripción `pull request`para referencia entre el código y los issues.
 
-Soportamos únicamente **squash merge** de los `pull requests` como una buena práctica para asegurar que el registro de la rama `master` es mantenido limpio y relevante, sin requerir que el `pull request`sea modificado. Esta estrategia requiere que todos los `pull request`sea hechos de forma atómica, en otras palabras, que resuelvan una única cosa. Un `pull request` por característica, bug o actualizacón de documentación.
+Soportamos únicamente **squash merge** de los `pull requests` como una buena práctica para asegurar que el registro de la rama `master` es mantenido limpio y relevante, sin requerir que el pull request sea modificado. Esta estrategia requiere que todos los pull request sea hechos de forma `atómica`, en otras palabras, que resuelvan una única cosa. Un pull request por característica, bug o actualizacón de documentación.
 
-## Pautas para mensajes en los commits
+## Pautas para Mensajes en los Commits
 
 Tenemos reglas muy precisas acerca de cómo los mensajes de los commits de `git` deben ser formateados. Esto permite **mensajes más legibles** que son fáciles de seguir cuando se está buscando entre la **historia del proyecto**. Pero también, usamos los mensajes de commit de `git` para generar el **registro de cambios del proyecto**.
 
 Seguimos las convenciones de mensajes de commit como se muestra a continuación:
 
-### Formato del mensaje del commit
+### Formato de Mensaje del Commit
 
 Cada mensaje de commit consiste en un **encabezado**, un **cuerpo** y un **pié**. El encabezado tiene un especial formato que incluye un **tipo**, un **ámbito** y un **aspecto o tema**:
 ```
@@ -54,7 +54,7 @@ Cada mensaje de commit consiste en un **encabezado**, un **cuerpo** y un **pié*
 ```
 El **encabezado** es obligatorio y el **ámbito** del encabezado es opcional.
 
-Ninguna línea del mensaje de commit puede ser más larga que 100 caracteres. Esto permite que el mensaje sea fácil de leer en GitHub así como también en varias herramientas de `git`.
+Ninguna línea del mensaje de commit puede ser más larga que 100 caracteres. Esto permite que el mensaje sea fácil de leer en GitHub así como también en varias `herramientas de git`.
 
 El pie debe contener [una referencia de cierre de un issue](https://help.github.com/articles/closing-issues-via-commit-messages/), si hay alguna.
 
@@ -70,7 +70,7 @@ fix(release): need to depend on latest rxjs and zone.js
 The version in our package.json gets copied to the one we publish, and users need the latest of these.
 ```
 
-Más ejemplos aquí: [samples](https://github.com/angular/angular/commits/master)
+Más ejemplos [aquí](https://github.com/angular/angular/commits/master)
 
 ### Revertir
 
@@ -116,9 +116,9 @@ El cuerpo debe incluir la motivación para el cambio y contrastar esto con el co
 
 ### Pié
 
-El pié debe contender cualquier información acerca de los **cambios importantes con repercusiones (breaking changes)** y es también el lugar para referenciar los `issues` de GitHub que el presente commit **cierra**.
+El pié debe contender cualquier información acerca de los **cambios importantes con repercusiones (breaking changes)** y es también el lugar para referenciar los `issues` que el commit cierra.
 
-Los **Breaking Changes** deben empezar con la palabra`BREAKING CHANGE:` con un espacio o dos nuevas líneas.El resto del mensaje de commit es luego usado para esto.
+Los **Breaking Changes** deben empezar con la palabra`BREAKING CHANGE:` con un espacio o dos nuevas líneas. El resto del mensaje de commit es luego usado para esto.
 
 
 ## Reportar bugs
@@ -157,13 +157,11 @@ Cuando una nueva característica es añadida, esto puede ser tan pequeña como p
 
 Cuando una característica documentada no se comporta como está documentada, o cuando un problema de seguridad es descubierto y arreglado sin alterar el comportamiento documentado.
 
-### Generación de Registro de cambios
-
-On each release we generate a changelog file to document changes using the standard [git-changelog](https://github.com/rafinskipg/git-changelog) package. There's an npm task for it.
+### Generación de Registro de Cambios
 
 En cada nuevo lanzamiento, generamos un archivo de registro de cambios usando el estándar [git-changelog](https://github.com/rafinskipg/git-changelog). Hay una tarea de npm para esto.
 
-## Herramientas de git avanzadas
+## Herramientas de Git Avanzadas
 
 Hay también herramientas como [Hub](https://hub.github.com/) y [git-extras](https://github.com/tj/git-extras) que facilitan la interacción con GitHub. Puedes aprovechar estas herramientas para contribuir a este repositorio.
 

@@ -4,15 +4,13 @@ title: Contrato Hola Mundo
 sidebar_label: Contrato Hola Mundo
 ---
 
-## Contrato Hola Mundo
+Explicamos con ejemplos cómo crear una cuenta y un contrato `Hello World` para subir a una blockchain basada en EOS.IO. Para este ejemplo, nos basamos en recursos publicados por [Block.one para compartir con la comunidad](https://developers.eos.io/).
 
-Explicamos con ejemplos cómo crear una cuenta y un contrato “Hello World” para subir a una blockchain basada en EOS.IO. Para este ejemplo, nos basamos en recursos publicados por [Block.one para compartir con la comunidad](https://developers.eos.io/).
-
-### Obtenga sus llaves privadas
+## Obtenga sus Llaves Privadas
 
 Mas información [sobre llaves privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas).
 
-### Adquirir recurso RAM
+## Adquirir Recurso RAM
 
 Una vez que se tiene la cuenta, podemos usar el Faucet para recibir tokens ficticios gratis, que en este caso serán EOS, necesarios para usar recursos de la red (siempre y cuando se tenga participación en esa red). La lógica de esto es que, para el contrato, estaremos requiriendo adquirir recursos RAM de block producers, para lo cual necesitaremos estos EOS que se nos acaban de enviar.
 
@@ -24,7 +22,7 @@ Luego de ejecutar la compra, se puede verificar que ahora se tienen 86 KiB de RA
 
 En el block explorer de Bloks.io, se puede buscar la información de esa cuenta. Adicionalmente, se pueden revisar las acciones tomadas, incluyendo las transacciones de compra de RAM, los tokens del Faucet y el historial completo de movimientos.
 
-### Crear un Contrato
+## Crear un Contrato
 
 Para continuar, vamos a crear un contrato sencillo dentro de un nuevo directorio, el cual llamamos “holacontrato”. Como en EOS se requieren recursos, estos deberán estar asociados a los tokens de una cuenta, por lo que se debe poner el mismo nombre del contrato anteriormente creado.
 
@@ -40,9 +38,9 @@ Como no especificamos una, el sistema nos da un mensaje de que no existe una cl�
 
 Una vez ejecutado el comando para set contract, el sistema lee la información en el contrato para luego publicarlo.
 
-### Publicar el Contrato
+## Publicar el Contrato
 
-Para publicar nuestro contrato, debemos usar el comando usado en cleos y el API endpoint usado anteriormente para subir el contrato a la ubicación que queremos con un permiso activo para poder firmar con la billetera creada.
+Para publicar nuestro contrato, debemos usar el comando usado en `cleos` y el API endpoint usado anteriormente para subir el contrato a la ubicación que queremos con un permiso activo para poder firmar con la billetera creada.
 
 De vuelta al block explorer (Bloks.io), podemos verificar que la cuenta es dueña de un contrato que expone la acción “Hola” y que contiene la información abi en la que se especifican en estructura JSON las acciones dentro del contrato y componentes asociados.
 
@@ -52,10 +50,9 @@ Podemos verificar en el explorador de bloques las acciones ejecutadas.
 
 Es necesario esperar unos segundos para completar la irreversibilidad del bloque, ya que los block producers deben hacer la validación del bloque de datos para esto.
 
-Finalmente, esta es una muestra de cómo se puede interactuar con una blockchain. Existen herramientas de Javascript, librería [EOS JS](https://guias.eoscostarica.io/docs/librerias-sdk#eosjs) que podría implementarse para ejecutar acciones de una manera más programática para integrar con dApps, poder persistir datos, o incluso ejecutar lógica de negocios en la blockchain con este mismo patrón.
+Finalmente, esta es una muestra de cómo se puede interactuar con una blockchain. Existen herramientas de Javascript, librería [EOS JS](https://guias.eoscostarica.io/docs/herramientas/librerias-sdk#eosjs) que podría implementarse para ejecutar acciones de una manera más programática para integrar con dApps, poder persistir datos, o incluso ejecutar lógica de negocios en la blockchain con este mismo patrón.
 
-
-### Video-Tutorial
+## Video Tutorial
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/nMivNMvS09Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>

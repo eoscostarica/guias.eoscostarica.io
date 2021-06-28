@@ -1,96 +1,130 @@
 # guias.eoscostarica.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Sitio de documentación para desarrolladores de EOS Costa Rica.
 
-En este sitio se encuentran los recursos recabados en el día a día de los colaboradores de EOS Costa Rica. Siéntete libre de colaborar, comentar y sugerir cambios/ideas para mejorar el sitio.
+![Guide front page](static/img/guide-page.png)
+
+## Acerca del Proyecto
+
+En este sitio se encuentran los recursos recolectados en el día a día de los colaboradores de EOS Costa Rica. Siéntete libre de colaborar, comentar y sugerir cambios/ideas para mejorar el sitio.
+
+## Tabla de Contenido
+
+1. Acerca del Proyecto
+2. Tabla de Contenido
+3. Objetivo del Proyecto
+4. Tech Stack
+5. Entorno de Desarrollo
+6. Estructura de Archivo
+7. Licencia
+8. Contribuciones
+9. Colaboradores
+10. Acerca de EOS Costa Rica
+
+## Objetivo del Proyecto
+
+Este proyecto está destinado a servir como una herramienta para ayudar en la incorporación de nuevos desarrolladores. Creado inicialmente por un grupo de estudiantes universitarios para facilitar una guía a otros miembros del equipo y contribuir en proyectos de código abierto. Su objetivo principal es brindar orientación a los nuevos miembros del equipo y acelerar el proceso de familiarización con los procesos y la cultura en EOS Costa Rica.
+
+
+## Tech Stack
+- React.js - React 16✨, React Router 5.
+- Material-ui/core - Componentes de React para un desarrollo web más rápido y fácil, biblioteca-autenticador-universal - Una biblioteca para permitir que las aplicaciones utilicen fácilmente diferentes proveedores de autenticación.
+- Core - Componentes de React para un desarrollo web más rápido y sencillo.
+- Lint- ESlint.
+- Estilos - Tema Material-UI (personalizable).
+- Docusaurus - Herramienta de código abierto para construir, implementar y mantener la documentación web.
+
+### Empezando
+
+Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemplo:
+
+#### **Requisitos Previos**
+
+- `yarn`
+- `git`
+- `node.js`
+
+#### **Instalación**
+
+1. Clona el repositorio
+
+  `
+  git clone https://github.com/eoscostarica/guias.eoscostarica.io.git
+  `
+
+2. Mover el directorio apropiado
+
+  `
+  cd guide.eoscostarica.io.git
+  `
+
+3. Instale los paquetes de yarn
+
+  `
+  yarn
+  `
+
+4. Ejecute el proyecto
+
+  `
+  yarn start
+  `
+
+### Estructura de Archivos
+
+```sh
+guias.eoscostarica.io/
+├── .github ...................... Sistema de gestión de versiones
+│ ├── workflows .................. Flujo de trabajo 
+│ | └── nodejs.yml 
+│ └── ISSUE_TEMPLATE.md .......... Plantillas para solicitudes o reportar problemas
+│   ├── bug_report.md 
+│   └── feature_request.md
+├── docs ......................... Archivos Markdown
+├── src .......................... Componentes personalizados de React  
+│ ├── css ........................ Hojas de estilo
+│ | ├── custom.css
+│ | └── homepage.css
+│ └── pages ...................... Componentes que forman la estructura principal de la página web
+│ 	├── styles.module.css
+│   ├── index.js
+│   └── Footer
+├── static ....................... Directorio estático
+│ ├── img
+│ └── CNAME
+├── .all-contributorsrc .......... Información de los Contribuidores 
+├── .gitignore ................... Determina que archivos o directorios no deben subirse a Git 
+├── docusaurus.config.js ......... Configuración de Docusaurus
+├── package.json ................. Historial de los paquetes instalados y optimización de dependencias
+├── sidebar.js ................... Especifica el orden de los documentos en la navegación lateral 
+├── yarn.lock .................... Historial de versiones de las dependencias
+└── README.md .................... Documentación de guias.eoscostarica.io
+```
+
+## Licencia
+
+MIT © [EOS Costa Rica](https://eoscostarica.io)
 
 ## Contribuciones 
 
 Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/orgs/eoscostarica/projects/2).
 
-[Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto)
 
-Informe los errores grandes y pequeños [creando un issue](https://github.com/eoscostarica/guias.eoscostarica.io/issues).
+Si desea hacer una contribución, siga los siguientes pasos:
 
-## Guía rápida
+1. Fork del Proyecto
+2. Cree su Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Agregue sus cambios al Commit (`git add <Nombre del archivo>`)
+4. Confirme sus cambios (`git commit -m '<type>(<scope>): <subject>'`)
+5. Push del Branch (`git push origin feature/AmazingFeature`)
+6. Abra un Pull Request
 
-### Estructura de archivos
+Lea las [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto) de EOS Costa Rica, para obtener más información sobre las convenciones de programación.
 
-```sh
-guias.eoscostarica.io
-├── .github
-│ ├── workflows
-│ | ├── nodejs.yml
-│ | └── services
-│ └── pull_request_template.md
-├── docs
-├── src
-│ ├── css
-│ | ├── custom.css
-│ | └── homepage.css
-│ └── pages
-│ 	├── styles.module.css
-│   └── index.js
-├── static
-│ ├── img
-│ ├── scripts
-│ └── CNAME
-├── .all-contributorsrc
-├── .gitignore
-├── docusaurus.config.js
-├── package.json
-├── yarn.lock
-└── README.md
-```
-### Resumen de la estructura del proyecto
-
-- `/docs/` - Contiene los archivos de Markdown para los documentos. Personaliza el orden de la barra lateral de documentos en  `sidebars.js`. Se pueden encontrar más detalles en la [guía de documentos](https://v2.docusaurus.io/docs/markdown-features).
-- `/src/` - Archivos que no son de documentación como páginas o componentes personalizados de React. No tiene que colocar estrictamente sus archivos que no son de documentación aquí, pero colocarlos en un directorio centralizado facilita la especificación en caso de que necesite hacer algún tipo de procesamiento.
-- `/src/pages` - Cualquier archivo dentro de este directorio se convertirá en una página de sitio web. Se pueden encontrar más detalles en la [guía de páginas](https://v2.docusaurus.io/docs/creating-pages).
-- `/static/` - Directorio estático. Cualquier contenido dentro de aquí se copiará en la raíz del directorio de compilación final `build`.
-- `/docusaurus.config.js` - El archivo de configuración para el sitio. Este es el equivalente de siteConfig.js en Docusaurus 1.
-- `/package.json` - Un sitio web de Docusaurus es una aplicación de React. Puede instalar y usar cualquier paquete npm que desee en ellos.
-- `/sidebar.js` - Utilizado por la documentación para especificar el orden de los documentos en la navegación lateral.
-
-
-### Antes de empezar
-Es necesario contar con: 
-* git
-* node.js
-
-
-### Instrucciones para ejecutar el portal de forma local en Windows 10
-
-
-1. Clone el repositorio
-
-```bash
-$ git clone https://github.com/eoscostarica/guias.eoscostarica.io.git
-```
-
-2. Ubíquese al directorio apropiado
-
-```bash
-$ cd guias.eoscostarica.io
-```
-
-3. Instale las dependencias:
-```bash
-$ yarn install 
-```
-
-4. Compile el proyecto:
-```bash		
-$ yarn build 
-```
-
-5. Ejecute el servidor local:
-```bash		
-$ yarn serve 
-```
+Si encuentra un error, informe los errores grandes y pequeños [**abriendo un issue**](https://github.com/eoscostarica/guias.eoscostarica.io/issues/new/choose) `<link a la sección del issue del proyecto>`
 
 ## Contributors ✨
 
@@ -101,15 +135,33 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/JustinCast"><img src="https://avatars1.githubusercontent.com/u/17890146?v=4" width="100px;" alt=""/><br /><sub><b>JustinCast</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=JustinCast" title="Code">💻</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=JustinCast" title="Documentation">📖</a> <a href="#infra-JustinCast" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-JustinCast" title="Maintenance">🚧</a> <a href="#projectManagement-JustinCast" title="Project Management">📆</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3AJustinCast" title="Reviewed Pull Requests">👀</a> <a href="#translation-JustinCast" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://eoscostarica.io"><img src="https://avatars0.githubusercontent.com/u/5632966?v=4" width="100px;" alt=""/><br /><sub><b>Xavier Fernandez</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=xavier506" title="Code">💻</a> <a href="#content-xavier506" title="Content">🖋</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=xavier506" title="Documentation">📖</a> <a href="#ideas-xavier506" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3Axavier506" title="Reviewed Pull Requests">👀</a></td>
-	  <td align="center"><a href="https://github.com/AngeloCG97"><img src="https://avatars1.githubusercontent.com/u/51149817?s=460&u=5aa62e8b759001f7b981583f0639f46772d0ed15&v=4" width="100px;" alt=""/><br /><sub><b>Angelo Castro G</b></sub></a><br /><a href="https://github.com/AngeloCG97/desarrolladores.eoscostarica.io/commits?author=AngeloCG97" title="Code">💻</a> <a href="#content-AngeloCG97" title="Content">🖋</a> <a href="https://github.com/AngeloCG97/desarrolladores.eoscostarica.io/commits?author=AngeloCG97" title="Documentation">📖</a> <a href="https://github.com/AngeloCG97/desarrolladores.eoscostarica.io/commits?author=AngeloCG97" title="Maintenance">🚧</a> <a href="https://github.com/AngeloCG97/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3Axavier506" title="Reviewed Pull Requests">👀</a></td>
-	 <td align="center"><a href="https://github.com/JeanVegaD"><img src="https://avatars2.githubusercontent.com/u/19317138?s=460&u=c27cb3d5c2cfb732aa0eb13fb2831d1ef20a6627&v=4" width="100px;" alt=""/><br /><sub><b>Jean Vega D</b></sub></a><br /><a href="https://github.com/AngeloCG97/desarrolladores.eoscostarica.io/commits?author=JeanVegaD" title="Code">💻</a> <a href="#content-JeanVegaD" title="Content">🖋</a> <a href="https://github.com/JeanVegaD/desarrolladores.eoscostarica.io/commits?author=JeanVegaD" title="Documentation">📖</a> <a href="https://github.com/JeanVegaD/desarrolladores.eoscostarica.io/commits?author=JeanVegaD" title="Maintenance">🚧</a> <a href="https://github.com/JeanVegaD/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3Axavier506" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/JustinCast"><img src="https://avatars1.githubusercontent.com/u/17890146?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JustinCast</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=JustinCast" title="Code">💻</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=JustinCast" title="Documentation">📖</a> <a href="#infra-JustinCast" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-JustinCast" title="Maintenance">🚧</a> <a href="#projectManagement-JustinCast" title="Project Management">📆</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3AJustinCast" title="Reviewed Pull Requests">👀</a> <a href="#translation-JustinCast" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://eoscostarica.io"><img src="https://avatars0.githubusercontent.com/u/5632966?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Xavier Fernandez</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=xavier506" title="Code">💻</a> <a href="#content-xavier506" title="Content">🖋</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=xavier506" title="Documentation">📖</a> <a href="#ideas-xavier506" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3Axavier506" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/Edgar097"><img src="https://avatars3.githubusercontent.com/u/76976401?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Edgar Parra</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=Edgar097" title="Code">💻</a> <a href="#content-Edgar097" title="Content">🖋</a> <a href="#ideas-Edgar097" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3AEdgar097" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/leister-francisco-alvarez-campos-65b7801bb/"><img src="https://avatars3.githubusercontent.com/u/28828796?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leister Francisco Alvarez Campos</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=leisterfrancisco" title="Code">💻</a> <a href="#content-leisterfrancisco" title="Content">🖋</a> <a href="#ideas-leisterfrancisco" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3Aleisterfrancisco" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/stephaniedelgadobrenes/"><img src="https://avatars1.githubusercontent.com/u/31549144?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steph</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=steph222" title="Code">💻</a> <a href="#content-steph222" title="Content">🖋</a> <a href="#ideas-steph222" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3Asteph222" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/AngeloCG97"><img src="https://avatars3.githubusercontent.com/u/51149817?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AngeloCG97</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=AngeloCG97" title="Code">💻</a> <a href="#content-AngeloCG97" title="Content">🖋</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=AngeloCG97" title="Documentation">📖</a> <a href="#ideas-AngeloCG97" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3AAngeloCG97" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/JeanVegaD"><img src="https://avatars0.githubusercontent.com/u/19317138?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jean Vega</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=JeanVegaD" title="Code">💻</a> <a href="#content-JeanVegaD" title="Content">🖋</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=JeanVegaD" title="Documentation">📖</a> <a href="#ideas-JeanVegaD" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3AJeanVegaD" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ldrojas"><img src="https://avatars1.githubusercontent.com/u/29232417?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luis Diego Rojas</b></sub></a><br /><a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=ldrojas" title="Code">💻</a> <a href="#content-ldrojas" title="Content">🖋</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/commits?author=ldrojas" title="Documentation">📖</a> <a href="#ideas-ldrojas" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eoscostarica/desarrolladores.eoscostarica.io/pulls?q=is%3Apr+reviewed-by%3Aldrojas" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+
+## Acerca de EOS Costa Rica
+
+<div display= "block" textAlign= "center" >
+    <img width="50%" src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
+</div>
+
+EOS Costa Rica es un productor de bloques independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para EOSIO blockchains. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
+
+[eoscostarica.io](https://eoscostarica.io/)

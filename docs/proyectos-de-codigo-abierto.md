@@ -4,6 +4,39 @@ title: Proyectos de Código Abierto
 sidebar_label: Proyectos de Código Abierto
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+## Tablero de Red de EOSIO
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
+  style={{ width: "30%" }}
+/>
+
+Un Monitor de Infraestructura EOSIO y un tablero de nodos.
+
+- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
+
+### Monitoreo de Redes EOSIO 
+
+- **EOS Mainnet** : https://mainnet.eosio.online
+- **LACChain EOSIO** : https://lacchain.eosio.online
+- **Jungle Testnet** : https://jungle.eosio.online
+- **Proton Testnet** : https://proton-testnet.eosio.online
+- **Telos Testnet** : https://telos-testnet.eosio.online
+
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')}
+/>
+
+<img
+  alt="EOSIO network dashboard"
+  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')}
+/>
+
+ * * *
+
 ## EOS Rate
 
 <img
@@ -14,7 +47,7 @@ sidebar_label: Proyectos de Código Abierto
 
 [EOS Rate](https://eosrate.io) es una herramienta visual de calificación manejada por la comunidad que permite a los titulares de los tokens de EOS calificar fácilmente a los Productores de Bloques en distintas categorías.
 
-- **Sitio web** : https://eosrate.io
+- **Sitio Web** : https://eosrate.io
 
 - **GitHub** : https://github.com/eoscostarica/eos-rate
 
@@ -41,25 +74,67 @@ Somos parte de LACChain EOSIO, una iniciativa de código abierto que ofrece una 
 
 ![LACChain EOSIO](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/lacchain-eosio-homepage1.png)
 
-
 * * *
 
-## Tablero de Red de EOSIO
+## Evodex
 
 <img
-  src="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
+  src="https://raw.githubusercontent.com/eoscostarica/evodex/master/public/evodex-logo.png"
   style={{ width: "30%" }}
 />
 
-Un Monitor de Infraestructura EOSIO y un tablero de node.
+Evodex es un protocolo creado por EOS Argentina que permite a cualquier persona crear y lanzar sus propios pares comerciales en un intercambio descentralizado y obtener tarifas comerciales al agregar liquidez al grupo de tokens.
 
-- **Sitio web** : https://mainnet.eosio.cr
+EOS Costa Rica colaboró con EOS Argentina creando una interfaz web que brinda acceso a liquidez entre todos los intercambios que se conectan a Evodex.
 
-- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
 
-![EOSIO network dashboard](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor.PNG)
+- **Sitio Web** : https://evodex.io
 
-![EOSIO network dashboard](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOSIO_Network_monitor_2.PNG)
+- **GitHub** : https://github.com/eoscostarica/evodex
+
+* * *
+
+## EOSIO Hackathons
+
+### LifeBank
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg"
+  style={{ width: "50%" }}
+/>
+
+Lifebank es una aplicación basada en EOSIO que ayuda a las comunidades locales a crear un círculo virtuoso de intercambio de valores entre tres partes: donantes de vida elegibles, centros de donación comunitarios y empresas locales participantes (patrocinadores).
+
+Lifebank es una iniciativa de EOS Costa Rica, una compañía que desarrolla soluciones basadas en blockchain para resolver problemas del mundo real. Lifebank es nuestra entrada al desafío Codificación para el cambio organizado por la empresa líder de blockchain, Block.one.
+
+- **Sitio Web** : https://lifebank.io/
+
+- **GitHub** : https://github.com/eoscostarica/lifebank
+
+![LifeBank](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/LifeBank.PNG)
+
+* * *
+
+### gGoods
+
+<img
+  src="https://raw.githubusercontent.com/eoscostarica/gGoods/main/docs/ggoods-logo.svg"
+  style={{ width: "50%" }}
+/>
+
+gGoods es un estándar NFT de código abierto que permite a las organizaciones y comunidades crear sus propios NFT para recaudar fondos. Crear un NFT es fácil y sencillo utilizando nuestro creador de avatares. A continuación, los donantes compran los NFT como objetos de colección que no sólo apoyan una causa, sino que pueden integrarse en innumerables aplicaciones como juegos, emojis, pegatinas de chat, avatares, etc.
+
+- **Sitio Web** : https://ggoods.io/
+
+- **Github** : https://github.com/eoscostarica/gGoods 
+
+* * *
+
+## Componentes de React para EOSIO
+
+- **Sitio Web** : https://components.eosio.cr
+
+- **GitHub** : https://github.com/eoscostarica/eoscr-components
 
 * * *
 
@@ -91,53 +166,6 @@ También permite que cualquiera que posea el documento pueda validar el registro
 - **Sitio Web** : https://notarize.eosio.cr
 
 - **GitHub** : https://github.com/eoscostarica/notarioeoscr
-
-* * *
-
-## Evodex
-
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/evodex/master/public/evodex-logo.png"
-  style={{ width: "30%" }}
-/>
-
-Evodex es un protocolo creado por EOS Argentina que permite a cualquier persona crear y lanzar sus propios pares comerciales en un intercambio descentralizado y obtener tarifas comerciales al agregar liquidez al grupo de tokens.
-
-EOS Costa Rica está trabajando con EOS Argentina creando una interfaz web que brindará acceso a liquidez entre todos los intercambios que se conectan a Evodex.
-
-
-- **Website** : https://evodex.io
-
-- **GitHub** : https://github.com/eoscostarica/evodex
-
-* * *
-
-## EOSIO hackathons
-
-### LifeBank
-
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg"
-  style={{ width: "50%" }}
-/>
-
-Lifebank es una aplicación basada en EOSIO que ayuda a las comunidades locales a crear un círculo virtuoso de intercambio de valores entre tres partes: donantes de vida elegibles, centros de donación comunitarios y empresas locales participantes (patrocinadores).
-
-Lifebank es una iniciativa de EOS Costa Rica, una compañía que desarrolla soluciones basadas en blockchain para resolver problemas del mundo real. Lifebank es nuestra entrada al desafío Codificación para el cambio organizado por la empresa líder de blockchain, Block.one.
-
-- **Website** : https://lifebank.io/
-
-- **GitHub** : https://github.com/eoscostarica/lifebank
-
-![LifeBank](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/LifeBank.PNG)
-
-* * *
-
-## Componentes de React para EOSIO
-
-- **Sitio Web** : https://components.eosio.cr
-
-- **GitHub** : https://github.com/eoscostarica/eoscr-components
 
 * * *
 

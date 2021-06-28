@@ -4,7 +4,9 @@ title: Opciones de Configuración de Nodeos
 sidebar_label: Opciones de Configuración de Nodeos
 ---
 
-### Config Options for eosio::chain_plugin:
+## Opciones de la Aplicación Nodeos:
+
+### Opciones de Configuración para eosio::chain_plugin:
 
 ```
   --blocks-dir arg (="blocks")          the location of the blocks directory 

@@ -65,6 +65,16 @@ const lightTheme = makeStyles({
 });
 
 const DarkTheme = makeStyles({
+  heroButton:{
+    width: 131,
+    height: 50,
+    fontFamily: "PT Sans",
+    fontSize: 14.8,
+    border: 'none',
+    lineHeight: 1.8,
+    letterSpacing:1.25,
+    margin:"auto",
+  },
   card:{
     backgroundColor: '#242526'
   },
@@ -128,7 +138,7 @@ const HeroSection  = () => {
           <h1 className="EOS-Costa-Rica-Devel">GUÍAS GENERALES</h1>
         </div>
         <div className="intro-container">
-          <p className="intro-text">Bienvenido a nuestra herramienta de aprendizaje colaborativa e introductoria a la tecnología de blockchain y todos los paradigmas que lo hacen posible.</p>
+          <p className="intro-text">Le damos la bienvenida a nuestro portal de aprendizaje de código abierto. Comience su viaje para aprender sobre la tecnología blockchain y todo lo que la hace posible.</p>
         </div>
         <div className="buttons-intro-container">
           <Button className={classes.heroButton} href="/docs/cultura-ingenieril">EMPEZAR</Button> 
@@ -168,7 +178,7 @@ const CustomCard = (props) => {
 const CardsSection = () => {
   return (
     <div className="container section-container">
-      <h1 className="section-tittle">Comience de inmediato</h1>
+      <h1 className="section-title">Empiece con estos recursos</h1>
       <Grid
         container
         direction="row"
@@ -194,7 +204,7 @@ const CardsSection = () => {
         <CustomCard 
           title="Tutoriales"
           body= "Información de apoyo necesaria para realizar la instalación y la ejecución de procesos. "
-          href= "docs/aprender-eosio/como-iniciar"
+          href= "docs/tutoriales/como-iniciar"
           img="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/cards-icons/tutorials.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
@@ -254,7 +264,7 @@ const CustomArticle= (props) => {
 const MediumSection = () => {
   return (
     <div className="container section-container">
-       <h1 className="section-tittle">Artículos de Medium</h1>
+       <h1 className="section-title">Artículos de blog</h1>
        <Grid
         container
         direction="row"
