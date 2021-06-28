@@ -57,22 +57,22 @@ Un Monitor de Infraestructura EOSIO y un tablero de nodos.
 
 * * *
 
-## TestNet de LatamLink
+## TestNet de LACChain EOSIO
 
 <img
-  src="https://raw.githubusercontent.com/LatamLink/latamlink.io/master/static/images/latamlink_logo-h-full-color-overwhite.png"
+  src="https://raw.githubusercontent.com/lacchain/eosio.lacchain.net/master/static/img/logos/lacchain-eosio-logo.png"
   style={{ width: "30%" }}
 />
 
-El propósito de LatamLink es ofrecer una red de prueba basada en EOSIO para resaltar los beneficios de esta plataforma. LACChain es una iniciativa de BID Labs (parte del Banco Inter-Americano de Desarrollo) cuyo propósito es acompañar y acelear el desarrollo del ecosistema de cadenas de bloques en América Latina.
+Somos parte de LACChain EOSIO, una iniciativa de código abierto que ofrece una red de blockchain EOSIO que se integra en la red de LACChain.
 
-- **Sitio Web** : https://es.latamlink.io
+- **Sitio web** : https://eosio.lacchain.net/
 
-- **GitHub** : https://github.com/LatamLink
+- **GitHub** : https://github.com/lacchain/eosio.lacchain.net
 
-![Latam Link](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/Latam_Link.PNG)
+![LACChain EOSIO](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/lacchain-eosio-homepage.png)
 
-![Latam Link](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/Latam_Link_monitor.PNG)
+![LACChain EOSIO](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/lacchain-eosio-homepage1.png)
 
 * * *
 
