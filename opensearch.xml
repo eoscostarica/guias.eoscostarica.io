@@ -7,5 +7,5 @@
   <Image width="16" height="16" type="image/x-icon">https://guias.eoscostarica.io/img/favicon/favicon.ico</Image>
   <Url type="text/html" method="get" template="https://guias.eoscostarica.io/search?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://guias.eoscostarica.io/opensearch.xml" />
-  <moz:SearchForm>https://guias.eoscostarica.io</moz:SearchForm>
+  <moz:SearchForm>https://guias.eoscostarica.io/</moz:SearchForm>
 </OpenSearchDescription>
