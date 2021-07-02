@@ -45,7 +45,7 @@ icon: https://app.com/create-post.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7C
 ```
 
 ### Clauses
-Su propósito es declarar y definir las clausulas y reglas del Smart Contract. Es más sencillo de crear, por ejemplo:
+Su propósito es declarar y definir las cláusulas y reglas del Smart Contract. Es más sencillo de crear, por ejemplo:
 
 ```
 <h1 class="clause">UserAgreement</h1>
