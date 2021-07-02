@@ -55,7 +55,7 @@ User agreement for the chain can go here.
 Más ejemplos en [EOSIO eosio.system](https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/contracts/eosio.system/ricardian/eosio.system.clauses.md).
 
 ## Proceso de Compilación
-Para compilar un Smart Contract con su respecito Contrato Ricardiano, se debe ejecutar el siguiente comando añadiendo la bandera `-R`:
+Para compilar un Smart Contract con su respectivo Contrato Ricardiano, se debe ejecutar el siguiente comando añadiendo la bandera `-R`:
 
 ```
 eosio-cpp -abigen -R ./ricardian -contract contracttest -o contracttest.wasm src/contracttest.cpp
