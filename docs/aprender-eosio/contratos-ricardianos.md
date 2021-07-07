@@ -4,13 +4,10 @@ title: Contratos Ricardianos
 sidebar_label: Contratos Ricardianos
 ---
 
-
 ## ¿Qué son los contratos ricardianos?
-
 Son documentos digitales que definen los términos y condiciones entre los involucrados en el contrato, estos están firmados y verificados criptográficamente y pueden ser leídos tanto por humanos como por sistemas informáticos.
 
 ### Características de estos Contratos
-
 - Lectura humana y de software.
 - Se puede imprimir.
 - Todas las formas de documentos (físicos, virtuales, encriptados) son equivalentes.
@@ -18,8 +15,14 @@ Son documentos digitales que definen los términos y condiciones entre los invol
 - Se pueden identificar de forma segura gracias a las características de cada contrato.
 
 ### Contratos Ricardianos en EOSIO
-
 Las cadenas de bloques operan bajo contratos inteligentes, sin embargo, se está trabajando para incluir los contratos ricardianos en las transacciones de estas redes. Uno de los objetivos principales es convertir la complejidad del código observado dentro de la tecnología Blockchain en un lenguaje más simple para que cualquiera pueda entenderlo.
+
+EOS COSTA RICA ha desarrollado un componente de React que renderiza contratos ricardianos para contratos inteligentes en redes EOSIO. Puede ver el componente de React en el siguiente [enlace](https://components.eosio.cr/?path=/story/ricardiancontract--ricardian-contract). En ese enlace, vaya a la sección `Knobs` para modificar` httpEndpoint` y `contractName`. Una vez hecho esto, consulte el Contrato Ricardiano para un Contrato Inteligente. Por ejemplo, configure:
+```
+httpEndpoint: https://lacchain.eosio.cr
+contractName: eosio
+```
+El componente cargará automáticamente el contenido del Contrato Ricardiano. El repositorio de código abierto para este componente se encuentra aquí: https://github.com/eoscostarica/eoscr-components.
 
 ## ¿Cómo añadir un Contracto Ricardiano?
 El proceso es parecido a la compilación de un Smart Contract, de hecho, se realiza durante el mismo paso. eosio-cpp brinda algunas opciones de configuración extra al compilar y una de ellas es `-R`, que permite configurar un recurso extra que para este caso es el contrato ricardiano donde se debe proporcionar la ruta ricardiana, el compilador será el responsable de agregar los contratos y las cláusulas al archivo .abi.
