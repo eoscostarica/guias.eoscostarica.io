@@ -14,6 +14,11 @@ A continuación, incluimos una lista de algunas otras redes publicas lanzadas so
 
 * * *
 
+- [LACChain EOSIO](https://eosio.lacchain.net/): LACChain EOSIO permite a organizaciones y desarrolladores crear
+aplicaciones en la red de LACChain impulsada por tecnología EOSIO.
+
+* * *
+
 - [BOSCore](https://boscore.io/): Una cadena de bloques de alta velocidad y baja finalidad para negocios y empresas que busca implementar computación paralela e IBC.
 
 * * *
@@ -39,7 +44,7 @@ A continuación, incluimos una lista de algunas otras redes publicas lanzadas so
 
 * * *
 
-- [Lynxx chain](https://www.lynxwallet.io/): Una cadena de bloques que simplifica la experiencia del usuario al eliminar la necesidad de que los usuarios se preocupen por los recursos de la red.
+- [Proton Chain](https://www.protonchain.com/): La cadena de bloques Proton fue diseñada para permitir que los sitios web y las aplicaciones envíen solicitudes de pago directamente a carteras compatibles con Proton.
 
 * * *
 
@@ -63,14 +68,6 @@ A continuación, incluimos una lista de algunas otras redes publicas lanzadas so
 
 <figure class="video_container">
   <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-* * *
-
-- [Worbli](https://worbli.io/): Una cadena de bloques diseñada para el cumplimiento normativo con el sector financiero, incluidas las cuentas verificadas por KYC.
-
-<figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/ideiyhAlvOQ" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 * * *
