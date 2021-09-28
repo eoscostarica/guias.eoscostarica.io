@@ -52,7 +52,7 @@ Más información sobre [llaves privadas](https://guias.eoscostarica.io/docs/apr
 
 ## Empecemos
 
-![imagen](https://es.latamlink.io/img/diagramas/cleos.png)
+![imagen](https://eosio.lacchain.net/img/diagramas/cleos.png)
 
 ### Instalación en Windows
 
