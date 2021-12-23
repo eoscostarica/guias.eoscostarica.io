@@ -114,7 +114,7 @@ El aspecto contiene una breve descripción del cambio:
 Justo como en el **aspecto**, usa el imperativo, tiempo presente: "cambio" no "cambiado" ni "cambios".
 El cuerpo debe incluir la motivación para el cambio y contrastar esto con el comportamiento anterior.
 
-### Pié
+### Pie
 
 El pié debe contender cualquier información acerca de los **cambios importantes con repercusiones (breaking changes)** y es también el lugar para referenciar los `issues` que el commit cierra.
 
