@@ -26,6 +26,7 @@ module.exports = {
       "aprender-eosio/cadena-de-bloques-eos",
       "aprender-eosio/contratos-inteligentes",
       "aprender-eosio/contratos-ricardianos",
+      "aprender-eosio/seguridad-blockchain",
     ],
     Tutoriales: [
       "tutoriales/contrato-hola-mundo",

@@ -16,7 +16,7 @@ Markdown, creado por John Gruber en 2004, es ahora uno de los lenguajes de marca
 
 | Componente | Sintaxis|
 | ----------- | ----------- |
-| [Encabezado](https://www.markdownguide.org/basic-syntax/#headings) |  # H1   <br /> ## H2 <br />  ### H3  |
+| [Encabezado](https://www.markdownguide.org/basic-syntax/#headings) |  # H1   <br /> ## H2 <br />  ### H3 |
 | [Tipografía Negrita](https://www.markdownguide.org/basic-syntax/#bold) |  `**Texto**` or `__texto__` |
 | [Tipografía Itálica](https://www.markdownguide.org/basic-syntax/#italic) |   `*texto*` or  `_texto_`|
 | [Citas en Bloque](https://www.markdownguide.org/basic-syntax/#blockquotes-1)    | > Citas en bloque  |
@@ -181,9 +181,34 @@ Otro texto
 ***
 - - - -
 
-[Más información](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
-
 ***
+
+### **Código**
+
+#### *Javascript*
+
+```javascript title="Syntax"
+  var s = 'JavaScript sintaxis resaltada';
+  alert(s);
+```
+
+
+#### *Phyton*
+
+```python title="Syntax"
+  s = "Python sintaxis resaltada"
+  print(s)
+```
+
+#### *Function*
+
+```javascript title="Syntax"
+  function highlightMe() {
+  console.log('Esta línea puede ser resaltada!');
+}
+```
+
+[Más información](https://www.markdownguide.org/basic-syntax/#horizontal-rules).
 
 Para más información acerca de la sintaxis de Markdown, visitar
 [esta página](https://www.markdownguide.org/cheat-sheet/)
