@@ -126,14 +126,6 @@ Lea las [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para
 
 Si encuentra un error, informe los errores grandes y pequeños [**abriendo un issue**](https://github.com/eoscostarica/guias.eoscostarica.io/issues/new/choose) `<link a la sección del issue del proyecto>`
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-
 ## Acerca de EOS Costa Rica
 
 <p align="center">
