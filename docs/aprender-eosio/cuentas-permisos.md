@@ -10,7 +10,7 @@ Una **cuenta** en EOSIO es un nombre legible para humanos que se almacena en la 
 
 El nombre de la cuenta debe cumplir con ciertos requisitos: caracteres de la `a` a la `z` en minúscula, números del `1` al `5` y tener una longitud de 12 caracteres. Por ejemplo : `cuentaeosio1`.
 
-Obtenga más información sobre [cuentas en EOSIO](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions#2-accounts).
+Más infomación [ Creación de cuenta EOSIO](https://eos-account-creator.com/choose/).
 
 ## Permisos
 
