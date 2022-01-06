@@ -6,7 +6,7 @@ sidebar_label: Guia Markdown
 
 ## ¿Qué es Markdown?
 
-Markdown es un lenguaje de marcado ligero que puede usar para agregar elementos de formato a documentos de texto sin formato.
+Markdown es un lenguaje de marcado ligero que se puede usar para agregar elementos de formato a documentos de texto sin formato.
 
 Markdown, creado por John Gruber en 2004, es ahora uno de los lenguajes de marcado más populares del mundo. [Más sobre Markdown](https://www.markdownguide.org/getting-started/).
 
