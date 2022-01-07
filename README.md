@@ -122,7 +122,7 @@ Si desea hacer una contribución, siga los siguientes pasos:
 
 Lea las [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto) de EOS Costa Rica, para obtener más información sobre las convenciones de programación.
 
-Si encuentra un error, informe los errores grandes y pequeños [**abriendo un issue**](https://github.com/eoscostarica/guias.eoscostarica.io/issues/new/choose) `<link a la sección del issue del proyecto>`
+Si encuentra un error, informe los errores grandes y pequeños [**abriendo un issue**](https://github.com/eoscostarica/guias.eoscostarica.io/issues/new/choose)
 
 ## Acerca de EOS Costa Rica
 
