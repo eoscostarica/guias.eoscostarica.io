@@ -1,9 +1,9 @@
-# Contributing to EOS Costa Rica's Open Source Projects
-👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+# Contribución a los proyectos de código abierto de EOS Costa Rica
+👍🎉 En primer lugar, ¡gracias por tomarse el tiempo para contribuir! 🎉👍
 
-The following is a set of guidelines for contributing to EOS Costa Rica's Open Source Projects and its packages, which are hosted in the [`eoscostarica`](https://github.com/eoscostarica/) Organization on GitHub.
+El siguiente es un conjunto de pautas para contribuir a los Proyectos de Código Abierto de EOS Costa Rica que están alojados en la Organización [`eoscostarica`](https://github.com/eoscostarica/) en GitHub.
 
 
-### [View Open Source Contributing Guidelines](https://guide.eoscostarica.io/docs/open-source-guidelines)
+### [Ver pautas de contribución de código abierto](https://guide.eoscostarica.io/docs/open-source-guidelines)
 
-These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to [this document](https://github.com/eoscostarica/guide.eoscostarica.io/blob/master/docs/open-source-guidelines.md) in a pull request.
+En su mayoría son pautas, no reglas. Utilice su mejor criterio y no dude en proponer cambios en [este documento](https://github.com/eoscostarica/guide.eoscostarica.io/blob/master/docs/open-source-guidelines.md) en un tirón solicitud.
