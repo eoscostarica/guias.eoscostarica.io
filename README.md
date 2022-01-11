@@ -1,7 +1,5 @@
 # Guías EOS Costa Rica
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+![](https://img.shields.io/github/license/eoscostarica/guias.eoscostarica.io) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/guias.eoscostarica.io?style=social)
 
 Sitio de documentación para desarrolladores de EOS Costa Rica.
 
@@ -124,15 +122,7 @@ Si desea hacer una contribución, siga los siguientes pasos:
 
 Lea las [Pautas de contribución](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto) de EOS Costa Rica, para obtener más información sobre las convenciones de programación.
 
-Si encuentra un error, informe los errores grandes y pequeños [**abriendo un issue**](https://github.com/eoscostarica/guias.eoscostarica.io/issues/new/choose) `<link a la sección del issue del proyecto>`
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
+Si encuentra un error, informe los errores grandes y pequeños [**abriendo un issue**](https://github.com/eoscostarica/guias.eoscostarica.io/issues/new/choose)
 
 ## Acerca de EOS Costa Rica
 
