@@ -6,54 +6,75 @@ sidebar_label: Proyectos de Código Abierto
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Tablero de Red de EOSIO
+## Proyectos para la comunidad
 
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/eosio-dashboard-logo.png"
-  style={{ width: "30%" }}
-/>
-
-Un Monitor de Infraestructura EOSIO y un tablero de nodos.
-
-- **GitHub** : https://github.com/eoscostarica/eosio-dashboard
-
-### Monitoreo de Redes EOSIO 
-
-- **EOS Mainnet** : https://mainnet.eosio.online
-- **LACChain EOSIO** : https://lacchain.eosio.online
-- **Jungle Testnet** : https://jungle.eosio.online
-- **Proton Testnet** : https://proton-testnet.eosio.online
-- **Telos Testnet** : https://telos-testnet.eosio.online
-
-<img
-  alt="EOSIO network dashboard"
-  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')}
-/>
-
-<img
-  alt="EOSIO network dashboard"
-  src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')}
-/>
+ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 
  * * *
 
-## EOS Rate
+### Tablero de Red de EOSIO
 
-<img
-  src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png"
-  style={{ width: "30%" }}
-/>
+> 
+<p align="left">
+	<a href="https://eosio.online/">
+		<img src="https://eosio.online/images/d-logo.svg" width="30%"/>
+	</a>
+</p>
+
+> Un Monitor de Infraestructura EOSIO y un tablero de nodos.
+
+ - **Sitio Web** : [Tablero de Red de EOSIO](https://eosio.online/)
+
+ - **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>](https://github.com/eoscostarica/eosio-dashboard)
+
+### Monitoreo de Redes EOSIO 
+
+<div class="table-wrapper" markdown="block">
+
+|  EOS Mainnet | Jungle Testnet  | Proton Testnet | LACChain EOSIO | Telos Testnet |
+|:-------:|:-------:|:-------:|:-------:|:-------:|
+|[<img src="https://eosio.online/images/eos.png"/>](https://mainnet.eosio.online) | [<img src="https://eosio.online/images/jungle.png"/>](https://jungle.eosio.online) | [<img src="https://eosio.online/images/proton.png"/>](https://proton-testnet.eosio.online) | [<img src="https://eosio.online/images/lacchain.png"/>](https://lacchain.eosio.online) |  [<img src="https://eosio.online/images/telos.png"/>](https://jungle.eosio.online) |
+
+</div>
+
+###  Página Tablero de Red de EOSIO
+
+ <p align="center">
+		<img src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor.PNG')} width="100%"/>
+</p>
+
+<p align="center">
+		<img src={useBaseUrl('img/OSS_screnshots/EOSIO_Network_monitor_2.PNG')} width="100%"/>
+</p>
+
+* * *
+
+### EOS Rate
+
+> 
+<p align="left">
+	<a href="https://eosrate.io">
+		<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png" width="30%"/>
+	</a>
+</p>
 
 
-[EOS Rate](https://eosrate.io) es una herramienta visual de calificación manejada por la comunidad que permite a los titulares de los tokens de EOS calificar fácilmente a los Productores de Bloques en distintas categorías.
+>EOS Rate es una herramienta visual de calificación manejada por la comunidad que permite a los titulares de los tokens de EOS calificar fácilmente a los Productores de Bloques en distintas categorías.
 
-- **Sitio Web** : https://eosrate.io
+- **Sitio Web** : [EOS Rate](https://eosrate.io)
 
-- **GitHub** : https://github.com/eoscostarica/eos-rate
+- **GitHub** : [<img src="https://cdn-icons-png.flaticon.com/32/25/25231.png"/>]( https://github.com/eoscostarica/eos-rate)
 
-![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Rate.PNG)
+###  Página EOS Rate
+ 
+ <p align="center">
+		<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate.PNG')} width="100%"/>
+</p>
 
-![EOS Rate](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/EOS_Rate_2.PNG)
+<p align="center">
+		<img src={useBaseUrl('img/OSS_screnshots/EOS_Rate_2.PNG')} width="100%"/>
+</p>
+
 
 * * *
 
