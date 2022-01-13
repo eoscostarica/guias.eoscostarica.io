@@ -51,6 +51,7 @@ module.exports = {
       "herramientas/librerias-sdk",
       "herramientas/plantilla-readme",
       "herramientas/preguntas-frecuentes",
+      "herramientas/ipfs",
     ],
     Comunidad: [
       "comunidad/redes-eosio",
