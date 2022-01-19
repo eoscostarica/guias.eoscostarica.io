@@ -1,19 +1,20 @@
 ---
-nombre: Feature solicitada
-descripcion: Sugiere una idea para este proyecto
-titulo: ""
-etiquetas: ""
-asignados: ""
+name: Feature request
+about: Suggest an idea for this project
+title: ''
+labels: ''
+assignees: ''
+
 ---
 
-**La feature que solicitaste esta relacionada con un problema? Por favor describelo.**
-Una descripcion clara y concisa de cual es el problema. Ej. Siempre me siento frustrado cuando [...]
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Describe la solucion que deseas**
-Una descripcion clara y concisa de lo que quieres que ocurra.
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
 
-**Describe las alternativas que has considerado**
-Una descripcion clara y concisa de las soluciones o caracteristicas alternativas que has considerado.
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
 
-**Contexto adicional**
-Añade aqui cualquier otro contexto o capturas de pantalla sobre la feature solicitada.
+**Additional context**
+Add any other context or screenshots about the feature request here.
