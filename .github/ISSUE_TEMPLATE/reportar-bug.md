@@ -3,7 +3,7 @@ name: Reportar Bug
 about: Reportar que algo no esta funcionando como se espera (pulgas)
 title: ''
 labels: ''
-assignees: xavier506
+assignees: 
 
 ---
 
@@ -39,3 +39,4 @@ Si procede, añade screenshots para ayudar a explicar tu problema.
 
 **Contexto adicional**
 Añade aqui cualquier otro contexto sobre el problema.
+
