@@ -14,8 +14,8 @@ import Typography from '@material-ui/core/Typography';
 import '../css/homepage.css';
 
 const MetaData={
-  title:"Guías para Desarrolladores EOS Costa Rica",
-  description:"Le damos la bienvenida a nuestro portal de aprendizaje de código abierto. Comience su viaje para aprender sobre la tecnología blockchain y todo lo que la hace posible.",
+  title:"EOS Costa Rica | Guías para Desarrolladores",
+  description:"Documentación para desarrolladores de EOS Costa Rica.",
   img:"../static/img/metaImgBlack.png",
   hrefLangPath: "https://guias.eoscostarica.io/"
 }
@@ -314,9 +314,9 @@ const HomePage = () => {
       description={MetaData.description}
       image={MetaData.img}
       hrefLangPath={MetaData.hrefLangPath}>
-      <HeroSection></HeroSection>
-      <CardsSection></CardsSection>
-      <MediumSection></MediumSection>
+      <HeroSection/>
+      <CardsSection/>
+      <MediumSection/>
     </Layout>
   );
 };
