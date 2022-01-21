@@ -1,4 +1,4 @@
-import React,{ useState, useEffect } from 'react';
+import React from 'react';
 import Layout from '@theme/Layout';
 import useThemeContext from '@theme/hooks/useThemeContext';
 import { Grid } from '@material-ui/core';
