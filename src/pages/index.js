@@ -13,6 +13,13 @@ import Typography from '@material-ui/core/Typography';
 
 import '../css/homepage.css';
 
+const MetaData={
+  title:"Guías para Desarrolladores EOS Costa Rica",
+  description:"Le damos la bienvenida a nuestro portal de aprendizaje de código abierto. Comience su viaje para aprender sobre la tecnología blockchain y todo lo que la hace posible.",
+  img:"../static/img/metaImgBlack.png",
+  hrefLangPath: "https://guias.eoscostarica.io/"
+}
+
 const lightTheme = makeStyles({
   heroButton:{
     width: 131,
