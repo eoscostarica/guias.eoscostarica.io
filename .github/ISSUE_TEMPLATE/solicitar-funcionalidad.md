@@ -1,5 +1,5 @@
 ---
-name: 'Solicitar Funcionalidad '
+name: 'Solicitar Funcionalidad'
 about: Sugiere una idea para este proyecto.
 title: ''
 labels: ''
