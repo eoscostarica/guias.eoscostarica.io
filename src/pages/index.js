@@ -1,5 +1,4 @@
 import React,{ useState, useEffect } from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import useThemeContext from '@theme/hooks/useThemeContext';
 import { Grid } from '@material-ui/core';
@@ -306,7 +305,6 @@ const MediumSection = () => {
 }
 
 const HomePage = () => {
-  const {siteConfig} = useDocusaurusContext();
 
   return (
     <Layout
