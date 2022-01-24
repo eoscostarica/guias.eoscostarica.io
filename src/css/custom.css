@@ -133,11 +133,6 @@ article > div > span.badge.badge--secondary {
   border: solid 1px #dadde1;
 }
 
-.container-border {
-  padding: 25px 16px 24px;
-  border: solid 1px #dadde1;
-}
-
 .content {
   padding-right: 20px;
 }
