@@ -3,7 +3,7 @@ id: proyectos-de-codigo-abierto
 title: Proyectos de Código Abierto
 sidebar_label: Proyectos de Código Abierto
 ---
-import '../src/css/ossProjects.css';
+
 import { Grid, Box } from '@material-ui/core';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -177,7 +177,7 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[0].description}</p>
 			{ projectsData[0].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -192,7 +192,7 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 				</p>
 			))}
 		</Grid>
-		<Grid class='table-container'>
+		<Grid className='table-container'>
 			<table>
 			<tr>
 			<th>EOS Mainnet</th>
@@ -232,17 +232,21 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[0].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[0].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[0].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[0].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -255,7 +259,7 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[1].description}</p>
 			{ projectsData[1].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -272,17 +276,21 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[1].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[1].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[1].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[1].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -294,7 +302,7 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>Edenia, también conocida como <a href='https://eosio.online/'>EOS Costa Rica</a>,
 				se complace en anunciar nuestra colaboración estratégica con el equipo de Proton,
 				una cadena de bloques desarrollada por Metallicus. <a href='https://www.protonchain.com/'>Proton</a> se creó para simplificar
@@ -319,17 +327,21 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[2].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[2].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[2].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[2].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -341,7 +353,7 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[3].description}</p>
 			{ projectsData[3].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -358,17 +370,21 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[3].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={useBaseUrl(logo.image)}/></a>
+					<a href={logo.link}><img className="logo" src={useBaseUrl(logo.image)}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[3].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[3].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[3].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -380,7 +396,7 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[4].description}</p>
 			{ projectsData[4].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -397,17 +413,21 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[4].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={useBaseUrl(logo.image)}/></a>
+					<a href={logo.link}><img className="logo" src={useBaseUrl(logo.image)}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[4].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[4].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[4].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -419,7 +439,7 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[5].description}</p>
 			{ projectsData[5].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -436,17 +456,21 @@ Los siguientes proyectos están dirigidos a la comunidad de desarrolladores.
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[5].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={useBaseUrl(logo.image)}/></a>
+					<a href={logo.link}><img className="logo" src={useBaseUrl(logo.image)}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[5].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[5].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[5].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -482,7 +506,7 @@ También permite que cualquier persona que posea el documento valide el registro
 
 EOS Costa Rica ofrece una amplia variedad de entornos de desarrollo local para la comunidad de desarrolladores EOSIO.
 
-<div class="table-wrapper" markdown="block" style={{overflow: 'scroll', height: '200px'}}>
+<div className="table-wrapper" markdown="block" style={{overflow: 'scroll', height: '200px'}}>
 
 | Entornos de Desarrollo Local | Descripción | 
 | :----------: | :---------: | 
@@ -515,7 +539,7 @@ Configuraciones de ejemplo para diferentes tipos de nodos EOSIO.
 EOS Costa Rica ofrece una amplia variedad de boilerplates para la comunidad de desarrolladores.
 
 
-<div class="table-wrapper" markdown="block" style={{overflow: 'scroll', height: '200px'}}>
+<div className="table-wrapper" markdown="block" style={{overflow: 'scroll', height: '200px'}}>
 
 | Boilerplates | Descripción | 
 | :----------: | :---------: | 
@@ -534,7 +558,7 @@ EOS Costa Rica ofrece una amplia variedad de boilerplates para la comunidad de d
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[6].description}</p>
 			{ projectsData[6].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -551,17 +575,21 @@ EOS Costa Rica ofrece una amplia variedad de boilerplates para la comunidad de d
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[6].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[6].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[6].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[6].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -575,7 +603,7 @@ EOS Costa Rica ofrece una amplia variedad de boilerplates para la comunidad de d
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>Lifebank es una dapp basada en EOSIO que ayuda a las comunidades locales
 				a crear un círculo virtuoso de intercambio de valor entre tres partes: 
 				donantes de vida elegibles, centros comunitarios de donación y empresas 
@@ -601,17 +629,21 @@ EOS Costa Rica ofrece una amplia variedad de boilerplates para la comunidad de d
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[7].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[7].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[7].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[7].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -623,7 +655,7 @@ EOS Costa Rica ofrece una amplia variedad de boilerplates para la comunidad de d
 
 <Grid container>
 	<Grid item md={8} xs={12}>
-		<Grid class="content">
+		<Grid className="content">
 			<p>{projectsData[8].description}</p>
 			{ projectsData[8].website.map((web, i)=>( 
 				<p><li><strong>{web.title}: </strong>
@@ -640,17 +672,21 @@ EOS Costa Rica ofrece una amplia variedad de boilerplates para la comunidad de d
 		</Grid>
 	</Grid>
 	<Grid item md={4} xs={12}>
-		<Grid class="container-border">
+		<Grid className="container-border">
 			{ projectsData[8].logos.map((logo, i)=>(
 				<Grid container id={i}>
-					<a href={logo.link}><img class="logo" src={logo.image}/></a>
+					<a href={logo.link}><img className="logo" src={logo.image}/></a>
 				</Grid>
 			))
 			}
 			{ projectsData[8].images.map((image, i)=>(
 				<>
-				<a href={image.link} id={i}><img class={image.class} src={useBaseUrl(image.image)}/></a>
-				<a href={projectsData[8].href} class="lightbox" id={image.id}><a><img src={useBaseUrl(image.image)}/></a></a>
+				<a href={image.link} id={i}>
+					<img className={image.class} src={useBaseUrl(image.image)}/>
+				</a>
+				<a href={projectsData[8].href} className="lightbox" id={image.id}>
+						<img className="box-img" src={useBaseUrl(image.image)}/>
+				</a>
 				</>
 			))
 			}
@@ -660,7 +696,7 @@ EOS Costa Rica ofrece una amplia variedad de boilerplates para la comunidad de d
 
 ## Paquetes NPM
 
-<div class="table-wrapper" markdown="block" style={{overflow: 'scroll', height: '200px'}}>
+<div className="table-wrapper" markdown="block" style={{overflow: 'scroll', height: '200px'}}>
 
 | Paquetes | Descripción | 
 | :----------: | :---------: | 
