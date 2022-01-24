@@ -128,7 +128,6 @@ article > div > span.badge.badge--secondary {
 	display: none;
 }
 
-
 .container-border {
   padding: 25px 16px 24px;
   border: solid 1px #dadde1;
@@ -168,28 +167,22 @@ article > div > span.badge.badge--secondary {
   bottom: 0;
   padding: 1em;
   background: rgba(0, 0, 0, 0.8);
+  
 }
 
 .lightbox:target {
   display: block;
 }
 
-.lightbox a img{
+.box-img{
   display: block;
   width: auto;
   height: 90%;
   margin:auto;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-}
 
-@media only screen and (max-width: 800px) {
-  .lightbox a img {
-    margin-top: 50%;
-    height: auto;
-  }
 }
 
 .table-container{

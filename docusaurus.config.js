@@ -8,29 +8,24 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
-
-
 const siteConfig = {
-  title: 'Desarrolladores EOS Costa Rica', // Title for your website.
+  title: 'EOS Costa Rica | Guías para desarrolladores',
   tagline: 'Documentación para desarrolladores de EOS Costa Rica',
-  url: 'https://guias.eoscostarica.io', // Your website URL
+  url: 'https://guias.eoscostarica.io', 
   baseUrl: '/', // Base URL for your project */
   //cname: "guias.eoscostarica.io",
-
+  
   i18n: {
     defaultLocale: 'es',
     locales: ['es']
   },
-
-
   // Used for publishing and more
   projectName: 'guias.eoscostarica.io',
   organizationName: 'eoscostarica',
   favicon: 'img/favicon/favicon.ico',
   //scripts: ['https://buttons.github.io/buttons.js','../../scripts/languageSelector.js'],
-
-
   themeConfig: {
+    image: 'img/metaImgBlack.png',
     navbar: {
       title: ' ',
       logo: {
@@ -150,6 +145,16 @@ const siteConfig = {
     ],
   ],
   scripts: [
+    {
+      src:
+        'https://medium-widget.pixelpoint.io/widget.js',
+      async: true,
+    },
+    {
+      src:
+        '../../static/scripts/mediumScript.js',
+      async: true,
+    },
     "https://platform.twitter.com/widgets.js"
   ] 
 };

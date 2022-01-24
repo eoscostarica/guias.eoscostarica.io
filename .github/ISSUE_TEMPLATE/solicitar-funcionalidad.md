@@ -1,4 +1,5 @@
 ---
+
 name: Solicitar Funcionalidad
 about: 'Ideas para funciones nuevas que le gustaría ver en la aplicación '
 title: ''
@@ -18,3 +19,4 @@ Una descripcion clara y concisa de las soluciones o caracteristicas alternativas
 
 **Contexto adicional**
 Añade aqui cualquier otro contexto o capturas de pantalla sobre la feature solicitada.
+
