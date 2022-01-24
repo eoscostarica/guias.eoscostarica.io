@@ -1,7 +1,7 @@
-import React,{ useState, useEffect } from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
 import Layout from '@theme/Layout';
 import useThemeContext from '@theme/hooks/useThemeContext';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { Grid } from '@material-ui/core';
 import { Button } from '@material-ui/core';
 import { Card } from '@material-ui/core';
@@ -299,18 +299,19 @@ const MediumSection = () => {
 }
 
 const HomePage = () => {
+
   const {siteConfig} = useDocusaurusContext();
 
   return (
     <Layout
       permalink="/"
-      title={siteConfig.title}
       description={siteConfig.tagline}>
-      <HeroSection></HeroSection>
-      <CardsSection></CardsSection>
-      <MediumSection></MediumSection>
-    </Layout>
+      <HeroSection/>
+      <CardsSection/>
+      <MediumSection/>
+  </Layout>
   );
+
 };
 
 export default HomePage;
