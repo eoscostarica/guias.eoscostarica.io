@@ -1,38 +1,42 @@
 ---
 name: Reportar Bug
-about: Crea un informe para ayudarnos a mejorar
+about: Reportar que algo no esta funcionando como se espera (pulgas)
 title: ''
 labels: ''
-assignees: ''
+assignees: 
 
 ---
 
-**Describa el error**
-Una descripción clara y concisa de lo que es el error.
+**Describe el bug**
+Una descripcion clara y concisa de lo que es el bug.
 
-**Reproducir**
+**Reproducir pasos**
 Pasos para reproducir el comportamiento:
-1. Vaya a '...'
-2. Haga clic en '....'
-3. Desplácese hacia abajo hasta '....'
-4. Ver error
+
+1. Ir a '...'
+2. Haz click en '....'
+3. Scrollea hasta '....'
+4. Ve el error
 
 **Comportamiento esperado**
-Una descripción clara y concisa de lo que esperaba que sucediera.
+Una descripcion clara y concisa de lo que esperabas que ocurriera.
 
-**Capturas de pantalla**
-Si corresponde, agregue capturas de pantalla para ayudar a explicar su problema.
+**Screenshots**
+Si procede, añade screenshots para ayudar a explicar tu problema.
 
-**Desktop (por favor complete la siguiente información):**
-  - SO: [p. ej. iOS]
-  - Navegador [p. ej. cromo, safari]
-  - Versión [p. ej. 22]
+**Desktop (por favor complete la siguiente informacion):**
 
-**Teléfono inteligente (por favor complete la siguiente información):**
-  - Dispositivo: [p. ej. iphone 6]
-  - SO: [p. ej. iOS8.1]
-  - Navegador [p. ej. navegador de valores, safari]
-  - Versión [p. ej. 22]
+- OS: [por ejemplo iOS]
+- Navegador [por ejemplo, safari]
+- Version [por ejemplo 22]
+
+**Smartphone (por favor complete la siguiente informacion):**
+
+- Dispositivo: [por ejemplo iPhone6]
+- OS: [por ejemplo iOS8.1]
+- Navegador [por ejemplo stock browser, safari]
+- Version [por ejemplo 22]
 
 **Contexto adicional**
-Agregue cualquier otro contexto sobre el problema aquí.
+Añade aqui cualquier otro contexto sobre el problema.
+
