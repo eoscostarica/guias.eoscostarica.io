@@ -1,0 +1,125 @@
+---
+id: nfts-en-eosio
+title: NFTs en el ecosistema de EOSIO
+sidebar_label: NFTs en el ecosistema de EOSIO
+---
+
+import { Grid, Box } from '@material-ui/core';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+Los activos digitales han incursionado en la vida cotidiana de cientos de personas. Utilidades como la verificación de productos, la trazabilidad o la autenticación son algunos de los hechos más importantes para los que se utilizan los tokens no fungibles.
+
+Para recorrer el tema puedes aprender los siguientes aspectos:
+
+## ¿Qué son los NFTs?
+
+NFT es la versión abreviada de Token No Fungible , una aplicación de cadena de bloques que representa la propiedad de cualquier activo físico o digital, tiene la característica de ser única y poco común. Música, videos y arte (digitales) Bienes raíces, joyería o automovilística son solo algunos ejemplos de piezas que pueden tokenizarse como Token No Fungible.
+
+## NTFs Marketplaces
+
+Un Marketplace de NFTs es un lugar conveniente para que las personas descubran, compren y vendan NFT. Las personas pueden encontrar lo que buscan, ya sea arte, videos, imágenes o más.
+Actualmente existe una gran variedad de mercados de NFTs que nos ofrecen contenidos de todo tipo. 
+
+Podemos resaltar características importantes al elegir un mercado para nuestro NFT.
+Necesitamos considerar qué plataforma se adapta mejor al tipo de NFT que tenemos o estamos buscando, cuánto cobrará el mercado por venta, si corresponde, y qué cadena de bloques utiliza. 
+
+## ¿Cuales Marketplaces de NFT existen en EOSIO y que diferencias hay entre estos?
+
+En esta tabla se encuentran algunos de los mejores Marketplaces de NFT en EOSIO, donde puede crear y vender NFT, o simplemente comprar y recolectar nuevos proyectos. Ya sea que esté comprando, vendiendo o simplemente tenga curiosidad sobre NFT.
+
+<Grid className='table-nft-marketplaces'>
+			<table>
+			<tr>
+			<th>Marketplace</th>
+			<th>Descripción</th>
+			<th>Especificaciones</th>
+			</tr>
+			<tr>
+			<td>
+				<a href="https://www.protonmarket.com/">
+					<img src="https://www.protonmarket.com/beta-logo.svg"/>
+				</a>
+			</td>
+			<td>
+                <p>A través de Proton Market, cualquiera puede crear, acuñar y vender NFT fácil y rápidamente a una fracción del costo de otras plataformas NFT.</p>
+            </td>
+			<td>
+                <p><strong>Tipo NFT:</strong> Juegos, música, coleccionables, Personajes virtuales y más.</p>
+                <p><strong>Blockchain:</strong> Proton.</p>
+            </td>
+			</tr>
+            <tr>
+			<td>
+				<a href="https://areaxnft.com/">
+					<img src="https://areaxnft.com/img/areax%20logo%20light.68b6831b.svg"/>
+				</a>
+			</td>
+			<td>
+                <p>AreaX NFT es un Marketplace basado en el estándar de la cadena de bloques de Telos.</p>
+            </td>
+			<td>
+                <p><strong>Tipo NFT:</strong> Arte digital, memes, musica, videos and más.</p>
+                <p><strong>Blockchain:</strong> Telos.</p>
+            </td>
+			</tr>
+             <tr>
+			<td>
+				<a href="https://wax.atomichub.io/">
+					<img className='atomicHubLogo' src="https://wax.atomichub.io/images/logos/atomichub.svg"/>
+				</a>
+			</td>
+			<td>
+                <p>The NFT marketplace para juegos y coleccionables.</p>
+            </td>
+			<td>
+                <p><strong>Tipo NFT:</strong> Arte digital, carros, colecciones raras, etc.</p>
+                <p><strong>Blockchain:</strong> Wax.</p>
+            </td>
+			</tr>
+			</table>
+		</Grid>
+
+## ¿Qué es IPFS y cómo se usa para NFT?
+
+Primero definamos qué es IPFS, en pocas palabras IPFS es un sistema de archivos distribuido que almacena imágenes, videos, documentos y más. Cuando hablamos de cómo se usa IPFS para NFT, se trata de almacenamiento y seguridad.
+
+Cuando creamos una NFT, se vincula automáticamente a un archivo digital que se almacena en un sistema, por lo tanto, debemos considerar la importancia de cómo se vinculan los datos a ese sistema.
+
+IPFS tiene direccionamiento de contenido, esto genera un identificador de contenido (CID) que se vincula directamente al archivo almacenado en la red de IPFS, el CID solo se puede vincular a un archivo específico, esto nos da la seguridad de que nadie puede reemplazar el contenido sin dañar el enlace.
+
+## ¿Qué ventajas y desventajas poseen los Marketplaces del ecosistema EOSIO sobre los otros?
+
+
+<Grid className='table-nft-marketplaces'>
+    <table>
+    <tr>
+    <th><p className='icono'><img src={useBaseUrl('img/nft-on-eosio/check-32.png')}/></p>Ventajas</th>
+    
+    <th><p className='icono'><img src={useBaseUrl('img/nft-on-eosio/delete-32.png')}/></p>Desventajas</th>
+    </tr>
+    <tr>
+    <td>
+        <p>Proton, WAX y Telos tienen diferencias distinguibles sobre otras Blockchains. Una de las principales preocupaciones es la tarifa de gas por transacción, que es muy baja o nula. El ecosistema tiene esa ventaja.</p>
+    </td>
+    <td>
+        <p>Estos Market Places no reciben conexiones con las billeteras más populares como Metamask, CoinbaseWallet, Wallet Connect u otras.</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+        <p>Crear el NFT es un proceso en el que debe tener cuidado y estar preparado para administrar el proceso. La experiencia de subir tu criptoarte es una de las más fáciles, con no más de 5 pasos.</p>
+    </td>
+    <td>
+        <p>Solamente se puede usar billeteras permitidas por el ecosistema eosio.</p>
+    </td>
+    </tr>
+    <tr>
+    <td>
+        <p>En Proton, solo necesita tener la autenticación de la billetera administrada por su perfil.</p>
+    </td>
+    <td>
+        <p>No son tan conocidos como los Marketplaces de Ethereum.</p>
+    </td>
+    </tr>
+    </table>
+</Grid>

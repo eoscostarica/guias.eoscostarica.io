@@ -14,7 +14,7 @@ module.exports = {
       "herramientas-para-desarrolladores-ux-ui",
       "devops",
     ],
-    "Blockchain EOSIO": [
+    "Aprender EOSIO": [
       "aprender-eosio/protocolo-eosio",
       "aprender-eosio/mecanismo-de-consenso",
       "aprender-eosio/uso-de-recursos",
@@ -27,6 +27,7 @@ module.exports = {
       "aprender-eosio/contratos-inteligentes",
       "aprender-eosio/contratos-ricardianos",
       "aprender-eosio/seguridad-blockchain",
+      "aprender-eosio/nfts-en-eosio",
     ],
     Tutoriales: [
       "tutoriales/contrato-hola-mundo",
