@@ -43,6 +43,7 @@ module.exports = {
       "tutoriales/publicacion-de-paquetes",
       "tutoriales/tutorial-flujo-trabajo-git",
       "tutoriales/tutorial-react",
+      "tutoriales/como-mintear",
     ],
     Herramientas: [
       "herramientas/glosario",
