@@ -1,80 +1,121 @@
 ---
 id: como-mintear
-title: ¿Cómo mintear NFTs?
-sidebar_label: ¿Cómo mintear NFTs?
+title: ¿Cómo acuñar NFTs?
+sidebar_label: ¿Cómo acuñar NFTs?
 ---
 
-import { Grid, Box, FormItem } from '@material-ui/core';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import { CustomStepper } from '../../src/components'; 
+import { Grid, Box, FormItem } from "@material-ui/core";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import { CustomStepper } from "../../src/components";
 
 export const atomicHubStepper = [
-    {
-        instruction: 'Ir a wax.atomichub.io para poder conectar nuestra billetera, en este caso hemos seleccionado Anchor.',
-        imageSrc: 'img/como-mintear/wax_1.png',
-        href: '#atomichub'
-    },
-    {
-        instruction: "Click en crear nueva colección",
-        imageSrc: 'img/como-mintear/wax_2.png',
-        href: '#atomichub'
-    },
-    {
-        instruction: 'Rellena los espacios: Nombre de la colección, Nombre para su exposición y una descripción, finalmente ajuste su comisión por venta en mercado.',
-        imageSrc: 'img/como-mintear/wax_3.png',
-        href: '#atomichub'
-    }
-]
+  {
+    instruction:
+      "Ir a wax.atomichub.io para poder conectar nuestra billetera, en este caso hemos seleccionado Anchor Wallet.",
+    imageSrc: "img/como-mintear/wax_1.png",
+    href: "#atomichub",
+  },
+  {
+    instruction: "Click en crear nueva colección",
+    imageSrc: "img/como-mintear/wax_2.png",
+    href: "#atomichub",
+  },
+  {
+    instruction:
+      "Rellena los espacios: Nombre de la colección, Nombre para su exposición y una descripción, finalmente ajuste su comisión por venta en mercado.",
+    imageSrc: "img/como-mintear/wax_3.png",
+    href: "#atomichub",
+  },
+  {
+    instruction:
+      "Cree un nuevo esquema para su activo. Este es el preámbulo utilizado para exponer su activo digital. En la derecha, añadir un nuevo atributo no es necesario.",
+    imageSrc: "img/como-mintear/wax_4.png",
+    href: "#atomichub",
+  },
+  {
+    instruction:
+      "Finalmente puede acuñar su activo NFT. Establezca el archivo que desea exponer y el número de copias (1-10).",
+    imageSrc: "img/como-mintear/wax_5.png",
+    href: "#atomichub",
+  },
+  {
+    instruction:
+      "Regresa a la opción 'NFT creator' y haz clic en la nueva colección para publicar tu artículo, en la opción 'Mark for sale'. Podrá fijar el precio de venta. Confirme la transacción.",
+    imageSrc: "img/como-mintear/wax_6.png",
+    href: "#atomichub",
+  },
+];
 
 export const areaxStepper = [
-    {
-        instruction: 'Ir a Areaxnft.com para poder conectar nuestra billetera, en este caso hemos seleccionado Anchor.',
-        imageSrc: 'img/como-mintear/telos_1.png',
-        href: '#areax-marketplace'
-    },
-    {
-        instruction: "Una vez que haya conectado su billetera, hará clic en Crear NFT. Seleccione el tipo de conjunto que necesita. La cantidad de $ TLOS que necesitará para Mintear dependerá de la cantidad de NFT que vaya a subir.",
-        imageSrc: 'img/como-mintear/telos_2.png',
-        href: '#areax-marketplace'
-    },
-    {
-        instruction: 'En esta sección, como puede ver, debe configurar la información para obtener una vista previa del NFT: nombre, tipo de activo, URLs de IPFS. Luego haga clic en Crear NFT.',
-        imageSrc: 'img/como-mintear/telos_3.png',
-        href: '#areax-marketplace'
-    }
-]
+  {
+    instruction:
+      "Ir a Areaxnft.com para poder conectar nuestra billetera, en este caso hemos seleccionado Anchor Wallet.",
+    imageSrc: "img/como-mintear/telos_1.png",
+    href: "#areax-marketplace",
+  },
+  {
+    instruction:
+      "Una vez que haya conectado su billetera, hará clic en Crear NFT. Seleccione el tipo de conjunto que necesita. La cantidad de $ TLOS que necesitará para acuñar dependerá de la cantidad de NFT que vaya a subir.",
+    imageSrc: "img/como-mintear/telos_2.png",
+    href: "#areax-marketplace",
+  },
+  {
+    instruction:
+      "En esta sección, como puede ver, debe configurar la información para obtener una vista previa del NFT: nombre, tipo de activo, URLs de IPFS. Luego haga clic en Crear NFT.",
+    imageSrc: "img/como-mintear/telos_3.png",
+    href: "#areax-marketplace",
+  },
+  {
+    instruction:
+      "Regrese a su perfil principal y en clickea la opción 'My Items', puede observar que existe un opción adicional de 'Sell item' la cual permite ponerle precio a su NFT en diferentes criptomonedas envueltas de EOSIO.",
+    imageSrc: "img/como-mintear/telos_4.png",
+    href: "#areax-marketplace",
+  },
+];
 
 export const protonStepper = [
-    {
-        instruction: 'Ir a Protonmarket.com para poder conectar nuestra billetera, en este caso hemos seleccionado WebAuth.',
-        imageSrc: 'img/como-mintear/proton_1.png',
-        href: '#proton-marketplace'
-    },
-    {
-        instruction: "Una vez que haya conectado su billetera, haga clic en Create y llene los espacios correspondientes a la vista previa de su NFT.",
-        imageSrc: 'img/como-mintear/proton_2.png',
-        href: '#proton-marketplace'
-    },
-    {
-        instruction: 'Debe subir el archivo de tu crypto arte y la abajo poner la información del NFT: nombre, descripción, número de activo y número que desea mintear en un principio.',
-        imageSrc: 'img/como-mintear/proton_3.png',
-        href: '#proton-marketplace'
-    },
-    {
-        instruction: 'Cuando haya terminado, haga clic en Crear NFT. Necesitarás tener al menos 1 $XUSDC para Mintear el NFT. Luego firme la confirmación.',
-        imageSrc: 'img/como-mintear/proton_4.png',
-        href: '#proton-marketplace'
-    },
-    {
-        instruction: 'Una vez que obtenga su NFT cargado, puede verla en My items. Debe hacer clic en Mark for Sale, para ponerle el precio al activo.',
-        imageSrc: 'img/como-mintear/proton_5.png',
-        href: '#proton-marketplace'
-    }
-]
+  {
+    instruction:
+      "Ir a Protonmarket.com para poder conectar nuestra billetera, en este caso hemos seleccionado WebAuth.",
+    imageSrc: "img/como-mintear/proton_1.png",
+    href: "#proton-marketplace",
+  },
+  {
+    instruction:
+      "Una vez que haya conectado su billetera, haga clic en Create y llene los espacios correspondientes a la vista previa de su NFT.",
+    imageSrc: "img/como-mintear/proton_2.png",
+    href: "#proton-marketplace",
+  },
+  {
+    instruction:
+      "Debe subir el archivo de tu crypto arte y la abajo poner la información del NFT: nombre, descripción, número de activo y número que desea acuñar en un principio.",
+    imageSrc: "img/como-mintear/proton_3.png",
+    href: "#proton-marketplace",
+  },
+  {
+    instruction:
+      "Cuando haya terminado, haga clic en Crear NFT. Necesitarás tener al menos 1 $XUSDC para acuñar el NFT. Luego firme la confirmación.",
+    imageSrc: "img/como-mintear/proton_4.png",
+    href: "#proton-marketplace",
+  },
+  {
+    instruction:
+      "Una vez que obtenga su NFT cargado, puede verla en My items. Debe hacer clic en Mark for Sale, para ponerle el precio al activo.",
+    imageSrc: "img/como-mintear/proton_5.png",
+    href: "#proton-marketplace",
+  },
+];
 
-Las siguientes instrucciones están diseñadas para ayudarlo en el proceso de creación de un NFT, o sea, mintear. Verá estos, basados ​​en los marketplaces de las Sisterchains de EOS:
+Las siguientes instrucciones están diseñadas para ayudarlo en el proceso de creación de un NFT, o sea, acuñar. Verá estos, basados ​​en los marketplaces de las Sisterchains de EOS:
 
-## Proton Marketplace  
+## Proton Marketplace
 
-<CustomStepper Content={protonStepper}/>
+<CustomStepper Content={protonStepper} />
 
+## AreaX NFT
+
+<CustomStepper Content={areaxStepper} />
+
+## AtomicHub
+
+<CustomStepper Content={atomicHubStepper} />
