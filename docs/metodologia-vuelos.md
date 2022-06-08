@@ -33,6 +33,7 @@ Las tareas pueden ser cualquier cosa que deba hacerse, pero no están restringid
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/pCShsesxRZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 Como regla general, tiene sentido reservar un vuelo con tareas que van juntas, dependen unas de otras o se espera que aterricen al mismo tiempo.
 Sin embargo, nada le impide agregar tareas no relacionadas a un vuelo si hay "espacio para ello".
 
