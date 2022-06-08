@@ -1,5 +1,5 @@
 ---
-id: Metodología de vuelo
+id: metodologia-vuelo
 title: Metodología de vuelo
 sidebar_label: metodología de vuelo
 ---
