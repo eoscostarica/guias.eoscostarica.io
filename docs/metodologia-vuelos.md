@@ -6,7 +6,7 @@ sidebar_label: Metodología de vuelo
 
 ## Agilidad Edenia
 
-Nosotros en Edenia somos una empresa que utilizamos metodologías ágiles, que se puedan adaptar a nuestra forma flexible de trabajar ya que nos gusta ser flexibles, a la hora del cambio y la incertidumbre por lo que desarrollamos un híbrido de diferentes metodologías ágiles aplicadas y tropicalizadas a nuestra necesidad de procesos.
+Buscamos ser una empresa innovadora no solo en el ámbito tecnológico sino también en los procesos que desarrollamos para maximizar el rendimiento y el ambiente laboral de nuestros colaboradores.
 
 ## Ceremonias:
 
