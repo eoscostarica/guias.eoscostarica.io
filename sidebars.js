@@ -52,6 +52,7 @@ module.exports = {
       "herramientas/explorador-de-bloques",
       "herramientas/librerias-sdk",
       "herramientas/plantilla-readme",
+      "herramientas/plantilla-readme-codigo-fuente",
       "herramientas/preguntas-frecuentes",
     ],
     Comunidad: [
