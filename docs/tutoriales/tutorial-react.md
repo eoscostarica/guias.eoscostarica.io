@@ -210,7 +210,7 @@ Para más informacion sobre [HoC](https://es.reactjs.org/docs/higher-order-compo
 
 React utiliza componentes reusables para todas las aplicaciones, estos componentes pueden tener varias versiones, que puede generar conflictos al hacer pequeños cambios. [Storybook](https://storybook.js.org/) es una herramienta opensource que sirve para crear componentes visuales de forma aislada donde se pueden organizar los componentes y sus versiones en historias.
 
-EOS Costa Rica utiliza [Storybook EOS Costa Rica](https://components.eosio.cr/?path=/story/issuanceverifier--issuance-verifier-wrapper) para la creación de sus componentes. Para utilizar estos componentes de `eoscr-components` te dejamos la guía de intalación en [este sitio](https://www.npmjs.com/package/@eoscostarica/eoscr-components#installation).
+EOS Costa Rica utiliza [Storybook EOS Costa Rica](https://components.edenia.cloud/) para la creación de sus componentes. Para utilizar estos componentes de `eoscr-components` te dejamos la guía de intalación en [este sitio](https://www.npmjs.com/package/@eoscostarica/eoscr-components#installation).
 
 ### Storybook
 

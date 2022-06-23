@@ -5,7 +5,7 @@ sidebar_label: Guía GitHub
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-[GitHub](https://docs.github.com/en/free-pro-team@latest/github) es un sistema de gestión de proyectos en la nube que permite a los desarrolladores almacenar y tener un control de versiones de código. Esta plataforma te permite trabajar en colaboración con otras personas alrededor del mundo, realizar seguimientos de trabajos y administrar proyectos. [Conoce más de GitHub](https://www.xataka.com/basics/que-github-que-que-le-ofrece-a-desarrolladores).
+[GitHub](https://docs.github.com/es/) es un sistema de gestión de proyectos en la nube que permite a los desarrolladores almacenar y tener un control de versiones de código. Esta plataforma te permite trabajar en colaboración con otras personas alrededor del mundo, realizar seguimientos de trabajos y administrar proyectos. [Conoce más de GitHub](https://www.xataka.com/basics/que-github-que-que-le-ofrece-a-desarrolladores).
 
 Para EOS Costa Rica, es de suma importancia que nuestros colaboradores se familiaricen con esta herramienta, por lo que les ofrecemos a continuación una guía base para empezar en el mundo de GitHub.
 

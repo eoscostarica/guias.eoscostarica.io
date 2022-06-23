@@ -64,8 +64,8 @@ Acontinuación observaremos ejemplos de sintaxis básica y estructural, para pro
 | [Linea Horizontal](#horizontal-rule) | --- |
 | [Enlaces](https://www.markdownguide.org/basic-syntax/#links) | `[título](https://www.example.com)` |  
 | [Imagen](https://www.markdownguide.org/basic-syntax/#images-1) | `![texto](image.jpg)` |
-|[Salto de Línea](#line-break) | texto + doble espacio |
-| [Comentarios](#comments) | `<!---Comentario--->` |
+|[Salto de Línea](#salto-de-línea) | texto + doble espacio |
+| [Comentarios](#comentarios) | `<!---Comentario--->` |
 
 
 
