@@ -113,7 +113,7 @@ p2p-peer-address = API_NODE_IP:API_NODE_PORT
 }
 ```
 
-> Sustituye `EOS_PUB_DEV_KEY` por su valor correspondiente. Para ver cómo generar un par de claves, consulta [nuestra guía](https://guide.eoscostarica.io/docs/eos-learn/private-keys/) sobre este tema.
+> Sustituye `EOS_PUB_DEV_KEY` por su valor correspondiente. Para ver cómo generar un par de claves, consulta [nuestra guía](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas) sobre este tema.
 
 ### `start.sh`
 ```bash
@@ -189,7 +189,7 @@ $ cleos -u http://URL_NODO_DESTINO system regproducer testproducer EOS_PUB_KEY "
 ```
 Para una información más detallada sobre el comando anterior, por favor ve [aquí](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
-Ahora, el nodo está configurado. Si configuraste este nodo para operar en una Red Privada, necesitas asegurarte de que tu nodo está incluido en la de productores. Consulta nuestra [guía](https://guide.eoscostarica.io/docs/tutorials/private-network-installation/#set-block-producers-schedule) para ver más información sobre esto.
+Ahora, el nodo está configurado. Si configuraste este nodo para operar en una Red Privada, necesitas asegurarte de que tu nodo está incluido en la de productores. Consulta nuestra [guía](https://guias.eoscostarica.io/docs/tutoriales/instalacion-de-red-privada) para ver más información sobre esto.
 
 Por otro lado, si quieres producir bloques en una red de prueba, los poseedores de tokens tienen que votar por ti para estar entre los 21 principales productores de bloques.
 
@@ -207,7 +207,7 @@ Supongamos que vamos a utilizar un **snapshot** de Jungle Testnet. Procede a eje
 $ wget https://backup.cryptolions.io/Jungle/snapshots/latest-snapshot.bin -P ~./local/share/eosio/nodeos/data/snapshots/
 ```
 
-Ahora que el **snapshot** se ha descargado, puedes utilizar el mismo script [`start.sh`](###startsh) para iniciar el nodo, sólo tienes que eliminar la bandera `--genesis-json` en el script, por lo que la función `start_fresh_nodes` en el archivo se verá así:
+Ahora que el **snapshot** se ha descargado, puedes utilizar el mismo script [`start.sh`](#startsh) para iniciar el nodo, sólo tienes que eliminar la bandera `--genesis-json` en el script, por lo que la función `start_fresh_nodes` en el archivo se verá así:
 
 ```bash
 start_fresh_nodeos() {
