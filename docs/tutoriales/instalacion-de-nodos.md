@@ -227,6 +227,5 @@ Para configurar un nodo en el Kylin Testnet, por favor ve al repositorio [Crypto
 
 # Referencias
 - [Información sobre Snapshots](https://developers.eos.io/search?query=snapshot).
-- [Configure a EOS Node on Linux](https://steemit.com/eos/@attic-lab/.how-to-install-eos-node-on-linux-step-by-step-guide-by-attic-lab).
 - [Cryptolions Testnet Auto-Installer script](http://monitor.jungletestnet.io/#register).
 - [CryptoKylin-Testnet Github repo](https://github.com/cryptokylin/CryptoKylin-Testnet)

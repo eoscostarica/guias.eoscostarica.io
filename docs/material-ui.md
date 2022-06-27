@@ -30,9 +30,6 @@ Contamos con nuestra propia Librería de `Material Design` para facilitar el des
 
 Puede consultar nuestro portafolio en `Zeplin` para obtener más detalles de nuestros componentes.
 
-- [Proyecto en Zeplin](https://zpl.io/brZKD4L)
-- [Escena de Zeplin](https://scene.zeplin.io/project/5ea8f7f46cfde425751bc5ec)
-
 ### Paquete de NPM de Nuestro Tema de Material UI
 
 - **GitHub** : https://github.com/eoscostarica/eoscr-theme
