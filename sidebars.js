@@ -49,6 +49,7 @@ module.exports = {
       "herramientas/glosario",
       "herramientas/linea-de-comando",
       "herramientas/opciones-configuracion-nodeos",
+      "herramientas/ejemplos-configuracion-nodeos",
       "herramientas/explorador-de-bloques",
       "herramientas/librerias-sdk",
       "herramientas/plantilla-readme",
