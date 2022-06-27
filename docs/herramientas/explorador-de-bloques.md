@@ -41,7 +41,3 @@ https://park.io/
 ## EOSDAC Explorer
 
 https://explorer.eosdac.io
-
-## EOS Radar
-
-https://www.eos-radar.com/

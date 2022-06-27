@@ -19,10 +19,6 @@ aplicaciones en la red de LACChain impulsada por tecnología EOSIO.
 
 * * *
 
-- [BOSCore](https://boscore.io/): Una cadena de bloques de alta velocidad y baja finalidad para negocios y empresas que busca implementar computación paralela e IBC.
-
-* * *
-
 - [EOS FORCE](https://medium.com/@forceusa.io/eos-vs-eos-force-what-are-the-differences-5382242f4217): Es una red de cadena de bloques estructurada de cadenas múltiples de alto rendimiento, con la cadena principal desarrollada por el equipo de EOSForce basada en EOSIO de código abierto.
 
 <figure class="video_container">
