@@ -59,13 +59,13 @@ Acontinuación observaremos ejemplos de sintaxis básica y estructural, para pro
 | [Tipografía Negrita](https://www.markdownguide.org/basic-syntax/#bold) |  `**Texto**` or `__texto__` |
 | [Tipografía Itálica](https://www.markdownguide.org/basic-syntax/#italic) |   `*texto*` or  `_texto_`|
 | [Citas en Bloque](https://www.markdownguide.org/basic-syntax/#blockquotes-1)    | > Citas en bloque  |
-| [Lista Numérica](#ordered-list) | 1. Primer Item <br /> 2. Segundo Item <br /> 3. Tercer Item  |
-| [Lista no Ordenada](#unordered-list) | - Primer Item <br /> - Segundo Item <br /> - Tercer Item |
-| [Linea Horizontal](#horizontal-rule) | --- |
+| [Lista Numérica](#lista-ordenada) | 1. Primer Item <br /> 2. Segundo Item <br /> 3. Tercer Item  |
+| [Lista no Ordenada](#lista-no-ordenada) | - Primer Item <br /> - Segundo Item <br /> - Tercer Item |
+| [Linea Horizontal](#Líneas-Horizontales) | --- |
 | [Enlaces](https://www.markdownguide.org/basic-syntax/#links) | `[título](https://www.example.com)` |  
 | [Imagen](https://www.markdownguide.org/basic-syntax/#images-1) | `![texto](image.jpg)` |
-|[Salto de Línea](#line-break) | texto + doble espacio |
-| [Comentarios](#comments) | `<!---Comentario--->` |
+|[Salto de Línea](#salto-de-línea) | texto + doble espacio |
+| [Comentarios](#comentarios) | `<!---Comentario--->` |
 
 
 

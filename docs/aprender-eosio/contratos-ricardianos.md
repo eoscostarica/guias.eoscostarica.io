@@ -17,7 +17,7 @@ Son documentos digitales que definen los términos y condiciones entre los invol
 ### Contratos Ricardianos en EOSIO
 Las cadenas de bloques operan bajo contratos inteligentes, sin embargo, se está trabajando para incluir los contratos ricardianos en las transacciones de estas redes. Uno de los objetivos principales es convertir la complejidad del código observado dentro de la tecnología Blockchain en un lenguaje más simple para que cualquiera pueda entenderlo.
 
-EOS Costa Rica ha desarrollado un componente de React que renderiza contratos ricardianos para contratos inteligentes en redes EOSIO. Puede ver el componente de React en el siguiente [enlace](https://components.eosio.cr/?path=/story/ricardiancontract--ricardian-contract). En ese enlace, vaya a la sección `Knobs` para modificar` httpEndpoint` y `contractName`. Una vez hecho esto, consulte el Contrato Ricardiano para un Contrato Inteligente. Por ejemplo, configure:
+EOS Costa Rica ha desarrollado un componente de React que renderiza contratos ricardianos para contratos inteligentes en redes EOSIO. Puede ver el componente de React en el siguiente [enlace](https://github.com/eoscostarica/eosio-components/blob/master/src/stories/RicardianContract.stories.jsx). En ese enlace, vaya a la sección `Knobs` para modificar` httpEndpoint` y `contractName`. Una vez hecho esto, consulte el Contrato Ricardiano para un Contrato Inteligente. Por ejemplo, configure:
 ```
 httpEndpoint: https://lacchain.eosio.cr
 contractName: eosio

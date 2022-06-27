@@ -28,7 +28,7 @@ Una cuenta puede definir una asignación entre cualquiera de sus permisos nombra
 
 En otras palabras, el permiso de cada cuenta se puede vincular a una tabla de autoridad utilizada para determinar si se puede satisfacer una autorización de acción determinada.
 
-Para obtener más información sobre estos conceptos, consulte [documentación de cuentas y permisos](https://developers.eos.io/welcome/latest/protocol/accounts_and_permissions).
+Para obtener más información sobre estos conceptos, consulte [documentación de cuentas y permisos](https://developers.eos.io/welcome/v2.1/smart-contract-guides/before-you-begin/accounts-and-permissions).
 
 
 ## Autenticado (Wallets)

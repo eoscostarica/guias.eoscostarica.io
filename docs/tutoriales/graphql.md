@@ -733,6 +733,6 @@ Cada campo de cada tipo está respaldado por una función llamada resolver que e
 
 #### Servicios
 
-- [**Apollo:**](https://guide.eoscostarica.io/docs/developer-tools#apollo) Un servicio en la nube para monitorear el rendimiento y el uso de su backend GraphQL.
-- [**Hasura:**](https://guide.eoscostarica.io/docs/developer-tools#hasura) Hasura se conecta a sus bases de datos y microservicios y le brinda instantáneamente una API GraphQL lista para producción.
-- [**Postman:**](https://guide.eoscostarica.io/docs/developer-tools#postman) Un cliente HTTP que admite la edición de consultas GraphQL.
+- [**Apollo:**](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#apollo) Un servicio en la nube para monitorear el rendimiento y el uso de su backend GraphQL.
+- [**Hasura:**](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#hasura) Hasura se conecta a sus bases de datos y microservicios y le brinda instantáneamente una API GraphQL lista para producción.
+- [**Postman:**](https://guias.eoscostarica.io/docs/herramientas-para-desarrolladores#postman) Un cliente HTTP que admite la edición de consultas GraphQL.
