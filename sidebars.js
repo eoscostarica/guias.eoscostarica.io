@@ -4,6 +4,7 @@ module.exports = {
       "pautas-para-codigo-abierto",
       "cultura-ingenieril",
       "metodologias-agiles",
+      "metodologia-vuelos",
       "programacion-parejas-grupos",
       "herramientas-para-desarrolladores",
       "proyectos-de-codigo-abierto",
