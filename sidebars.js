@@ -14,6 +14,8 @@ module.exports = {
       "redes-sociales",
       "herramientas-para-desarrolladores-ux-ui",
       "devops",
+      "interplanetary-file-system",
+
     ],
     "Aprender EOSIO": [
       "aprender-eosio/protocolo-eosio",
