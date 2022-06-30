@@ -6,7 +6,7 @@ sidebar_label: Migración de EOSIO a Mandel
 
 ## Descontento con Block One
 
-En el año 2021, la comunidad de EOS se sentía decepcionada por el compromiso de [Block One](https://block.one/) con la blockchain de EOS, según la [EOS Network Foundation](https://eosnetwork.com/) (ENF) por la falta de propuestas de casos de uso y el poco soporte a la red blockchain al no cumplir con sus promesas. Por lo que, mediante un consenso mayoritario, la comunidad afirma que la empresa ya no actúa en el mejor interés de la red y detuvieron los pagos continuos que recibía la empresa destinados a mantenimiento.
+En el año 2021, la comunidad de EOS se sentía decepcionada por el compromiso de [Block One](https://block.one/) con la blockchain de EOS, según la [EOS Network Foundation](https://eosnetwork.com/) (ENF) por la falta de propuestas de casos de uso y el poco soporte a la red blockchain al no cumplir con sus promesas. Por lo que, mediante un consenso mayoritario de los nodos productores de bloques, la comunidad afirma que la empresa ya no actúa en el mejor interés de la red y detuvieron los pagos continuos que recibía la empresa destinados a mantenimiento.
 
 Tras la ruptura con B1 el fundador de EOS Daniel Larimer indica que era necesario reestructurar y efectuar una reformulación de la marca de EOS tanto su nombre como su visión y objetivos. También, indica que dicha situación comienza una nueva era de EOS al despedir a B1 y dejar de otorgarles tokens, ya que, permite enfrentar a los intereses corporativos que no se alinean con los de la comunidad EOS.
 
@@ -14,9 +14,9 @@ La visión de la EOS Network Foundation es construir un futuro descentralizado q
 
 ## EOSIO vs Mandel
 
-Debido al descontento y que se apartará B1 es que la comunidad de EOS no quiere que se incluya todo el código de versiones más recientes del protocolo, como EOSIO 2.1 y EOSIO 2.2, por lo que, la red blockchain EOS no ha sido actualizada desde EOSIO 2.0. 
+La comunidad de EOS no quería que se incluya todo el código de versiones más recientes del protocolo, por motivo de que algunas de las funciones agregadas no se alineaban con los intereses de la comunidad, entonces, se decide partir de la versión de EOSIO 2.0.13 utilizando solo algunas de las funciones nuevas de EOSIO 2.1.0 y EOSIO 2.2.0.
 
-Por esta razón, surge como candidato Mandel (abreviación de Mandelbrot) que es una bifurcación del código de EOSIO, realizada por el equipo de [ƒractally](https://fractally.com/) (antes Clarion OS), con el propósito de tomar algunas de las mejoras más valiosas de EOSIO 2.1 y algunas unas pocas de EOSIO 2.2. Además, de agregar dos nuevos hard forks: [contratos de paga](https://eoscommunity.github.io/clsdk-docs/book/std/cpay/index.html) (Contract Pays) y mejoras en la configuración de los parámetros de la blockchain. 
+Por esta razón, surge como candidato Mandel (abreviación de Mandelbrot) que es una bifurcación del código de EOSIO, realizada por el equipo de [ƒractally](https://fractally.com/) (antes Clarion OS), con el propósito de tomar algunas de las mejoras más valiosas de EOSIO 2.1 y algunas unas pocas de EOSIO 2.2. Además, de actualizar el protocolo con [contratos de paga](https://eoscommunity.github.io/clsdk-docs/book/std/cpay/index.html) (Contract Pays) y mejoras en la configuración de los parámetros de la blockchain. 
 
 Además, cabe resaltar que Mandel es un nombre provisional. Para más información visite [Mandel releva a EOSIO](https://medium.com/edenoneos/eos-mandel-to-takeover-eosio-in-2022-2e25bf5451f0).
 
