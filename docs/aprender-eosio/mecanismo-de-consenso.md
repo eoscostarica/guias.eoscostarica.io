@@ -6,8 +6,62 @@ sidebar_label: Mecanismo de Consenso
 
 El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.
 
-EOSIO delegará la autoridad para validar y escribir nuevos bloques a un grupo de nodos que llamamos **Productores de Bloques**.
+Un Algoritmo de consenso es un proceso en Ciencias de la Computación usado para lograr acuerdo en un sólo valor de datos entre procesos o sistemas distribuidos.
 
+La tecnología Blockchain depende de Algoritmos de Consenso para lograr un acuerdo entre los nodos. Un blokchain puede ser pensado como una base de datos descentralizada que es manejada por computadoras distribuidas en una red de punto a punto (P2P). Cada punto mantiene una copia del estado de la red para prevenir un punto único de fallo (en inglés SPOF). Actualizacioes y validaciones son reflejadas en todas las copias simultáneamente.
+
+Dentro de los mecanismos de consenso encontramos los siguientes (Por orden cronológico):
+## Proof of Work (PoW)
+
+<figure class="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/3EUAcxhuoU4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+Es el primer mecanismo de consenso presentado por Satoshi Nakamoto en el whitepaper del Bitcoin en el 2008, en este consenso un grupo de transacciones denominadas "Mempool" son verificadas por los "mineros", los cuales resuelven un complejo problema matemático (mismo que aumenta en complejidad entre más se validen bloques) por lo que se requieren equipos de cómputo en este caso de "minería" especializados y a su vez grandes cantidades de energía.
+
+El primer minero que encuentre la solución al problema y esta sea probada por los demás mineros obtiene el derecho de agregar el "Mempool" al blockchain y obtener una recompensa de bloque o "Block reward" compuesta por criptomonedas generadas por las comisiones de transacción.
+
+Debido a los altos requerimientos para poder "minar" se han formado grupos de minado o "Pool mining" con el de fin de lograr encontrar la solución al problema matemático con la utilización de recursos, con ello tener mejores oportunidades de encontrar la solución primero que los mineros individuales con mayores recursos y la recompensa obtenida es repartida entre los miembros del pool.
+
+Si se desea obtener más información puede visitar el siguiente [enlace](https://guias.eoscostarica.io/docs/herramientas/glosario#proof-of-work).
+
+## Proof of Stake (PoS)
+
+<figure class="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/psKDXvXdr7k" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+Este mecanismo de consenso nace con el 2011 con el fin de eliminar aquellas limitaciones presentes en su antecesor proof of work, teniendo en lugar de "mineros" que requieren recursos para la verificación de transacciones tales como equipos especializados y grandes cantidades energía a los "validadores" los cuales son dueños de monedas y ponen como colateral ["Stake"](https://guias.eoscostarica.io/docs/herramientas/glosario/#stake) cierta cantidad de monedas, siendo escogido de manera aleatoria los validadores responsables de "validar" o "minar" en caso de que exista un validador corrupto perderá el stake y no podrá ser validador en el futuro.
+
+Para la validación de transacciones se requieren que 2/3 del total de los validadores aprueben y el bloque de transacciones. Para la elección de los validadores se toma en consideración los siguientes aspectos:
+
+- Cantidad de moneda (Entre más alta sea cantidad mayor la probabilidad de ser elegido).
+- Edad de las monedas apostadas, una vez utilizadas se reinicia a 0 (Entre más tiempo sin ser utilizadas mayor la probabilidad de ser elegido).
+- Selección aleatoria.
+
+Como podemos ver, es un mecanismo que favorece a los mayores poseedores de monedas y este a su vez espera que actúen de buena fe y castiga severamente a aquellos que no siendo la recompensa mucho menor que el riesgo.
+
+## Delegated Proof of Stake (DPoS)
+
+<figure class="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+El software EOSIO utiliza el único conocido Algoritmo de Consenso Descentralizado probado capaz de cumplir los requerimientos de rendimiento de las aplicaciones en el blockchain, **Delegated Proof of Stake (DPoS)**. Bajo este algoritmo, aquellos que mantienen token en el blockchain adoptando el software EOSIO pueden seleccionar los productores de bloques através de un sistema de aprobación continua. Cualquiera que elija participar en la producción de bloques tendrán la oportunidad de producirlos, siempre que puedan persuadir a los titulares de tokens para que voten por ellos.
+
+ - [DPOS Algoritmo de Consenso](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
+
+EOSIO delegará la autoridad para validar y escribir nuevos bloques a un grupo de nodos que llamamos [Productores de Bloques](#qué-es-un-productor-de-bloques).
+
+## Diferencias entre los Mecanismos
+
+|Aspecto | Proof of Work (PoW) | Proof of Stake (PoS) | Delegate Proof of Stake (DPoS) |
+|  :----  |  :----:  |   :----:  |   :----:  |  
+| Requisitos de equipo | Equipos especializados | Equipo con conexion a internet | Equipo con conexion a internet |  
+| Quien se encarga de validar las transacciones | Son validadas por el primer minero en encontrar la solucion | La persona escogida por el sistema | El delegado escogido |
+| Como se escoge el validador | Los mineros compiten tratando de resolver el problema matematico | La persona con mayor cantidad de stake o edad de stake | Se realizan elecciones dentro de la comunidad y se otorga el stake al delegado escogido |
+| Principales fortalezas | Es un mecanismo muy seguro | Es mas amigable con los usuarios e involucra mas a la comunidad | Permite una mayor democracia por parte de la comunidad |
+| Principales retos | Es extremadamente costoso | Favorece a aquellos con mayores recursos | Requiere una comunidad muy involucrada |
 
 ## ¿Qué es un productor de bloques?
 
@@ -59,17 +113,3 @@ Es importante que las llaves privadas de producción estén respaldadas correcta
 ### Productores de Bloques de Reserva
 
 Las redes EOSIO manejan un grupo de nodos productores de bloques registrados que pueden asumir el rol de productores de bloques con solo ser agregado al schedule de productores activos.
-
-### Delegated Proof of Stake (DPoS)
-
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-Un Algoritmo de consenso es un proceso en Ciencias de la Computación usado para lograr acuerdo en un sólo valor de datos entre procesos o sistemas distribuidos.
-
-La tecnología Blockchain depende de Algoritmos de Consenso para lograr un acuerdo entre los nodos. Un blokchain puede ser pensado como una base de datos descentralizada que es manejada por computadoras distribuidas en una red de punto a punto (P2P). Cada punto mantiene una copia del estado de la red para prevenir un punto único de fallo (en inglés SPOF). Actualizacioes y validaciones son reflejadas en todas las copias simultáneamente.
-
-El software EOSIO utiliza el único conocido Algoritmo de Consenso Descentralizado probado capaz de cumplir los requerimientos de rendimiento de las aplicaciones en el blockchain, **Delegated Proof of Stake (DPoS)**. Bajo este algoritmo, aquellos que mantienen token en el blockchain adoptando el software EOSIO pueden seleccionar los productores de bloques através de un sistema de aprobación continua. Cualquiera que elija participar en la producción de bloques tendrán la oportunidad de producirlos, siempre que puedan persuadir a los titulares de tokens para que voten por ellos.
-
- - [DPOS Algoritmo de Consenso](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
