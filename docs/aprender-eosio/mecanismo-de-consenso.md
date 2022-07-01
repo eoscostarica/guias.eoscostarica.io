@@ -57,10 +57,10 @@ EOSIO delegará la autoridad para validar y escribir nuevos bloques a un grupo d
 
 |Aspecto | Proof of Work (PoW) | Proof of Stake (PoS) | Delegate Proof of Stake (DPoS) |
 |  :----  |  :----:  |   :----:  |   :----:  |  
-| Requisitos de equipo | Equipos especializados | Equipo con conexion a internet | Equipo con conexion a internet |  
-| Quien se encarga de validar las transacciones | Son validadas por el primer minero en encontrar la solucion | La persona escogida por el sistema | El delegado escogido |
-| Como se escoge el validador | Los mineros compiten tratando de resolver el problema matematico | La persona con mayor cantidad de stake o edad de stake | Se realizan elecciones dentro de la comunidad y se otorga el stake al delegado escogido |
-| Principales fortalezas | Es un mecanismo muy seguro | Es mas amigable con los usuarios e involucra mas a la comunidad | Permite una mayor democracia por parte de la comunidad |
+| Requisitos de equipo | Equipos especializados | Equipo con conexión a internet | Equipo con conexión a internet |  
+| Quien se encarga de validar las transacciones | Son validadas por el primer minero en encontrar la solución | La persona escogida por el sistema | El delegado escogido |
+| Como se escoge el validador | Los mineros compiten tratando de resolver el problema matemático | La persona con mayor cantidad de stake o edad de stake | Se realizan elecciones dentro de la comunidad y se otorga el stake al delegado escogido |
+| Principales fortalezas | Es un mecanismo muy seguro | Es más amigable con los usuarios e involucra más a la comunidad | Permite una mayor democracia por parte de la comunidad |
 | Principales retos | Es extremadamente costoso | Favorece a aquellos con mayores recursos | Requiere una comunidad muy involucrada |
 
 ## ¿Qué es un productor de bloques?
