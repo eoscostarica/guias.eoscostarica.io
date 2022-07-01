@@ -55,6 +55,7 @@ module.exports = {
       "herramientas/librerias-sdk",
       "herramientas/plantilla-readme",
       "herramientas/preguntas-frecuentes",
+      "herramientas/pow-vs-pos-vs-dpos",
     ],
     Comunidad: [
       "comunidad/redes-eosio",
