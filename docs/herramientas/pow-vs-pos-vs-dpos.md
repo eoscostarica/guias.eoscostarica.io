@@ -35,9 +35,9 @@ Si se desea obtener más información puede visitar el siguiente [enlace](https:
 
 Este mecanismo de consenso nace con el 2011 con el fin de eliminar aquellas limitaciones presentes en su antecesor proof of work, teniendo en lugar de "mineros" que requieren recursos para la verificación de transacciones tales como equipos especializados y grandes cantidades energía a los "validadores" los cuales son dueños de monedas y ponen como colateral ["Stake"](https://guias.eoscostarica.io/docs/herramientas/glosario/#stake) cierta cantidad de monedas, siendo escogido de manera aleatoria los validadores responsables de "validar" o "minar" en caso de que exista un validador corrupto perderá el stake y no podrá ser validador en el futuro.
 
-Para la validación de transacciones se requieren que 2/3 (Este dato puede variar según la red) del total de los validadores aprueben y el bloque de transacciones. Para la elección de los validadores se toma en consideración los siguientes aspectos:
+Para la validación de transacciones en EOSIO se requiere una mayoria de 2/3+1 para el consenso (Este dato puede variar según la red) del total de los validadores aprueben y el bloque de transacciones. Para la elección de los validadores se toma en consideración los siguientes aspectos:
 
-- Cantidad de moneda (Entre más alta sea cantidad mayor la probabilidad de ser elegido).
+- Cantidad de tokens (Entre más alta sea cantidad mayor la probabilidad de ser elegido).
 - Edad de las monedas apostadas, una vez utilizadas se reinicia a 0 (Entre más tiempo sin ser utilizadas mayor la probabilidad de ser elegido).
 - Selección aleatoria.
 
