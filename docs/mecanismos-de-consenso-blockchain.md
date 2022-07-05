@@ -1,10 +1,10 @@
 ---
-id: pow-vs-pos-vs-dpos
-title: PoW vs PoS vs DPoS
-sidebar_label: PoW vs PoS vs DPoS
+id: mecanismos-de-consenso-blockchain
+title: Mecanismos de Consenso Blockchain
+sidebar_label: Mecanismos de Consenso
 ---
 
-Es necesario cuales han sido los mecanismos de consenso utilizados por las distintas redes blockchain para mantener la seguridad e integridad dentro de la red, asi como los beneficios y las redes que aun la conforman.
+Es importante tener conocimiento sobre cuales han sido los mecanismos de consenso utilizados por las distintas redes blockchain para mantener la seguridad e integridad dentro de la red, asi como los beneficios y las redes que aun la conforman.
 
 ## Proof of Work (PoW)
 
@@ -61,3 +61,29 @@ En la actualidad las redes que utilizan este mecanismo de consenso son:
 | Principales retos | Es extremadamente costoso | Favorece a aquellos con mayores recursos | Requiere una comunidad muy involucrada |
 
 Si desea aprender más sobre Delegate Proof of Stake (DPoS) puede visitar el siguiente [enlace](https://guias.eoscostarica.io/docs/aprender-eosio/mecanismo-de-consenso#delegated-proof-of-stake-dpos).
+
+## Otros Mecanismos de Consenso
+
+Hay otros mecanismos de consenso que no son tan populares en las comunidades de blockchain como las anteriores, las cuales son  las siguientes:  
+
+### Proof of Capacity (PoC)
+
+Este mecanismo al igual que el proof of work se realiza el minado, pero como diferencia principal es el uso de discos duros como principal recurso de poder computacional. Solucionando problemáticas de PoW y PoS debido a la mayor capacidad con los discos duros.
+
+### Proof of Activity (PoA)
+
+Este mecanismo utiliza las mejores características de PoW y PoS siendo un ejemplo que se valida un bloque de transacciones por medio del minado (PoW) se cambia al sistema de elección de validadores (PoS) una vez validado se cambia al sistema de minado.
+
+### Proof of Burn (PoB)
+
+Este mecanismo nació como solución al alto gasto energético por parte de PoW, haciendo uso de la idea de la quema de energía, al validar un bloque de transacciones se "queman" tokens para obtener más potencia de minado como aparejo, cuantos más tokens se quemen más potencia se obtiene.
+
+### Proof of History (PoH)
+
+Este mecanismo nace con una propuesta muy antigua, pero diferente a los mecanismos anteriores, ya que registra el tiempo y la hora exacta entre 2 eventos en una función hash, aunque sería imposible cambiar el registro en todos los ordenadores de la red.
+
+### Proof of Elapsed Time (PoET)
+
+Este mecanismo nació como una solución de Intel a la ventaja que obtienen los que tienen más recursos a la hora de buscar el sistema de elección del validador de bloques más justo, como una lotería dentro de la red se asignan los validadores.
+
+Si quiere saber más sobre los diferentes mecanismos de consenso, puede visitar el siguiente [enlace](https://www.allerin.com/blog/8-blockchain-consensus-mechanisms-you-should-know-about).
