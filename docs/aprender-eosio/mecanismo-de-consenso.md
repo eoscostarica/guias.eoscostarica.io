@@ -1,7 +1,9 @@
 ---
 id: mecanismo-de-consenso
-title: Mecanismo de Consenso
-sidebar_label: Mecanismo de Consenso
+title: Algoritmos de Consenso
+sidebar_label: Algoritmo de Consenso
+description: Algoritmos de Consenso en blockchain para la producción de bloques
+keywords: [algoritmos de consenso, blockchain, eosio, EOS, EOS Costa Rica, Mecanismo de Consenso, ¿Qué es un mecanismo de consenso?, ¿Para qué es un algoritmo de consenso? ]
 ---
 
 El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.

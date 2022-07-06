@@ -2,6 +2,8 @@
 id: pautas-para-codigo-abierto
 title: Pautas para Código Abierto
 sidebar_label: Pautas Para Código Abierto
+description: Pautas para el manejo de proyectos de código abierto en EOS Costa Rica.
+keywords: [pautas para codigo abierto, código abierto, proyectos, EOS, EOS Costa Rica, Proyectos de código abierto]
 ---
 
 ## Proceso de Desarrollo
@@ -141,19 +143,19 @@ Los reportes de bug deben contener la siguiente información:
 
 Lanzamos el software para producción usando las etiquetas de GitHub [Semver](http://semver.org), excepto que la versión tiene nombres semánticos, por ejemplo "Breaking.Feature.Fix" en lugar de "Major.Minor.Patch".
 
-#### Breaking.Feature.Fix
+### Breaking.Feature.Fix
 
 No decidimos cuál será la versión. Los cambios en el API deciden. Los números en la versión son para computadoras, no para personas. Los nombres en los lazamientos son para las personas.
 
-##### Breaking
+#### Breaking
 
 Cualquier "breaking change", no importa cuán pequeño, incrementa el número de la versión. Incrementar la versión no tiene relación con emitir un lanzamiento.
 
-##### Característica (Feature)
+#### Característica (Feature)
 
 Cuando una nueva característica es añadida, esto puede ser tan pequeña como propiedad pública, o tan larga como módulo siendo expuesto.
 
-##### Fix
+#### Fix
 
 Cuando una característica documentada no se comporta como está documentada, o cuando un problema de seguridad es descubierto y arreglado sin alterar el comportamiento documentado.
 

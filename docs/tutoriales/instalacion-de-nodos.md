@@ -2,6 +2,8 @@
 id: instalacion-de-nodos
 title: Instalación de Nodos
 sidebar_label: Instalación de Nodos
+description: Instalación de Nodos para EOSIO
+keywords: [Instalación de Nodos, EOSIO, ¿Cómo se crea un nodo?, Cómo se instala un nodo?, Instalar nodos]
 ---
 
 # Configuración de un Nodo Productor

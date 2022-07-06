@@ -1,7 +1,9 @@
 ---
 id: contrato-hola-mundo
-title: Contrato Hola Mundo
+title: Creando contrato para EOSIO
 sidebar_label: Contrato Hola Mundo
+description: Creando contrato hola mundo para la blockchain EOSIO
+keywords: [contrato, crear contrato, eosio, blockchain, EOS]
 ---
 
 Explicamos con ejemplos cómo crear una cuenta y un contrato `Hello World` para subir a una blockchain basada en EOS.IO. Para este ejemplo, nos basamos en recursos publicados por [Block.one para compartir con la comunidad](https://developers.eos.io/).

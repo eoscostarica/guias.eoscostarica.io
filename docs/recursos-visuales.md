@@ -1,7 +1,9 @@
 ---
 id: recursos-visuales
 title: Recursos Visuales 
-sidebar_label: Recursos Visuales 
+sidebar_label: Recursos Visuales
+description: Materiales visuales para los desarrolladores de software EOS Costa Rica.
+keywords: [recursos visuales, materiales, desarrollo, software, EOS, EOS Costa Rica]
 ---
 
 ## EOS Costa Rica

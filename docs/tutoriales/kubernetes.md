@@ -6,7 +6,7 @@ sidebar_label: Kubernetes
 
 Kubernetes es una plataforma de código abierto, que fue creada por Google, utilizada para la gestión, el despliegue, la escalabilidad y el monitoreo de contenedores Docker. 
 
-### Características de Kubernetes:
+## Características de Kubernetes:
 
 - Distribución inteligente de contenedores.
 - Administración de las cargas de trabajos (provee balanceo de carga).
@@ -15,15 +15,15 @@ Kubernetes es una plataforma de código abierto, que fue creada por Google, util
 - Gran flexibilidad y permite trabajo modular.
 - Monitoreo de contenedores.
 
-### Arquitectura de Kubernetes
+## Arquitectura de Kubernetes
 
 Hay dos roles principales, “master” y “node”. El master se encarga de manejar y orquestar los diferentes microservicios entre los 4 nodos disponibles del cluster.
 
-### Esquema de Arquitectura de Kubernetes
+## Esquema de Arquitectura de Kubernetes
 
 ![image](https://user-images.githubusercontent.com/5632966/107062957-724c5c00-679f-11eb-88f0-fb4b884785ab.png)
 
-### Conceptos Clave en k8s
+## Conceptos Clave en k8s
 
 **Cluster:** Es un grupo de dispositivos que pueden ser físicos o virtuales y que se encuentran unidos muchas veces por una red y, por lo cual, se comportan como una.
 

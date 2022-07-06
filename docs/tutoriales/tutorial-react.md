@@ -2,6 +2,8 @@
 id: tutorial-react
 title: React JS
 sidebar_label: React JS
+description: Tutorial de React JS
+keywords: [¿Qué es React?, ¿Qué es react js?, ¿Para qué sirve React?, Tutorial react]
 ---
 
 React es una librería de JavaScript que servirá para construir interfaces web y aplicaciones móviles con una extensión llamada [React Native](https://reactnative.dev/). React trabaja con unidades de código que se trabajan de forma independiente. React también utiliza una herramienta llamada JSX que permite una interacción muy sencilla con JavaScript, es decir se podrá utilizar con HTML también de forma sencilla.

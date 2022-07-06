@@ -2,6 +2,8 @@
 id: opciones-configuracion-nodeos
 title: Opciones de Configuración de Nodeos
 sidebar_label: Opciones de Configuración de Nodeos
+description: Opciones para la respectiva configuración de Nodeos
+keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, Configurar Nodeos]
 ---
 
 ## Opciones de la Aplicación Nodeos:
@@ -151,7 +153,7 @@ sidebar_label: Opciones de Configuración de Nodeos
                                         and locked in to memory.
 ```                                     
 
-### Command Line Options for eosio::chain_plugin:
+### Opciones de línea de comandos para eosio ::chain_plugin:
 
 ```
   --genesis-json arg                    File to read Genesis State from
@@ -209,7 +211,7 @@ sidebar_label: Opciones de Configuración de Nodeos
 
 ```
 
-### Config Options for eosio::history_plugin:
+### Opciones de configuración para eosio::history_plugin:
 
 ```
 
@@ -227,7 +229,7 @@ sidebar_label: Opciones de Configuración de Nodeos
                                         blank.
 ```
 
-### Config Options for eosio::http_client_plugin:
+### Opciones de configuración para eosio::http_client_plugin:
 
 ```
   --https-client-root-cert arg          PEM encoded trusted root certificate 
@@ -241,7 +243,7 @@ sidebar_label: Opciones de Configuración de Nodeos
                                         false: ignore cert errors
 ```
 
-### Config Options for eosio::http_plugin:
+### Opciones de configuración para eosio::http_plugin:
 
 ```
   --unix-socket-path arg                The filename (relative to data-dir) to 
@@ -306,7 +308,7 @@ sidebar_label: Opciones de Configuración de Nodeos
                                         pool
 ```
 
-### Config Options for eosio::login_plugin:
+### Opciones de configuración para eosio::login_plugin:
 
 ```
   --max-login-requests arg (=1000000)   The maximum number of pending login 
@@ -316,7 +318,7 @@ sidebar_label: Opciones de Configuración de Nodeos
                                         requests (in seconds)
 ```
 
-### Config Options for eosio::mongo_db_plugin:
+### Opciones de configuración para eosio::mongo_db_plugin:
 
 ```
 
@@ -381,7 +383,7 @@ sidebar_label: Opciones de Configuración de Nodeos
                                         all.
 ```
 
-### Config Options for eosio::net_plugin:
+### Opciones de configuración para eosio::net_plugin:
 
 ```
   --p2p-listen-endpoint arg (=0.0.0.0:9876)
@@ -474,7 +476,7 @@ sidebar_label: Opciones de Configuración de Nodeos
                                         
 ```
 
-### Config Options for eosio::producer_plugin:
+### Opciones de configuración para eosio::producer_plugin:
 
 ```
   -e [ --enable-stale-production ]      Enable block production, even if the 
@@ -604,7 +606,7 @@ sidebar_label: Opciones de Configuración de Nodeos
 
 ```
 
-### Config Options for eosio::state_history_plugin:
+### Opciones de configuración para eosio::state_history_plugin:
 
 ```
 
@@ -627,13 +629,13 @@ sidebar_label: Opciones de Configuración de Nodeos
 ```
 
 
-### Command Line Options for eosio::state_history_plugin:
+### Opciones de línea de comandos para eosio::state_history_plugin:
  
 ``` 
   --delete-state-history                clear state history files
 ```
 
-### Config Options for eosio::trace_api_plugin:
+### Opciones de configuración para eosio::trace_api_plugin:
 
 ```
   --trace-dir arg (="traces")           the location of the trace directory 
@@ -686,7 +688,7 @@ sidebar_label: Opciones de Configuración de Nodeos
 
 ```
 
-### Config Options for eosio::txn_test_gen_plugin:
+### Opciones de configuración para eosio::txn_test_gen_plugin:
 
 ```
   --txn-reference-block-lag arg (=0)    Lag in number of blocks from the head 
@@ -702,14 +704,14 @@ sidebar_label: Opciones de Configuración de Nodeos
                                         and used by this plugin
 ```
 
-### Application Config Options:
+### Opciones de configuración de la aplicación:
 
 ```
   --plugin arg                          Plugin(s) to enable, may be specified 
                                         multiple times
 ```
 
-### Application Command Line Options:
+### Opciones de la línea de comandos de la aplicación:
 
 ```
   -h [ --help ]                         Print this help message and exit.

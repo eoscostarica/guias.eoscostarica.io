@@ -2,6 +2,8 @@
 id: cultura-ingenieril
 title: Cultura Ingenieril
 sidebar_label: Cultura Ingenieril
+description: Valores de la cultura ingenieril que se llevan acabo en EOS Costa Rica
+keywords: [cultura, cultura ingenieril, EOS, EOS Costa Rica]
 ---
 
 Somos una startup de ritmo rápido con ingenieros muy talentosos quienes aman el código abierto y los principios ágiles.
