@@ -26,7 +26,7 @@ Cuando un pull request cerrado es movido a la columna `Done` automáticamente. S
 
 ## Convención para los Nombres de las Ramas
 
-Desarrolle cada pull request en una rama específica utilizando la siguiente convención:
+Nombre cada rama para sus pull requests utilizando la siguiente convención:
 
 ```
 <tipo>/<descripción-tarea>-<número-de-issue>
@@ -49,8 +49,24 @@ feat/nueva-carateristica-123
   |           |
   |           +-> Descripción corta de la tarea
   |
-  +-> Tipo
+  +-> Tipo: build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|content|devtools
 ```
+
+### Tipo
+
+* **build**: Cambios que afectan el sistema de operación o dependencias externas (ejemplo scopes: gulp, broccoli, npm).
+* **chore**: Lo que un usuario no vería (cambios en el proceso de construcción, la configuración, etc).
+* **ci**: Cambios a los scripts y archivos de configuración de CI (ejemplo scopes: Travis, Circle, BrowserStack, SauceLabs).
+* **docs**: Cambios sólo en la documentación.
+* **feat**: Una nueva característica para el usuario.
+* **fix**: Un arreglo de un bug para el usuario.
+* **perf**: Cambio en el código que mejora el rendimiento.
+* **refactor**: Cambio en el código que no arregla un bug ni añade una característica.
+* **revert**: Revierte un commit previo.
+* **style**: Cambios que no afectar en significado del código (espacios en blanco, formato, puntos y comas olvidados, etc).
+* **test**: Añadir pruebas faltantes o corregir las existentes.
+* **content**: Añadir o remover contenido.
+* **devtools**: Heramientas para desarrolladores.
 
 ## Pautas para los Pull Request
 
