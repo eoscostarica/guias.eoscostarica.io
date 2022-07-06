@@ -1,7 +1,7 @@
 ---
 id: metodologia-vuelos
-title: Metodología de vuelos
-sidebar_label: Metodología de vuelos
+title: Metodología de Vuelos
+sidebar_label: Metodología de Vuelos
 description: EOS Costa Rica - Metodología de vuelos
 keywords: [EOS, Costa Rica, Metodología de vuelos, grooming, ¿Qué es Metodología de vuelos?, ¿Para qué sirve la metodología de vuelos?]
 ---

@@ -1,6 +1,6 @@
 ---
 id: contrato-hola-mundo
-title: Creando contrato para EOSIO
+title: Creando Contrato para EOSIO
 sidebar_label: Contrato Hola Mundo
 description: Creando contrato hola mundo para la blockchain EOSIO
 keywords: [contrato, crear contrato, eosio, blockchain, EOS]

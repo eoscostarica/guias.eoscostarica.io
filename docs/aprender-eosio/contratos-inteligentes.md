@@ -1,6 +1,6 @@
 ---
 id: contratos-inteligentes
-title: ¿Qué es un contrato inteligente y como funciona?
+title: ¿Qué es un Contrato Inteligente y como Funciona?
 sidebar_label: Contratos Inteligentes
 description: Definiciones y explicaciones de contratos inteligentes.
 keywords: [contratos-inteligentes, contrato inteligente, smart contract, blockchain, eos, eosio, eosio.io, EOS, EOS Costa Rica, ¿Qué es un contrato inteligente?, ¿Cómo crear un contrato inteligente?] 
