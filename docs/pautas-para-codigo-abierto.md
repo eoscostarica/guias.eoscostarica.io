@@ -24,15 +24,59 @@ Los nuevos y reabiertos `pull request` son autómaticamente añadidos al tablero
 
 Cuando un pull request cerrado es movido a la columna `Done` automáticamente. Si el pull request se cierra y no tiene problemas, se indica correctamente con las palabras clave de GitHub que se cierra el pull request y se mueve automáticamente a la columna `Done`. 
 
+## Convención para los Nombres de las Ramas
+
+Nombre cada rama para sus pull requests utilizando la siguiente convención:
+
+```
+<tipo>/<descripción-tarea>-<número-de-issue>
+```
+
+* Usar siempre letras minúsculas.
+* Escoger un [tipo](#tipo).
+* Descripciones significativas y cortas.
+* Usar guiones como separadores.
+* Usar el imperativo, tiempo presente: "cambio" no "cambiado" ni "cambios".
+* Usar el número de ``issue`` para referenciarlo en la rama.
+
+-**Ejemplo:**
+
+```
+feat/nueva-carateristica-123
+^--^ ^-----------------^ ^-^
+  |           |           |
+  |           |           +-> Issue number
+  |           |
+  |           +-> Descripción corta de la tarea
+  |
+  +-> Tipo: build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|content|devtools
+```
+
+### Tipo
+
+* **build**: Cambios que afectan el sistema de operación o dependencias externas (ejemplo scopes: gulp, broccoli, npm).
+* **chore**: Lo que un usuario no vería (cambios en el proceso de construcción, la configuración, etc).
+* **ci**: Cambios a los scripts y archivos de configuración de CI (ejemplo scopes: Travis, Circle, BrowserStack, SauceLabs).
+* **docs**: Cambios sólo en la documentación.
+* **feat**: Una nueva característica para el usuario.
+* **fix**: Un arreglo de un bug para el usuario.
+* **perf**: Cambio en el código que mejora el rendimiento.
+* **refactor**: Cambio en el código que no arregla un bug ni añade una característica.
+* **revert**: Revierte un commit previo.
+* **style**: Cambios que no afectar en significado del código (espacios en blanco, formato, puntos y comas olvidados, etc).
+* **test**: Añadir pruebas faltantes o corregir las existentes.
+* **content**: Añadir o remover contenido.
+* **devtools**: Heramientas para desarrolladores.
+
 ## Pautas para los Pull Request
 
 * Por favor revisa para asegurarte que no hay ningún `pull request` existente tratando de localizar o vincular el `issue` mecionado.
 * Busca los `issues` relacionados en el `registro de issues`.
 * Los cambios no triviales deberían ser discutidos primero en un issue.
-* Desarrolla en una rama específica para características (código no estable), nunca en la master: `git checkout -b topic-branch`.
+* Desarrolla en una rama específica para características (código no estable), nunca en la master: `git checkout -b tipo/tarea-issue`.
 * Haz amplias y claras descripciones de los `pull requests`.
 * Realiza `pull requests` atómicos y con un ámbito bien definido. 1 PR por característica o bug.
-* Vincula el `issue` con la descripción `pull request`para referencia entre el código y los issues.
+* Vincula el `issue` con la descripción `pull request` para referencia entre el código y los issues.
 
 Soportamos únicamente **squash merge** de los `pull requests` como una buena práctica para asegurar que el registro de la rama `master` es mantenido limpio y relevante, sin requerir que el pull request sea modificado. Esta estrategia requiere que todos los pull request sea hechos de forma `atómica`, en otras palabras, que resuelvan una única cosa. Un pull request por característica, bug o actualizacón de documentación.
 
