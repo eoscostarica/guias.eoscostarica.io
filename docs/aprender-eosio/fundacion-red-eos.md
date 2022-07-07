@@ -4,7 +4,7 @@ title: Fundacion Red EOS Blue Papers
 sidebar_label: Blue Papers
 ---
 
-La fundacion de la Red EOS tambien conocidad por sus siglas en ingles como ENF(EOS Network Foundation) es una fundacion sin fines de lucro, han creado una serie de documentos "Blue Papers" sobre los principales temas o dudas de la comunidad y de las respectivas acciones a tomar ante dichas situaciones. En esta seccion veremos de manera consisa y rapida algunos de ellos:
+La fundacion de la Red EOS tambien conocidad por sus siglas en ingles como ENF (EOS Network Foundation) es una fundacion sin fines de lucro, han creado una serie de documentos "Blue Papers" sobre los principales temas o dudas de la comunidad y de las respectivas acciones a tomar ante dichas situaciones. En esta seccion veremos de manera consisa y rapida algunos de ellos:
 
 ## API+
 
@@ -98,4 +98,4 @@ El grupo Recorver+ nace como una respuesta ante la posibilidad del ataque de un 
 Si desea obtener más conocimiento sobre este tema puede verlo en el siguiente [enlace](https://eosnetwork.com/wp-content/uploads/2022/06/Recover-Blue-Paper-English.pdf) con disponibilidad de descargarlo si así lo desea.
 
 
-Siendo estos Papers los resultados de investigaciones realizadas por distintos grupos, más no siendo los únicos si desea ver todos los Blue Papers y tener conocimiento sobre los distintos temas puede visitar el siguiente [enlace](https://eosnetwork.com/blog/category/eos-blue-papers/).
+Siendo estos "Papers" los resultados de investigaciones realizadas por distintos grupos, más no siendo los únicos si desea ver todos los Blue Papers y tener conocimiento sobre los distintos temas puede visitar el siguiente [enlace](https://eosnetwork.com/blog/category/eos-blue-papers/).
