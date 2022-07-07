@@ -73,7 +73,7 @@ El proceso de administrar y aprovisionar centros de datos informáticos a travé
 <figure 
   class="video_container">
   <iframe
-   width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true">
+   width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -86,7 +86,7 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 <figure 
   class="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true">
+  width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -95,7 +95,7 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 <figure 
   class="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true">
+  width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -106,7 +106,7 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 <figure
  class="video_container">
   <iframe
-   width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true">
+   width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -123,7 +123,7 @@ Docker es un proyecto de código abierto que automatiza la implementación de ap
 <figure 
 class="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true">
+  width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -142,7 +142,7 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 <figure
    class="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true">
+  width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
@@ -153,7 +153,7 @@ A continuación, puede encontrar un conjunto de tutoriales muy convenientes para
 <figure 
   class="video_container">
   <iframe
-   wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true">
+   wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true" loading="lazy">
   </iframe>
 </figure>
 
