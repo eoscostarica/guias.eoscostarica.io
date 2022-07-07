@@ -36,6 +36,7 @@ module.exports = {
     Tutoriales: [
       "tutoriales/contrato-hola-mundo",
       "tutoriales/cpp-moderno",
+      "tutoriales/ejecutar-boilerplate",
       "tutoriales/docker",
       "tutoriales/graphql",
       "tutoriales/guia-github",
