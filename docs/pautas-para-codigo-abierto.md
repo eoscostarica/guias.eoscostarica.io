@@ -82,7 +82,7 @@ Soportamos únicamente **squash merge** de los `pull requests` como una buena pr
 
 ## Pautas para Mensajes en los Commits
 
-Tenemos reglas muy precisas acerca de cómo los mensajes de los commits de `git` deben ser formateados. Esto permite **mensajes más legibles** que son fáciles de seguir cuando se está buscando entre la **historia del proyecto**. Pero también, usamos los mensajes de commit de `git` para generar el **registro de cambios del proyecto**.
+Tenemos reglas muy precisas acerca de cómo los mensajes de los commits de `git` deben ser formateados, siguiendo convenciones y estandares de Github. Esto permite **mensajes más legibles** que son fáciles de seguir cuando se está buscando entre la **historia del proyecto**. Pero también, usamos los mensajes de commit de `git` para generar el **registro de cambios del proyecto**.
 
 Seguimos las convenciones de mensajes de commit como se muestra a continuación:
 
@@ -96,13 +96,25 @@ Cada mensaje de commit consiste en un **encabezado**, un **cuerpo** y un **pié*
 <BLANK LINE>
 <pie>
 ```
-El **encabezado** es obligatorio y el **ámbito** del encabezado es opcional.
+El ```encabezado``` es obligatorio y el ```<ambito>``` del encabezado es opcional.
 
-Ninguna línea del mensaje de commit puede ser más larga que 100 caracteres. Esto permite que el mensaje sea fácil de leer en GitHub así como también en varias `herramientas de git`.
+** Ejemplo: **
+
+```
+feat: agregar un nuevo método
+^--^  ^------------^
+|     |
+|     +-> Resumen en tiempo presente.
+|
++-------> Type: build, ci, docs, feat, fix, perf, refactor, style, test, content, or devtools.
+
+```
+
+El mensaje del commit no puede ser mayor a 100 caracteres. Esto permite que el mensaje sea fácil de leer en GitHub así como también en varias `herramientas de git`.
 
 El pie debe contener [una referencia de cierre de un issue](https://help.github.com/articles/closing-issues-via-commit-messages/), si hay alguna.
 
-Ejemplos:
+El commit debe verse como los siguientes ejemplos:
 
 ```
 docs(changelog): update changelog to beta.5
@@ -118,7 +130,7 @@ Más ejemplos [aquí](https://github.com/angular/angular/blob/main/CONTRIBUTING.
 
 ### Revertir
 
-Si el commit revierte un commit previo, debe empezar con `revert: `, seguido por el encabezado del commit revertido. En el cuerpo, debería decir: `This reverts commit <hash>`, donde el hash is el SHA del commit que está siendo revertido.
+Si el commit revierte un commit previo, debe empezar con `revert: `, seguido por el encabezado del commit revertido. En el cuerpo, debería decir: `This reverts commit <hash>`, donde el hash es el SHA del commit que está siendo revertido.
 
 ### Tipo
 
