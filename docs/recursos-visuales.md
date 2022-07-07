@@ -86,6 +86,7 @@ sidebar_label: Recursos Visuales
     <img
       style={{ align: "center" }}
       src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png"
+      loading="lazy"
     />
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
@@ -93,6 +94,7 @@ sidebar_label: Recursos Visuales
       <img
         style={{ maxHeight: 350 }}
         src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-vertiall-transparent-white.png"
+        loading="lazy"
       />
     </div>
   </div>
@@ -120,11 +122,11 @@ sidebar_label: Recursos Visuales
 
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
-    <img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png" />
+    <img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--horizontal-solid-transparent-overlight.png" loading="lazy"/>
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
     <div style={{ margin: "auto", width: "80%" }}>
-      <img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--vertical-solid-transparent-overlight.png" />
+      <img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosrate/eosrate--vertical-solid-transparent-overlight.png" loading="lazy"/>
     </div>
   </div>
 </div>
@@ -161,10 +163,11 @@ sidebar_label: Recursos Visuales
     <img
       style={{ backgroundColor: "black" }}
       src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forDarkBg.png"
+      loading="lazy"
     />
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
-    <img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forlightBg.png" />
+    <img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eoslocal/eos-Local-forlightBg.png" loading="lazy"/>
   </div>
 </div>
 <div>
@@ -202,10 +205,11 @@ sidebar_label: Recursos Visuales
     <img
       style={{ backgroundColor: "black" }}
       src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/1-Overblack-lifebank-logo-v1-may25-2020-01.svg"
+      loading="lazy"
     />
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
-    <img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg" />
+    <img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/2-OverWhite-lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
   </div>
 </div>
 <div>
@@ -229,10 +233,10 @@ sidebar_label: Recursos Visuales
 
 <div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
-    <img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg" />
+    <img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/3-byw-OverWhite--lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
   </div>
   <div style={{ float: "left", width: "50%", padding: 50 }}>
-    <img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/4-singleColor-OverWhite--lifebank-logo-v1-may25-2020-01.svg" />
+    <img src="https://raw.githubusercontent.com/eoscostarica/lifebank/master/docs/logos/4-singleColor-OverWhite--lifebank-logo-v1-may25-2020-01.svg" loading="lazy"/>
   </div>
 </div>
 <div>

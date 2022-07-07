@@ -159,9 +159,9 @@ const CustomCard = (props) => {
   }
 
   return (
-    <Card className="cardroot" className={classes.card} variant="outlined">
+    <Card className={"cardroot "+classes.card} variant="outlined">
       <div className="card-img-container"> 
-        <img src={props.img} className={classes.imgcard}/>
+        <img src={props.img} className={classes.imgcard} loading="lazy"/>
       </div>
       <CardContent>
         <Typography className={classes.overline} gutterBottom>SECCIÓN</Typography>
@@ -244,10 +244,11 @@ const CustomArticle= (props) => {
   }
 
   return (
-    <Card className="cardroot" className={classes.card} variant="outlined">
+    <Card className={"cardroot "+classes.card} variant="outlined">
       <CardMedia
           className={classes.media}
           image={props.img}
+          component="img"
         />
       <CardContent>
         <Typography className={classes.overline} gutterBottom>ARTÍCULO</Typography>
