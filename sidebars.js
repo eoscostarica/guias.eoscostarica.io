@@ -32,6 +32,7 @@ module.exports = {
       "aprender-eosio/seguridad-blockchain",
       "aprender-eosio/nfts-en-eosio",
       "aprender-eosio/migracion-mandel",
+      "aprender-eosio/fundacion-red-eos",
     ],
     Tutoriales: [
       "tutoriales/contrato-hola-mundo",
