@@ -89,7 +89,7 @@ Para lograr dicho objetivo se han establecido algunos objetivos específicos, en
 
 - Compatibilidad RCP completa
 
-Si desea obtener más conocimiento sobre este tema puede verlo en el siguiente [enlace](https://eosnetwork.com/blog/evm-bringing-the-ethereum-virtual-machine-to-eos/) con disponibilidad de descargarlo si así lo desea.
+Si desea obtener más conocimiento sobre este tema puede verlo en el siguiente [enlace](https://eosnetwork.com/blog/evm-bringing-the-ethereum-virtual-machine-to-eos/).
 
 ## Recorver+
 
