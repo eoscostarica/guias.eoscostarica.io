@@ -2,6 +2,8 @@
 id: ejecutar-boilerplate
 title: Ejecutar Boilerlate
 sidebar_label: Ejecutar Boilerplate
+description: Proyecto Boilerplate llevada a cabo por EOS Costa Rica
+keywords: [EOS Boilerplate, EOS Costa Rica Front-End Boilerplate, boilerplate-eos, eos-front-end-boilerplate, eos-back-end-boilerplate, eos-full-stack-boilerplate]
 ---
 
 # Ejecutando el Boilerplate
