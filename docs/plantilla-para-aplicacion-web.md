@@ -23,9 +23,9 @@ Se requieren conocimientos básicos sobre Docker, Docker Compose y NodeJS.
 
 ### Requisitos previos
 
-- [git] (https://git-scm.com/)
-- [node.js] (https://nodejs.org/es/)
-- [yarn] (https://yarnpkg.com/)
+- [git](https://git-scm.com/)
+- [node.js](https://nodejs.org/es/)
+- [yarn](https://yarnpkg.com/)
 
 ### Paso a paso
 
