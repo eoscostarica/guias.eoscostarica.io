@@ -4,8 +4,6 @@ title: Guías para Redes Sociales
 sidebar_label: Guías Para Redes Sociales
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 Este sitio muestra las diferentes redes sociales con las que cuenta EOS Costa Rica, así como algunas recomendaciones sobre cómo interactuar con nosotros a través de ellas.
 
 Sea respetuoso, cuide su lenguaje y mantenga lo profesional al representar a la empresa o al hablar sobre temas relacionados a blockchain/crypto.
@@ -36,14 +34,14 @@ Por favor seguir estas indicaciones para alinear nuestros perfiles de LinkedIn. 
 1. Incluya su **puesto**, el nombre de la **compañía**, la **ubicación**, y su **fecha de ingreso**. Asegúrese de marcar la casilla para  **actualizar su headline**.
 
 <div style={{  textAlign: "center" }}>
-    <img style={{ width:"70%" }} src={ useBaseUrl("/img/redes-sociales/LinkedExperiencia.png") } />
+    <img style={{ width:"70%" }} src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/LinkedExperiencia.png" />
 </div>
 
 
 2. En la descripción, adapte el siguiente texto de acuerdo a su experiencia, puesto y especialización.
 
 <div style={{  textAlign: "center" }}>
-    <img  src={ useBaseUrl("/img/redes-sociales/LinkedDescripcion.png") } />
+    <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/LinkedDescripcion.png" />
 </div>
 
 
@@ -74,7 +72,7 @@ More on:
 ### **Así es como se Vería**
 
 <div style={{  textAlign: "center" }}>
-    <img  src={ useBaseUrl("/img/redes-sociales/LinkedResultado.png") }/>
+    <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/LinkedResultado.png" />
 </div>
 
 
@@ -95,7 +93,7 @@ More on:
 1. Incluya su **puesto**, el nombre de la **companía**, su **locación**, y su **linkedin**.
 
 <div style={{  textAlign: "center" }}>
-    <img  src={ useBaseUrl("/img/redes-sociales/GithubEstado.png") }/>
+    <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/GithubEstado.png" />
 </div>
 
 
@@ -109,7 +107,7 @@ More on:
 
 ### **Así es como se Vería**
 <div style={{  textAlign: "center" }}>
-    <img  src={ useBaseUrl("/img/redes-sociales/GitHubResultado.png") }/>
+    <img  src="https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/social-media/GitHubResultado.png" />
 </div>
 
 
