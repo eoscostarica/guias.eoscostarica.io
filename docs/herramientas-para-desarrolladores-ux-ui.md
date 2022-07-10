@@ -40,7 +40,7 @@ Zeplin facilita la transferencia de diseños al tomarlos de Sketch, Adobe XD, Fi
 
 ### Instalación de Zeplin
 
-[Instalación de Zeplin](https://support.zeplin.io/en/articles/244698-downloading-mac-and-windows-apps)
+[Instalación de Zeplin] (https://support.zeplin.io/en/articles/244698-downloading-mac-and-windows-apps)
 
 <iframe
 width="100%" height="315" src="https://www.youtube.com/embed/x1RPNx8Jsp4" frameborder="0" allowfullscreen="true"> </iframe>
