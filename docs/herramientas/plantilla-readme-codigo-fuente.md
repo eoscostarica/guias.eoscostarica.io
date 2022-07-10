@@ -8,7 +8,7 @@ title: Código fuente de la plantilla README
 
     Es simple y puede parecer muy fácil y sí, lo es, pero el impacto que puede producir un GIF o una imagen es demasiado grande. El espectador adquiere la información necesaria para interesarse por el proyecto. Por ejemplo:
 
-    ![Life bank](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/life-bank.png)
+    ![Life bank](/img/life-bank.png)
 
     ## Sobre el Proyecto
 

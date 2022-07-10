@@ -10,15 +10,15 @@ En este [enlace](https://github.com/eoscostarica/design-assets) tiene acceso a L
 
 ## Paleta de Colores
 
-![Color Scheme Primary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.PNG)
+![Color Scheme Primary](/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.PNG)
 
-![Color Scheme Segundary](https://raw.githubusercontent.com/eoscostarica/guide.eoscostarica.io/master/static/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.PNG)
+![Color Scheme Segundary](/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.PNG)
 
 Para ver una guía completa de los colores, puede visitar [este enlace](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
 
 ## Tipografía
 
-![Preview tipografia](https://raw.githubusercontent.com/eoscostarica/guias.eoscostarica.io/master/static/img/OSS_screnshots/preview_typography_scale.PNG)
+![Preview tipografia](/img/OSS_screnshots/preview_typography_scale.PNG)
 
 Para ver una guía completa de los tamaños y formas de utilización de la fuente, puede visitar [este enlace](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf) 
 
