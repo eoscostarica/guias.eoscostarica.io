@@ -4,6 +4,8 @@ title: Cadena de Bloques EOS
 sidebar_label: Cadena de Bloques EOS
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## EOS vs ETH
 
 <figure className="video_container">
@@ -35,7 +37,7 @@ sidebar_label: Cadena de Bloques EOS
 * * *
 
 <p style={{ align: "center" }}>
-  <img src="/img/eos-blockchain/eos-network.jpg" width="100%" />
+  <img src={ useBaseUrl("/img/eos-blockchain/eos-network.jpg") } width="100%" />
   <br />
 </p>
 
@@ -84,7 +86,7 @@ sidebar_label: Cadena de Bloques EOS
 * * *
 
 <p style={{ align: "center" }}>
-  <img src="/img/eos-blockchain/eos-application-stack.png" width="100%" />
+  <img src={ useBaseUrl("/img/eos-blockchain/eos-application-stack.png") } width="100%" />
   <br />
   <small>
     <b>Source:</b>steemit.com/eos/@eosio/introducing-eos-io-application-stack
