@@ -1,9 +1,9 @@
 ---
 id: devops
-title: ¿Qué es DevOps?
+title: ¿ Qué es DevOps ?
 sidebar_label: DevOps
 description: DevOps es un conjunto de prácticas que agrupan el desarrollo de software y las operaciones de TI.
-keywords: [DevOps, ¿qué es DevOps?, ¿Para qué sirve DevOps?, EOS, EOS Costa Rica]
+keywords: [DevOps, Qué es DevOps, Para qué sirve DevOps, EOS, EOS Costa Rica]
 ---
 
 DevOps es la práctica y la cultura de aplicar los principios de fabricación ajustada al flujo de valor de TI para aumentar la velocidad del software, reducir el desperdicio y mejorar la calidad con énfasis en aprovechar *las personas, los procesos y las herramientas*.

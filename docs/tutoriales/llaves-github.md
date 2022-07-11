@@ -3,7 +3,7 @@ id: llaves-github
 title: Llaves de GitHub
 sidebar_label: Llaves de GitHub 
 description: "Llaves SSH para acceder a los repositorios de GitHub"
-keywords: [github, ssh, ssh-key, ssh-keygen, generar ssh key github, git key, extensión de la llave privada en git, ssh key github]
+keywords: [github, ssh, ssh-key, ssh-keygen, generar ssh key github, git key, extensión de la llave privada en git, ssh key github, Qué es SSH, Qué son las llaves SSH]
 ---
 
 ## ¿Por qué necesitamos Llaves de GitHub?

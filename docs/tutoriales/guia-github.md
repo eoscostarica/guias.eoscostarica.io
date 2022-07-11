@@ -3,7 +3,7 @@ id: guia-github
 title: Guía GitHub
 sidebar_label: Guía GitHub
 description: Definición y uso de controlador de versiones en GitHub
-keywords: [GitHub, Git, versiones, controlador, controladores, controlador de versiones, ¿Qué es GitHub?, ¿Cómo usar Github?]
+keywords: [GitHub, Git, versiones, controlador, controladores, controlador de versiones, Qué es GitHub, Cómo usar Github]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

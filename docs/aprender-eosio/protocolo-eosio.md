@@ -1,10 +1,10 @@
 ---
 id: protocolo-eosio
-title: ¿Qué es EOSIO?
+title: ¿ Qué es EOSIO ?
 sidebar_label: Protocolo EOSIO
-description: ¿Qué es EOSIO?, explicacion de como funciona el protocolo EOSIO
-keywords: [eosio, eosio.io, eos, eosio, eosio.io, EOS, EOS Costa Rica, ¿Qué es un protocolo?,
-¿Para qué sirve EOSIO?]
+description: Qué es EOSIO, explicacion de como funciona el protocolo EOSIO
+keywords: [eosio, eosio.io, eos, eosio, eosio.io, EOS, EOS Costa Rica, Qué es un protocolo,
+Para qué sirve EOSIO]
 ---
 
 EOSIO es software de código abierto que permite lanzar redes blockhain altamente configurables sobre las cuales desarrolladores y emprendedores pueden correr aplicaciones blockchain de alto rendimiento. [EOSIO](https://eos.io/) fue creado en el 2018 y es mantenido por la empresa [Block One](https://block.one/). La primera red pública lanzada sobre EOSIO se llama EOS, también referida como "mainnet". EOS es una de múltiples redes blockchain públicas actualmente utilizado EOSIO. Puede ver la siguiente [lista de redes EOSIO](https://guias.eoscostarica.io/docs/comunidad/redes-eosio). También existen múltiples redes privadas que actualmente utilizan EOSIO.

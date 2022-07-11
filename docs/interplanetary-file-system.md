@@ -3,7 +3,7 @@ id: interplanetary-file-system
 title: IPFS (Interplanetary File System)
 sidebar_label: IPFS (Interplanetary File System)
 description: IPFS es un protocolo de comunicación de datos que permite almacenar y recuperar archivos en una red de nodos.
-keywords: [IPFS, Interplanetary File System, File System, EOS, EOS Costa Rica, ¿Qué es IPFS?, ¿Para qué sirve IPFS?]
+keywords: [IPFS, Interplanetary File System, File System, EOS, EOS Costa Rica, Qué es IPFS, Para qué sirve IPFS]
 ---
 
 [IPFS](https://ipfs.io/) (Interplanetary File System) es un protocolo de red descentralizado que se basa en una red distribuida, esto para crear una relación directa con el método p2p ([peer to peer](https://es.wikipedia.org/wiki/Peer-to-peer)), el fin de dicho protocolo es almacenar archivos u información de una manera rápida y segura. De esta manera, IPFS cambia la forma tradicional de almacenamiento de la información pasando de centralizada a descentralizada, trayendo consigo muchos beneficios como el acceso a la información sin depender de un único punto de almacenamiento para su respectivo acceso, aumento de almacenamiento, control de uso de tus propios datos y entre muchos otros beneficios.

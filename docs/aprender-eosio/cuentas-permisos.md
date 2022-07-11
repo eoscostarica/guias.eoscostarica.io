@@ -4,7 +4,7 @@ title: Cuentas y Permisos de EOSIO
 sidebar_label: Cuentas y Permisos
 
 description: Cuentas y Permisos para el uso de EOSIO
-keywords: [cuentas-permisos, Cuentas y Permisos, cuentas, permisos, EOSIO, EOS, EOS Costa Rica, ¿Para qué son los permisos EOSIO?]
+keywords: [cuentas permisos, Cuentas y Permisos, cuentas, permisos, EOSIO, EOS, EOS Costa Rica, Para qué son los permisos EOSIO]
 ---
 
 ## Cuentas

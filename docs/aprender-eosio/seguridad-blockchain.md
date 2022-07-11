@@ -3,7 +3,7 @@ id: seguridad-blockchain
 title: Vulnerabilidades del Blockchain
 sidebar_label: Seguridad
 description: Peligros de Seguridad que presenta la Blockchain
-keywords: [seguridad, blockchain, eosio, eos, EOS, EOS Costa Rica, ¿Riesgo de Seguridad en blockchain?]
+keywords: [seguridad, blockchain, eosio, eos, EOS, EOS Costa Rica, Riesgo de Seguridad en blockchain]
 ---
 ## Explotando Vulnerabilidades en Blockchain
 

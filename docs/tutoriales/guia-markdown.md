@@ -3,8 +3,8 @@ id: guia-markdown
 title: Guía Markdown
 sidebar_label: Guia Markdown
 description: Definición y uso del Markdown
-keywords: [markdown, guía, ¿Qué es Markdown?, ¿Cómo se usa Markdown?, markdown Guide, 
-¿Cómo escribir en formato Markdown?, ¿Qué se puede hacer con Markdown?, ¿Qué es Markdown y para qué sirve]
+keywords: [markdown, guía, Qué es Markdown, Cómo se usa Markdown, markdown Guide, 
+Cómo escribir en formato Markdown, Qué se puede hacer con Markdown, Qué es Markdown y para qué sirve]
 ---
 
 ## ¿Qué es Markdown y para qué sirve?

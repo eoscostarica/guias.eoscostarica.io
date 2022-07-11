@@ -3,7 +3,7 @@ id: docker
 title: Docker
 sidebar_label: Docker
 description: Conceptos, definición y funcionalidades de Docker
-keywords: [Docker, Docker, Aprender Docker, ¿Qué es Docker?, ¿Para qué sirve Docker?, ¿Cómo funciona Docker?, ¿Cómo usar docker?]
+keywords: [Docker, Docker, Aprender Docker, Qué es Docker, Para qué sirve Docker, Cómo funciona Docker, Cómo usar docker]
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

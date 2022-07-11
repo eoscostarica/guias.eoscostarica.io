@@ -3,7 +3,7 @@ id: publicacion-de-paquetes
 title: Publicar Paquetes en NPM
 sidebar_label: Publicación de Paquetes
 description: Publicar paquetes para que otros desarrolladores puedan utilizarlos con npm
-keywords: [npm, publicar paquetes, npm publish, ¿Cómo publicar un paquete?, ¿Cómo publicar un paquete en npm?, ¿Cómo crer una librería de npm?]
+keywords: [npm, publicar paquetes, npm publish, Cómo publicar un paquete, Cómo publicar un paquete en npm, Cómo crer una librería de npm]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
