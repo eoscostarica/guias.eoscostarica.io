@@ -2,6 +2,8 @@
 id: glosario
 title: Glosario
 sidebar_label: Glosario
+description: Glosario de terminos relevantes para el desarrollo de aplicaciones de EOS
+keywords: [glosario, terminos, relevantes, EOS, EOS Costa Rica]
 ---
 
 Lista de términos necesarios para comprender un poco mas los contenidos presentes en esta guía. 

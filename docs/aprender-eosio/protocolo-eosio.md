@@ -1,7 +1,10 @@
 ---
 id: protocolo-eosio
-title: Protocolo EOSIO
+title: ¿ Qué es EOSIO ?
 sidebar_label: Protocolo EOSIO
+description: Qué es EOSIO, explicacion de como funciona el protocolo EOSIO
+keywords: [eosio, eosio.io, eos, eosio, eosio.io, EOS, EOS Costa Rica, Qué es un protocolo,
+Para qué sirve EOSIO]
 ---
 
 ## ¿Qué es EOSIO? 

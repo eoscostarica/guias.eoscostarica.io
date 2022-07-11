@@ -2,6 +2,8 @@
 id: instalacion-de-red-privada
 title: Instalación Red Privada EOSIO
 sidebar_label: Instalación Red Privada EOSIO
+description: Instalación de redes privadas EOSIO
+keywords: [Instalación Red Privada EOSIO, redes EOSIO, Qué es EOS, Qué es EOSIO, EOS, EOSIO]
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

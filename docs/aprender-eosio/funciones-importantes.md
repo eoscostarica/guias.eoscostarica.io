@@ -2,6 +2,8 @@
 id: funciones-importantes
 title: Funciones Importantes en EOSIO
 sidebar_label: Funciones Importantes
+description: Funciones Importantes en EOSIO
+keywords: [funciones importantes, EOSIO, EOS, EOS Costa Rica, Funciones EOSIO]
 ---
 
 ## Cuenta Privilegiada EOSIO

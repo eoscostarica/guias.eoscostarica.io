@@ -1,7 +1,9 @@
 ---
 id: redes-eosio
-title: Redes Blockchain basadas en EOSIO
+title: Redes Blockchain EOSIO
 sidebar_label: Redes EOSIO
+description: Redes blockchain que se encuentran desarrolladas con el protocolo de EOSIO.
+keywords: [Redes blockchain basadas en EOSIO, Blockchain, EOSIO, EOS, EOS Costa Rica]
 ---
 
 ## Redes Blockchain

@@ -2,6 +2,8 @@
 id: preguntas-frecuentes
 title: Preguntas Frecuentes
 sidebar_label: FAQ
+description: Preguntas frecuentes EOS Costa Rica
+keywords: [EOS Costa Rica, EOS, FAQ, Preguntas Frecuentes]
 ---
 
 

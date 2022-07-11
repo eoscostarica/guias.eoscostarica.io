@@ -2,6 +2,8 @@
 id: cpp-moderno
 title: C++ Moderno
 sidebar_label: C++ Moderno
+description: C++ Moderno nuevas características y funcionalidades
+keywords: [C++, C++ Moderno, C++, Aprender C++, Qué es C++, Cómo aprender C++, Qué es C++, Cómo funciona C++]
 ---
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">By using C++ to develop smart contracts we gain the effort of the entire computing industry in producing verification tools. People are already creating tools to write provably-correct software in c++ <a href="https://twitter.com/hashtag/eosio?src=hash&amp;ref_src=twsrc%5Etfw">#eosio</a> <a href="https://twitter.com/hashtag/ethereum?src=hash&amp;ref_src=twsrc%5Etfw">#ethereum</a> <a href="https://twitter.com/hashtag/cardano?src=hash&amp;ref_src=twsrc%5Etfw">#cardano</a> <a href="https://t.co/mhQQaEKA0D">https://t.co/mhQQaEKA0D</a></p>&mdash; Daniel Larimer (@bytemaster7) <a href="https://twitter.com/bytemaster7/status/991070899888631811?ref_src=twsrc%5Etfw">April 30, 2018</a></blockquote>

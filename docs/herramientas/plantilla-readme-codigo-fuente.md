@@ -1,6 +1,8 @@
 ---
 id: plantilla-readme-codigo-fuente
 title: Código fuente de la plantilla README
+description: Código fuente de la plantilla README
+keywords: [código fuente, plantilla, README, Ejemplos de README]
 ---
 
 ```

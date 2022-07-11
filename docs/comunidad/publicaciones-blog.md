@@ -1,7 +1,9 @@
 ---
 id: publicaciones-blog
-title: Publicaciones de blog
+title: Blogs EOS
 sidebar_label: Publicaciones de Blog
+description: Publicaciones de blog de EOS Costa Rica
+keywords: [Publicaciones, Blog, Comunidad, Comunidad EOS, EOS, EOS Costa Rica]
 ---
 
 ## ¿Qué es Blockchain?

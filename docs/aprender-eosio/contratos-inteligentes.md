@@ -1,7 +1,9 @@
 ---
 id: contratos-inteligentes
-title: Contratos Inteligentes
+title: ¿ Qué es un Contrato Inteligente y como Funciona ?
 sidebar_label: Contratos Inteligentes
+description: Definiciones y explicaciones de contratos inteligentes.
+keywords: [contratos inteligentes, contrato inteligente, smart contract, blockchain, eos, eosio, eosio.io, EOS, EOS Costa Rica, Qué es un contrato inteligente, Cómo crear un contrato inteligente] 
 ---
 
 Un contrato es un acuerdo que rige los resultados de las acciones una vez dado un conjunto de datos de entrada. Un contrato puede ir desde los tipo legal (ejemplo transacciones financieras) hasta algo más simple como las reglas de un juego. Las acciones típicas pueden ser transacciones de fondos (en el caso de un contrato financiero) o movimientos de juegos (en el caso de un contrato de juego).

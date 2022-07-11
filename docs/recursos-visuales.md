@@ -2,6 +2,8 @@
 id: recursos-visuales
 title: Recursos Visuales 
 sidebar_label: Recursos Visuales 
+description: Guías de redes sociales para los desarrolladores de software EOS Costa Rica.
+keywords: [redes sociales EOS, guías, desarrollo, software, EOS, EOS Costa Rica]
 ---
 
 ## EOS Costa Rica

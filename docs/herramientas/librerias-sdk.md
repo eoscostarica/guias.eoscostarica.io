@@ -1,7 +1,9 @@
 ---
 id: librerias-sdk
-title: Librerías SDK
+title: Librerías SDK para EOSIO
 sidebar_label: Librerías SDK
+description: Librerías para utilizar con el blockchain de EOSIO
+keywords: [librerias, SDK, EOSIO, EOS, blockchain, EOS Costa Rica, librerias blockchain]
 ---
 
 ## Librerías SDK para EOSIO
