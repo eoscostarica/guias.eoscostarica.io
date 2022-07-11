@@ -132,11 +132,13 @@ const siteConfig = {
     },
     //Algolia integration
     algolia: {
-      appId: "BH4D9OD16A",
       apiKey: "bc2a776159634dff6c77c849d8b80dc1",
       indexName: "eoscostarica_guias",
       placeholder: "Search",
       algoliaOptions: {}, // Optional, if provided by Algolia
+    },
+    googleAnalytics: {
+      trackingID: "UA-173987-66",
     },
   },
 
@@ -155,9 +157,6 @@ const siteConfig = {
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-        },
-        googleAnalytics: {
-          trackingID: "UA-173987-66",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

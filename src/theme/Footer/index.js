@@ -7,6 +7,7 @@
 import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import useThemeContext from '@theme/hooks/useThemeContext';
 import { useThemeConfig } from '@docusaurus/theme-common';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
@@ -39,7 +40,7 @@ const FooterLogo = ({
 }) => <img className="footer__logo" alt={alt} src={url} />;
 
 function Footer() {
-  const {isDarkTheme} = useThemeConfig();
+  const {isDarkTheme} = useThemeContext();
   const {
     footer
   } = useThemeConfig();
