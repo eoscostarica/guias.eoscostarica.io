@@ -1,7 +1,9 @@
 ---
 id: herramientas-para-desarrolladores-ux-ui
-title: Herramientas Preferidas Para UX/UI
+title: Herramientas para Diseño de UX/UI
 sidebar_label: UX/UI
+description: Herramientas para el diseño de interfaces de usuario UX/UI
+keywords: [UX, UI, UI Design, UI Design Tool, UI Design Toolkit, EOS, EOS Costa Rica, diseñar, Qué es UI]
 ---
 
 ## Figma

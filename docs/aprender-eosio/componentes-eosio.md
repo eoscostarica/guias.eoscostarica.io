@@ -2,6 +2,8 @@
 id: componentes-eosio
 title: Componentes EOSIO
 sidebar_label: Componentes EOSIO
+description: Componentes EOSIO, explicacion de como funciona la cadena de bloques de EOS con distintos componentes
+keywords: [componentes-eosio, Componentes EOSIO, blockchain, eos, eosio, eosio.io, EOS, EOS Costa Rica]
 ---
 
 ## Nodeos

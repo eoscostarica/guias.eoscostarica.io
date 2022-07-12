@@ -2,6 +2,8 @@
 id: desarrollo-de-dapps
 title: Desarrollo de Dapps
 sidebar_label: Desarollo de Dapps
+description: Desarrollo de Dapps con distintos frameworks y herramientas
+keywords: [desarrollo de Dapps, dapps, EOS, EOS Costa Rica, EOSIO, Qué es Dapps, Para qué sirve Dapps]
 ---
 
 ## EOSIO para el Desarrollo de Aplicaciones Descentralizadas (dApps)

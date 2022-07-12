@@ -2,6 +2,8 @@
 id: migracion-mandel
 title: Migración de EOSIO a Mandel
 sidebar_label: Migración de EOSIO a Mandel
+description: Diferencias entre la red actual EOSIO y Mandel.
+keywords: [ EOSIO, Mandel, Migración, EOSIO a Mandel, Migracion a Mandel, Cuál es la diferencia entre EOSIO Y Mandel, Qué es Mandel, Mandel Vs EOSIO ]
 ---
 
 ## Descontento con Block One

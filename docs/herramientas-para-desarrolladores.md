@@ -1,7 +1,9 @@
 ---
 id: herramientas-para-desarrolladores
-title: Nuestras Herramientas Favoritas
-sidebar_label: Nuestras Herramientas Favoritas
+title: Herramientas para Desarrollo de Software
+sidebar_label: Herramientas para desarrollo
+description: Herramientas utilizadas para el desarrollo de software por EOS Costa Rica.
+keywords: [Herramientas para desarrollo de software, desarrollo, software, EOS, EOS Costa Rica, apps para programar]
 ---
 
 

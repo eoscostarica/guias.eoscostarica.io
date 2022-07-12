@@ -1,7 +1,9 @@
 ---
 id: linea-de-comando
-title: Línea de Comando
+title: Comandos Cleos
 sidebar_label: Línea de Comando
+description: Lista de comando para el uso de Cleos
+keywords: [Comandos Cleos, cleos, comandos, EOS, Costa Rica, Qué es cleos]
 ---
 
 ### Comando Cleos 

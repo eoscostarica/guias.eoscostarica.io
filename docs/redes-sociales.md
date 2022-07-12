@@ -2,6 +2,8 @@
 id: redes-sociales
 title: Guías para Redes Sociales
 sidebar_label: Guías Para Redes Sociales
+description: Guías de redes sociales para los desarrolladores de software EOS Costa Rica.
+keywords: [redes sociales EOS, guías, desarrollo, software, EOS, EOS Costa Rica]
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

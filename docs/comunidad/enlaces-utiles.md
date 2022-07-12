@@ -1,7 +1,9 @@
 ---
 id: enlaces-utiles
-title: Enlaces Útiles
+title: Enlaces Comunidad EOS
 sidebar_label: Enlaces Útiles
+description: Enlaces Útiles de la Comunidad EOS
+keywords: [Enlaces Útiles, Elaces Comunidad, Comunidad, Comunidad EOS, EOS, EOS Costa Rica]
 ---
 
 Aquí hay una lista de enlaces útiles relacionados con la comunidad EOS.

@@ -2,6 +2,8 @@
 id: tutorial-flujo-trabajo-git
 title: Tutorial de flujo de trabajo de Git
 sidebar_label: Flujo de Trabajo de Git
+description: Flujo de trabajo de EOS Costa Rica con Github
+keywords: [github, git, gitflow, gitflow-eos, gitflow-eos-costa-rica, flujo git]
 ---
 
 ## Tutorial de Flujo de Trabajo de Git

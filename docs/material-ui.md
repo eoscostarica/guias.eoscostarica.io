@@ -2,6 +2,8 @@
 id: material-ui
 title: Material UI
 sidebar_label: Material UI Theme
+description: Material UI Theme para el manejo de estilos en proyectos
+keywords: [material-ui, theme, styles, css, paleta de colores, EOS, EOS Costa Rica]
 ---
 
 ## Logo y Activos Visuales

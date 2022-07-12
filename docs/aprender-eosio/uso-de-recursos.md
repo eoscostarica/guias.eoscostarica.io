@@ -1,7 +1,9 @@
 ---
 id: uso-de-recursos
-title: Uso de recursos
+title: Uso de Recursos EOSIO
 sidebar_label: Uso de Recursos
+description: Uso de recursos del blockchain de EOSIO
+keywords: [uso de recursos, recursos EOSIO, eosio, eos, EOS, EOS Costa Rica]
 ---
 
 ## Tipos de Recursos

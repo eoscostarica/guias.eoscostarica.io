@@ -2,6 +2,8 @@
 id: llaves-privadas
 title: Manejo de Llaves Privadas
 sidebar_label: Llaves Privadas
+description: Manejo de Llaves Privadas en blockchain
+keywords: [llaves privadas, blockchain, eosio, EOS, EOS Costa Rica, manejo de llaves privadas, Qué es una llave privada, Para qué es una llave privada]
 ---
 
 ## Crear Cuenta en el Blockchain Público

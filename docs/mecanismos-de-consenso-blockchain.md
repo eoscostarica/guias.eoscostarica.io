@@ -1,7 +1,9 @@
 ---
 id: mecanismos-de-consenso-blockchain
-title: Mecanismos de Consenso Blockchain
-sidebar_label: Mecanismos de Consenso
+title: Algoritmos de Consenso 
+sidebar_label: Algoritmos de Consenso
+description: Definicion y explicaciones con temas relacionados a los mecanismos de consenso
+keywords: [EOS, Costa Rica, Qué es un Algoritmo de Consenso, Para qué Funcionan los Algoritmos de Consenso, Mecanismos de Consenso]
 ---
 
 Es importante tener conocimiento sobre cuales han sido los mecanismos de consenso utilizados por las distintas redes blockchain para mantener la seguridad e integridad dentro de la red, asi como los beneficios y las redes que aun la conforman.

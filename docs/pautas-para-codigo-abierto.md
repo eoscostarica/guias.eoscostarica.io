@@ -2,6 +2,8 @@
 id: pautas-para-codigo-abierto
 title: Pautas para Código Abierto
 sidebar_label: Pautas Para Código Abierto
+description: Pautas para el manejo de proyectos de código abierto en EOS Costa Rica.
+keywords: [pautas para codigo abierto, código abierto, proyectos, EOS, EOS Costa Rica, Proyectos de código abierto]
 ---
 
 ## Proceso de Desarrollo
