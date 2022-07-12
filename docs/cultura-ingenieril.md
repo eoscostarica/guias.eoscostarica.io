@@ -16,7 +16,7 @@ Nosotros estamos decentralizando los modelos económicos de la internet.
 
 ### Transparencia
 
-Todos nuestros procesos son abiertos y transparentes. Somos un equipo multidisciplinario donde los desarrolladores saben también exactamente qué está ocurriendo en los servidores; trabajamos justo al equipo de DevOps - "si tu lo construyes, tu lo corres". Tenemos pautas claras de proyectos y discutimos los planes abiertamente en github; los mensajes y llamadas en zoom son frecuentes.
+Todos nuestros procesos son abiertos y transparentes. Somos un equipo multidisciplinario donde los desarrolladores saben también exactamente qué está ocurriendo en los servidores; trabajamos junto al equipo de DevOps - "si tu lo construyes, tu lo corres". Tenemos pautas claras de proyectos y discutimos los planes abiertamente en github; los mensajes y llamadas en zoom son frecuentes.
 
 ### Comunicación y Franqueza
 
