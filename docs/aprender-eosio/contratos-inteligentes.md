@@ -10,7 +10,7 @@ Un contrato es un acuerdo que rige los resultados de las acciones una vez dado u
 
 Un Contrato Inteligente de EOSIO es software registrado en el blockchain y ejecutado en los nodos de EOSIO, esto implementa las semánticas de un contracto cuyo registro de solicitudes de acciones están siendo guardadas en el blockchain. El Contrato Inteligente define la interfaz (acciones, parámetros, estructuras de datos) y el código que implementa la interfaz. El código es compilado en el formato **bytecode canónico** el cual puede ser obtenido y ejecutado por los nodos. El blockchain guarda las transacciones (tranferencias legales, moviemientos de juego) del contrato. Cada Contrato Inteligente debe ser acompañado de un Contrato Ricardiano que define la legalidad de los términos y condiciones enlazadas del contrato.
 
-Lee más aquí : https://guias.eoscostarica.io/docs/tutoriales/cpp-moderno
+Visite nuestro [Tutorial C++ Moderno](https://guias.eoscostarica.io/docs/tutoriales/cpp-moderno)
 
 ## Framework de Diseño de Contratos Inteligentes
 
@@ -51,3 +51,13 @@ https://github.com/kesar/eos-awesome-contracts
 <figure class="video_container">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZE2HxTmxfrI" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
 </figure>
+
+Puedes ver más en este canal: https://www.youtube.com/user/grandmoren1/videos
+
+## Recursos Adicionales
+
+Si desea conocer más sobre esto puede visite los siguientes enlaces:
+
+* [Tutorial Contrato Inteligente Hola Mundo](https://guias.eoscostarica.io/docs/tutoriales/contrato-hola-mundo)
+* [Guías de Contrato Inteligente](https://developers.eos.io/welcome/v2.1/smart-contract-guides/index)
+* [Manual del desarrollador de Contratos Inteligentes EOSIO](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)
