@@ -47,7 +47,5 @@ https://github.com/kesar/eos-awesome-contracts
 ## Esquema de Contrato Inteligente Básico 
 
 <figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/EbWDHrm2ETY" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZE2HxTmxfrI" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
 </figure>
-
-Puedes ver más en este canal: https://www.youtube.com/user/grandmoren1/videos
