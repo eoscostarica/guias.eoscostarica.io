@@ -51,3 +51,5 @@ https://github.com/kesar/eos-awesome-contracts
 </figure>
 
 Puedes ver más en este canal: https://www.youtube.com/user/grandmoren1/videos
+
+Si desea conocer más sobre esto puede visite el siguiente [enlace](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)

@@ -17,6 +17,7 @@ Aquí hay una lista de enlaces útiles relacionados con la comunidad EOS.
 * [Entrenamiento y Certificado EOSIO](https://training.eos.io/)
 * [Documentación Kubernetes](https://kubernetes.io/es/docs/tutorials/kubernetes-basics/)
 * [Foro EOSCommunity.org](https://eoscommunity.org/)
+* [EOSIO Smart Contract Developer's Handbook](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook)
 
 ## UX/UI
 
