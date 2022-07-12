@@ -183,21 +183,21 @@ const CardsSection = () => {
       <Grid
         container
         direction="row"
-        justify="center"
+        justifyContent="center"
         alignItems="center"
         spacing={2}
       >
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
           title="Guias generales"
-          body= "Guías para los desarrolladores sobre como programar en código abierto."
+          body= "Guías generales para el desarrollo en código abierto."
           href= "/docs/pautas-para-codigo-abierto"
           img="/img/cards-icons/guidelines.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
           title="Aprender EOSIO"
-          body= "Conjunto de información necesaria para aprender sobre el protocolo EOSIO."
+          body= "Recursos y información para el aprendizaje del protocolo EOSIO."
           href= "/docs/aprender-eosio/protocolo-eosio"
           img="/img/cards-icons/icons-eosio.svg"></CustomCard>
       </Grid>
@@ -205,27 +205,27 @@ const CardsSection = () => {
         <CustomCard 
           title="Tutoriales"
           body= "Información de apoyo necesaria para realizar la instalación y la ejecución de procesos. "
-          href= "docs/tutoriales/como-iniciar"
+          href= "docs/tutoriales/contrato-hola-mundo"
           img="/img/cards-icons/tutorials.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
           title="Herramientas"
-          body= "Conjunto de herramientas útiles durante el proceso de aprendizaje."
+          body= "Conjunto de herramientas útiles para el proceso de aprendizaje."
           href= "docs/herramientas/glosario"
           img="/img/cards-icons/tools.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
           title="Comunidad"
-          body= "Enlaces a sitios de interés de la comunidad de EOS"
+          body= "Enlaces a sitios de interés relacionados con la comunidad EOS."
           href= "docs/comunidad/canales-de-telegram"
           img="/img/cards-icons/community.svg"></CustomCard>
       </Grid>
       <Grid item xs={12} sm={12} md={4}>
         <CustomCard 
           title="Proyectos de código abierto"
-          body= "Listado de proyectos de código abierto que realizamos."
+          body= "Proyectos de código abierto desarrollados por EOS Costa Rica."
           href= "docs/proyectos-de-codigo-abierto"
           img="/img/cards-icons/icons-opensource.svg"></CustomCard>
       </Grid>
@@ -271,7 +271,7 @@ const MediumSection = () => {
        <Grid
         container
         direction="row"
-        justify="center"
+        justifyContent="center"
         alignItems="center"
         spacing={2}
       >
@@ -308,6 +308,7 @@ const HomePage = () => {
   return (
     <Layout
       permalink="/"
+      title={siteConfig.title}
       description={siteConfig.tagline}>
       <HeroSection/>
       <CardsSection/>

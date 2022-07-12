@@ -10,7 +10,7 @@
 
 const siteConfig = {
   title: "EOS Costa Rica | Guías para desarrolladores",
-  tagline: "Documentación para desarrolladores de EOS Costa Rica",
+  tagline: "Guías y documentación para desarrolladores de EOS Costa Rica",
   url: "https://guias.eoscostarica.io",
   baseUrl: "/", // Base URL for your project */
   //cname: "guias.eoscostarica.io",
