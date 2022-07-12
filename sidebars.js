@@ -58,6 +58,7 @@ module.exports = {
       "herramientas/explorador-de-bloques",
       "herramientas/librerias-sdk",
       "herramientas/plantilla-readme",
+      "herramientas/ejemplos-contratos-inteligentes-eosio",
       "herramientas/preguntas-frecuentes",
     ],
     Comunidad: [
