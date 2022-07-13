@@ -2,8 +2,8 @@
 id: cadena-de-bloques-eos
 title: Cadena de Bloques EOS
 sidebar_label: Cadena de Bloques EOS
-description: Cadena de Bloques EOS, explicacion de como funciona la cadena de bloques de EOS
-keywords: [cadena de bloques eos, cadena-de-bloques, blockchain, eos, eosio, eosio.io, EOS, EOS Costa Rica, Qué es una cadena de bloques] 
+description: Cadena de Bloques EOS, explicación de como funciona la cadena de bloques de EOS
+keywords: [cadena de bloques EOS, EOS Mainnet, blockchain, EOSIO, EOS, Qué es EOS] 
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

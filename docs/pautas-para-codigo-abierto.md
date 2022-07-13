@@ -20,9 +20,9 @@ Cuando comienzas a trabajar en una tarea, deberías moverla manualmente a la col
 
 Usamos el flujo de GitHub https://guides.github.com/introduction/flow/ para solicitar cambios en el código. Desarrollamos en la rama `master` y `release` usando etiquetas y versionamiento.
 
-![Flujo de GitHub](https://gaboesquivel.com/img/2018/05/github-flow.png)
+<img src="/img/github-flow.webp" width="958" height="241" class="center" alt="Flujo de Trabajo Open Source en GitHub" />
 
-Los nuevos y reabiertos `pull request` son autómaticamente añadidos al tablero en la columna `En Progreso`.
+Los nuevos y reabiertos `pull request` son automáticamente añadidos al tablero en la columna `En Progreso`.
 
 Cuando un pull request cerrado es movido a la columna `Done` automáticamente. Si el pull request se cierra y no tiene problemas, se indica correctamente con las palabras clave de GitHub que se cierra el pull request y se mueve automáticamente a la columna `Done`. 
 
@@ -56,7 +56,7 @@ feat/nueva-carateristica-123
 
 ## Pautas para los Pull Request
 
-* Por favor revisa para asegurarte que no hay ningún `pull request` existente tratando de localizar o vincular el `issue` mecionado.
+* Por favor revisa para asegurarte que no hay ningún `pull request` existente tratando de localizar o vincular el `issue` mencionado.
 * Busca los `issues` relacionados en el `registro de issues`.
 * Los cambios no triviales deberían ser discutidos primero en un issue.
 * Desarrolla en una rama específica para características (código no estable), nunca en la master: `git checkout -b tipo/tarea-issue`.
@@ -64,11 +64,11 @@ feat/nueva-carateristica-123
 * Realiza `pull requests` atómicos y con un ámbito bien definido. 1 PR por característica o bug.
 * Vincula el `issue` con la descripción `pull request` para referencia entre el código y los issues.
 
-Soportamos únicamente **squash merge** de los `pull requests` como una buena práctica para asegurar que el registro de la rama `master` es mantenido limpio y relevante, sin requerir que el pull request sea modificado. Esta estrategia requiere que todos los pull request sea hechos de forma `atómica`, en otras palabras, que resuelvan una única cosa. Un pull request por característica, bug o actualizacón de documentación.
+Soportamos únicamente **squash merge** de los `pull requests` como una buena práctica para asegurar que el registro de la rama `master` es mantenido limpio y relevante, sin requerir que el pull request sea modificado. Esta estrategia requiere que todos los pull request sea hechos de forma `atómica`, en otras palabras, que resuelvan una única cosa. Un pull request por característica, bug o actualización de documentación.
 
 ## Pautas para Mensajes en los Commits
 
-Tenemos reglas muy precisas acerca de cómo los mensajes de los commits de `git` deben ser formateados, siguiendo convenciones y estandares de Github. Esto permite **mensajes más legibles** que son fáciles de seguir cuando se está buscando entre la **historia del proyecto**. Pero también, usamos los mensajes de commit de `git` para generar el **registro de cambios del proyecto**.
+Tenemos reglas muy precisas acerca de cómo los mensajes de los commits de `git` deben ser formateados, siguiendo convenciones y estándares de Github. Esto permite **mensajes más legibles** que son fáciles de seguir cuando se está buscando entre la **historia del proyecto**. Pero también, usamos los mensajes de commit de `git` para generar el **registro de cambios del proyecto**.
 
 Seguimos las convenciones de mensajes de commit como se muestra a continuación:
 
@@ -76,13 +76,13 @@ Seguimos las convenciones de mensajes de commit como se muestra a continuación:
 
 Cada mensaje de commit consiste en un **encabezado**, un **cuerpo** y un **pié**. El encabezado tiene un especial formato que incluye un **tipo**, un **ámbito** y un **aspecto o tema**:
 ```
-<tipo>(<ambito>): <aspecto>
+<tipo>(<ámbito>): <aspecto>
 <BLANK LINE>
 <cuerpo>
 <BLANK LINE>
 <pie>
 ```
-El ```encabezado``` es obligatorio y el ```<ambito>``` del encabezado es opcional.
+El ```encabezado``` es obligatorio y el ```<ámbito>``` del encabezado es opcional.
 
 ** Ejemplo: **
 
@@ -132,7 +132,7 @@ Si el commit revierte un commit previo, debe empezar con `revert: `, seguido por
 * **style**: Cambios que no afectar en significado del código (espacios en blanco, formato, puntos y comas olvidados, etc).
 * **test**: Añadir pruebas faltantes o corregir las existentes.
 * **content**: Añadir o remover contenido.
-* **devtools**: Heramientas para desarrolladores.
+* **devtools**: Herramientas para desarrolladores.
 
 ### Ámbito
 El ámbito es el nombre del componente o servicio que afecta, ejemplo:
@@ -187,7 +187,7 @@ Lanzamos el software para producción usando las etiquetas de GitHub [Semver](ht
 
 #### Breaking.Feature.Fix
 
-No decidimos cuál será la versión. Los cambios en el API deciden. Los números en la versión son para computadoras, no para personas. Los nombres en los lazamientos son para las personas.
+No decidimos cuál será la versión. Los cambios en el API deciden. Los números en la versión son para computadoras, no para personas. Los nombres en los lanzamientos son para las personas.
 
 ##### Breaking
 
@@ -215,7 +215,7 @@ Usamos [standardjs code style](https://standardjs.com).
 
 ## Integración Continua y Entrega
 
-Esto es un trabajo en progeso, problamente usaremos Netlify y TravisCI.
+Esto es un trabajo en progreso, probablemente usaremos Netlify y TravisCI.
 
 ## Pre-commit Hooks
 

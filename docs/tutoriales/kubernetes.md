@@ -19,7 +19,7 @@ Kubernetes es una plataforma de código abierto, que fue creada por Google, util
 
 ## Arquitectura de Kubernetes
 
-Hay dos roles principales, “master” y “node”. El master se encarga de manejar y orquestar los diferentes microservicios entre los 4 nodos disponibles del cluster.
+Hay dos roles principales, “master” y “node”. El master se encarga de manejar y orquestar los diferentes micro-servicios entre los 4 nodos disponibles del cluster.
 
 ## Esquema de Arquitectura de Kubernetes
 

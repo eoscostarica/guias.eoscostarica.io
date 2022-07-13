@@ -1,9 +1,9 @@
 ---
 id: mecanismos-de-consenso-blockchain
-title: Algoritmos de Consenso 
-sidebar_label: Algoritmos de Consenso
-description: Definicion y explicaciones con temas relacionados a los mecanismos de consenso
-keywords: [EOS, Costa Rica, Qué es un Algoritmo de Consenso, Para qué Funcionan los Algoritmos de Consenso, Mecanismos de Consenso]
+title: Algoritmos de Consenso Blockchain
+sidebar_label: Mecanismos de Consenso
+description: Definición y explicaciones con temas relacionados a los mecanismos de consenso en protocolos Blockchain
+keywords: [Algoritmo de Consenso, Mecanismos de Consenso, DPoS, POS, POW, Proof of Work, Delegated Proof of Stake, Proof of Stake, Protocolos Blockchain]
 ---
 
 Es importante tener conocimiento sobre cuales han sido los mecanismos de consenso utilizados por las distintas redes blockchain para mantener la seguridad e integridad dentro de la red, asi como los beneficios y las redes que aun la conforman.
@@ -37,7 +37,7 @@ Si se desea obtener más información puede visitar el siguiente [enlace](https:
 
 Este mecanismo de consenso nace con el 2011 con el fin de eliminar aquellas limitaciones presentes en su antecesor proof of work, teniendo en lugar de "mineros" que requieren recursos para la verificación de transacciones tales como equipos especializados y grandes cantidades energía a los "validadores" los cuales son dueños de monedas y ponen como colateral ["Stake"](https://guias.eoscostarica.io/docs/herramientas/glosario/#stake) cierta cantidad de monedas, siendo escogido de manera aleatoria los validadores responsables de "validar" o "minar" en caso de que exista un validador corrupto perderá el stake y no podrá ser validador en el futuro.
 
-Para la validación de transacciones en EOSIO se requiere una mayoria de 2/3+1 para el consenso (Este dato puede variar según la red) del total de los validadores aprueben y el bloque de transacciones. Para la elección de los validadores se toma en consideración los siguientes aspectos:
+Para la validación de transacciones en EOSIO se requiere una mayoría de 2/3+1 para el consenso (Este dato puede variar según la red) del total de los validadores aprueben y el bloque de transacciones. Para la elección de los validadores se toma en consideración los siguientes aspectos:
 
 - Cantidad de tokens (Entre más alta sea cantidad mayor la probabilidad de ser elegido).
 - Edad de las monedas apostadas, una vez utilizadas se reinicia a 0 (Entre más tiempo sin ser utilizadas mayor la probabilidad de ser elegido).
@@ -54,7 +54,7 @@ En la actualidad las redes que utilizan este mecanismo de consenso son:
 
 ## Diferencias entre los Mecanismos
 
-|Aspecto | Proof of Work (PoW) | Proof of Stake (PoS) | Delegate Proof of Stake (DPoS) |
+|Aspecto | Proof of Work (PoW) | Proof of Stake (PoS) | Delegated Proof of Stake (DPoS) |
 |  :----  |  :----:  |   :----:  |   :----:  |  
 | Requisitos de equipo | Equipos especializados | Equipo con conexión a internet | Equipo con conexión a internet |  
 | Quien se encarga de validar las transacciones | Son validadas por el primer minero en encontrar la solución | La persona escogida por el sistema | El delegado escogido |
@@ -62,7 +62,7 @@ En la actualidad las redes que utilizan este mecanismo de consenso son:
 | Principales fortalezas | Es un mecanismo muy seguro | Es más amigable con los usuarios e involucra más a la comunidad | Permite una mayor democracia por parte de la comunidad |
 | Principales retos | Es extremadamente costoso | Favorece a aquellos con mayores recursos | Requiere una comunidad muy involucrada |
 
-Si desea aprender más sobre Delegate Proof of Stake (DPoS) puede visitar el siguiente [enlace](https://guias.eoscostarica.io/docs/aprender-eosio/mecanismo-de-consenso#delegated-proof-of-stake-dpos).
+Si desea aprender más sobre Delegated Proof of Stake (DPoS) puede visitar el siguiente [enlace](https://guias.eoscostarica.io/docs/aprender-eosio/mecanismo-de-consenso#delegated-proof-of-stake-dpos).
 
 ## Otros Mecanismos de Consenso
 

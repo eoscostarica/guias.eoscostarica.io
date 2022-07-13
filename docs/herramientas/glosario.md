@@ -74,7 +74,7 @@ Las billeteras son clientes que almacenan llaves privadas asociadas con los perm
 
 ### Blacklist (Lista negra)
 
-Una lista negra es una medida que un nodo de la cadena de bloques puede poner en práctica para impedir que bloquee cualquier transacción que haya sido autorizada por una lista definida de cuentas bloqueados o cualquier transacción que interactúe con una lista definida de contratos. Cada nodo puede deifnir su propia lista negra, que no se puede ver públicamente. 
+Una lista negra es una medida que un nodo de la cadena de bloques puede poner en práctica para impedir que bloquee cualquier transacción que haya sido autorizada por una lista definida de cuentas bloqueados o cualquier transacción que interactúe con una lista definida de contratos. Cada nodo puede definir su propia lista negra, que no se puede ver públicamente. 
 
 * * *
 
@@ -116,7 +116,7 @@ Los bloques son archivos donde los datos pertenecientes a la cadena de bloques s
 
 ### BOSCore
 
-Es la primera cadena de bloques DPOS equipada con IBC. Su objetivo es refactorizar escenarios comerciales con tecnología descentralizada y construir un ecosistema de blockchain creíble que admita miles de millones de usuarios.
+Es la primera cadena de bloques DPoS equipada con IBC. Su objetivo es refactorizar escenarios comerciales con tecnología descentralizada y construir un ecosistema de blockchain creíble que admita miles de millones de usuarios.
 
 * * * 
 
@@ -148,7 +148,7 @@ Es la herramientas de lineas de comandos que se conecta con el API expuesto por 
 
 ### Contratos Inteligentes
 
-Es software registrado en el blockchain y ejecutado en los nodos de EOSIO, esto implementa las semánticas de un contracto cuyo registro de solicitudes de acciones están siendo guardadas en el blockchain. El Contrato Inteligente define la interfaz (acciones, parámetros, estructuras de datos) y el código que implementa la interfaz.
+Es software registrado en el blockchain y ejecutado en los nodos de EOSIO, esto implementa las semánticas de un contrato cuyo registro de solicitudes de acciones están siendo guardadas en el blockchain. El Contrato Inteligente define la interfaz (acciones, parámetros, estructuras de datos) y el código que implementa la interfaz.
 
 * * *
 
@@ -316,7 +316,7 @@ Es el proceso de transformar una cadena en un valor o clave de longitud fija. Un
 
 ### Hasura 
 
-Es un servidor GraphQL ultrarrápido que le ofrece API GraphQL en tiempo real sobre Postgres, con disparadores de webhook en eventos de bases de datos y esquemas remotos para la lógica empresarial.
+Es un servidor GraphQL ultra rápido que le ofrece API GraphQL en tiempo real sobre Postgres, con disparadores de webhook en eventos de bases de datos y esquemas remotos para la lógica empresarial.
 
 También ayuda a construir aplicaciones GraphQL respaldadas por Postgres o moverse gradualmente a GraphQL para aplicaciones existentes que usan Postgres.
 
@@ -430,7 +430,7 @@ Funciona como billetera para manejar las llaves para EOSIO. Es el componente que
 
 ### Latencia 
 
-Peróodo de tiempo que transcurre entre la comunicación de un paquete atraves de la red.
+Periodo de tiempo que transcurre entre la comunicación de un paquete atraves de la red.
 
 * * *
 
@@ -504,7 +504,7 @@ Un nodo es la base fundamental de la tecnología blockchain, conforman la infrae
 
 ### NPM
 
-[NPM](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/) `Node Package Manager` es un repositorio en línea para la publicación de proyectos de código abierto, ademas permite la instalación de paquetes, adminsitración de versiones y adminsitración de dependencias. 
+[NPM](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/) `Node Package Manager` es un repositorio en línea para la publicación de proyectos de código abierto, ademas permite la instalación de paquetes, administración de versiones y administración de dependencias. 
 
 * * * 
 
@@ -626,7 +626,7 @@ Son un conjunto de aproximadamente 100 nodos completos que han expresado el dese
 
 ### StoryBook
 
-[StoryBook](https://storybook.js.org/) es una herramienta de codigo abierto para desarrollar componentes de UI de forma aislada para React, Vue y Angular.
+[StoryBook](https://storybook.js.org/) es una herramienta de código abierto para desarrollar componentes de UI de forma aislada para React, Vue y Angular.
 
 * * * 
 

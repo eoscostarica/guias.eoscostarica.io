@@ -15,7 +15,7 @@ keywords: [IPFS, Interplanetary File System, File System, EOS, EOS Costa Rica, Q
   </iframe>
 </figure>
 
-## Nacimiento de IPFS
+## Historia de IPFS
 
 IPFS nace con la necesidad de solventar muchos problemas que se ven día con día en el almacenamiento de los datos en internet. Un claro ejemplo es el almacenamiento centralizado, el acaparamiento de datos en un sólo lugar hace que su uso sea más lento dependiendo la cantidad de personas, también si el servidor deja de funcionar no hay manera de utilizar la información hasta que este vuelva a estar en marcha. También es muy común el uso de información para venderla a terceros como es el caso de algunas redes sociales donde venden información de gustos y preferencias sin el consentimiento de los usuarios. Este sistema nace con el fin de dar solución a muchos problemas presentes en el protocolo actual.
 
@@ -59,7 +59,7 @@ Algunas desventajas de usar IPFS son:
 
 Actualmente existen varios casos de usos de sistemas en los cuales las empresas han decidido innovar utilizando esta nueva tecnología. Esto es debido a la gran cantidad de beneficios que ofrece este sistema, algunas empresas que dan uso de esta tecnología son:    [Audius](https://audius.co/), una plataforma que utiliza la tecnología de IPFS para almacenar sus datos de forma descentralizada donde el artista puede ver quienes escuchan su música por lo que tienen total control en las misma, otra empresa muy reconocida y que está empezando en el uso de esta tecnología para el manejo de sus archivos es [Netflix](https://www.netflix.com/).
 
-Este protocolo IPFS también ha sido implementado en varias redes relacionadas con el blockchain. Esto debido a su capacidad de almacenamiento y gran cantidad de beneficios que puede traer a estas redes. Algunas de las redes que utilzan este protocolo de almacenamiento son: [Filecon](https://filecoin.io/), es una red de almacenamiento decentralizada primera red blockchain en implementar el protocolo IPFS en su red, [Storj](https://www.storj.io/), es otra red blockchain de almacenamiento decentralizado que también utiliza el protocolo. Otro gran caso de uso es con  los NFT ([Non Fungible Tokens](https://guias.eoscostarica.io/docs/aprender-eosio/nfts-en-eosio)), esta tecnología actualmente se encuentra en tendencía y es utilizada para activos digitales incriptados la cual utiliza IPFS para el almacenamiento de sus datos. 
+Este protocolo IPFS también ha sido implementado en varias redes relacionadas con el blockchain. Esto debido a su capacidad de almacenamiento y gran cantidad de beneficios que puede traer a estas redes. Algunas de las redes que utilizan este protocolo de almacenamiento son: [Filecon](https://filecoin.io/), es una red de almacenamiento decentralizada primera red blockchain en implementar el protocolo IPFS en su red, [Storj](https://www.storj.io/), es otra red blockchain de almacenamiento decentralizado que también utiliza el protocolo. Otro gran caso de uso es con  los NFT ([Non Fungible Tokens](https://guias.eoscostarica.io/docs/aprender-eosio/nfts-en-eosio)), esta tecnología actualmente se encuentra en tendencia y es utilizada para activos digitales encriptados la cual utiliza IPFS para el almacenamiento de sus datos. 
 
 Estas son sólamente algunos de los muchos sistemas que se encuentran utilizando este nuevo protocolo que apenas está iniciando su impacto en el internet.
 

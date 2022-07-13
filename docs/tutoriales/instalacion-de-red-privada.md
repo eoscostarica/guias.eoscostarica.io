@@ -20,7 +20,7 @@ A la hora de configurar una red privada EOSIO hay algunos requisitos de instalac
 
 *Además, estamos utilizando Ubuntu 18.04 LTS, pero si quieres utilizar macOS u otro sistema operativo compatible, echa un vistazo a [EOSIO releases](https://github.com/EOSIO/eos/releases)*
 
-### Instalación de los Binarios Precompilados de EOSIO
+### Instalación de los Binarios Pre-compilados de EOSIO
 Ejecute los siguientes comandos para instalar los binarios precompilados de EOSIO:
 ```bash
 $ wget https://github.com/eosio/eos/releases/download/v2.0.9/eosio_2.0.9-1-ubuntu-18.04_amd64.deb
