@@ -31,7 +31,7 @@ El proceso es parecido a la compilación de un Smart Contract, de hecho, se real
 
 ## ¿Cómo crear un Contrato Ricardiano?
 Usualmente hay un folder llamado `ricardian` dentro del folder del smart contract el cual contiene dos archivos principales que componen el Contracto Ricardiano `<contract name>.contracts.md` y `<contract name>.clauses.md`.
-
+    
 ### Contracts
 Su propósito es declarar y definir las acciones del Smart Contract. Según [EOSIO ricardian-spec](https://github.com/EOSIO/ricardian-spec) se deben respetar los siguientes metadatos:
 
