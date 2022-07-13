@@ -285,7 +285,7 @@ width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg" frameb
 
 <p align="left">
 	<a href="https://ipfs.io/">
-		<img src="https://miro.medium.com/max/1400/1*RpQmoRu1D-rvWL1dfpDHgQ.png" width="30%" loading="lazy"/>
+		<img alt="Logo de IPFS" src="https://miro.medium.com/max/1400/1*RpQmoRu1D-rvWL1dfpDHgQ.png" width="30%" loading="lazy"/>
 	</a>
 </p>
 

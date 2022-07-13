@@ -19,26 +19,26 @@ Para EOS Costa Rica, es de suma importancia que nuestros colaboradores se famili
 
 [CLI](https://cli.github.com) de GitHub es una herramienta de línea de comandos para utilizar la funciones de GitHub en su propia computadora.
 
-<img alt="Imagen GitHub CLI" src={ useBaseUrl( 'img/LogosGitHub/GitHub-CLI.png' )} />
+<img alt="Imagen GitHub CLI" src={ useBaseUrl( 'img/LogosGitHub/GitHub-CLI.webp' )} />
 
 ### [GitHub Desktop](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/github-desktop)
 
 [GitHub Desktop](https://docs.github.com/es/free-pro-team@latest/desktop/installing-and-configuring-github-desktop/installing-github-desktop) es la aplicación de escritorio que permite interactuar al usuario con las funcionalidades de Github por medio de la interfaz gráfica, remplazando las líneas de código por un dispositivo visual.
 
-<img alt="Imagen GitHub Desktop" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Desktop.png' )} />
+<img alt="Imagen GitHub Desktop" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Desktop.webp' )} />
 
 ### [GitHub para móviles](https://docs.github.com/es/free-pro-team@latest/github/getting-started-with-github/github-for-mobile)
 
 GitHub para [dispositivos móviles](https://play.google.com/store/apps/details?id=com.github.android&hl=es_419&gl=US) está disponible para Android e iOS, te ofrece una forma de realizar un trabajo de alto impacto en GitHub de forma rápida y desde cualquier lugar. Además se vuelve una manera segura y estable de acceder a los datos de GitHub a través de una aplicación cliente confiable de primera parte.
 
-<img alt="Imagen GitHub Móvil" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Movil.png' )} />
+<img alt="Imagen GitHub Móvil" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Movil.webp' )} />
 
 
 ### [Git Bash](https://desarrolloweb.com/articulos/entiende-instala-configura-git.html#:~:text=Git%20Bash%20es%20la%20línea,para%20usar%20Git%20en%20Windows.)
 
 [Git Bash](https://gitforwindows.org) es una aplicación de Git para Windows, donde permite trabajar por medio de líneas de comando el manejo de proyectos que se encuentran en GitHub.
 
-<img alt="Imagen Git Bash" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Bash.png' )} />
+<img alt="Imagen Git Bash" src={ useBaseUrl( 'img/LogosGitHub/GitHub-Bash.webp' )} />
 
 ### [Hub](https://hub.github.com)
 

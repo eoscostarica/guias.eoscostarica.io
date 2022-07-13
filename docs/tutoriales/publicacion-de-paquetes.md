@@ -15,27 +15,27 @@ Para poder publicar paquetes, es necesario generar un *Personal Access Token* o 
 
 1. Diríjase a la opción de **Ajustes** o *Settings*
     <p style={{ align: "center" }}>
-      <img src={ useBaseUrl( '/img/publicacion-de-paquetes/GoToSettings.png' )} width="100%" />
+      <img alt="Muestra gráficamente donde están los ajustes" src={ useBaseUrl( '/img/publicacion-de-paquetes/GoToSettings.webp' )} width="100%" />
      </p>
 1. Una vez se se encuentra en el panel de configuraciones, presione el botón *Developer Settings* o **Configuraciones de Desarrollador**
     <p style={{ align: "center" }}>
-      <img src={ useBaseUrl( '/img/publicacion-de-paquetes/DeveloperSettings.png' )} width="100%" />
+      <img alt="Muestra gráficamente donde están las configuraciones de desarrollador" src={ useBaseUrl( '/img/publicacion-de-paquetes/DeveloperSettings.webp' )} width="100%" />
     </p>
 1. Ahora, presione la opción **Tokens de Acceso Personal** o *Personal Access Tokens*
     <p style={{ align: "center" }}>
-      <img src={ useBaseUrl( '/img/publicacion-de-paquetes/PersonalAccessToken.png' )} width="100%" />
+      <img alt="Muestra gráficamente donde está la opción de Tokens de Acceso Personal" src={ useBaseUrl( '/img/publicacion-de-paquetes/PersonalAccessToken.webp' )} width="100%" />
     </p>
 1. Una vez presionada la anterior opción, presione el botón **Generar nuevo token** o *Generate new token*
     <p style={{ align: "center" }}>
-      <img src={ useBaseUrl( '/img/publicacion-de-paquetes/GenerateNewToken.png' )} width="100%" />
+      <img alt="Muestra gráficamente donde está la opción para generar un token" src={ useBaseUrl( '/img/publicacion-de-paquetes/GenerateNewToken.webp' )} width="100%" />
     </p>
 1. Ahora seleccioone el *scope* o **ámbito** adecuado para el token, como se muestra en la siguiente imagen
     <p style={{ align: "center" }}>
-      <img src={ useBaseUrl( '/img/publicacion-de-paquetes/TokenScope.png' )} width="100%" />
+      <img alt="Muestra gráficamente donde está el ámbito" src={ useBaseUrl( '/img/publicacion-de-paquetes/TokenScope.webp' )} width="100%" />
     </p>
 1. Finalmente, presione el botón mostrado en la siguiente imagen (ubicado al final de la página) para obtener el token
     <p style={{ align: "center" }}>
-      <img src={ useBaseUrl( '/img/publicacion-de-paquetes/GenerateTokenButton.png' )} width="100%" />
+      <img alt="Muestra gráficamente donde está el botón" src={ useBaseUrl( '/img/publicacion-de-paquetes/GenerateTokenButton.webp' )} width="100%" />
     </p>
 **El token se muestra una vez este es generado; proceda a copiarlo en un lugar seguro, ya que no se vuelve a mostrar.**
 

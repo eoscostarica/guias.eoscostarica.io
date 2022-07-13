@@ -38,14 +38,14 @@ Por favor seguir estas indicaciones para alinear nuestros perfiles de LinkedIn. 
 1. Incluya su **puesto**, el nombre de la **compañía**, la **ubicación**, y su **fecha de ingreso**. Asegúrese de marcar la casilla para  **actualizar su headline**.
 
 <div style={{  textAlign: "center" }}>
-    <img style={{ width:"70%" }} src={ useBaseUrl("/img/redes-sociales/LinkedExperiencia.png") } />
+    <img alt="Formulario para agregar la experiencia en LinkedIn" style={{ width:"70%" }} src={ useBaseUrl("/img/redes-sociales/LinkedExperiencia.webp") } />
 </div>
 
 
 2. En la descripción, adapte el siguiente texto de acuerdo a su experiencia, puesto y especialización.
 
 <div style={{  textAlign: "center" }}>
-    <img  src={ useBaseUrl("/img/redes-sociales/LinkedDescripcion.png") } />
+    <img alt="Formulario para agregar la descripción en LinkedIn" src={ useBaseUrl("/img/redes-sociales/LinkedDescripcion.webp") } />
 </div>
 
 
@@ -76,7 +76,7 @@ More on:
 ### **Así es como se Vería**
 
 <div style={{  textAlign: "center" }}>
-    <img  src={ useBaseUrl("/img/redes-sociales/LinkedResultado.png") }/>
+    <img alt="Como se despliega el resultado final en LinkedIn" src={ useBaseUrl("/img/redes-sociales/LinkedResultado.webp") } loading="lazy"/>
 </div>
 
 
@@ -97,7 +97,7 @@ More on:
 1. Incluya su **puesto**, el nombre de la **companía**, su **locación**, y su **linkedin**.
 
 <div style={{  textAlign: "center" }}>
-    <img  src={ useBaseUrl("/img/redes-sociales/GithubEstado.png") }/>
+    <img alt="Formulario para agregar la información personal en GitHub" src={ useBaseUrl("/img/redes-sociales/GithubEstado.webp") } loading="lazy"/>
 </div>
 
 
@@ -111,7 +111,7 @@ More on:
 
 ### **Así es como se Vería**
 <div style={{  textAlign: "center" }}>
-    <img  src={ useBaseUrl("/img/redes-sociales/GitHubResultado.png") }/>
+    <img alt="Como se muestra el resultado final en GitHub" src={ useBaseUrl("/img/redes-sociales/GitHubResultado.webp") } loading="lazy"/>
 </div>
 
 

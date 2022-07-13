@@ -18,7 +18,7 @@ De ahí que en estos últimos años se hayan ido desarrollando otros métodos de
 El pair programming específica que siempre haya dos personas trabajando al mismo tiempo en el código y que, en la medida de lo posible, se sienten juntas. Una se encarga de escribir el código y la otra de supervisarlo en tiempo real. Al mismo tiempo, están constantemente intercambiando impresiones: debaten problemas, encuentran soluciones y desarrollan ideas creativas. 
 
 <div style={{  textAlign: "center" }}>
-<img alt="Imagen Pair Programing"  src={ useBaseUrl( 'img/metodosProgramacion/PairProgramming.png' )} /> </div>
+<img alt="Imagen Pair Programing"  src={ useBaseUrl( 'img/metodosProgramacion/PairProgramming.webp' )} /> </div>
 
 ### ¿Cómo se hace?
 **Tamaño del equipo:** 2 personas.
@@ -54,7 +54,7 @@ Una de las reglas del pair programming establece que estos dos roles se intercam
 
 Un grupo de personas con mucha inteligencia, con grandes retos trabajando en equipo para resolver los retos de manera creativa, con excelencia operacional y trabajando enfocado en entrega de valor constante.
 <div style={{  textAlign: "center" }}>
-<img alt="Imagen Mob Programing" width="70%" src={ useBaseUrl( 'img/metodosProgramacion/MobProgramming.png' )} /> </div>
+<img alt="Imagen Mob Programing" width="70%" src={ useBaseUrl( 'img/metodosProgramacion/MobProgramming.webp' )} /> </div>
 
 ### ¿Cómo se hace?
 

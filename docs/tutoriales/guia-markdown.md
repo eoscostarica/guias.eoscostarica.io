@@ -42,7 +42,7 @@ Estas aplicaciones de Markdown utilizan un procesador Markdown también conocido
 
 **Ejemplo**
 
-![](https://mdg.imgix.net/assets/images/markdown-flowchart.png?auto=format&fit=clip&q=40&w=1080)
+![Diagrama de los pasos que se realizan para transformar un archivo Markdown a uno HTML](https://mdg.imgix.net/assets/images/markdown-flowchart.png?auto=format&fit=clip&q=40&w=1080)
 
 * * *
 
@@ -188,7 +188,7 @@ Otro texto
 ```
 **Ejemplo:**  
 
-![](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
+![Como Markdown despliega la imagen de ejemplo](https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png)
 
 * * * 
 

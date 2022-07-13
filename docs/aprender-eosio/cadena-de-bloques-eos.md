@@ -39,7 +39,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 * * *
 
 <p style={{ align: "center" }}>
-  <img src={ useBaseUrl("/img/eos-blockchain/eos-network.jpg") } width="100%" />
+  <img alt="Comparación entre las redes blockchain Bitcoin, Ethereum y EOS" src={ useBaseUrl("/img/eos-blockchain/eos-network.webp") } width="100%" />
   <br />
 </p>
 
@@ -88,7 +88,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 * * *
 
 <p style={{ align: "center" }}>
-  <img src={ useBaseUrl("/img/eos-blockchain/eos-application-stack.png") } width="100%" />
+  <img alt="Stack de aplicaciones EOS" src={ useBaseUrl("/img/eos-blockchain/eos-application-stack.webp") } width="100%" />
   <br />
   <small>
     <b>Source:</b>steemit.com/eos/@eosio/introducing-eos-io-application-stack

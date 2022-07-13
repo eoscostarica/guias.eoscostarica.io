@@ -13,7 +13,7 @@ Docker es una herramienta que permite crear, probar y desplegar aplicaciones rá
 Por ejemplo, cada nodo de la red blockchain o servicio/aplicación desarrollada se compilará en una imagen Docker que contiene todas sus dependencias y se despliega en uno de los varios proveedores de infraestructura con Docker disponible.
 
 <div style={{  textAlign: "center" }}>
-<img alt="Docker vs. Traditional VMs"   src={ useBaseUrl( '/img/documentation-images/Docker-containerized-and-vm-transparent-bg.png' )} />
+<img alt="Docker vs. Traditional VMs"   src={ useBaseUrl( '/img/documentation-images/Docker-containerized-and-vm-transparent-bg.webp' )} />
 </div>
 
 Además de Docker, utilizamos una herramienta de "orquestación" de contenedores llamada Kubernetes (K8s).

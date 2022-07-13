@@ -12,15 +12,15 @@ En este [enlace](https://github.com/eoscostarica/design-assets) tiene acceso a L
 
 ## Paleta de Colores
 
-![Color Scheme Primary](/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.PNG)
+![Color Scheme Primary](/img/OSS_screnshots/EOSCR_Color_Scheme_Primary.webp)
 
-![Color Scheme Segundary](/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.PNG)
+![Color Scheme Segundary](/img/OSS_screnshots/EOSCR_Color_Scheme_Secondary.webp)
 
 Para ver una guía completa de los colores, puede visitar [este enlace](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Color_Scheme.pdf)
 
 ## Tipografía
 
-![Preview tipografia](/img/OSS_screnshots/preview_typography_scale.png)
+![Preview tipografia](/img/OSS_screnshots/preview_typography_scale.webp)
 
 Para ver una guía completa de los tamaños y formas de utilización de la fuente, puede visitar [este enlace](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf) 
 
