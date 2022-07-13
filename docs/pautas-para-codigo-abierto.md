@@ -20,9 +20,9 @@ Cuando comienzas a trabajar en una tarea, deberías moverla manualmente a la col
 
 Usamos el flujo de GitHub https://guides.github.com/introduction/flow/ para solicitar cambios en el código. Desarrollamos en la rama `master` y `release` usando etiquetas y versionamiento.
 
-![](https://gaboesquivel.com/img/2018/05/github-flow.png)
+<img src="/img/github-flow.png" width="958" height="241" class="center" alt="Flujo de Trabajo Open Source en GitHub" />
 
-Los nuevos y reabiertos `pull request` son autómaticamente añadidos al tablero en la columna `En Progreso`.
+Los nuevos y reabiertos `pull request` son automáticamente añadidos al tablero en la columna `En Progreso`.
 
 Cuando un pull request cerrado es movido a la columna `Done` automáticamente. Si el pull request se cierra y no tiene problemas, se indica correctamente con las palabras clave de GitHub que se cierra el pull request y se mueve automáticamente a la columna `Done`. 
 

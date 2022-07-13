@@ -30,9 +30,9 @@ const siteConfig = {
       title: " ",
       logo: {
         alt: "EOS Costa Rica Logo",
-        src: "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png",
+        src: "/img/byw-horizontal-transparent.png",
         srcDark:
-          "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent-white.png",
+          "/img/byw-horizontal-transparent-white.png",
       },
       items: [
         {
@@ -72,7 +72,7 @@ const siteConfig = {
     footer: {
       logo: {
         alt: "EOS Costa Rica Logo",
-        src: "https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/byw-horizontal-transparent.png",
+        src: "/img/byw-horizontal-transparent.png",
         href: "https://guias.eoscostarica.io/",
       },
       links: [
