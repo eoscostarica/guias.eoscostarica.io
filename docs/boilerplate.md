@@ -68,7 +68,7 @@ Obtenga más información en [hapi](https://guias.eoscostarica.io/docs/herramien
 
 ### EOSIO
 
-EOSIO es un blockchain de tercera generación que permitirá alcanzar el objetivo de proporcionar un registro inmmutable, permanente, trazable y verificable de toda la actividad en los depósitos de contenedores. Estos datos serán públicos y podrán ser consumidos por cualquier tercero externo.
+EOSIO es un blockchain de tercera generación que permitirá alcanzar el objetivo de proporcionar un registro immutable, permanente, trazable y verificable de toda la actividad en los depósitos de contenedores. Estos datos serán públicos y podrán ser consumidos por cualquier tercero externo.
 
 Obtenga más información en [Componentes EOSIO](https://guias.eoscostarica.io/docs/aprender-eosio/componentes-eosio)
 

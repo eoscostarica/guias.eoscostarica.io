@@ -88,7 +88,7 @@ keywords: [código fuente, plantilla, README, Ejemplos de README]
     ### Empezando
     Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemplo:
 
-    #### **Prerrequisitos**
+    #### **Pre-Requisitos**
 
     `
     yarn

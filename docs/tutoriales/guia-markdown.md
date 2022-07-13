@@ -17,7 +17,7 @@ Markdown, creado por John Gruber en 2004, es ahora uno de los lenguajes de marca
 
 ## ¿Por qué utilizar Markdown?
 
-Tal vez te preguntes por qué las personas utilizan Markdown en lugar de algun editor WYSIWYG, es mucho más fácil presionar botones en una interfaz para formatear tu texto. [Más sobre WYSIWYG](https://www.simplethread.com/everything-you-ever-wanted-to-know-about-wysiwyg-editors/)
+Tal vez te preguntes por qué las personas utilizan Markdown en lugar de algún editor WYSIWYG, es mucho más fácil presionar botones en una interfaz para formatear tu texto. [Más sobre WYSIWYG](https://www.simplethread.com/everything-you-ever-wanted-to-know-about-wysiwyg-editors/)
 
 Resulta que existen varias razones por las cuales elegir Markdown. 
 
@@ -27,7 +27,7 @@ Resulta que existen varias razones por las cuales elegir Markdown.
 
 - Completamente independiente de la plataforma. Puedes escribir texto con formato Markdown en cualquier dispositivo que ejecute cualquier sistema operativo.
 
-- Está listo para el futuro. Aún si la aplicación que actualmente estás utilzando deja de funcionar en algún momento en el futuro, podrás leer tu texto con formato Markdown utilizando una aplicación de edición de texto. Esto es sumamente importante cuando consideramos libros, tesis universitarias y otros documentos importantes que deben conservarse indefinidamente.
+- Está listo para el futuro. Aún si la aplicación que actualmente estás utilizando deja de funcionar en algún momento en el futuro, podrás leer tu texto con formato Markdown utilizando una aplicación de edición de texto. Esto es sumamente importante cuando consideramos libros, tesis universitarias y otros documentos importantes que deben conservarse indefinidamente.
 
 
 * * *
@@ -36,9 +36,9 @@ Resulta que existen varias razones por las cuales elegir Markdown.
 
 Cuando escribimos en Markdown, el texto se guarda en un archivo de texto sin formato que tiene una extensión `.md` o `.markdown`. ¿Cómo se transforma entonces su archivo con formato Markdown a HTML?
 
-La respuesta simple es que requiere de una aplicación Markdown capaz de procesar el archivo. Existem muchas aplicaciones disponibles, desde pequeños scripts hasta aplicaciones de escritorio que se parecen a Microsoft Word. Aunque tengan sus diferencias visuales, todas las aplicaciones realizan lo mismo.
+La respuesta simple es que requiere de una aplicación Markdown capaz de procesar el archivo. Existen muchas aplicaciones disponibles, desde pequeños scripts hasta aplicaciones de escritorio que se parecen a Microsoft Word. Aunque tengan sus diferencias visuales, todas las aplicaciones realizan lo mismo.
 
-Estas aplicaciones de Markdown utilizan un procesador Markdown también conocido como *analizador* o *implementación* el cual toma el texto con formato Markdown y lo envia a formato HTML. Es despúes de este proceso que su documento puede verse en un navegador web o combinarse con una hoja de estilo e imprimirse. 
+Estas aplicaciones de Markdown utilizan un procesador Markdown también conocido como *analizador* o *implementación* el cual toma el texto con formato Markdown y lo envía a formato HTML. Es después de este proceso que su documento puede verse en un navegador web o combinarse con una hoja de estilo e imprimirse. 
 
 **Ejemplo**
 

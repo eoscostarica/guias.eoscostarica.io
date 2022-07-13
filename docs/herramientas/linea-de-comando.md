@@ -49,9 +49,9 @@ Subcommands:
   system                      Send eosio.system contract action to the blockchain.
 ```
 
-### Subcomandos de Cleos
+### Sub-comandos de Cleos
 
-Para obtener ayuda con cualquier subcomando en particular, ejecute `cleos SUBCOMMAND --help`. Por ejemplo:
+Para obtener ayuda con cualquier sub-comando en particular, ejecute `cleos SUBCOMMAND --help`. Por ejemplo:
 
 ``` bash
 cleos create --help
@@ -67,7 +67,7 @@ Subcommands:
                               (assumes system contract does not restrict RAM usage)
 ```
 
-`cleos` también puede proporcionar ayuda para uso de subcomandos dentro de subcomandos. Por ejemplo:
+`cleos` también puede proporcionar ayuda para uso de sub-comandos dentro de sub-comandos. Por ejemplo:
 
 ``` bash 
 cleos create account --help

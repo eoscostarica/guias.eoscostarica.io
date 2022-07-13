@@ -1,12 +1,12 @@
 ---
 id: fundacion-red-eos
-title: Fundación Red EOS Blue Papers
-sidebar_label: Blue Papers
+title: Blue Papers Fundación Red EOS (ENF)
+sidebar_label: ENF Blue Papers
 description: Investigaciones realizadas por la Fundación Red EOS
-keywords: [Blue Papers EOS, Investigación ENF, blue-papers-eos, fundación-red-eos-investigación]
+keywords: [Blue Papers EOS, Investigación ENF, EOS Network Foundation, Publicaciones ENF]
 ---
 
-La fundacion de la Red EOS tambien conocidad por sus siglas en ingles como ENF (EOS Network Foundation) es una fundacion sin fines de lucro, han creado una serie de documentos "Blue Papers" sobre los principales temas o dudas de la comunidad y de las respectivas acciones a tomar ante dichas situaciones. En esta seccion veremos de manera consisa y rapida algunos de ellos:
+La fundación de la Red EOS también conocida por sus siglas en ingles como ENF (EOS Network Foundation) es una fundación sin fines de lucro, han creado una serie de documentos "Blue Papers" sobre los principales temas o dudas de la comunidad y de las respectivas acciones a tomar ante dichas situaciones. En esta sección veremos de manera concisa y rápida algunos de ellos:
 
 ## API+
 
@@ -34,7 +34,7 @@ Para el lanzamiento de aplicaciones apoyadas en EOSIO se recomienda por parte de
 
 ### Plataforma de Lanzamiento
 
-Una buena plataforma de lanzamiento que cubra los requisitos minimos para producir un valor a la red y a su vez resulte estable para el apoyo en EOSIO es de suma importancia, para poder lograr es importante involucrarse de manera activa en la comunidad de la red, así como leyendo y brindando feedback de posibles mejoras de la documentación y las herramientas.
+Una buena plataforma de lanzamiento que cubra los requisitos mínimos para producir un valor a la red y a su vez resulte estable para el apoyo en EOSIO es de suma importancia, para poder lograr es importante involucrarse de manera activa en la comunidad de la red, así como leyendo y brindando feedback de posibles mejoras de la documentación y las herramientas.
 
 ### Despegue
 
@@ -60,9 +60,9 @@ Si desea obtener más conocimiento sobre este tema puede verlo en el siguiente [
 
 ## Audit+
 
-El grupo Audit+ nace como una iniciativa de la ENF para el desarrollo de herramientas de testeo que solventen la clara escasez de herramientas para el mejoramiento de la seguridad dentro de la comunidad, la cual se ha quedado atras en el crecimiento de esta en comparacion de las otras tecnologias blockchain.
+El grupo Audit+ nace como una iniciativa de la ENF para el desarrollo de herramientas de testeo que solventen la clara escasez de herramientas para el mejoramiento de la seguridad dentro de la comunidad, la cual se ha quedado atrás en el crecimiento de esta en comparación de las otras tecnologías blockchain.
 
-Para esto Audit+ decidio centrar sus esfuerzos en lo siguiente:
+Para esto Audit+ decidió centrar sus esfuerzos en lo siguiente:
 
 ### Herramientas de Seguridad-Auditoria y APIs Automáticas
 

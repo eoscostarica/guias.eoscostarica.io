@@ -169,7 +169,7 @@ class="video_container">
 
 ### ¿Qué es Hasura?
 
-El motor GraphQL de Hasura es un servidor GraphQL ultrarrápido que le brinda API GraphQL instantáneas en tiempo real a través de Postgres, con activadores de webhook en eventos de base de datos y esquemas remotos para lógica empresarial.
+El motor GraphQL de Hasura es un servidor GraphQL ultra rápido que le brinda API GraphQL instantáneas en tiempo real a través de Postgres, con activadores de webhook en eventos de base de datos y esquemas remotos para lógica empresarial.
 
 ### ¿Por qué usamos Hasura?
 

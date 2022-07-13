@@ -28,7 +28,7 @@ $ sudo dpkg -i ./eosio_2.1.0-rc2-ubuntu-18.04_amd64.deb
 El comando anterior descarga todas las dependencias e instala EOSIO en `/usr/opt/eosio`.
 
 ## Configuración del Nodo
-Una vez instalados los binarios precompilados siguiendo los comandos anteriores, vamos a crear un directorio llamado `testproducer` y los archivos `config.ini`, `genesis.json` y `start.sh` en el:
+Una vez instalados los binarios pre-compilados siguiendo los comandos anteriores, vamos a crear un directorio llamado `testproducer` y los archivos `config.ini`, `genesis.json` y `start.sh` en el:
 ```bash
 $ mkdir testproducer
 
