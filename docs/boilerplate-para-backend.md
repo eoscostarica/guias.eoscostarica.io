@@ -10,7 +10,7 @@ Un boilerplate altamente escalable con las mejores prácticas, hecha para un ini
 
 ### **[hasura](https://hasura.io)**
 
-El motor de GraphQL de Hasura es un servicio de código abierto que conecta su base de datos y microservicios y autogenera un backend GraphQL con ACL listo para producción.
+El motor de GraphQL de Hasura es un servicio de código abierto que conecta su base de datos y micro-servicios y autogenera un backend GraphQL con ACL listo para producción.
 
 ### **[hapi](https://hapi.dev/)**
 

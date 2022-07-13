@@ -22,7 +22,7 @@ Kubernetes te ayuda a gestionar los contenedores en los que se alojan tus aplica
 
 ## Docker Engine
 
-Docker Engine es una tecnología de contenedores de código abierto para construir y contenerizar sus aplicaciones. Docker Engine actúa como una aplicación cliente-servidor con:
+Docker Engine es una tecnología de contenedores de código abierto para construir y "containerizar" sus aplicaciones. Docker Engine actúa como una aplicación cliente-servidor con:
 
 - Un servidor con un proceso daemon de larga duración [dockerd](https://docs.docker.com/engine/reference/commandline/dockerd).
 - APIs que especifican interfaces que los programas pueden utilizar para hablar con el daemon Docker y darle instrucciones.
@@ -40,7 +40,7 @@ Para tener una configuración inicial de Docker, necesitamos establecer tres cos
 
 ## Docker Compose
 
-Compose es una herramienta para definir y ejecutar aplicaciones Docker multicontenedor. Con Compose, usted utiliza un archivo YAML para configurar los servicios de su aplicación. Luego, con un solo comando, creas e inicias todos los servicios desde tu configuración.
+Compose es una herramienta para definir y ejecutar aplicaciones Docker multi-contenedor. Con Compose, usted utiliza un archivo YAML para configurar los servicios de su aplicación. Luego, con un solo comando, creas e inicias todos los servicios desde tu configuración.
 
 El uso de Compose es básicamente un proceso de tres pasos:
 

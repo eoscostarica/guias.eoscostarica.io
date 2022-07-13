@@ -46,7 +46,7 @@ $ cleos wallet create -n mywallet --to-console
 ## EOSIO.CDT
 
 [EOSIO.CDT](https://developers.eos.io/manuals/eosio.cdt/latest/index) o **Contract Development Toolkit** es un
-kit de herramientas para WebAssembly(WASM) para facilitar el desarrollo de contratos inteligentes. Compilador de C++ a WASM y [**Aplication Binary Interface**]((https://developers.eos.io/manuals/eosio.cdt/latest/best-practices/abi/understanding-abi-files) (ABI) conjunto generador de bibliotecas C/C++ para el desarrollo de contratos inteligentes.
+kit de herramientas para WebAssembly(WASM) para facilitar el desarrollo de contratos inteligentes. Compilador de C++ a WASM y [**Application Binary Interface**]((https://developers.eos.io/manuals/eosio.cdt/latest/best-practices/abi/understanding-abi-files) (ABI) conjunto generador de bibliotecas C/C++ para el desarrollo de contratos inteligentes.
 
 ## Obtenga sus Llaves Privadas
 

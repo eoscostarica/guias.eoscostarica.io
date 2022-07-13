@@ -1,16 +1,17 @@
 ---
 id: mecanismo-de-consenso
-title: Algoritmos de Consenso
-sidebar_label: Algoritmo de Consenso
-description: Algoritmos de Consenso en blockchain para la producción de bloques
-keywords: [algoritmos de consenso, blockchain, eosio, EOS, EOS Costa Rica, Mecanismo de Consenso, Qué es un mecanismo de consenso, Para qué es un algoritmo de consenso ]
+title: Algoritmo de Consenso DPoS
+sidebar_label: Algoritmo de Consenso DPoS
+description: Algoritmo de Consenso DPoS para redes blockchain basadas en protocolo EOSIO 
+keywords: [algoritmos de consenso, blockchain, eosio, Delegated Proof of Stake, DPoS, Mecanismo de Consenso, Qué es un mecanismo de consenso, Para qué es un algoritmo de consenso, Proof of Stake ]
 ---
 
 El mecanismo de consenso asegura que cada nuevo bloque que se agrega al Blockchain sea la única versión de la verdad acordada por todos los nodos en la red. Por lo tanto, un algoritmo de consenso tiene como objetivo encontrar un acuerdo común que sea una aceptado por toda la red.
 
 Un Algoritmo de consenso es un proceso en Ciencias de la Computación usado para lograr acuerdo en un sólo valor de datos entre procesos o sistemas distribuidos.
 
-La tecnología Blockchain depende de Algoritmos de Consenso para lograr un acuerdo entre los nodos. Un blokchain puede ser pensado como una base de datos descentralizada que es manejada por computadoras distribuidas en una red de punto a punto (P2P). Cada punto mantiene una copia del estado de la red para prevenir un punto único de fallo (en inglés SPOF). Actualizacioes y validaciones son reflejadas en todas las copias simultáneamente.
+La tecnología Blockchain depende de Algoritmos de Consenso para lograr un acuerdo entre los nodos. Un blockchain puede ser pensado como una base de datos descentralizada que es manejada por computadoras distribuidas en una red de punto a punto (P2P). Cada punto mantiene una copia del estado de la red para prevenir un punto único de fallo (en inglés SPOF). Actualizaciones y validaciones son reflejadas en todas las copias simultáneamente.
+
 ## Delegated Proof of Stake (DPoS)
 
 <figure class="video_container">

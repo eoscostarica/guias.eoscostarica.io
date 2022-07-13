@@ -3,7 +3,7 @@ id: desarrollo-de-dapps
 title: Desarrollo de Dapps
 sidebar_label: Desarollo de Dapps
 description: Desarrollo de Dapps con distintos frameworks y herramientas
-keywords: [desarrollo de Dapps, dapps, EOS, EOS Costa Rica, EOSIO, Qué es Dapps, Para qué sirve Dapps]
+keywords: [desarrollo de Dapps, dapps, EOS, Aplicaciones Descentralizadas, EOSIO, Qué es Dapps, Para qué sirve Dapps]
 ---
 
 ## EOSIO para el Desarrollo de Aplicaciones Descentralizadas (dApps)
@@ -26,7 +26,7 @@ Puedes ver más en el [canal de Max G](https://www.youtube.com/user/apexmaxable/
 
 ## Empezando
 
-Para obtener mas informacion sobre los contratos inteligentes puede visitar [este enlace](https://guias.eoscostarica.io/docs/aprender-eosio/contratos-inteligentes). 
+Para obtener mas información sobre los contratos inteligentes puede visitar [este enlace](https://guias.eoscostarica.io/docs/aprender-eosio/contratos-inteligentes). 
 
 ## Jungle Testnet
 
@@ -42,7 +42,7 @@ https://www.cryptokylin.io/
 
 ## Development Environment
 
-**EOS Local** provee una realmente rápida manera de configuar una red local de EOS con IPFS usando docker.
+**EOS Local** provee una realmente rápida manera de configurar una red local de EOS con IPFS usando docker.
 
 https://github.com/eoscostarica/eos-local
 

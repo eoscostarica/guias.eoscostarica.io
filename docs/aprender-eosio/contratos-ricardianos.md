@@ -26,11 +26,11 @@ contractName: eosio
 ```
 El componente cargará automáticamente el contenido del Contrato Ricardiano. El repositorio de código abierto para este componente se encuentra aquí: https://github.com/eoscostarica/eoscr-components.
 
-## ¿Cómo añadir un Contracto Ricardiano?
+## ¿Cómo añadir un Contrato Ricardiano?
 El proceso es parecido a la compilación de un Smart Contract, de hecho, se realiza durante el mismo paso. eosio-cpp brinda algunas opciones de configuración extra al compilar y una de ellas es `-R`, que permite configurar un recurso extra que para este caso es el contrato ricardiano donde se debe proporcionar la ruta ricardiana, el compilador será el responsable de agregar los contratos y las cláusulas al archivo .abi.
 
 ## ¿Cómo crear un Contrato Ricardiano?
-Usualmente hay un folder llamado `ricardian` dentro del folder del smart contract el cual contiene dos archivos principales que componen el Contracto Ricardiano `<contract name>.contracts.md` y `<contract name>.clauses.md`.
+Usualmente hay un folder llamado `ricardian` dentro del folder del smart contract el cual contiene dos archivos principales que componen el Contrato Ricardiano `<contract name>.contracts.md` y `<contract name>.clauses.md`.
 
 ### Contracts
 Su propósito es declarar y definir las acciones del Smart Contract. Según [EOSIO ricardian-spec](https://github.com/EOSIO/ricardian-spec) se deben respetar los siguientes metadatos:

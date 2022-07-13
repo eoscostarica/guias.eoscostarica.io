@@ -40,8 +40,8 @@ schedule: JSON con lista de productores y sus signing keys
 Modifica uno o varios parámetros de la blockchain.
 
 - `max_block_net_usage`: La cantidad maxima de uso de net en un bloque.
-- `target_block_net_usage_pct`: El porcentaje de uso maximo de net, pasado este limite la red entra en modo congestion.
-- `max_transaction_net_usage`: El uso maximo de net que la chain va a permitir, mas alla de los limites de la cuenta.
+- `target_block_net_usage_pct`: El porcentaje de uso máximo de net, pasado este limite la red entra en modo congestion.
+- `max_transaction_net_usage`: El uso máximo de net que la chain va a permitir, mas allá de los limites de la cuenta.
 - `base_per_transaction_net_usage`: El monto base de uso neto facturado por una transacción para cubrir imprevistos.
 - `context_free_discount_net_usage_num`: El numerador para el descuento en el uso neto de datos sin contexto.
 - `context_free_discount_net_usage_den`: El denominador para el descuento en el uso neto de datos sin contexto.
@@ -53,8 +53,8 @@ Modifica uno o varios parámetros de la blockchain.
 - `deferred_trx_expiration_window`: El número de segundos después del tiempo en que una transacción diferida puede ejecutarse primero hasta que caduque.
 - `max_transaction_delay`: El número máximo de segundos que pueden imponerse como requisito de retraso mediante verificaciones de autorización.
 - `max_inline_action_size`: Tamaño máximo permitido (en bytes) de una acción en línea.
-- `max_inline_action_depth`: Límite de profundidad de recursión al enviar acciones en línea.
-- `max_authority_depth`: Límite de profundidad de recursión para verificar si una autoridad está satisfecha.
+- `max_inline_action_depth`: Límite de profundidad de recursion al enviar acciones en línea.
+- `max_authority_depth`: Límite de profundidad de recursion para verificar si una autoridad está satisfecha.
 
 ### set_privileged
 
@@ -120,12 +120,12 @@ permission: El nombre del permiso que se desea eliminar.
 
 ### linkauth
 
-Asigna una acción especifica de un contrato a un permiso especifico, cinco acciones no pueden ser linkeadas updateauth, deleteauth, linkauth, unlikauth, canceldelay.
+Asigna una acción especifica de un contrato a un permiso especifico, cinco acciones no pueden ser linkeadas `updateauth`, `deleteauth`, `linkauth`, `unlikauth`, `canceldelay`.
 
 ```yaml
 account: Cuenta destino.
 code: Cuenta owner de la acción que se desea linkear.
-type: La accion que se desea linkear.
+type: La acción que se desea linkear.
 requirement: El permiso a linkear.
 ```
 
@@ -135,7 +135,7 @@ Es la reversa de linkauth.
 
 ```yaml
 account: Cuenta destino.
-code: Cuenta owner de la accion que se desea deslinkear.
+code: Cuenta owner de la acción que se desea deslinkear.
 type: La acción que se desea deslinkear.
 ```
 
@@ -149,7 +149,7 @@ Le permite a una cuenta issuer crear un token.
 
 ```yaml
 issuer: La cuenta que crea el token.
-maximum_supply: La cantidad maxima junto al simbolo del token.
+maximum_supply: La cantidad maxima junto al símbolo del token.
 ```
 
 ### issue
