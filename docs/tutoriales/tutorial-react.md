@@ -36,25 +36,25 @@ Es importante para el desarrollo de un buen proyecto la organización de los dif
 
 * Carpeta de *components*, en donde se guardan los componentes que necesiten.
 * Carpeta de *styles*, en donde se guardan los estilos del proyecto por ejemplo los archivos `.css`.
-* Carpeta de *assets*, en donde se guardan los recursos estáticos de la aplicación como por ejemplo las imagenes.
+* Carpeta de *assets*, en donde se guardan los recursos estáticos de la aplicación como por ejemplo las imágenes.
 
 >Recordar cambiar las referencias una vez ordenado tu proyecto y no hacer cambios, a menos que sea realmente necesario, en el index.js
 
 ### Estandares de JavaScript
 
-Es importante seguir los estandares de JavaScript, es recomendado utilizar la librería [ESLint](https://eslint.org/) para ayudarte a seguir estos [estandares de JavaScript](https://standardjs.com/rules.html).
+Es importante seguir los estándares de JavaScript, es recomendado utilizar la librería [ESLint](https://eslint.org/) para ayudarte a seguir estos [estándares de JavaScript](https://standardjs.com/rules.html).
 
 ## DOM Virtual
 
 **Modelo en Objetos para la Representación de Documentos** (Document Object Model por sus siglas en ingles) es esencialmente una interfaz de plataforma que proporciona un conjunto estándar de objetos para representar documentos HTML, XHTML y XML.​ Un modelo estándar sobre cómo pueden combinarse dichos objetos, y una interfaz estándar para acceder a ellos y manipularlos.
 
-React se dio cuenta que actualizar la pantalla completa es una tarea que puede tener muchos costos en rendimiento y tiempo. Entonces creo un DOM Virtual. Este objeto DOM virtual es identico al objeto DOM de JavaScript.
+React se dio cuenta que actualizar la pantalla completa es una tarea que puede tener muchos costos en rendimiento y tiempo. Entonces creo un DOM Virtual. Este objeto DOM virtual es idéntico al objeto DOM de JavaScript.
 
 ### ¿Cómo Funciona?
 
 * El DOM virtual completo se actualiza.
 * El DOM virtual se compara con una versión anterior a la actualización. React se da cuenta de cuales objetos cambiaron.
-* El objeto actualiazado y solo ese objeto se actualiza en el DOM real.
+* El objeto actualizado y solo ese objeto se actualiza en el DOM real.
 * Cambios en el DOM real causa que la pantalla cambie.
 
 >Este proceso se le conoce como la reconciliación.
@@ -210,9 +210,9 @@ Para más informacion sobre [HoC](https://es.reactjs.org/docs/higher-order-compo
 
 ## Componentes en EOS Costa Rica
 
-React utiliza componentes reusables para todas las aplicaciones, estos componentes pueden tener varias versiones, que puede generar conflictos al hacer pequeños cambios. [Storybook](https://storybook.js.org/) es una herramienta opensource que sirve para crear componentes visuales de forma aislada donde se pueden organizar los componentes y sus versiones en historias.
+React utiliza componentes reusables para todas las aplicaciones, estos componentes pueden tener varias versiones, que puede generar conflictos al hacer pequeños cambios. [Storybook](https://storybook.js.org/) es una herramienta open-source que sirve para crear componentes visuales de forma aislada donde se pueden organizar los componentes y sus versiones en historias.
 
-EOS Costa Rica utiliza [Storybook EOS Costa Rica](https://components.edenia.cloud/) para la creación de sus componentes. Para utilizar estos componentes de `eoscr-components` te dejamos la guía de intalación en [este sitio](https://www.npmjs.com/package/@eoscostarica/eoscr-components#installation).
+EOS Costa Rica utiliza [Storybook EOS Costa Rica](https://components.edenia.cloud/) para la creación de sus componentes. Para utilizar estos componentes de `eoscr-components` te dejamos la guía de instalación en [este sitio](https://www.npmjs.com/package/@eoscostarica/eoscr-components#installation).
 
 ### Storybook
 

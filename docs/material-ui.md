@@ -20,7 +20,7 @@ Para ver una guía completa de los colores, puede visitar [este enlace](https://
 
 ## Tipografía
 
-![Preview tipografia](/img/OSS_screnshots/preview_typography_scale.png)
+![Preview tipografía](/img/OSS_screnshots/preview_typography_scale.png)
 
 Para ver una guía completa de los tamaños y formas de utilización de la fuente, puede visitar [este enlace](https://github.com/eoscostarica/eoscr-mui-library/blob/master/exports/Typography_Scale.pdf) 
 

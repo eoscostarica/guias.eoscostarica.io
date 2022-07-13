@@ -1,20 +1,20 @@
 ---
 id: contratos-inteligentes
-title: ¿ Qué es un Contrato Inteligente y como Funciona ?
-sidebar_label: Contratos Inteligentes
-description: Definiciones y explicaciones de contratos inteligentes.
-keywords: [contratos inteligentes, contrato inteligente, smart contract, blockchain, eos, eosio, eosio.io, EOS, EOS Costa Rica, Qué es un contrato inteligente, Cómo crear un contrato inteligente] 
+title: Contratos Inteligentes en EOSIO
+sidebar_label: Contratos Inteligentes EOSIO
+description: Definiciones y explicaciones de contratos inteligentes en EOSIO.
+keywords: [contratos inteligentes, contrato inteligente, smart contract, blockchain, eosio, EOS, WASM, Qué es un contrato inteligente, Cómo crear un contrato inteligente] 
 ---
 
 Un contrato es un acuerdo que rige los resultados de las acciones una vez dado un conjunto de datos de entrada. Un contrato puede ir desde los tipo legal (ejemplo transacciones financieras) hasta algo más simple como las reglas de un juego. Las acciones típicas pueden ser transacciones de fondos (en el caso de un contrato financiero) o movimientos de juegos (en el caso de un contrato de juego).
 
-Un Contrato Inteligente de EOSIO es software registrado en el blockchain y ejecutado en los nodos de EOSIO, esto implementa las semánticas de un contracto cuyo registro de solicitudes de acciones están siendo guardadas en el blockchain. El Contrato Inteligente define la interfaz (acciones, parámetros, estructuras de datos) y el código que implementa la interfaz. El código es compilado en el formato **bytecode canónico** el cual puede ser obtenido y ejecutado por los nodos. El blockchain guarda las transacciones (tranferencias legales, moviemientos de juego) del contrato. Cada Contrato Inteligente debe ser acompañado de un Contrato Ricardiano que define la legalidad de los términos y condiciones enlazadas del contrato.
+Un Contrato Inteligente de EOSIO es software registrado en el blockchain y ejecutado en los nodos de EOSIO, esto implementa las semánticas de un contrato cuyo registro de solicitudes de acciones están siendo guardadas en el blockchain. El Contrato Inteligente define la interfaz (acciones, parámetros, estructuras de datos) y el código que implementa la interfaz. El código es compilado en el formato **bytecode canónico** el cual puede ser obtenido y ejecutado por los nodos. El blockchain guarda las transacciones (transferencias legales, movimientos de juego) del contrato. Cada Contrato Inteligente debe ser acompañado de un Contrato Ricardiano que define la legalidad de los términos y condiciones enlazadas del contrato.
 
 Visite nuestro [Tutorial C++ Moderno](https://guias.eoscostarica.io/docs/tutoriales/cpp-moderno)
 
 ## Framework de Diseño de Contratos Inteligentes
 
-Escasez Digital [github repo](https://github.com/digital-scarcity/equiprental) tiene un ejemplo diseñado para proveer un framework paso a paso y ejemplo de cómo crear un Contrato Inteligente en EOS. Usa un simple caso de alquiler de equipos que lista el equipo para alquilar y los alquiladores que pagan por el alquier de dicho equipo.
+Escasez Digital [github repo](https://github.com/digital-scarcity/equiprental) tiene un ejemplo diseñado para proveer un framework paso a paso y ejemplo de cómo crear un Contrato Inteligente en EOS. Usa un simple caso de alquiler de equipos que lista el equipo para alquilar y los alquiladores que pagan por el alquiler de dicho equipo.
 
 ### Pasos del Proceso
 
@@ -42,7 +42,7 @@ Nosotros manteneos una lista de Contratos Inteligentes de EOS de código de abie
 
 https://github.com/eoscostarica/eos-contracts
 
-También, revisar la siguiente lista de Contratos Inteligenes de EOS de código abierto mantenida por César Rodríguez:
+También, revisar la siguiente lista de Contratos Inteligentes de EOS de código abierto mantenida por César Rodríguez:
 
 https://github.com/kesar/eos-awesome-contracts
 
