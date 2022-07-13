@@ -42,7 +42,7 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 ## ¿Cómo añadir su clave SSH al ssh-agent?
 
-- Asegúrate de que el ssh-agent se está ejecutando [más información](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases), o inícialo manualmente:
+- Asegúrate de que el ssh-agent se está ejecutando [más información](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases), o inicielo manualmente:
 
 ```shell
 #iniciar el agente ssh en segundo plano

@@ -2,6 +2,8 @@
 id: productor-de-bloques
 title: Productor de Bloques
 sidebar_label: Productor de Bloques
+description: Definición de un Productor de Bloques (BP) en EOSIO
+keywords: [Block Producer, Productor de Bloques, Como ser un Block Producer, EOSIO, EOS, BP, Que es un Productor de Bloques]
 ---
 
 ## ¿Qué es un productor de bloques?

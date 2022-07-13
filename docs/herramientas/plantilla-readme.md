@@ -95,7 +95,7 @@ Especifique dónde se desarrolló el proyecto, en caso de que alguien más quier
 ### Empezando
 Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemplo:
 
-#### **Prerrequisitos**
+#### **Pre-Requisitos**
 
 `
 yarn

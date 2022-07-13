@@ -28,7 +28,7 @@ Las características anteriores son concentradas en [Mandel 3.0](https://github.
 
 ## Cambios de Mandel
 
-Entre los cambios incluídos en Mandel 3.0 se destacan los siguientes:
+Entre los cambios incluidos en Mandel 3.0 se destacan los siguientes:
 
 - La posibilidad de configurar límites en el WASM, debido a que, por motivos de seguridad se limitaban varios parámetros del WASM, pero, gracias al aumento de rendimiento es seguro aumentar los límites y en búsqueda de expansión se han hecho configurables.
 - Incluir contratos de paga, donde se crea una cuenta `provider` con disposición a cierta cantidad de recursos de NET y CPU y se publica la llave privada de su autorización para que cualquiera pueda firmar una transacción y si no es cancelada la cuenta `provider` cubrirá los costos de NET y CPU, esto con el fin de: 
