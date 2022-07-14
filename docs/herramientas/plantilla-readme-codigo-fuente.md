@@ -10,7 +10,7 @@ keywords: [código fuente, plantilla, README, Ejemplos de README]
 
     Es simple y puede parecer muy fácil y sí, lo es, pero el impacto que puede producir un GIF o una imagen es demasiado grande. El espectador adquiere la información necesaria para interesarse por el proyecto. Por ejemplo:
 
-    ![Life bank](/img/life-bank.png)
+    ![Life bank](/img/life-bank.webp)
 
     ## Sobre el Proyecto
 

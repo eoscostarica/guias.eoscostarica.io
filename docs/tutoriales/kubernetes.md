@@ -23,7 +23,7 @@ Hay dos roles principales, “master” y “node”. El master se encarga de ma
 
 ## Esquema de Arquitectura de Kubernetes
 
-![image](https://user-images.githubusercontent.com/5632966/107062957-724c5c00-679f-11eb-88f0-fb4b884785ab.png)
+![Diagrama de la Arquitectura de Kubernetes](https://user-images.githubusercontent.com/5632966/107062957-724c5c00-679f-11eb-88f0-fb4b884785ab.png)
 
 ## Conceptos Clave en k8s
 

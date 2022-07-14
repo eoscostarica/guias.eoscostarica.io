@@ -54,7 +54,7 @@ Más información sobre [llaves privadas](https://guias.eoscostarica.io/docs/apr
 
 ## Empecemos
 
-![imagen](https://eosio.lacchain.net/img/diagramas/cleos.png)
+![Diagrama de cleos](/img/diagramas/cleos.webp)
 
 ### Instalación en Windows
 

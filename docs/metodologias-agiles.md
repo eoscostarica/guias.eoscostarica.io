@@ -23,7 +23,7 @@ Para aclarar cómo llegó a ser agilidad moderna, aquí hay un fragmento del sit
 Los métodos ágiles modernos se definen mediante cuatro principios rectores:
 
 <div style={{  textAlign: "center" }}>
-<img alt="Imagen Modern Agile"   src={ useBaseUrl( 'img/AgilidadModerna.jpg' )} loading="lazy"/>
+<img alt="Imagen Modern Agile"   src={ useBaseUrl( 'img/AgilidadModerna.webp' )} loading="lazy"/>
 </div>
 
 ## ¿Tipos de Metodologías Ágiles?

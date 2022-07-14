@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ## Tutorial de Configuración de una Red Privada
 Se pueden diseñar varias topologías en el sentido de cantidad de nodos o redundancia de los datos, sin embargo, para la practicidad de este tutorial, se utiliza la siguiente topología como referencia principal:
 <p style={{ align: "center" }}>
-  <img src={ useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.png' )} width="100%" />
+  <img alt="Topología inicial" src={ useBaseUrl( '/img/private-network-installation-tutorial/initial-topology.webp' )} width="100%" />
 </p>
 
 ## Requisitos Previos de Software
