@@ -14,19 +14,24 @@ const DisplayImages = ({ projectData }) => {
                     </Grid>
                 ))
                 }
+                <Grid container spacing={1} alignItems="center" justifyContent="center">
                 {projectData.images.map((image, i) => (
                     <>
+                    <Grid item xs={6} md={6}>
                         <a href={image.link} id={i}>
-                            <img className={image.class} src={useBaseUrl(image.image)}
-                                loading="lazy" alt={projectData.name + " screenshot preview " + (i + 1)} />
+                            <img className={image.class ?? ""} src={useBaseUrl(image.image)}
+                                loading="lazy" height="60%" 
+                                alt={projectData.name + " screenshot preview " + (i + 1)} />
                         </a>
+                    </Grid>
                         <a href={projectData.href} className="lightbox" id={image.id}>
-                            <img className="box-img" src={useBaseUrl(image.image)}
+                            <img className="box-img" src={useBaseUrl(image.image)} 
                                 loading="lazy" alt={projectData.name + " screenshot " + (i + 1)} />
                         </a>
                     </>
                 ))
                 }
+                </Grid>
             </Grid>
         </Grid>
     )
