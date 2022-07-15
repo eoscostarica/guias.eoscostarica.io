@@ -135,6 +135,7 @@ const siteConfig = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} EOS Costa Rica`, // You can also put own HTML here.
     },
+    trailingSlash: false,
     //Algolia integration
     algolia: {
       appId: "BH4D9OD16A",
