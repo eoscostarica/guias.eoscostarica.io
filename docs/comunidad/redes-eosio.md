@@ -42,6 +42,10 @@ aplicaciones en la red de LACChain impulsada por tecnología EOSIO.
 
 * * *
 
+- [Libre](https://www.libre.org/): Una cadena lateral o sidechain de Bitcoin y Lightning Network (LN) que fue diseñada para reducir la dificultad de usar estas tecnologías.
+
+* * *
+
 - [Proton Chain](https://www.protonchain.com/): La cadena de bloques Proton fue diseñada para permitir que los sitios web y las aplicaciones envíen solicitudes de pago directamente a carteras compatibles con Proton.
 
 * * *
@@ -49,7 +53,7 @@ aplicaciones en la red de LACChain impulsada por tecnología EOSIO.
 - [Telos](https://www.telos.net/): Una plataforma blockchain sin permisos de alto rendimiento para aplicaciones descentralizadas con almacenamiento avanzado de datos y funciones de gobernanza de la cadena.
 
 <figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/fvsvzCL46eI" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/fvsvzCL46eI" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
 </figure>
 
 * * *
@@ -65,7 +69,7 @@ aplicaciones en la red de LACChain impulsada por tecnología EOSIO.
 - [WAX](https://wax.io/): Un token de cadena de bloques y protocolo especialmente diseñado para hacer que las transacciones de comercio electrónico sean más rápidas, fáciles y seguras.
 
 <figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
 </figure>
 
 * * *
