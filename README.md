@@ -3,7 +3,7 @@
 
 Sitio de documentación para desarrolladores de EOS Costa Rica.
 
-![Guide front page](static/img/guide-pageNew.png)
+![Guide front page](static/img/guide-page.png)
 
 ## Acerca del Proyecto
 
