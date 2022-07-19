@@ -53,7 +53,7 @@ Describe la razón por la que se hizo esto, por ejemplo:
 El propósito es que el usuario conozca las principales tecnologías que se necesitaban para desarrollar el proyecto, para que el usuario pudiera entender el proyecto con un nuevo tipo de vista, por ejemplo, la información que se podría dar aquí es:
 
 
-- React.js - React 16✨, React Router 5
+- React.js - React 18✨, React Router 5
 - Rematch/core - Rematch a Redux Framework
 - Material-ui/core - React components for faster and easier web development universal-authenticator-library - A library for allowing apps to easily use different auth providers
 - Lint - ESlint
