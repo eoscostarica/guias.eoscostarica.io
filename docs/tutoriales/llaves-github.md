@@ -14,7 +14,7 @@ El `SSH` es también conocido como Secure Shell o Secure Socket Shell. [Más sob
 
 ## ¿Cómo generar una nueva clave SSH en Windows?
 
-Esta guía es para usuarios de Windows, más información para Linux y Mac [en este sitio](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+Esta guía es para usuarios de Windows, más información para Linux y Mac visite [Generando una nueva llave SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 Los entornos Windows no tienen un shell Unix estándar por defecto. Será necesario instalar programas de shell externos para tener una experiencia completa de keygen. La opción más directa es utilizar Git Bash.
 
@@ -42,7 +42,7 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 ## ¿Cómo añadir su clave SSH al ssh-agent?
 
-- Asegúrate de que el ssh-agent se está ejecutando [más información](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases), o inicielo manualmente:
+- Asegúrate de que el ssh-agent se está ejecutando, para más información visite [Trabajando con Llaves SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/working-with-ssh-key-passphrases), o inicielo manualmente:
 
 ```shell
 #iniciar el agente ssh en segundo plano

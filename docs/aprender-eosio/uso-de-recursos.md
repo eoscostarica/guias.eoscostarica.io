@@ -24,19 +24,19 @@ quota: 86.68 KiB
 used: 11.62 KiB
 ```
 
-Puede encontrar más detalles sobre RAM como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram).
+Puede encontrar más detalles sobre RAM como recurso del sistema en la guía [RAM Contratos EOSIO](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram).
 
 ### CPU
 
 La CPU está procesando la potencia, la cantidad de CPU que tiene una cuenta se mide en microsegundos (μs), se conoce como `CPU bandwith`, el comando `cleos get account` emite la cantidad de tiempo de procesamiento que una cuenta tiene a su disposición al presionar acciones a un contrato.
 
-Puede encontrar más detalles sobre la CPU como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/cpu).
+Puede encontrar más detalles sobre la CPU como recurso del sistema en la guía [CPU Contratos EOSIO](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/cpu).
 
 ### Network (NET)
 
 Como CPU y RAM, NET también es un recurso muy importante en las cadenas de bloques basadas en EOSIO. NET es el ancho de banda de la red medido en bytes de transacciones y se conoce como `net bandwidth`.
 
-Puede encontrar más detalles sobre NET como recurso del sistema [aquí](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
+Puede encontrar más detalles sobre NET como recurso del sistema en la guía [NET Contratos EOSIO](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/net).
 
 ## Límites de Recursos de la Cuenta
 

@@ -24,7 +24,7 @@ Con el esfuerzo realizado por la comunidad se ha logrado lo siguiente:
 - Obtener el apoyo de organizaciones externas, las cuales se han interesado en los logros actuales y futuros de la red.
 - Obtener el feedback necesario para la creación de nuevas herramientas y mejoras en las ya existentes.
 
-Si desea obtener más conocimiento sobre este tema y su participación en el ciclo de vida en la red, puede verlo en el siguiente [enlace](https://bit.ly/api-plus-english) con disponibilidad de descargarlo si así lo desea.
+Si desea obtener más conocimiento sobre este tema y su participación en el ciclo de vida en la red, puede verlo en [API+ Blue Paper](https://bit.ly/api-plus-english) con disponibilidad de descargarlo si así lo desea.
 
 ## Core+  
 
@@ -43,7 +43,7 @@ Para obtener un despegue exitoso se recomienda involucrarse con otras plataforma
 ### Propulsar
 Para poder propulsar la plataforma se recomienda mejorar la velocidad y escalabilidad, atraer nuevos usuarios, dando más exposición de la plataforma y oportunidades de crecimiento con otras plataformas de EOSIO. También es necesario no dejar de invertir en la plataforma, por lo mismo es necesario establecer un equipo para la investigación y desarrollo de posibles mejoras o tecnologías.
 
-Si desea obtener más conocimiento sobre este tema puede verlo en el siguiente [enlace](https://bit.ly/eos-core-plus) con disponibilidad de descargarlo si así lo desea.
+Si desea obtener más conocimiento sobre este tema puede verlo en [Core+ Blue Paper](https://bit.ly/eos-core-plus) con disponibilidad de descargarlo si así lo desea.
 
 ## Wallet+
 
@@ -56,7 +56,7 @@ En este Paper se encuentra las debilidades encontradas por el grupo sobre las po
 3. Listar las iniciativas que pueden mejorar el ecosistema EOS.
 4. Listar las recomendaciones de la fundación para tomar acción.
 
-Si desea obtener más conocimiento sobre este tema puede verlo en el siguiente [enlace](https://bit.ly/wallet-plus-english) con disponibilidad de descargarlo si así lo desea.
+Si desea obtener más conocimiento sobre este tema puede verlo en [Wallet+ Blue Paper](https://bit.ly/wallet-plus-english) con disponibilidad de descargarlo si así lo desea.
 
 ## Audit+
 
@@ -76,7 +76,7 @@ Este tema obtiene su importancia ante la incertidumbre presente en la comunidad,
 
 Este tema se obtiene ante un amplio grupo de desarrolladores con poco o escaso conocimiento técnicos referentes a la seguridad, así como su implementación en los contratos inteligentes. Por lo mismo, el grupo Audit+ tiene pensado el desarrollo no solamente de las librerías, incluso el de un roadmap que permita comprender su funcionamiento y aplicación.
 
-Si desea obtener más conocimiento sobre este tema puede verlo en el siguiente [enlace](https://drive.google.com/file/d/1hQsN-_4DN5Lj9iDih0N41r8-ZeEpFRlr/view?usp=sharing) con disponibilidad de descargarlo si así lo desea.
+Si desea obtener más conocimiento sobre este tema puede verlo en [Audit+ Blue Paper](https://drive.google.com/file/d/1hQsN-_4DN5Lj9iDih0N41r8-ZeEpFRlr/view?usp=sharing) con disponibilidad de descargarlo si así lo desea.
 
 ## EVM+
 
@@ -91,13 +91,13 @@ Para lograr dicho objetivo se han establecido algunos objetivos específicos, en
 
 - Compatibilidad RCP completa
 
-Si desea obtener más conocimiento sobre este tema puede verlo en el siguiente [enlace](https://eosnetwork.com/blog/evm-bringing-the-ethereum-virtual-machine-to-eos/).
+Si desea obtener más conocimiento sobre este tema puede verlo en [EVM+ Blue Paper](https://eosnetwork.com/blog/evm-bringing-the-ethereum-virtual-machine-to-eos/).
 
 ## Recorver+
 
 El grupo Recorver+ nace como una respuesta ante la posibilidad del ataque de un grupo de hackers y las posibles acciones a tomar para la recuperación de la red, así como medidas a tener en consideración para disminución de daños hacia desarrolladores y usuarios finales. Es necesario entender que a pesar de la investigación realizada por el grupo, este Paper no contenga todos los escenarios posibles, sumados a este hecho, la existencia de muchas variables ajenas a la red, como bien lo podría ser una recesión económica global o similares.
 
-Si desea obtener más conocimiento sobre este tema puede verlo en el siguiente [enlace](https://eosnetwork.com/wp-content/uploads/2022/06/Recover-Blue-Paper-English.pdf) con disponibilidad de descargarlo si así lo desea.
+Si desea obtener más conocimiento sobre este tema puede verlo en [Recover+ Blue Paper](https://eosnetwork.com/wp-content/uploads/2022/06/Recover-Blue-Paper-English.pdf) con disponibilidad de descargarlo si así lo desea.
 
 
-Siendo estos "Papers" los resultados de investigaciones realizadas por distintos grupos, más no siendo los únicos si desea ver todos los Blue Papers y tener conocimiento sobre los distintos temas puede visitar el siguiente [enlace](https://eosnetwork.com/blog/category/eos-blue-papers/).
+Siendo estos "Papers" los resultados de investigaciones realizadas por distintos grupos, más no siendo los únicos si desea ver todos los Blue Papers y tener conocimiento sobre los distintos temas puede visitar [Fundación EOS Blue Papers](https://eosnetwork.com/blog/category/eos-blue-papers/).

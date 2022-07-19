@@ -40,4 +40,4 @@ Hay dos roles principales, “master” y “node”. El master se encarga de ma
 **Infraestructura como Código IaC**
 Se creará un repositorio con código para el diseño y despliegue de la infraestructura del proyecto Este representará el estado deseado en los servidores, así como imágenes pre-compiladas de cada servicio que se desea desplegar.
 
-[Más información](/docs/devops#kubernetes)
+Para más información visite nuestra guía de [Kubernetes](/docs/devops#kubernetes)

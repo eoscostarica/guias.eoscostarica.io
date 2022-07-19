@@ -69,7 +69,7 @@ Aquí hay algunas razones por las que usamos EOSIO:
 
 4. **Es verde**. Una de las quejas más comunes que escuchas sobre la tecnología blockchain es lo cara y nociva para el medio ambiente que es. De hecho, muchas plataformas blockchain requieren una cantidad sustancial de electricidad para ejecutar las computadoras necesarias para administrar la base de datos distribuida.
 
->[Más información](https://block.one/news/four-reasons-why-developers-and-enterprises-are-looking-at-the-eosio-blockchain-protocol/#:~:text=Unlike%20other%20blockchain%20protocols%2C%20EOSIO,apps%20are%20free%20to%20use.)
+>Para más información visite [Razones por las que usar EOSIO](https://block.one/news/four-reasons-why-developers-and-enterprises-are-looking-at-the-eosio-blockchain-protocol/#:~:text=Unlike%20other%20blockchain%20protocols%2C%20EOSIO,apps%20are%20free%20to%20use.)
 
 ### Instalación de EOSIO 
 
@@ -107,7 +107,7 @@ class="video_container">
     </iframe>
 </figure>
 
-[Haga clic aquí](https://jqplay.org/) si quieres un lugar para probar jq. El jq [GitHub](https://github.com/stedolan/jq) para obtener más información.
+[PlayGround JQPlay](https://jqplay.org/) si quieres un lugar para probar jq. El jq [GitHub](https://github.com/stedolan/jq) para obtener más información.
 
 * * *
 
@@ -128,7 +128,7 @@ JavaScript no es un lenguaje fuertemente tipado, esto podría crear algunos prob
 3. **Procesamiento rápido con Virtual DOM**. La actualización de DOM suele ser el cuello de botella cuando se trata del rendimiento web. React está tratando de resolver este problema usando algo llamado DOM virtual; un DOM guardado en la memoria.
 4. **Excelentes herramientas para desarrolladores**. El conjunto de herramientas para desarrolladores es otro factor importante a la hora de elegir una plataforma de desarrollo. Hay dos excelentes herramientas que debe conocer: React Developer Tools y Redux Developer Tools. Ambos se pueden instalar como extensiones de Chrome.
 
->[Más información](https://stories.jotform.com/7-reasons-why-you-should-use-react-ad420c634247)
+>Para más información visite [Razones porque deberías usar React](https://stories.jotform.com/7-reasons-why-you-should-use-react-ad420c634247)
 
 ### Instalación de React JS 
 
