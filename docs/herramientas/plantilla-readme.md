@@ -11,7 +11,7 @@ README es un archivo que trae una pequeña descripción sobre todo el proyecto, 
 
 ### Para Copiar esta Plantilla Readme como Código Fuente Markdown [haga clic aquí](./plantilla-readme-codigo-fuente.md)
 
-```
+***
 
 ## Introducción con GIF o Imágenes
 
