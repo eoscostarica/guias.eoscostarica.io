@@ -9,15 +9,15 @@ keywords: [Plantilla Readme, Readme, markdown, EOS, EOS Costa Rica]
 README es un archivo que trae una pequeña descripción sobre todo el proyecto, que contiene una introducción y explicación de este. El tipo de información que se puede describir aquí es información solicitada para comprender el proyecto y su estructura o propósito. A continuación, brindamos una plantilla para crear un archivo README para un nuevo proyecto.
 
 
-### Para Copiar esta Plantilla Readme como Código Fuente Markdown [haga clic aquí](plantilla-readme-codigo-fuente)
+### Para Copiar esta Plantilla Readme como Código Fuente Markdown [haga clic aquí](./plantilla-readme-codigo-fuente.md)
 
-***
+```
 
 ## Introducción con GIF o Imágenes
 
 Es simple y puede parecer muy fácil y sí, lo es, pero el impacto que puede producir un GIF o una imagen es demasiado grande. El espectador adquiere la información necesaria para interesarse por el proyecto. Por ejemplo:
 
-![Captura de pantalla de Life bank](/img/life-bank.webp)
+![Captura de pantalla de Life bank](/img/life-bank.png)
 
 ## Sobre el Proyecto
 
@@ -35,14 +35,12 @@ Con una buena visión de la estructura de la información se puede hacer que el 
 2. Sobre el proyecto
 3. Tabla de contenidos
 4. Propósito del proyecto
-5. Versión
-6. Tecnologías
-7. Entorno de desarrollo
-8. Estructura de archivo
-9. Licencia
-10. Contribuyendo
-11. Colaboradores
-12. Sobre EOS Costa Rica
+5. Tecnologías
+6. Entorno de desarrollo
+7. Estructura de archivo
+8. Contribuyendo
+9. Colaboradores
+10. Sobre EOS Costa Rica
 
 ## Propósito del Proyecto
 
@@ -51,21 +49,6 @@ Describe la razón por la que se hizo esto, por ejemplo:
 *"Identificamos dos problemas principales: una escasez de donaciones de sangre y una desaceleración económica local. En medio del brote de COVID-19, los bancos de sangre necesitan donantes con urgencia. Las personas que son donantes potenciales calificados deben quedarse en casa y aislarse. A medida que las donaciones caen en picado y la demanda para los aumentos de sangre y plasma, los bancos de sangre están experimentando una escasez global pronunciada.*
 
 *Además, la pandemia está afectando las economías locales debido a un bloqueo generalizado. Las pequeñas empresas que dependen de la comunidad local deben pensar en formas de incentivar a los clientes a comprar tan pronto como se levanten las restricciones ".*
-
-## Versión
-Saber qué versión del proyecto es, podría ayudar a otros a depurar problemas, darle diferentes soluciones o enfoques, por este motivo, es necesario especificar la última versión del proyecto, por ejemplo:
-
-:::note modificar
-Evodex está listo para que nuestro primer grupo de probadores beta pruebe el intercambio descentralizado de próxima generación para EOS
-
-Actualmente, evodex todavía se encuentra en versión beta preliminar *v0.1.0-beta.xx*
-
-Lanzamos la versión del software de producción usando etiquetas github siguiendo a Semver.
-
-También usamos los mensajes de confirmación de git para generar el registro de cambios del proyecto.
-
-Con la version de comando yarn puede actualizar la versión de su paquete a través de la línea de comando.
-:::
 
 ## Tecnologías
 El propósito es que el usuario conozca las principales tecnologías que se necesitaban para desarrollar el proyecto, para que el usuario pudiera entender el proyecto con un nuevo tipo de vista, por ejemplo, la información que se podría dar aquí es:
@@ -158,19 +141,15 @@ Esto podría ayudar al lector a comprender la organización dentro del proyecto,
 └── package.json
 ```
 
-## Licencia
-
-MIT © EOS Costa Rica
-
 ## Contribuyendo
 
 Si desea hacer una contribución, siga los siguientes pasos:
 
 1. Crear Fork del proyecto
-2. Crea el Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit a los cambios (`git commit -m '<type>(<scope>): <subject>'`)
-4. Push a la rama de trabajo (`git push origin feature/AmazingFeature`)
-5. Abra un Pull Request
+1. Crea el Feature Branch (`git checkout -b feature/AmazingFeature`)
+1. Commit a los cambios (`git commit -m '<type>(<scope>): <subject>'`)
+1. Push a la rama de trabajo (`git push origin feature/AmazingFeature`)
+1. Abra un Pull Request
 
 Por favor lea EOS Costa Rica [Pautas de contribución de código abierto](https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto/) para obtener más información sobre las convenciones de programación.
 
@@ -183,7 +162,7 @@ Liste las personas que trabajan en el proyecto.
 ## Sobre EOS Costa Rica
 
 <div style={{ display: "block", textAlign: "center" }}>
-    <img style={{ width: "50%" }} src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" />
+    <img style={{ width: "40%" }} src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png" />
 </div>
 
 EOS Costa Rica es un productor independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para las cadenas de bloques EOSIO. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
