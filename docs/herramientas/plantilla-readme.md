@@ -39,8 +39,7 @@ Con una buena visión de la estructura de la información se puede hacer que el 
 6. Entorno de desarrollo
 7. Estructura de archivo
 8. Contribuyendo
-9. Colaboradores
-10. Sobre EOS Costa Rica
+9. Sobre EOS Costa Rica
 
 ## Propósito del Proyecto
 
@@ -155,9 +154,6 @@ Por favor lea EOS Costa Rica [Pautas de contribución de código abierto](https:
 
 Si encuentra un error, informe los errores grandes y pequeños **abriendo un issue** `<enlace a la sección del proyecto de emisión>`
 
-## Colaboradores
-
-Liste las personas que trabajan en el proyecto.
 
 ## Sobre EOS Costa Rica
 
