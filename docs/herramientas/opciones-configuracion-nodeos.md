@@ -153,7 +153,7 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
                                         and locked in to memory.
 ```                                     
 
-### Command Line Options for eosio::chain_plugin:
+### Opciones de Línea de Comandos para eosio::chain_plugin:
 
 ```
   --genesis-json arg                    File to read Genesis State from
@@ -211,7 +211,7 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
 
 ```
 
-### Config Options for eosio::history_plugin:
+### Opciones de Configuración para eosio::history_plugin:
 
 ```
 
@@ -229,7 +229,7 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
                                         blank.
 ```
 
-### Config Options for eosio::http_client_plugin:
+### Opciones de Configuración para eosio::http_client_plugin:
 
 ```
   --https-client-root-cert arg          PEM encoded trusted root certificate 
@@ -243,7 +243,7 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
                                         false: ignore cert errors
 ```
 
-### Config Options for eosio::http_plugin:
+### Opciones de Configuración para eosio::http_plugin:
 
 ```
   --unix-socket-path arg                The filename (relative to data-dir) to 
@@ -308,7 +308,7 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
                                         pool
 ```
 
-### Config Options for eosio::login_plugin:
+### Opciones de Configuración para eosio::login_plugin:
 
 ```
   --max-login-requests arg (=1000000)   The maximum number of pending login 
@@ -318,7 +318,7 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
                                         requests (in seconds)
 ```
 
-### Config Options for eosio::mongo_db_plugin:
+### Opciones de Configuración para eosio::mongo_db_plugin:
 
 ```
 
@@ -383,7 +383,7 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
                                         all.
 ```
 
-### Config Options for eosio::net_plugin:
+### Opciones de Configuración para eosio::net_plugin:
 
 ```
   --p2p-listen-endpoint arg (=0.0.0.0:9876)
@@ -476,7 +476,7 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
                                         
 ```
 
-### Config Options for eosio::producer_plugin:
+### Opciones de Configuración para eosio::producer_plugin:
 
 ```
   -e [ --enable-stale-production ]      Enable block production, even if the 
@@ -606,7 +606,7 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
 
 ```
 
-### Config Options for eosio::state_history_plugin:
+### Opciones de Configuración para eosio::state_history_plugin:
 
 ```
 
@@ -629,13 +629,13 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
 ```
 
 
-### Command Line Options for eosio::state_history_plugin:
+### Opciones de Línea de Comandos para eosio::state_history_plugin:
  
 ``` 
   --delete-state-history                clear state history files
 ```
 
-### Config Options for eosio::trace_api_plugin:
+### Opciones de Configuración para eosio::trace_api_plugin:
 
 ```
   --trace-dir arg (="traces")           the location of the trace directory 
@@ -688,7 +688,7 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
 
 ```
 
-### Config Options for eosio::txn_test_gen_plugin:
+### Opciones de Configuración para eosio::txn_test_gen_plugin:
 
 ```
   --txn-reference-block-lag arg (=0)    Lag in number of blocks from the head 
@@ -704,14 +704,14 @@ keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, 
                                         and used by this plugin
 ```
 
-### Application Config Options:
+### Opciones de Configuración de la Aplicación:
 
 ```
   --plugin arg                          Plugin(s) to enable, may be specified 
                                         multiple times
 ```
 
-### Application Command Line Options:
+### Opciones de la Línea de Comandos de la Aplicación:
 
 ```
   -h [ --help ]                         Print this help message and exit.
