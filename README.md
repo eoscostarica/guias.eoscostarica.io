@@ -120,7 +120,7 @@ Si encuentra un error, informe los errores grandes y pequeños [**abriendo un is
 
 <p align="center">
 	<a href="https://eoscostarica.io/">
-		<img src="https://user-images.githubusercontent.com/5632966/178800859-e05a07ff-b3e5-41a9-9137-d1a271b958ff.png"
+		<img src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png"
 		width="300px" >
 	</a>
 </p>
