@@ -17,7 +17,7 @@ README es un archivo que trae una pequeña descripción sobre todo el proyecto, 
 
 Es simple y puede parecer muy fácil y sí, lo es, pero el impacto que puede producir un GIF o una imagen es demasiado grande. El espectador adquiere la información necesaria para interesarse por el proyecto. Por ejemplo:
 
-![Captura de pantalla de Life bank](/img/life-bank.png)
+![Captura de pantalla de Life bank](/img/life-bank.webp)
 
 ## Sobre el Proyecto
 
