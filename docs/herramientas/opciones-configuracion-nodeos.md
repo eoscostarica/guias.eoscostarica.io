@@ -1,7 +1,7 @@
 ---
 id: opciones-configuracion-nodeos
 title: Opciones de Configuración de Nodeos
-sidebar_label: Opciones de Configuración de Nodeos
+sidebar_label: Configuración de Nodeos
 description: Opciones para la respectiva configuración de Nodeos
 keywords: [ configuracion nodeos, opciones nodeos, nodeos, EOS, EOS Costa Rica, Configurar Nodeos]
 ---
