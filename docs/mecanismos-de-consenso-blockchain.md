@@ -27,7 +27,7 @@ En la actualidad las redes que utilizan este mecanismo de consenso son:
 - Monero.
 - Entre otras.
 
-Si se desea obtener más información puede visitar el siguiente [enlace](https://guias.eoscostarica.io/docs/herramientas/glosario#proof-of-work).
+Si se desea obtener más información puede visitar el glosario [Proof of Work](https://guias.eoscostarica.io/docs/herramientas/glosario#proof-of-work).
 
 ## Proof of Stake (PoS)
 
@@ -62,7 +62,7 @@ En la actualidad las redes que utilizan este mecanismo de consenso son:
 | Principales fortalezas | Es un mecanismo muy seguro | Es más amigable con los usuarios e involucra más a la comunidad | Permite una mayor democracia por parte de la comunidad |
 | Principales retos | Es extremadamente costoso | Favorece a aquellos con mayores recursos | Requiere una comunidad muy involucrada |
 
-Si desea aprender más sobre Delegated Proof of Stake (DPoS) puede visitar el siguiente [enlace](https://guias.eoscostarica.io/docs/aprender-eosio/mecanismo-de-consenso#delegated-proof-of-stake-dpos).
+Si desea aprender más sobre Delegated Proof of Stake (DPoS) puede visitar el mecanismo de consenso [Delegated Proof of Stake](https://guias.eoscostarica.io/docs/aprender-eosio/mecanismo-de-consenso#delegated-proof-of-stake-dpos).
 
 ## Otros Mecanismos de Consenso
 
@@ -88,4 +88,4 @@ Este mecanismo nace con una propuesta muy antigua, pero diferente a los mecanism
 
 Este mecanismo nació como una solución de Intel a la ventaja que obtienen los que tienen más recursos a la hora de buscar el sistema de elección del validador de bloques más justo, como una lotería dentro de la red se asignan los validadores.
 
-Si quiere saber más sobre los diferentes mecanismos de consenso, puede visitar el siguiente [enlace](https://www.allerin.com/blog/8-blockchain-consensus-mechanisms-you-should-know-about).
+Si quiere saber más sobre los diferentes mecanismos de consenso, puede visitar [Mecanismos de Consenso Que Debería Conocer](https://www.allerin.com/blog/8-blockchain-consensus-mechanisms-you-should-know-about).

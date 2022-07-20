@@ -26,7 +26,7 @@ Puedes ver más en el [canal de Max G](https://www.youtube.com/user/apexmaxable/
 
 ## Empezando
 
-Para obtener mas información sobre los contratos inteligentes puede visitar [este enlace](https://guias.eoscostarica.io/docs/aprender-eosio/contratos-inteligentes). 
+Para obtener mas información sobre los contratos inteligentes puede visitar la guía [Contratos Inteligentes](https://guias.eoscostarica.io/docs/aprender-eosio/contratos-inteligentes). 
 
 ## Jungle Testnet
 

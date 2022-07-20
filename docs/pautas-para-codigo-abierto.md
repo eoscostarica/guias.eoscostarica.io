@@ -112,7 +112,7 @@ fix(release): need to depend on latest rxjs and zone.js
 The version in our package.json gets copied to the one we publish, and users need the latest of these.
 ```
 
-Más ejemplos [aquí](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit)
+Más ejemplos [Angular - Formato del mensaje de commit](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit)
 
 ### Revertir
 

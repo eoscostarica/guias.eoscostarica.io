@@ -15,7 +15,7 @@ keywords: [componentes-eosio, Componentes EOSIO, blockchain, eos, eosio, eosio.i
 * Producir bloques que contengan transacciones válidas.
 * Confirmar bloques para registrarlos en el blockchain.
 
-> [Más Información](https://guias.eoscostarica.io/docs/herramientas/opciones-configuracion-nodeos)
+>Para más información visite [Configuración Nodeos](https://guias.eoscostarica.io/docs/herramientas/opciones-configuracion-nodeos)
 
 ## Cleos
 
@@ -41,7 +41,7 @@ $ cleos create account --help
 $ cleos wallet create -n mywallet --to-console
 ```
 
-[Más Información](https://guias.eoscostarica.io/docs/herramientas/linea-de-comando)
+Para más información visite [Linea de Comando](https://guias.eoscostarica.io/docs/herramientas/linea-de-comando)
 
 ## EOSIO.CDT
 
@@ -58,7 +58,7 @@ Más información sobre [llaves privadas](https://guias.eoscostarica.io/docs/apr
 
 ### Instalación en Windows
 
-Como una forma de ayudarlo a comenzar en el mundo EOSIO, aquí hay una guía sobre cómo instalar el Kit de herramientas de desarrollo de contratos EOSIO. Si está utilizando un sistema operativo diferente en lugar de **Windows**, visite [este sitio](https://developers.eos.io/welcome/latest/getting-started/development-environment/before-you-begin) 
+Como una forma de ayudarlo a comenzar en el mundo EOSIO, aquí hay una guía sobre cómo instalar el Kit de herramientas de desarrollo de contratos EOSIO. Si está utilizando un sistema operativo diferente en lugar de **Windows**, visite la guía [Configurar el entorno de desarrollo](https://developers.eos.io/welcome/latest/getting-started/development-environment/before-you-begin) 
 para ver los requisitos previos y pasar a [Instalar binarios](#instalar-binarios).
 Esta guía de instalación estará dirigida a **usuarios de Windows**, desafortunadamente, EOSIO no proporciona puertos e instrucciones de PowerShell para este sistema operativo. Como desarrollador tienes dos opciones *una* utilizar una Máquina Virtual o, como en este caso un Terminal Linux en Windows. Siga estos pasos:
 
@@ -131,4 +131,4 @@ $ sudo ./install.sh
 
 >Para obtener más información sobre cómo instalar el contrato DEV. Kit de herramientas, vaya a [esta página](https://developers.eos.io/welcome/latest/getting-started/development-environment/install-the-CDT).
 
-Ahora está listo para crear una billetera de desarrollo con la ayuda de Cleos. [Más información](https://developers.eos.io/welcome/latest/getting-started/development-environment/create-development-wallet).
+Ahora está listo para crear una billetera de desarrollo con la ayuda de Cleos. Para más información visite [Crear una Cartera de Desarrollo](https://developers.eos.io/welcome/latest/getting-started/development-environment/create-development-wallet).
