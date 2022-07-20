@@ -26,7 +26,7 @@ Este proyecto está destinado a servir como una herramienta para ayudar en la in
 
 
 ## Tech Stack
-- React.js - React 16✨, React Router 5.
+- React.js - React 18✨, React Router 5.
 - Material-ui/core - Componentes de React para un desarrollo web más rápido y fácil, biblioteca-autenticador-universal - Una biblioteca para permitir que las aplicaciones utilicen fácilmente diferentes proveedores de autenticación.
 - Core - Componentes de React para un desarrollo web más rápido y sencillo.
 - Lint- ESlint.
@@ -118,12 +118,12 @@ Si encuentra un error, informe los errores grandes y pequeños [**abriendo un is
 
 ## Acerca de EOS Costa Rica
 
-<p align="center">
+<div align="center">
 	<a href="https://eoscostarica.io/">
 		<img src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png"
 		width="300px" >
 	</a>
-</p>
+</div>
 
 EOS Costa Rica es un productor de bloques independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para EOSIO blockchains. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
 
