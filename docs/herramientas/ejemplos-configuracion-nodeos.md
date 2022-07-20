@@ -1,7 +1,7 @@
 ---
 id: ejemplos-configuracion-nodeos
 title: Ejemplos para la Configuración de Nodeos 
-sidebar_label: Colección de Configuración Nodeos 
+sidebar_label: Ejemplos de Configuración Nodeos 
 description: Ejemplos de configuración de nodeos
 keywords: [Ejemplos, Configuración, Nodeos, Configuración Nodeos, Configuración Nodeos EOS, EOS, EOS Costa Rica, Cómo configurar un nodo, Cómo configurar un nodo EOS, Qué es Nodeos]
 ---
