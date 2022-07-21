@@ -4,7 +4,7 @@ title: Boilerplate para Backend
 sidebar_label: Boilerplate Para Backend
 ---
 
-Un boilerplate altamente escalable con las mejores prácticas, hecha para un inicio rápido de proyectos backend. Este boilerplate presenta todas las últimas herramientas y buenas prácticas en la industria. Puedes encontrar el repositorio [aquí](https://github.com/eoscostarica/backend-boilerplate).
+Un boilerplate altamente escalable con las mejores prácticas, hecha para un inicio rápido de proyectos backend. Este boilerplate presenta todas las últimas herramientas y buenas prácticas en la industria. Puedes encontrar el repositorio [Boilerplate EOS CR](https://github.com/eoscostarica/backend-boilerplate).
 
 ## Tecnologías
 
@@ -38,7 +38,7 @@ Compose es una herramienta para definir y correr aplicaciones de docker con múl
 
 ## Ejecución
 
-> Es necesario contar con una terminal que pueda ejecutar el archivo `makefile` que se encuentra en la raíz del proyecto. Para encontrar más información de make, puedes ir [aquí](https://www.gnu.org/software/make/manual/make.html).
+> Es necesario contar con una terminal que pueda ejecutar el archivo `makefile` que se encuentra en la raíz del proyecto. Para encontrar más información de make, puedes ir al manual [GNU Make](https://www.gnu.org/software/make/manual/make.html).
 
 Sabiendo lo anterior, se procede a ejecutar el comando `make run`. Después de esto, estarán disponibles los puertos:
 - hapi en el puerto http://localhost:9090

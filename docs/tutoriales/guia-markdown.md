@@ -92,7 +92,7 @@ Acontinuación observaremos ejemplos de sintaxis básica y estructural, para pro
 - Segundo Item
 - Tercer Item
 
-[Más información](https://www.markdownguide.org/basic-syntax/#unordered-lists).
+Para más información visite [Markdown Lista Desordenada](https://www.markdownguide.org/basic-syntax/#unordered-lists).
 
 ### **Lista Ordenada**
 
@@ -109,7 +109,7 @@ Acontinuación observaremos ejemplos de sintaxis básica y estructural, para pro
 2. Segundo Item
 3. Tercer Item
 
-[Más información](https://www.markdownguide.org/basic-syntax/#ordered-lists).
+Para más información visite [Markdown Lista Ordenada](https://www.markdownguide.org/basic-syntax/#ordered-lists).
 
 ### **Tabla**
 
@@ -127,7 +127,7 @@ Acontinuación observaremos ejemplos de sintaxis básica y estructural, para pro
 | Izquierda | Centro | Derecha |
 | Izquierda | Centro | Derecha |
 
-[Más información](https://www.markdownguide.org/extended-syntax/#tables).
+Para más información visite [Markdown Tablas](https://www.markdownguide.org/extended-syntax/#tables).
 
 ### **Check List** 
 
@@ -142,7 +142,7 @@ Acontinuación observaremos ejemplos de sintaxis básica y estructural, para pro
 - [ ] Tercera opción
 
 
-[Más información](https://www.markdownguide.org/extended-syntax/#task-lists).
+Para más información visite [Markdown Lista de Tareas](https://www.markdownguide.org/extended-syntax/#task-lists).
 
 
 ### **Salto de Línea**

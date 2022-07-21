@@ -1,7 +1,7 @@
 ---
 id: ejemplos-contratos-inteligentes-eosio
 title: Ejemplos de Contratos Inteligentes EOSIO
-sidebar_label: Ejemplos de Contratos Inteligentes EOSIO
+sidebar_label: Ejemplos de Contratos Inteligentes
 description: Esta es una lista de contratos inteligentes desarrollados en EOSIO
 keywords: [eos, eosio, EOS, EOSIO, Contrato Inteligente, Dapp, contrato-inteligente, token, colección contrato inteligente]
 ---

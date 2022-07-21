@@ -8,7 +8,6 @@ keywords: [Plantilla Readme, Readme, markdown, EOS, EOS Costa Rica]
 
 README es un archivo que trae una pequeña descripción sobre todo el proyecto, que contiene una introducción y explicación de este. El tipo de información que se puede describir aquí es información solicitada para comprender el proyecto y su estructura o propósito. A continuación, brindamos una plantilla para crear un archivo README para un nuevo proyecto.
 
-
 ### Para Copiar esta Plantilla Readme como Código Fuente Markdown [haga clic aquí](./plantilla-readme-codigo-fuente.md)
 
 ***

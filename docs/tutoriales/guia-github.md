@@ -63,7 +63,7 @@ Clonar un repositorio existente.
 git clone <url>
 ```
 
-[Más información](https://dominicode.com/git-como-empezar/#:~:text=Para%20iniciar%20tu%20primer%20proyecto,ejecuta%20el%20comando%20git%20init%20.&text=Deberías%20tener%20un%20mensaje%20de,la%20carpeta%20no%20verás%20nada.).
+Para más información visite [Git como empezar](https://dominicode.com/git-como-empezar/#:~:text=Para%20iniciar%20tu%20primer%20proyecto,ejecuta%20el%20comando%20git%20init%20.&text=Deberías%20tener%20un%20mensaje%20de,la%20carpeta%20no%20verás%20nada.).
 
 ### Ramas
 
@@ -92,7 +92,7 @@ Borrar una rama.
 ```
 git branch -d <nombre de la rama> 
 ```
-[Más información](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Gestión-de-Ramas).
+Para más información visite [Gestión de Ramas](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-Gestión-de-Ramas).
 
 ### Subir Cambios
 
@@ -135,7 +135,7 @@ Fusionar otra rama a la actual.
 ```
 git merge <nombre de la rama> 
 ```
-[Más información](https://rogerdudler.github.io/git-guide/index.es.html).
+Para más información visite [Git - Guía Sencilla](https://rogerdudler.github.io/git-guide/index.es.html).
 
 ### Fork
 
@@ -149,7 +149,7 @@ Hacer merge con master
 git fetch upstream
 git merge upstream/master 
 ```
-[Más información](https://aprendegit.com/fork-de-repositorios-para-que-sirve/).
+Para más información visite [Fork de Repositorios](https://aprendegit.com/fork-de-repositorios-para-que-sirve/).
 
 ### Otros Comandos
 
@@ -192,4 +192,4 @@ Borrar archivo del repositorio.
 ```
 git rm <archivo> 
 ```
-[Más información](https://gist.github.com/dasdo/9ff71c5c0efa037441b6).
+Para más información visite [Configuración de Git](https://gist.github.com/dasdo/9ff71c5c0efa037441b6).

@@ -9,9 +9,9 @@ keywords: [Instalación de Nodos, EOSIO, Cómo se crea un nodo, Cómo se instala
 # Configuración de un Nodo Productor
 En EOSIO, un nodo productor y otros tipos de nodos se definen y diferencian habilitando los [Plugins de Nodeos](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/index) específicos. Por ejemplo, para definir un nodo no productor, es necesario exceptuar `producer_plugin`. Esta posibilidad de personalización permite exponer uno o varios servicios de forma pública o privada habilitando uno o varios de esos plugins.
 
-Si estas tratando de configurar un "Full Node", puede que te resulte útil [este enlace](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621).
+Si estas tratando de configurar un "Full Node", puede que te resulte útil la guía [Configuración de un Nodo EOS Completo](https://eoscommunity.org/t/where-is-the-best-guide-on-setting-up-a-full-eos-node/621).
 
-Procedamos a configurar un Nodo Productor utilizando la tecnología EOSIO. También puede encontrar más información útil sobre este tema [aquí](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
+Procedamos a configurar un Nodo Productor utilizando la tecnología EOSIO. También puede encontrar más información útil sobre este tema en [Configuración del Nodo de Producción](https://developers.eos.io/manuals/eos/v2.0/nodeos/usage/node-setups/producing-node).
 
 ## Instale EOSIO desde Binarios Precompilados
 Descarga la última versión de EOSIO para tu sistema operativo desde: [Github](https://github.com/EOSIO/eos/releases/tag/v2.0.6).
@@ -115,7 +115,7 @@ p2p-peer-address = API_NODE_IP:API_NODE_PORT
 }
 ```
 
-> Sustituye `EOS_PUB_DEV_KEY` por su valor correspondiente. Para ver cómo generar un par de claves, consulta [nuestra guía](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas) sobre este tema.
+> Sustituye `EOS_PUB_DEV_KEY` por su valor correspondiente. Para ver cómo generar un par de claves, consulta nuestra guía [Llaves Privadas](https://guias.eoscostarica.io/docs/aprender-eosio/llaves-privadas) sobre este tema.
 
 ### `start.sh`
 ```bash
@@ -173,7 +173,7 @@ done
 ```bash
 $ ./start.sh
 ```
-Para una información más detallada sobre el comando anterior, por favor ve [aquí](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
+Para una información más detallada sobre el comando anterior, por favor visite [System Regproducer](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
 ### Crear la cuenta `testproducer`
 En una red blockchain basada en EOSIO, la creación de cuentas conlleva el consumo de [RAM](https://developers.eos.io/manuals/eosio.contracts/latest/key-concepts/ram), por lo que es necesario pagar por las nuevas cuentas. En el siguiente comando sustituye `CREATOR` por una cuenta existente y con recursos suficientes para ejecutar la operación.
@@ -189,9 +189,9 @@ Dependiendo de la red para la que estés configurando el nodo, puedes crear una 
 ```bash
 $ cleos -u http://URL_NODO_DESTINO system regproducer testproducer EOS_PUB_KEY "www.testproducer.testlink" 0
 ```
-Para una información más detallada sobre el comando anterior, por favor ve [aquí](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
+Para una información más detallada sobre el comando anterior, por favor visite [System Regproducer](https://developers.eos.io/manuals/eos/v2.0/cleos/command-reference/system/system-regproducer).
 
-Ahora, el nodo está configurado. Si configuraste este nodo para operar en una Red Privada, necesitas asegurarte de que tu nodo está incluido en la de productores. Consulta nuestra [guía](https://guias.eoscostarica.io/docs/tutoriales/instalacion-de-red-privada) para ver más información sobre esto.
+Ahora, el nodo está configurado. Si configuraste este nodo para operar en una Red Privada, necesitas asegurarte de que tu nodo está incluido en la de productores. Consulta nuestra guía [Instalación de Red Privada](https://guias.eoscostarica.io/docs/tutoriales/instalacion-de-red-privada) para ver más información sobre esto.
 
 Por otro lado, si quieres producir bloques en una red de prueba, los poseedores de tokens tienen que votar por ti para estar entre los 21 principales productores de bloques.
 
@@ -218,7 +218,7 @@ start_fresh_nodeos() {
 }
 ```
 
-Para obtener más información, ve [aquí](https://developers.eos.io/manuals/eos/v2.1/nodeos/replays/how-to-replay-from-a-snapshot). Además, ve [aquí](https://developers.eos.io/search?query=snapshot) para ver todas las entradas de documentos disponibles para "Snapshot" en el portal [developer.eos.io](https://developers.eos.io/).
+Para obtener más información, visite [Cómo reproducir una instantánea](https://developers.eos.io/manuals/eos/v2.1/nodeos/replays/how-to-replay-from-a-snapshot). Además, visite [EOS Snapshot](https://developers.eos.io/search?query=snapshot) para ver todas las entradas de documentos disponibles para "Snapshot" en el portal [developer.eos.io](https://developers.eos.io/).
 
 ## Nodos de Redes de Prueba
 ### Configurar un Nodo en Jungle Testnet

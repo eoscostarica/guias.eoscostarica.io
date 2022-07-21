@@ -7,7 +7,7 @@ keywords: [Qué es React, Qué es react js, Para qué sirve React, Tutorial Reac
 ---
 
 React es una librería de JavaScript que servirá para construir interfaces web y aplicaciones móviles con una extensión llamada [React Native](https://reactnative.dev/). React trabaja con unidades de código que se trabajan de forma independiente. React también utiliza una herramienta llamada JSX que permite una interacción muy sencilla con JavaScript, es decir se podrá utilizar con HTML también de forma sencilla.
->[Más Información](https://es.reactjs.org/)
+>Para más información visite [React](https://es.reactjs.org/)
 
 ## Herramientas
 
@@ -212,7 +212,7 @@ Para más informacion sobre [HoC](https://es.reactjs.org/docs/higher-order-compo
 
 React utiliza componentes reusables para todas las aplicaciones, estos componentes pueden tener varias versiones, que puede generar conflictos al hacer pequeños cambios. [Storybook](https://storybook.js.org/) es una herramienta open-source que sirve para crear componentes visuales de forma aislada donde se pueden organizar los componentes y sus versiones en historias.
 
-EOS Costa Rica utiliza [Storybook EOS Costa Rica](https://components.edenia.cloud/) para la creación de sus componentes. Para utilizar estos componentes de `eoscr-components` te dejamos la guía de instalación en [este sitio](https://www.npmjs.com/package/@eoscostarica/eoscr-components#installation).
+EOS Costa Rica utiliza [Storybook EOS Costa Rica](https://components.edenia.cloud/) para la creación de sus componentes. Para utilizar estos componentes de `eoscr-components` te dejamos la guía de instalación en [Componentes EOS CR](https://www.npmjs.com/package/@eoscostarica/eoscr-components#installation).
 
 ### Storybook
 
@@ -296,7 +296,7 @@ export default App;
 
 [**Reglas Recomendadas**](https://es.reactjs.org/docs/hooks-rules.html)
 
->[Más Información](https://es.reactjs.org/docs/hooks-intro.html)
+>Para más información visite [Introducción a Hooks](https://es.reactjs.org/docs/hooks-intro.html)
 
 ## React más Limpio con Hooks
 

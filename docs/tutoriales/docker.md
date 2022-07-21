@@ -18,7 +18,7 @@ Por ejemplo, cada nodo de la red blockchain o servicio/aplicación desarrollada 
 
 Además de Docker, utilizamos una herramienta de "orquestación" de contenedores llamada Kubernetes (K8s).
 
-Kubernetes te ayuda a gestionar los contenedores en los que se alojan tus aplicaciones de forma fácil, rápida y escalable. Además, también dispone de monitorización y balanceo de carga. Sobre los servidores virtuales. [Más información](https://guias.eoscostarica.io/docs/devops#introducci%C3%B3n-a-kubernetes-y-docker).
+Kubernetes te ayuda a gestionar los contenedores en los que se alojan tus aplicaciones de forma fácil, rápida y escalable. Además, también dispone de monitorización y balanceo de carga. Sobre los servidores virtuales. Para más información visite [Kubernetes y Docker](https://guias.eoscostarica.io/docs/devops#introducci%C3%B3n-a-kubernetes-y-docker).
 
 ## Docker Engine
 

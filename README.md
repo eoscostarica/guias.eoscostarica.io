@@ -1,4 +1,4 @@
-# Guías EOS Costa Rica
+# Guías para Desarrolladores de EOS Costa Rica
 ![](https://img.shields.io/github/license/eoscostarica/guias.eoscostarica.io) ![](https://img.shields.io/badge/code%20style-standard-brightgreen.svg) ![](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg) ![](https://img.shields.io/twitter/follow/eoscostarica.svg?style=social&logo=twitter) ![](https://img.shields.io/github/forks/eoscostarica/guias.eoscostarica.io?style=social)
 
 Sitio de documentación para desarrolladores de EOS Costa Rica.
@@ -12,15 +12,13 @@ En este sitio se encuentran los recursos recolectados en el día a día de los c
 ## Tabla de Contenido
 
 1. Acerca del Proyecto
-2. Tabla de Contenido
-3. Objetivo del Proyecto
-4. Tech Stack
-5. Entorno de Desarrollo
-6. Estructura de Archivo
-7. Licencia
-8. Contribuciones
-9. Colaboradores
-10. Acerca de EOS Costa Rica
+1. Tabla de Contenido
+1. Objetivo del Proyecto
+1. Tech Stack
+1. Entorno de Desarrollo
+1. Estructura de Archivo
+1. Contribuciones
+1. Acerca de EOS Costa Rica
 
 ## Objetivo del Proyecto
 
@@ -28,7 +26,7 @@ Este proyecto está destinado a servir como una herramienta para ayudar en la in
 
 
 ## Tech Stack
-- React.js - React 16✨, React Router 5.
+- React.js - React 18✨, React Router 5.
 - Material-ui/core - Componentes de React para un desarrollo web más rápido y fácil, biblioteca-autenticador-universal - Una biblioteca para permitir que las aplicaciones utilicen fácilmente diferentes proveedores de autenticación.
 - Core - Componentes de React para un desarrollo web más rápido y sencillo.
 - Lint- ESlint.
@@ -37,35 +35,33 @@ Este proyecto está destinado a servir como una herramienta para ayudar en la in
 
 ### Empezando
 
-Dé las instrucciones necesarias para ejecutar el proyecto localmente, por ejemplo:
-
 #### **Requisitos Previos**
 
-- `yarn`
-- `git`
-- `node.js`
+- [yarn](https://classic.yarnpkg.com/en/)
+- [git](https://git-scm.com/)
+- [node.js](https://nodejs.org/es/)
 
 #### **Instalación**
 
-1. Clona el repositorio
+1. Clonar el repositorio
 
   `
   git clone https://github.com/eoscostarica/guias.eoscostarica.io.git
   `
 
-2. Mover el directorio apropiado
+2. Mover al directorio apropiado
 
   `
   cd guide.eoscostarica.io.git
   `
 
-3. Instale los paquetes de yarn
+3. Instalar los paquetes de yarn
 
   `
   yarn
   `
 
-4. Ejecute el proyecto
+4. Ejecutar el proyecto
 
   `
   yarn start
@@ -102,10 +98,6 @@ guias.eoscostarica.io/
 └── README.md .................... Documentación de guias.eoscostarica.io
 ```
 
-## Licencia
-
-MIT © [EOS Costa Rica](https://eoscostarica.io)
-
 ## Contribuciones 
 
 Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/orgs/eoscostarica/projects/2).
@@ -126,12 +118,12 @@ Si encuentra un error, informe los errores grandes y pequeños [**abriendo un is
 
 ## Acerca de EOS Costa Rica
 
-<p align="center">
+<div align="center">
 	<a href="https://eoscostarica.io/">
-		<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png"
-		width="400px" >
+		<img src="https://raw.githubusercontent.com/eoscostarica/.github/master/.github/workflows/images/eos-costa-rica-logo.png"
+		width="300px" >
 	</a>
-</p>
+</div>
 
 EOS Costa Rica es un productor de bloques independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para EOSIO blockchains. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
 

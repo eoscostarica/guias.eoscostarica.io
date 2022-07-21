@@ -71,7 +71,7 @@ Copie y pegue el siguiente contenido en el archivo creado anteriormente:
   "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
 }
 ```
-> Esto puede ser cambiado más adelante utilizando la función privilegiada `set_param`. Puedes ver más [aquí](https://guias.eoscostarica.io/docs/aprender-eosio/funciones-importantes#docsNav)
+> Esto puede ser cambiado más adelante utilizando la función privilegiada `set_param`. Puedes ver más en nuestras guías [Funciones Importantes en EOSIO](https://guias.eoscostarica.io/docs/aprender-eosio/funciones-importantes#docsNav)
 
 ## Iniciar el Servicio nodeos
 Antes de iniciar el servicio nodeos, es necesario crear el archivo `genesis_start.sh`. Para ello, ejecute los siguientes comandos:

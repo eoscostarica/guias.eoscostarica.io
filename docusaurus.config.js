@@ -9,7 +9,7 @@
 // site configuration options.
 
 const siteConfig = {
-  title: "EOS Costa Rica | Guías para desarrolladores",
+  title: "Guías para desarrolladores blockchain EOSIO",
   tagline: "Guías y documentación para desarrolladores de EOS Costa Rica",
   url: "https://guias.eoscostarica.io",
   baseUrl: "/", // Base URL for your project */

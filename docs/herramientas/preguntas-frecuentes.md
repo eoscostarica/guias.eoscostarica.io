@@ -72,7 +72,7 @@ Seguir ** un estándar facilita la comprensión del código **, más de un ingen
     run(function() { ... })       // ✗ evitar
     ```
 
-Para obtener más información sobre las pautas a seguir, consulte [este enlace](https://standardjs.com/rules.html).
+Para obtener más información sobre las pautas a seguir, consulte [JavaScript Standard Style](https://standardjs.com/rules.html).
 
 ## ¿Por qué Blockchain?
 
