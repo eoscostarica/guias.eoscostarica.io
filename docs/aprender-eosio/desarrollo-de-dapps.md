@@ -1,7 +1,7 @@
 ---
 id: desarrollo-de-dapps
 title: Desarrollo de Dapps
-sidebar_label: Desarollo de Dapps
+sidebar_label: Desarrollo de Dapps
 description: Desarrollo de Dapps con distintos frameworks y herramientas
 keywords: [desarrollo de Dapps, dapps, EOS, Aplicaciones Descentralizadas, EOSIO, Qué es Dapps, Para qué sirve Dapps]
 ---
