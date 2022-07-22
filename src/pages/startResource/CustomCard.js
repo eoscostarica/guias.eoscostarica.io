@@ -53,7 +53,7 @@ export const CustomCard = ({ img, href, title, body }) => {
         </Box>
       </Box>
 
-      <Box mt={smDown ? 1 : 2} ml={smDown ? 1 : 2} mr={1}>
+      <Box mt={smDown ? 1 : 2} ml={smDown ? 1 : 2} mr={1} maxWidth={smDown ? "195px" : "240px"} >
         <Typography
           className={`${titleClass} ${smDown ? responsiveTitle : normalTitle}`}
         >

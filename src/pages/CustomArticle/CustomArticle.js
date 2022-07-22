@@ -32,12 +32,11 @@ export const CustomArticle = ({ title, body, href, img }) => {
       className="cardroot"
       marginBottom={smDown ? "8px" : ""}
     >
-      <Box>
+      <Box borderBottom={ colorMode ==="dark" ? 0 : 1 } >
         <img
           src={useBaseUrl(img)}
           loading="lazy"
           width="100%"
-          style={{ borderBottom: "1px solid black" }}
         />
       </Box>
       <Box height="196px">
