@@ -1,9 +1,9 @@
 ---
 id: preguntas-frecuentes
-title: Preguntas Frecuentes
-sidebar_label: FAQ
-description: Preguntas frecuentes EOS Costa Rica
-keywords: [EOS Costa Rica, EOS, FAQ, Preguntas Frecuentes]
+title: Preguntas Frecuentes de Desarrolladores
+sidebar_label: Preguntas Frecuentes
+description: Preguntas frecuentes de desarrolladores blockchain EOSIO
+keywords: [FAQ, Preguntas Frecuentes, Blockchain, Dessarrolladores, EOS, EOSIO]
 ---
 
 
