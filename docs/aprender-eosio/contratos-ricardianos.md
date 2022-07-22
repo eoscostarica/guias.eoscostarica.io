@@ -3,7 +3,7 @@ id: contratos-ricardianos
 title: ¿ Qué son los Contratos Ricardianos ?
 sidebar_label: Contratos Ricardianos
 description: Definiciones y explicaciones de contratos ricardianos.
-keywords: [contratos-ricardianos, contrato ricardiano, contrato, contratos,  blockchain, eos, eosio, eosio.io, EOS, EOS Costa Rica, Qué es un contrato ricardiano, Cómo crear un contrato Ricardiano]
+keywords: [Contrato ricardiano, contratos blockchain, eos, eosio, Cómo crear un contrato Ricardiano, HTML de Contrato Ricardiano, Contrato Ricardiano React]
 ---
 
 ## ¿Qué son los contratos ricardianos?
@@ -19,9 +19,9 @@ Son documentos digitales que definen los términos y condiciones entre los invol
 ### Contratos Ricardianos en EOSIO
 Las cadenas de bloques operan bajo contratos inteligentes, sin embargo, se está trabajando para incluir los contratos ricardianos en las transacciones de estas redes. Uno de los objetivos principales es convertir la complejidad del código observado dentro de la tecnología Blockchain en un lenguaje más simple para que cualquiera pueda entenderlo.
 
-EOS Costa Rica ha desarrollado un componente de React que renderiza contratos ricardianos para contratos inteligentes en redes EOSIO. Puede ver el componente de React en el siguiente enlace [Contratos Ricardianos](https://github.com/eoscostarica/eosio-components/blob/master/src/stories/RicardianContract.stories.jsx). En ese enlace, vaya a la sección `Knobs` para modificar` httpEndpoint` y `contractName`. Una vez hecho esto, consulte el Contrato Ricardiano para un Contrato Inteligente. Por ejemplo, configure:
+EOS Costa Rica ha desarrollado un componente de React que renderiza contratos ricardianos para contratos inteligentes en redes EOSIO. Puede ver el componente de React en el siguiente enlace [Contratos Ricardianos](https://components.edenia.cloud/?path=/story/example-ricardian-contract--example). En ese enlace, vaya a la sección `Knobs` para modificar` httpEndpoint` y `contractName`. Una vez hecho esto, consulte el Contrato Ricardiano para un Contrato Inteligente. Por ejemplo, configure:
 ```
-httpEndpoint: https://lacchain.eosio.cr
+httpEndpoint: https://jungle.edenia.cloud
 contractName: eosio
 ```
 El componente cargará automáticamente el contenido del Contrato Ricardiano. El repositorio de código abierto para este componente se encuentra aquí: https://github.com/eoscostarica/eoscr-components.
