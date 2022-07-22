@@ -100,7 +100,7 @@ guias.eoscostarica.io/
 
 ## Contribuciones 
 
-Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/orgs/eoscostarica/projects/2).
+Usamos un tablero estilo Kanban. Ahí es donde priorizamos el trabajo. [Tablero de trabajo](https://github.com/orgs/eoscostarica/projects/3).
 
 
 Si desea hacer una contribución, siga los siguientes pasos:
