@@ -17,6 +17,6 @@ Una colección de componentes de React para EOSIO
 https://github.com/eoscostarica/eoscr-components
 
 ### Previsualización de StoryBook
-https://components.eosio.cr
+https://components.edenia.cloud
 
 
