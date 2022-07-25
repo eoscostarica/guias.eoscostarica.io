@@ -67,6 +67,12 @@ En la distribución de EOSIO viene incluido un cliente CLI llamado [cleos](https
 
 Los permisos de EOSIO hacen posible fortalecer la seguridad de la cuenta al punto donde la pérdida o robo de las llaves son nada más que pequeñas inconveniencias. Este episodio semanal de EOS cubre qué son los permisos de EOSIO a un nivel conceptual y la tendencia a redes de cuentas interconectadas fuertes.
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/kTjF0-Edxw8" frameborder="0" allowfullscreen="true"> </iframe>
+<figure className="video_container">
+  <iframe 
+    width="100%" 
+    height="315" 
+    src="https://www.youtube.com/embed/kTjF0-Edxw8"     
+    frameBorder={0}
+    allowFullScreen
+    loading="lazy"> </iframe>
 </figure>

@@ -86,9 +86,9 @@ En un procesador JSON de línea de comandos ligero y flexible. jq es como [sed](
 ### ¿Por qué usamos jq?
 
 <figure
-class="video_container">
+className="video_container">
     <iframe width="100%"
-    height="315" src="https://www.youtube.com/embed/EvpwhGeiH0U" frameborder="0" allowfullscreen="true" loading="lazy">
+    height="315" src="https://www.youtube.com/embed/EvpwhGeiH0U" frameBorder="0" allowFullScreen loading="lazy">
     </iframe>
 </figure>
 
@@ -101,9 +101,9 @@ Instale jq desde la [página de jq ](https://stedolan.github.io/jq/).
 #### **Siga este video si está usando el sistema operativo Windows**
 
 <figure
-class="video_container">
+className="video_container">
     <iframe width="100%"
-    height="315" src="https://www.youtube.com/embed/rrjIVepRqPI" frameborder="0" allowfullscreen="true" loading="lazy">
+    height="315" src="https://www.youtube.com/embed/rrjIVepRqPI"  frameBorder="0" allowFullScreen loading="lazy">
     </iframe>
 </figure>
 
@@ -157,9 +157,9 @@ Hapi es un marco Node.js de código abierto. Hapi es un marco para crear aplicac
 [HAPI GitHub](https://github.com/hapijs/hapi)
 
 <figure
-class="video_container">
+className="video_container">
     <iframe width="100%"
-    height="315" src="https://www.youtube.com/embed/2lprC0yYeFw" frameborder="0" allowfullscreen="true" loading="lazy">
+    height="315" src="https://www.youtube.com/embed/2lprC0yYeFw"  frameBorder="0" allowFullScreen loading="lazy">
     </iframe>
 </figure>
 
@@ -208,7 +208,7 @@ Cliente HTTP de línea de comandos moderno: alternativa curl fácil de usar con 
 [HTTPie GitHub](https://github.com/httpie/httpie)
 
 <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/SUWCS0FCb9s" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/SUWCS0FCb9s"  frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 
 * * *
 
@@ -254,7 +254,7 @@ Permite a los desarrolladores probar llamadas a API. Los usuarios de Postman ing
 [Postman GitHub](https://github.com/postmanlabs)
 
 <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/qsejysrhJiU" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/qsejysrhJiU"  frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 
 * * *
 
@@ -277,7 +277,7 @@ HashiCorp Vault es una herramienta de código abierto que permite almacenar de f
 [Vault GitHub](https://github.com/hashicorp/vault)
 
 <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg"  frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 
 * * *
 
@@ -295,12 +295,12 @@ width="100%" height="315" src="https://www.youtube.com/embed/xyx9K_j_HXg" frameb
 
 ## Almacenamiento Descentralizado - IPFS
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U"  frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI" frameborder="0" allowfullscreen="true" loading="lazy">
+<figure className="video_container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/HUVmypx9HGI"  frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>

@@ -189,13 +189,25 @@ export default App;
 ### Componentes
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/Y2hgEGPzTZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  width="100%" 
+  height="350" 
+  src="https://www.youtube.com/embed/Y2hgEGPzTZY" 
+  frameBorder="0" 
+  allowFullScreen 
+  loading="lazy" 
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 </iframe>
 
 ### Ciclo de Vida de los Componentes
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/qnN_FuFNq2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  width="100%" 
+  height="350" 
+  src="https://www.youtube.com/embed/qnN_FuFNq2g"
+  frameBorder="0" 
+  allowFullScreen 
+  loading="lazy"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture">
 </iframe>
 
 ### Componente de Orden Superior (HoC)
@@ -217,7 +229,13 @@ EOS Costa Rica utiliza [Storybook EOS Costa Rica](https://components.edenia.clou
 ### Storybook
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/BySFuXgG-ow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  width="100%" 
+  height="350" 
+  src="https://www.youtube.com/embed/BySFuXgG-ow" 
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+  frameBorder="0" 
+  allowFullScreen 
+  loading="lazy">
 </iframe>
 
 ## Conceptos Principales
@@ -301,5 +319,12 @@ export default App;
 ## React más Limpio con Hooks
 
 <iframe
-width="100%" height="350" src="https://www.youtube.com/embed/dpw9EHDh2bM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  width="100%" 
+  height="350" 
+  src="https://www.youtube.com/embed/dpw9EHDh2bM" 
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+  frameBorder="0" 
+  allowFullScreen 
+  loading="lazy"
+  >
 </iframe>

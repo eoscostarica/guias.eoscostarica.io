@@ -26,7 +26,7 @@ Es una interfaz colaborativa, una herramienta de diseño y creación de prototip
 [Instalación de Figma](https://www.figma.com/downloads/)
 
 <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/Cx2dkpBxst8" frameborder="0" allowfullscreen="true"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/Cx2dkpBxst8"  frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 
 * * *
 
@@ -45,7 +45,7 @@ Zeplin facilita la transferencia de diseños al tomarlos de Sketch, Adobe XD, Fi
 [Instalación de Zeplin](https://support.zeplin.io/en/articles/244698-downloading-mac-and-windows-apps)
 
 <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/x1RPNx8Jsp4" frameborder="0" allowfullscreen="true"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/x1RPNx8Jsp4"  frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 
 * * *
 
@@ -64,7 +64,7 @@ Se utiliza para la experiencia del usuario y la interfaz de usuario en el diseñ
 [Instalación de Sketch](https://www.sketch.com/updates/)
 
  <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/ilcwjXTqyNM"  frameborder="0" allowfullscreen="true"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/ilcwjXTqyNM"   frameBorder="0" allowFullScreen loading="lazy"> </iframe>
 
 * * *
 
@@ -81,4 +81,4 @@ Se lo conoce como un ecosistema de diseño completo, donde los activos tienen ca
 [Componentes de Material Design](https://material.io/components)
 
 <iframe
-width="100%" height="315" src="https://www.youtube.com/embed/ckCe0xZv3Co"  frameborder="0" allowfullscreen="true"> </iframe>
+width="100%" height="315" src="https://www.youtube.com/embed/ckCe0xZv3Co"  frameBorder="0" allowFullScreen loading="lazy"> </iframe>

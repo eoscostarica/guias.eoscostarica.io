@@ -113,6 +113,12 @@ def update_elastic_limit(current_limit, average_usage, elastic_resource_limit):
 
 ## Asignación de Recursos de EOS
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/N6CTRdx6NVE" frameborder="0" allowfullscreen="true"> </iframe>
+<figure className="video_container">
+  <iframe 
+    width="100%" 
+    height="315" 
+    src="https://www.youtube.com/embed/N6CTRdx6NVE" 
+    frameBorder="0" 
+    allowFullScreen 
+    loading="lazy"> </iframe>
 </figure>

@@ -13,7 +13,7 @@ Al ser una tecnología relativamente nueva, en pleno auge de investigación y de
 
 En esta charla hablaremos de los principales problemas de seguridad que afectan a las blockchain, especialmente con un enfoque en los contratos inteligentes. Mostraremos como se pueden explotar estas fallas y daremos algunos ejemplos prácticos. También hablaremos de algunos hackeos famosos en los que atacantes han sido capaz de robar millones de dolares de algunas sistemas basados en blockchain. Finalmente explicaremos como se pueden evitar dichas fallas. Nos enfocaremos especialmente en a tecnología de EOSIO.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/tss1d0sow0o" frameBorder="0" allow="true" allowFullScreen></iframe> 
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/tss1d0sow0o" frameBorder="0" allowFullScreen loading="lazy"></iframe> 
 
 <br/>
 

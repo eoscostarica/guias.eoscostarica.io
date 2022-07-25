@@ -29,7 +29,7 @@ Un marco ágil, liviano y sin ceremonias para ofrecer características de una ma
 
 Puedes ver un vuelo como una fusión entre un sprint y una épica. Es un grupo de tareas relacionadas y tiene su propio tablero de tareas. Sin embargo, hay algunas diferencias clave. Cuando reserva un vuelo, le agrega tareas. Las tareas pueden ser cualquier cosa que deba hacerse, pero no están restringidas al formato de una "Historia de usuario" como la conocemos por Scrum.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/pCShsesxRZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/pCShsesxRZA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 
 Como regla general, tiene sentido reservar un vuelo con tareas que van juntas, dependen unas de otras o se espera que aterricen al mismo tiempo. Sin embargo, nada le impide agregar tareas no relacionadas a un vuelo si hay "espacio para ello".

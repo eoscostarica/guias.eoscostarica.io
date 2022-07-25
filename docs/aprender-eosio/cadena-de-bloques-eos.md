@@ -16,7 +16,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     height={315}
     src="https://www.youtube.com/embed/NxLQzVIa69A"
     frameBorder={0}
-    allowFullScreen="true"
+    allowFullScreen
+    loading="lazy"
   >
     {" "}
   </iframe>
@@ -30,7 +31,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     height={315}
     src="https://www.youtube.com/embed/YmwZ3xvIyN4"
     frameBorder={0}
-    allowFullScreen="true"
+    allowFullScreen
+    loading="lazy"
   >
     {" "}
   </iframe>
@@ -55,7 +57,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     height={315}
     src="https://www.youtube.com/embed/7mFzb5SqS9U"
     frameBorder={0}
-    allowFullScreen="true"
+    allowFullScreen
+    loading="lazy"
   >
     {" "}
   </iframe>
@@ -65,24 +68,44 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### EOS Explicado por Dan Larimer   
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/xkXuFeN-KMw" frameborder="0" allowfullscreen="true"> </iframe>
+<figure className="video_container">
+  <iframe 
+    width="100%" 
+    height="315" 
+    src="https://www.youtube.com/embed/xkXuFeN-KMw" 
+    frameBorder={0}
+    allowFullScreen loading="lazy"> 
+  </iframe>
 </figure>
 
 * * *
 
 ### Introducción a EOS
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/IjrDj6KQGe8" frameborder="0" allowfullscreen="true"> </iframe>
+<figure className="video_container">
+  <iframe 
+    width="100%" 
+    height="315" 
+    src="https://www.youtube.com/embed/IjrDj6KQGe8"     
+    frameBorder={0}
+    allowFullScreen
+    loading="lazy"> 
+  </iframe>
 </figure>
 
 * * *
 
 ### Economía Interna
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/2EgBTvUeH30" frameborder="0" allowfullscreen="true"> </iframe>
+<figure className="video_container">
+  <iframe 
+    width="100%" 
+    height="315" 
+    src="https://www.youtube.com/embed/2EgBTvUeH30"     
+    frameBorder={0}
+    allowFullScreen
+    loading="lazy"> 
+  </iframe>
 </figure>
 
 * * *
