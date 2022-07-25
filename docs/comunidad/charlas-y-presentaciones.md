@@ -4,7 +4,7 @@ En esta sección encontrarás presentaciones y vídeos de charlas impartidas por
 
 ___
 
-![](/images/pre-practica.jpg)
+![EOS Costa Rica pre practica](/static/img/charlas/Pre-practica.webp)
 
 
 
@@ -25,7 +25,7 @@ ___
 
 ___
 
-![](/images/eos-cr.jpg)
+![EOS Costa Rica Tech Stack Review](/static/img/charlas/eos-cr.webp)
 
 
 
@@ -45,7 +45,7 @@ ___
 
 ___
 
-![](/images/MOB-1.jpg)
+![Mob Programming sesion uno Repaso de Agilidad Moderna](/static/img/charlas/MOB-1.webp)
 
 
 
@@ -64,7 +64,7 @@ ___
 
 ___
 
-![](/images/MOB-2.jpg)
+![Mob Proggramming Sesion dos Intro de mob programming](/static/img/charlas/MOB-2.webp)
 
 
 
@@ -83,7 +83,7 @@ ___
 
 ___
 
-![](/images/Open-Office.jpg)
+![EOS Costa Rica's Open Office UX in Blockchain](/static/img/charlas/Open-Office.webp)
 
 
 
@@ -104,7 +104,7 @@ ___
 
 ___
 
-![](/images/Open-source-developer.jpg)
+![Open Source Developer Contribution Guide](/static/img/charlas/Open-source-developer.webp)
 
 
 
