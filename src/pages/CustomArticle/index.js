@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Grid, Typography, useMediaQuery } from "@material-ui/core";
 
-import { CustomArticle } from "./CustomArticle";
+import CustomArticle from "./CustomArticle";
 
 import "../../css/homepage.css";
 
@@ -26,7 +26,7 @@ const articlesList = [
   },
 ];
 
-export const MediumSection = () => {
+const MediumSection = () => {
   const smDown = useMediaQuery("(max-width:400px)");
   const mdDown = useMediaQuery("(max-width:800px)");
 
@@ -68,3 +68,5 @@ export const MediumSection = () => {
     </Box>
   );
 };
+
+export default MediumSection;

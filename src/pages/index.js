@@ -4,7 +4,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 import { StartResourceSection } from "./startResource/index";
 import { HeroSection } from "./heroSection/index";
-import { MediumSection } from "./CustomArticle";
+import MediumSection from "./CustomArticle";
 
 export const HomePage = () => {
   const { siteConfig } = useDocusaurusContext();
