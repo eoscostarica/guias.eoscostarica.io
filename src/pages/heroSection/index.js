@@ -3,24 +3,24 @@ import { Box, Button, Typography } from "@material-ui/core";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 import { heroStyles, heroMdStyles, heroSmStyles } from "./styles";
-import { ImagesCarousel } from "./ImagesCarousel";
+import ImagesCarousel from "./ImagesCarousel";
 
 const imagesList = [
   {
     background: "/img/cards-icons/Hero-1.webp",
-    displayImg: "block"
+    displayImg: "block",
   },
   {
     background: "/img/cards-icons/Hero-2.webp",
-    displayImg: "none"
+    displayImg: "none",
   },
   {
     background: "/img/cards-icons/EOS-Previews-2.webp",
-    displayImg: "none"
+    displayImg: "none",
   },
 ];
 
-export const HeroSection = () => {
+const HeroSection = () => {
   const xsDown = useMediaQuery("(max-width:400px)");
   const smDown = useMediaQuery("(max-width:600px)");
   const mdDown = useMediaQuery("(max-width:900px)");
@@ -100,3 +100,5 @@ export const HeroSection = () => {
     </Box>
   );
 };
+
+export default HeroSection;

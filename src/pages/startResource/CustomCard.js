@@ -7,7 +7,7 @@ import { Box, Link } from "@material-ui/core";
 
 import { DarkTheme, lightTheme, dimentionsClass } from "./styles";
 
-export const CustomCard = ({ img, href, title, body }) => {
+const CustomCard = ({ img, href, title, body }) => {
   const smDown = useMediaQuery("(max-width:400px)");
   const { colorMode } = useColorMode();
 
@@ -53,7 +53,12 @@ export const CustomCard = ({ img, href, title, body }) => {
         </Box>
       </Box>
 
-      <Box mt={smDown ? 1 : 2} ml={smDown ? 1 : 2} mr={1} maxWidth={smDown ? "195px" : "240px"} >
+      <Box
+        mt={smDown ? 1 : 2}
+        ml={smDown ? 1 : 2}
+        mr={1}
+        maxWidth={smDown ? "195px" : "240px"}
+      >
         <Typography
           className={`${titleClass} ${smDown ? responsiveTitle : normalTitle}`}
         >
@@ -90,3 +95,5 @@ export const CustomCard = ({ img, href, title, body }) => {
     </Box>
   );
 };
+
+export default CustomCard;
