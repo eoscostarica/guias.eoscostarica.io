@@ -69,9 +69,9 @@ const siteConfig = {
       ],
     },
     colorMode: {
-      defaultMode: "light",
+      defaultMode: "dark",
       disableSwitch: false,
-      respectPrefersColorScheme: false,
+      respectPrefersColorScheme: true,
     },
     footer: {
       logo: {

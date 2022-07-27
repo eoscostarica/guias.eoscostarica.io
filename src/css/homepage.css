@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    min-height: 300px;
+}
+
 .ligthTextColor {
     color: #333;
 }
@@ -20,6 +24,7 @@ body {
 .carouselContainer {
     position: relative;
     width: 100%;
+    height: 360px;
 }
 
 /* Height image hero */
@@ -391,6 +396,10 @@ body {
         height: 250px;
     }
 
+    .carouselContainer {
+        height: 250px;
+    }
+
     .buttonHeroContainer {
         bottom: 35px;
     }
@@ -441,6 +450,10 @@ body {
 
     /*------------------------------------- Hero Section Styles ------------------------------------------*/
     .imgHero {
+        height: 175px;
+    }
+
+    .carouselContainer {
         height: 175px;
     }
 
