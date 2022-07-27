@@ -1,60 +1,209 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "@theme/Layout";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { useColorMode } from "@docusaurus/theme-common";
-import CardContent from "@material-ui/core/CardContent";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { Box, Grid, useMediaQuery } from "@material-ui/core";
-
 import "../css/homepage.css";
+class Carousel {
+  constructor() {
+    this.slideIndex = 0;
+    this.animation = null;
+  }
+  start() {
+    this.animation = setInterval(() => {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      this.slideIndex++;
+      if (this.slideIndex > slides.length) {
+        this.slideIndex = 1;
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].style.backgroundColor = "";
+      }
+      slides[this.slideIndex - 1].style.display = "block";
+      dots[this.slideIndex - 1].style.backgroundColor = "#2d9cdb";
+    }, 6000);
+  }
+  stop() {
+    clearInterval(this.animation);
+  }
+}
 
-const CustomArticle = ({ title, body, href, img }) => {
-  const smDown = useMediaQuery("(max-width:400px)");
+const imagesList = [
+  { background: "/img/cards-icons/Hero-1.webp" },
+  { background: "/img/cards-icons/Hero-2.webp" },
+  { background: "/img/cards-icons/Hero-3.webp" },
+];
 
-  const { colorMode } = useColorMode();
-  const theme = colorMode === "dark";
-
+const HeroSection = () => {
+  useEffect(() => {
+    document.getElementsByClassName("mySlides")[0].style.display = "block";
+    const carousel = new Carousel();
+    carousel.start();
+    return () => carousel.stop();
+  }, []);
   return (
-    <Box className="cardroot">
-      <Box className={`${theme ? "" : "box-card-img"}`}>
-        <img src={useBaseUrl(img)} loading="lazy" width="100%" />
+    <Box className="carouselContainer">
+      {imagesList.map(({ background }, index) => (
+        <Box key={background} className="mySlides fade">
+          <Box className="numberImagetext">{index + 1} / 3</Box>
+          <img
+            alt={background}
+            src={useBaseUrl(background)}
+            width="100%"
+            className="imgHero"
+          />
+        </Box>
+      ))}
+      <h1 className="textImgTitle">EOS Costa Rica</h1>
+      <h2 className="textSubTitleImg">Guías Generales</h2>
+      <h3 className="textImg">
+        Le damos la bienvenida a nuestro portal de web3. Comience su viaje para
+        aprender sobre la tecnología blockchain y todo lo que la hace posible.
+      </h3>
+      <Box className="buttonHeroContainer">
+        <a
+          className="buttonHero"
+          style={{ textDecoration: "none" }}
+          href="/docs/engineering-culture"
+        >
+          COMENZAR
+        </a>
       </Box>
-      <Box className="box-card-content">
-        <CardContent>
-          <p className={`${theme ? "overlineDark" : "overlineLight"}`}>
-            ARTÍCULO
-          </p>
-          <Box className="box-card-body">
-            <Box className="blueBoxTitle" />
-            <Box className="box-blue-title">
-              <h2 className={`${theme ? "titleDark" : "titleLight"}`}>
-                {title}
-              </h2>
-            </Box>
-          </Box>
-          <Box className="box-card-body">
-            <p
-              className={`${theme ? "bodyDark" : "bodyLight"}`}
-              variant="body2"
-              component="p"
-            >
-              {body}
-            </p>
-          </Box>
-        </CardContent>
-        <Box className="box-card-link">
-          <Box className="box-card-readMore" id="box-link-id-customCard">
-            <a
-              id="link-id-customCard"
-              href={href}
-              style={{ textDecoration: "none", cursor: "pointer" }}
-              className={`${theme ? "linkDark" : "linkLight"}`}
-            >
-              LEER MÁS
-            </a>
-          </Box>
+      <Box className="dotContainer">
+        <Box className="dot" />
+        <Box className="dot" />
+        <Box className="dot" />
+      </Box>
+    </Box>
+  );
+};
+
+const startResourceList = [
+  {
+    title: "Guías Generales",
+    body: "Guías para los desarrolladores sobre como programar en código abierto.",
+    href: "/docs/pautas-para-codigo-abierto",
+    img: "/img/cards-icons/guidelines.svg",
+  },
+  {
+    title: "Aprender EOSIO",
+    body: "Conjunto de información necesaria para aprender sobre el protocolo EOSIO.",
+    href: "/docs/aprender-eosio/protocolo-eosio",
+    img: "/img/cards-icons/icons-eosio.svg",
+  },
+  {
+    title: "Tutoriales",
+    body: "Información de apoyo necesaria para realizar la instalación y la ejecución de procesos.",
+    href: "/docs/tutoriales/contrato-hola-mundo",
+    img: "/img/cards-icons/tutorials.svg",
+  },
+  {
+    title: "Herramientas",
+    body: "Conjunto de herramientas útiles durante el proceso de aprendizaje.",
+    href: "/docs/herramientas/glosario",
+    img: "/img/cards-icons/tools.svg",
+  },
+  {
+    title: "Comunidad",
+    body: "Enlaces a sitios de interés de la comunidad de EOS.",
+    href: "/docs/comunidad/canales-de-telegram",
+    img: "/img/cards-icons/community.svg",
+  },
+  {
+    title: "Proyectos de Código Abierto",
+    body: "Listado de proyectos de código abierto que realizamos.",
+    href: "/docs/proyectos-de-codigo-abierto",
+    img: "/img/cards-icons/icons-opensource.svg",
+  },
+];
+
+const StartResourceSection = () => {
+  const smDown = useMediaQuery("(max-width:400px)");
+  const { colorMode } = useColorMode();
+  const [color, setColor] = useState("light");
+  useEffect(() => {
+    setColor(colorMode);
+  }, [colorMode]);
+  return (
+    <Box className="container">
+      <Box className="startTitleContainer">
+        <Box className="box-title-startResource" />
+        <Box className="section-title-startResource">
+          Empiece con estos recursos
         </Box>
       </Box>
+      <Grid
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+        spacing={smDown ? 1 : 3}
+      >
+        {startResourceList.map(({ title, body, href, img }) => (
+          <Grid
+            key={title}
+            item
+            xs={12}
+            sm={6}
+            lg={4}
+            container
+            display="flex"
+            justifyContent="center"
+          >
+            <Box className="cardDimentions">
+              <div
+                className={`cardImgContainer ${
+                  color === "dark"
+                    ? "cardImgContainerDark"
+                    : "cardImgContainerLight"
+                }`}
+              >
+                <img
+                  src={useBaseUrl(img)}
+                  alt={title}
+                  loading="lazy"
+                  className={`imgHero ${color === "dark" && "cardImgColor"}`}
+                />
+              </div>
+              <Box
+                className={`cardHeaderTransition ${
+                  color === "dark"
+                    ? "cardHeaderDark-mode"
+                    : "cardHeaderLight-mode"
+                }`}
+              >
+                <span>SECCIÓN</span>
+              </Box>
+              <h1 className="cardTitle"> {title} </h1>
+              <Box
+                className={`cardBody ${
+                  color === "dark" ? "darkTextColor" : "ligthTextColor"
+                }`}
+              >
+                {" "}
+                {body}
+              </Box>
+              <a
+                className={`cardLinkFooter ${
+                  color === "dark" ? "darkTextColor" : "ligthTextColor"
+                }`}
+                style={{ textDecoration: "none" }}
+                id="box-link-id-customCard"
+                href={href}
+              >
+                {" "}
+                LEER MÁS{" "}
+              </a>
+            </Box>
+          </Grid>
+        ))}
+      </Grid>
     </Box>
   );
 };
@@ -80,29 +229,74 @@ const articlesList = [
   },
 ];
 
-const MediumSection = () => {
+const ArticleSection = () => {
   const smDown = useMediaQuery("(max-width:400px)");
-  const mdDown = useMediaQuery("(max-width:800px)");
-
+  const { colorMode } = useColorMode();
+  const [color, setColor] = useState("light");
+  useEffect(() => {
+    setColor(colorMode);
+  }, [colorMode]);
   return (
-    <Box className="container">
-      <Box className="box-title">
-        <Box className="box-title-article" />
-        <h1 id="section-title-article-id">Artículos de blog</h1>
+    <Box className="container" id="article-id">
+      <Box className="startTitleContainer">
+        <Box className="box-title-startResource" />
+        <Box className="section-title-startResource"> Artículos de blogs </Box>
       </Box>
-      <Grid container className="grid-container">
+      <Grid
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+        spacing={smDown ? 1 : 3}
+      >
         {articlesList.map(({ title, body, href, img }) => (
           <Grid
             key={title}
             item
             xs={12}
             sm={6}
-            md={6}
             lg={4}
             container
-            className="grid-component"
+            display="flex"
+            justifyContent="center"
           >
-            <CustomArticle title={title} body={body} href={href} img={img} />
+            <Box
+              className={`cardArticleDimentions ${
+                color === "dark" ? "darkTextColor" : "ligthTextColor"
+              }`}
+            >
+              <Box
+                component="img"
+                src={useBaseUrl(img)}
+                alt={title}
+                width="100%"
+                className="cardArticleImg"
+              />
+              <Box className="cardArticleHeader"> ARTÍCULO </Box>
+              <Box className="cardArticleTitleContainer">
+                <Box className="cardArticleBlueBoxTitle" />
+                <Box className="cardArticleTitle "> {title} </Box>
+              </Box>
+              <Box
+                className={`cardArticleBody ${
+                  color === "dark" ? "darkTextColor" : "ligthTextColor"
+                }`}
+              >
+                {" "}
+                {body}
+              </Box>
+              <a
+                className={`cardLinkFooter ${
+                  color === "dark" ? "darkTextColor" : "ligthTextColor"
+                }`}
+                style={{ textDecoration: "none" }}
+                id="box-link-id-customCard"
+                href={href}
+              >
+                {" "}
+                LEER MÁS{" "}
+              </a>
+            </Box>
           </Grid>
         ))}
       </Grid>
@@ -110,18 +304,18 @@ const MediumSection = () => {
   );
 };
 
-export const HomePage = () => {
+const HomePage = () => {
   const { siteConfig } = useDocusaurusContext();
-
   return (
     <Layout
       permalink="/"
       title={siteConfig.title}
       description={siteConfig.tagline}
     >
-      <MediumSection />
+      <HeroSection />
+      <StartResourceSection />
+      <ArticleSection />
     </Layout>
   );
 };
-
 export default HomePage;
