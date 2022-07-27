@@ -31,8 +31,7 @@ const siteConfig = {
       logo: {
         alt: "EOS Costa Rica Logo",
         src: "/img/byw-horizontal-transparent.png",
-        srcDark:
-          "/img/byw-horizontal-transparent-white.png",
+        srcDark: "/img/byw-horizontal-transparent-white.png",
       },
       items: [
         {
@@ -70,9 +69,9 @@ const siteConfig = {
       ],
     },
     colorMode: {
-      defaultMode: 'light',
+      defaultMode: "light",
       disableSwitch: false,
-      respectPrefersColorScheme: true,
+      respectPrefersColorScheme: false,
     },
     footer: {
       logo: {
@@ -168,10 +167,10 @@ const siteConfig = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         sitemap: {
-          changefreq: 'weekly',
+          changefreq: "weekly",
           priority: 0.5,
           ignorePatterns: [],
-          filename: 'sitemap.xml',
+          filename: "sitemap.xml",
         },
       },
     ],
