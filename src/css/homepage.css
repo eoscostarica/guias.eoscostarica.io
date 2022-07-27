@@ -5,30 +5,96 @@
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 
-.bodyLight {
-    font-family: Roboto;
-    font-stretch: normal;
-    font-style: normal;
-    text-align: left;
-    font-weight: normal;
-    color: #333;
-    font-size: 14px;
-    line-height: 1.45;
-    letter-spacing: 0.66px;
+/* -----------------------------------------------------MEDIUMSECTION AREA--------------------------------------------------- */
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
-.bodyDark {
-    font-family: Roboto;
-    font-stretch: normal;
-    font-style: normal;
-    text-align: left;
-    font-weight: normal;
-    color: #f2f2f2;
-    font-size: 14px;
-    line-height: 1.45;
-    letter-spacing: 0.66px;
+.box-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
 }
 
+.grid-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 3px;
+}
+
+.grid-component {
+    display: flex;
+    justify-content: center;
+}
+
+/* -----------------------------------------------------TITLE BLOG AREA--------------------------------------------------- */
+
+#section-title-article-id {
+    font-family: Roboto;
+    font-size: 51.4px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+
+/* -----------------------------------------------------BOX BLOG CARD--------------------------------------------------- */
+
+
+.cardroot {
+    width: 360px;
+    height: 412px;
+    position: relative;
+    border: 1px solid;
+}
+
+
+.box-title-article {
+    width: 9px;
+    height: 60px;
+    margin: 0 16px 0 0;
+    background-color: #2d9cdb;
+    margin-right: 16px;
+}
+
+.box-card-content {
+    height: 196px;
+}
+
+.box-card-body {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    padding-bottom: 10px;
+}
+
+.box-blue-title {
+    height: 40px;
+}
+
+.box-card-link {
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.box-card-readMore {
+    position: relative;
+}
+
+.box-card-img {
+    border-bottom: 1px solid;
+}
+
+/* -----------------------------------------------------BLOG CARD--------------------------------------------------- */
 .overlineLight {
     font-family: Roboto;
     font-stretch: normal;
@@ -51,6 +117,13 @@
     font-size: 18.4px;
     line-height: 1.71;
     letter-spacing: 0.66px;
+}
+
+.blueBoxTitle {
+    width: 3px;
+    background-color: #2d9cdb;
+    height: 40px;
+    margin: 0 16px 0 0;
 }
 
 .titleLight {
@@ -79,42 +152,48 @@
     margin-top: 2px;
 }
 
+.bodyLight {
+    font-family: Roboto;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    font-weight: normal;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.45;
+    letter-spacing: 0.66px;
+}
+
+.bodyDark {
+    font-family: Roboto;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    font-weight: normal;
+    color: #f2f2f2;
+    font-size: 14px;
+    line-height: 1.45;
+    letter-spacing: 0.66px;
+}
+
 .linkLight {
-    color: #000;
-}
-
-.linkDark {
-    color: #fff;
-}
-
-#link-id-customCard {
     font-family: Roboto;
     font-size: 18.4px;
     font-weight: 500;
     line-height: 1.43;
     letter-spacing: 0.13px;
     cursor: pointer;
+    color: #000;
 }
 
-.blueBoxTitle {
-    width: 3px;
-    background-color: #2d9cdb;
-    height: 40px;
-    margin: 0 16px 0 0;
-}
-
-.box-title-startResource {
-    width: 9px;
-    height: 60px;
-    margin: 0 16px 0 0;
-    background-color: #2d9cdb;
-    margin-right: 16px;
-}
-
-.cardroot {
-    width: 360px;
-    height: 240px;
-    position: relative;
+.linkDark {
+    font-family: Roboto;
+    font-size: 18.4px;
+    font-weight: 500;
+    line-height: 1.43;
+    letter-spacing: 0.13px;
+    cursor: pointer;
+    color: #fff;
 }
 
 .cardroot:hover #box-link-id-customCard::before {
@@ -137,18 +216,51 @@
 
 
 @media screen and (max-width: 400px) {
-    .bodyLight {
-        font-size: 12px;
-        line-height: 1.33;
-        letter-spacing: 0.4px;
+
+/* -----------------------------------------------------MEDIUMSECTION AREA--------------------------------------------------- */
+
+    .container {
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
 
-    .bodyDark {
-        font-size: 12px;
-        line-height: 1.33;
-        letter-spacing: 0.4px;
+    .box-title {
+        margin-bottom: 2px;
     }
 
+    .grid-container {
+        word-spacing: 1px;
+    }
+
+/* -----------------------------------------------------TITLE BLOG AREA--------------------------------------------------- */
+    #section-title-article-id {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .box-card-body {
+        margin-top: 1px;
+    }
+
+    .box-card-link {
+        margin-bottom: 1px;
+    }
+    
+/* -----------------------------------------------------BOX BLOG CARD--------------------------------------------------- */
+
+    .cardroot {
+        width: 256px;
+        height: 320px;
+        margin-bottom: 8px;
+    }
+
+    .box-title-article {
+        width: 3.3px;
+        height: 22.3px;
+        margin-right: 8px;
+    }
+
+/* -----------------------------------------------------BLOG CARD--------------------------------------------------- */
     .overlineLight  {
         font-size: 12px;
         line-height: 1.16;
@@ -159,6 +271,11 @@
         font-size: 12px;
         line-height: 1.16;
         letter-spacing: 0.29px;
+    }
+
+    .blueBoxTitle {
+        height: 20px;
+        margin: 0 5px 0 0;
     }
 
     .titleLight {
@@ -173,22 +290,32 @@
         letter-spacing: 0.06px;
     }
 
-    .blueBoxTitle {
-        height: 20px;
-        margin: 0 5px 0 0;
+    .bodyLight {
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.4px;
     }
 
-    #link-id-customCard {
+    .bodyDark {
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.4px;
+    }
+
+    .linkLight {
         font-size: 14px;
         font-weight: 600;
         line-height: 1.5;
         letter-spacing: 0.07px;
     }
 
-    .box-title-startResource {
-        width: 3.3px;
-        height: 22.3px;
-        margin-right: 8px;
+    .linkDark {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.5;
+        letter-spacing: 0.07px;
     }
+
+    
 
 }

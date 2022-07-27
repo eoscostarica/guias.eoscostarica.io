@@ -15,30 +15,24 @@ const CustomArticle = ({ title, body, href, img }) => {
   const theme = colorMode === "dark";
 
   return (
-    <Box
-      border={1}
-      width={smDown ? "256px" : "360px"}
-      height={smDown ? "320px" : "412px"}
-      className="cardroot"
-      marginBottom={smDown ? "8px" : ""}
-    >
-      <Box borderBottom={colorMode === "dark" ? 0 : 1}>
+    <Box className="cardroot">
+      <Box className={`${theme ? "" : "box-card-img"}`}>
         <img src={useBaseUrl(img)} loading="lazy" width="100%" />
       </Box>
-      <Box height="196px">
+      <Box className="box-card-content">
         <CardContent>
           <p className={`${theme ? "overlineDark" : "overlineLight"}`}>
             ARTÍCULO
           </p>
-          <Box display="flex" alignItems="center" mt={smDown ? 1 : 2}>
-            <Box className={"blueBoxTitle"} />
-            <Box height="40px">
+          <Box className="box-card-body">
+            <Box className="blueBoxTitle" />
+            <Box className="box-blue-title">
               <h2 className={`${theme ? "titleDark" : "titleLight"}`}>
                 {title}
               </h2>
             </Box>
           </Box>
-          <Box mt={smDown ? 1 : 2}>
+          <Box className="box-card-body">
             <p
               className={`${theme ? "bodyDark" : "bodyLight"}`}
               variant="body2"
@@ -48,15 +42,8 @@ const CustomArticle = ({ title, body, href, img }) => {
             </p>
           </Box>
         </CardContent>
-        <Box
-          display="flex"
-          position="absolute"
-          bottom={0}
-          width="100%"
-          justifyContent="center"
-          marginBottom={smDown ? 1 : 2}
-        >
-          <Box position="relative" id="box-link-id-customCard">
+        <Box className="box-card-link">
+          <Box className="box-card-readMore" id="box-link-id-customCard">
             <a
               id="link-id-customCard"
               href={href}
@@ -83,13 +70,13 @@ const articlesList = [
     title: "¿Qué es EOSIO?",
     body: "Explicamos en qué consiste el protocolo blockchain EOSIO.",
     href: "https://eoscostarica.medium.com/que-es-eosio-178e21ac2ebb",
-    img: "/img/cards-icons/blog2.webp",
+    img: "/img/cards-icons/blog3.webp",
   },
   {
     title: "¿Cómo funciona una blockchain?",
     body: "Explicamos, con ejemplos, qué es y cómo funciona una blockchain..",
     href: "https://eoscostarica.medium.com/https-medium-com-eoscostarica-que-es-blockchain-d54d42439ef3",
-    img: "/img/cards-icons/blog3.webp",
+    img: "/img/cards-icons/blog2.webp",
   },
 ];
 
@@ -98,22 +85,12 @@ const MediumSection = () => {
   const mdDown = useMediaQuery("(max-width:800px)");
 
   return (
-    <Box
-      className="container"
-      mt={smDown ? 3 : mdDown ? 7 : 10}
-      mb={smDown ? 3 : 8}
-    >
-      <Box display="flex" mb={smDown ? 2 : mdDown ? 5 : 8} alignItems="center">
-        <Box className="box-title-startResource" />
-        <h1 id="section-title-startResource-id">Artículos de blog</h1>
+    <Box className="container">
+      <Box className="box-title">
+        <Box className="box-title-article" />
+        <h1 id="section-title-article-id">Artículos de blog</h1>
       </Box>
-      <Grid
-        container
-        direction="row"
-        justifyContent="center"
-        alignItems="center"
-        spacing={smDown ? 1 : 3}
-      >
+      <Grid container className="grid-container">
         {articlesList.map(({ title, body, href, img }) => (
           <Grid
             key={title}
@@ -123,8 +100,7 @@ const MediumSection = () => {
             md={6}
             lg={4}
             container
-            display="flex"
-            justifyContent="center"
+            className="grid-component"
           >
             <CustomArticle title={title} body={body} href={href} img={img} />
           </Grid>
