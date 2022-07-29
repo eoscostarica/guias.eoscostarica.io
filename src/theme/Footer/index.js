@@ -7,7 +7,7 @@
 
  import React, { useEffect, useState } from 'react'
  import clsx from 'clsx';
-  import { useThemeConfig, useColorMode } from '@docusaurus/theme-common';
+ import { useColorMode } from '@docusaurus/theme-common';
  import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
  import useBaseUrl from '@docusaurus/useBaseUrl';
  import styles from './styles.module.css';
@@ -22,7 +22,6 @@
  );
  
  function Footer() {
-   const { isDarkTheme } = useThemeConfig();
    const context = useDocusaurusContext();
    const { siteConfig = {} } = context;
    const { themeConfig = {} } = siteConfig;
