@@ -61,9 +61,9 @@ module.exports = {
       "herramientas/plantilla-readme",
       "herramientas/ejemplos-contratos-inteligentes-eosio",
       "herramientas/preguntas-frecuentes",
-      "herramientas/charlas-y-presentaciones",
     ],
     Comunidad: [
+      "comunidad/charlas-y-presentaciones",
       "comunidad/redes-eosio",
       "comunidad/canales-de-telegram",
       "comunidad/publicaciones-blog",
