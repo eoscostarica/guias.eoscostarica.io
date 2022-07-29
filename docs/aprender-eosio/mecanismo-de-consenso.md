@@ -14,8 +14,14 @@ La tecnología Blockchain depende de Algoritmos de Consenso para lograr un acuer
 
 ## Delegated Proof of Stake (DPoS)
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/OVKAOwzAwHI" frameborder="0" allowfullscreen="true"> </iframe>
+<figure className="video_container">
+  <iframe 
+    width="100%" 
+    height="315" 
+    src="https://www.youtube.com/embed/OVKAOwzAwHI"     
+    frameBorder={0}
+    allowFullScreen
+    loading="lazy"> </iframe>
 </figure>
 
 El software EOSIO utiliza el único conocido Algoritmo de Consenso Descentralizado probado capaz de cumplir los requerimientos de rendimiento de las aplicaciones en el blockchain, **Delegated Proof of Stake (DPoS)**. Bajo este algoritmo, aquellos que mantienen token en el blockchain adoptando el software EOSIO pueden seleccionar los productores de bloques através de un sistema de aprobación continua. Cualquiera que elija participar en la producción de bloques tendrán la oportunidad de producirlos, siempre que puedan persuadir a los titulares de tokens para que voten por ellos.
@@ -30,8 +36,13 @@ Los productores de bloques proveen la infraestructura requerida para procesar la
 
 ### Explicando el rol de un productor de bloques de EOS
 
-<figure class="video_container">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/YLt5uexD9gg" frameborder="0" allowfullscreen="true"> </iframe>
+<figure className="video_container">
+  <iframe 
+    width="100%" 
+    height="315" src="https://www.youtube.com/embed/YLt5uexD9gg"     
+    frameBorder={0}
+    allowFullScreen
+    loading="lazy"> </iframe>
 </figure>
 
 ### Productores de Bloques Activos

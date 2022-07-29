@@ -23,8 +23,14 @@ aplicaciones en la red de LACChain impulsada por tecnología EOSIO.
 
 - [EOS FORCE](https://medium.com/@forceusa.io/eos-vs-eos-force-what-are-the-differences-5382242f4217): Es una red de cadena de bloques estructurada de cadenas múltiples de alto rendimiento, con la cadena principal desarrollada por el equipo de EOSForce basada en EOSIO de código abierto.
 
-<figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/UdDZCzwKCDo" frameborder="0" allowfullscreen="true">
+<figure className="video_container">
+  <iframe 
+    width="100%" 
+    height="350" 
+    src="https://www.youtube.com/embed/UdDZCzwKCDo" 
+    frameBorder="0" 
+    allowFullScreen 
+    loading="lazy">
   </iframe>
 </figure>
 
@@ -52,8 +58,14 @@ aplicaciones en la red de LACChain impulsada por tecnología EOSIO.
 
 - [Telos](https://www.telos.net/): Una plataforma blockchain sin permisos de alto rendimiento para aplicaciones descentralizadas con almacenamiento avanzado de datos y funciones de gobernanza de la cadena.
 
-<figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/fvsvzCL46eI" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
+<figure className="video_container">
+  <iframe 
+    width="100%" 
+    height="350" 
+    src="https://www.youtube.com/embed/fvsvzCL46eI"     
+    frameBorder="0" 
+    allowFullScreen 
+    loading="lazy"> </iframe>
 </figure>
 
 * * *
@@ -68,8 +80,14 @@ aplicaciones en la red de LACChain impulsada por tecnología EOSIO.
 
 - [WAX](https://wax.io/): Un token de cadena de bloques y protocolo especialmente diseñado para hacer que las transacciones de comercio electrónico sean más rápidas, fáciles y seguras.
 
-<figure class="video_container">
-  <iframe width="100%" height="350" src="https://www.youtube.com/embed/RjndO0BJ7Ik" frameborder="0" allowfullscreen="true" loading="lazy"> </iframe>
+<figure className="video_container">
+  <iframe 
+    width="100%" 
+    height="350" 
+    src="https://www.youtube.com/embed/RjndO0BJ7Ik"
+    frameBorder="0" 
+    allowFullScreen 
+    loading="lazy"> </iframe>
 </figure>
 
 * * *

@@ -20,7 +20,7 @@ Cuando comienzas a trabajar en una tarea, deberías moverla manualmente a la col
 
 Usamos el flujo de GitHub https://guides.github.com/introduction/flow/ para solicitar cambios en el código. Desarrollamos en la rama `master` y `release` usando etiquetas y versionamiento.
 
-<img src="/img/github-flow.webp" width="958" height="241" class="center" alt="Flujo de Trabajo Open Source en GitHub" />
+<img src="/img/github-flow.webp" width="958" height="241" className="center" alt="Flujo de Trabajo Open Source en GitHub" />
 
 Los nuevos y reabiertos `pull request` son automáticamente añadidos al tablero en la columna `En Progreso`.
 

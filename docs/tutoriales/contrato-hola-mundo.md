@@ -56,5 +56,5 @@ Finalmente, esta es una muestra de cómo se puede interactuar con una blockchain
 
 ## Video Tutorial
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/nMivNMvS09Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/nMivNMvS09Y" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
 </iframe>

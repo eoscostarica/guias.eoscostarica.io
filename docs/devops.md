@@ -11,9 +11,9 @@ DevOps es la práctica y la cultura de aplicar los principios de fabricación aj
 Se centra en unificar el desarrollo y las operaciones de TI a través de los principios de flujo, retroalimentación y experimentación.
 
 <figure 
-  class="video_container">
+  className="video_container">
   <iframe
-   width="100%" height="315" src="https://www.youtube.com/embed/OOGFxVzW35w" frameborder="0" allowfullscreen="true">
+   width="100%" height="315" src="https://www.youtube.com/embed/OOGFxVzW35w" frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -73,9 +73,9 @@ Mejorar la colaboración entre todas las partes interesadas desde la planificaci
 El proceso de administrar y aprovisionar centros de datos informáticos a través de archivos de definición legibles por máquina, en lugar de configuración de hardware físico o herramientas de configuración interactivas.
 
 <figure 
-  class="video_container">
+  className="video_container">
   <iframe
-   width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA" frameborder="0" allowfullscreen="true" loading="lazy">
+   width="100%" height="315" src="https://www.youtube.com/embed/53X-HAw7BbA"  frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -86,18 +86,18 @@ El proceso de administrar y aprovisionar centros de datos informáticos a travé
 Terraform es un software de infraestructura como código, desarrollado por HashiCorp. Permite a los usuarios definir y configurar la infraestructura de un centro de datos en un lenguaje de alto nivel.
 
 <figure 
-  class="video_container">
+  className="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU" frameborder="0" allowfullscreen="true" loading="lazy">
+  width="100%" height="315" src="https://www.youtube.com/embed/cpxKbf51ccU"  frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
 * * *
 
 <figure 
-  class="video_container">
+  className="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg" frameborder="0" allowfullscreen="true" loading="lazy">
+  width="100%" height="315" src="https://www.youtube.com/embed/h970ZBgKINg"  frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -106,9 +106,9 @@ Terraform es un software de infraestructura como código, desarrollado por Hashi
 ### **Containers 101**
 
 <figure
- class="video_container">
+ className="video_container">
   <iframe
-   width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI" frameborder="0" allowfullscreen="true" loading="lazy">
+   width="100%" height="315" src="https://www.youtube.com/embed/VqLcWftIaQI"  frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -123,9 +123,9 @@ Docker es un proyecto de código abierto que automatiza la implementación de ap
 [Más Información sobre Docker](/docs/tutoriales/docker)
 
 <figure 
-class="video_container">
+className="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE" frameborder="0" allowfullscreen="true" loading="lazy">
+  width="100%" height="315" src="https://www.youtube.com/embed/PfTKwblbkpE"  frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -142,9 +142,9 @@ Para más información visite nuestro tutorial [Kubernetes](/docs/tutoriales/kub
 ### Kubernetes en 5 Minutos
 
 <figure
-   class="video_container">
+   className="video_container">
   <iframe 
-  width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU" frameborder="0" allowfullscreen="true" loading="lazy">
+  width="100%" height="315" src="https://www.youtube.com/embed/PH-2FfFD2PU"  frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
@@ -153,9 +153,9 @@ Para más información visite nuestro tutorial [Kubernetes](/docs/tutoriales/kub
 ### Kubernetes vs Docker: No es una Pregunta de Ambos o Uno
 
 <figure 
-  class="video_container">
+  className="video_container">
   <iframe
-   wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko" frameborder="0" allowfullscreen="true" loading="lazy">
+   wwidth="100%" height="315" src="https://www.youtube.com/embed/2vMEQ5zs1ko"  frameBorder="0" allowFullScreen loading="lazy">
   </iframe>
 </figure>
 
