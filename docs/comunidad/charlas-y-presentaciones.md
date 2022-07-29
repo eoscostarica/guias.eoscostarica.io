@@ -18,7 +18,7 @@ ___
 ### Grabación de la charla:
 **[EOS Pre-Practica UI/UX](https://us02web.zoom.us/rec/share/WWDqs5rB2r5rEdulNKUbOHcTBfiw6_ZTII8fB-UBjabJrQ3wTBvndkvnpWJupeBL.2n3yzt_rczzmKzj3)**
 ___
-![EOS Costa Rica Tech Stack Review](/img/charlas/eos-cr.webp)
+![EOS Costa Rica Tech Stack Review](/img/charlas/EOS-CR.webp)
 ## Tema: EOS Costa Rica Tech Stack Review
 **Por:** Teto Gómez.
 
