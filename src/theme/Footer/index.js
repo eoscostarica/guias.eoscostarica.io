@@ -36,7 +36,6 @@
    }
  
    useEffect(() => {
-     console.log(isDarkTheme)
      if (colorMode === 'dark')
        setLogoUrl(whiteLogo)
      else
