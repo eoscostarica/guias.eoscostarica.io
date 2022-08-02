@@ -326,4 +326,5 @@ const HomePage = () => {
     </Layout>
   );
 };
+
 export default HomePage;
