@@ -31,7 +31,6 @@
   text-align: center;
 }
 
-
 h4 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -52,7 +51,6 @@ h4 {
   line-height: 2.0;
   margin-bottom: 25px;
 }
-
 
 .textBox{
   display: grid;

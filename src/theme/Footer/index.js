@@ -60,7 +60,7 @@
                     <Grid item xs>
                      <Box className={styles.borderleft}>
                        <Box>
-                       <h4>Guías Generales</h4>
+                       <h4>EOS Costa Rica</h4>
                        </Box>
                        <Box>
                          <Link href="https://guide.eoscostarica.io/docs/engineering-culture" color="inherit">
