@@ -1,6 +1,6 @@
 module.exports = {
   docs: {
-    "Guías generales": [
+    "Guías Generales": [
       "pautas-para-codigo-abierto",
       "cultura-ingenieril",
       "metodologias-agiles",
