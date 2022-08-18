@@ -17,7 +17,7 @@ module.exports = {
       "interplanetary-file-system",
       "mecanismos-de-consenso-blockchain",
     ],
-    "Aprenda EOSIO + Antelope": [
+    "Aprenda EOSIO y Antelope": [
       "aprender-eosio/protocolo-eosio",
       "aprender-eosio/mecanismo-de-consenso",
       "aprender-eosio/uso-de-recursos",

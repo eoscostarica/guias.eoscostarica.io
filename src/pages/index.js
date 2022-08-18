@@ -92,7 +92,7 @@ const startResourceList = [
     img: "/img/cards-icons/guidelines.svg",
   },
   {
-    title: "Aprenda EOSIO + Antelope",
+    title: "Aprenda EOSIO y Antelope",
     body: "Conjunto de información necesaria para aprender sobre el protocolo EOSIO y Antelope.",
     href: "/docs/aprender-eosio/protocolo-eosio",
     img: "/img/cards-icons/icons-eosio.svg",

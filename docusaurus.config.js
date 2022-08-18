@@ -9,7 +9,7 @@
 // site configuration options.
 
 const siteConfig = {
-  title: "Documentación EOSIO + Antelope",
+  title: "Documentación EOSIO y Antelope",
   tagline: "Documentación para desarrolladores en redes blockchain EOSIO y Antelope",
   url: "https://guias.eoscostarica.io",
   baseUrl: "/", // Base URL for your project */
@@ -41,7 +41,7 @@ const siteConfig = {
         },
         {
           to: "docs/aprender-eosio/protocolo-eosio",
-          label: "Aprenda EOSIO + Antelope",
+          label: "Aprenda EOSIO y Antelope",
           position: "left",
         },
         {
