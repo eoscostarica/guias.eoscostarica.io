@@ -46,12 +46,12 @@ Nombre cada rama para sus pull requests utilizando la siguiente convención:
 ```
 feat/nueva-carateristica-123
 ^--^ ^-----------------^ ^-^
-  |           |           |
-  |           |           +-> Issue number
-  |           |
-  |           +-> Descripción corta de la tarea
-  |
-  +-> Tipo: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test, content, o devtools
+|    |                   |
+|    |                   +-> Numero del issue en GitHub.
+|    |
+|    +-> Descripción corta de la tarea
+|
++-> Tipo: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test, content, o devtools
 ```
 
 ## Pautas para los Pull Request
@@ -84,23 +84,24 @@ Cada mensaje de commit consiste en un **encabezado**, un **cuerpo** y un **pié*
 ```
 El ```encabezado``` es obligatorio y el ```<ámbito>``` del encabezado es opcional.
 
-** Ejemplo: **
+**Ejemplo:**
 
 ```
-feat: agregar un nuevo método
-^--^  ^------------^
-|     |
-|     +-> Resumen en tiempo presente.
+feat(ámbito): aspecto
+^--^^------^  ^-----^
+|   |         |
+|   |         +-> Resumen en tiempo presente.
+|   |     
+|   +-> El ámbito usualmente se refiere al servicio que se modifico (webapp, hapi, hasura, etc.)
 |
-+-------> Type: build, ci, docs, feat, fix, perf, refactor, style, test, content, or devtools.
-
++-> Type: build, ci, docs, feat, fix, perf, refactor, style, test, content, or devtools.
 ```
 
 El mensaje del commit no puede ser mayor a 100 caracteres. Esto permite que el mensaje sea fácil de leer en GitHub así como también en varias `herramientas de git`.
 
 El pie debe contener [una referencia de cierre de un issue](https://help.github.com/articles/closing-issues-via-commit-messages/), si hay alguna.
 
-El commit debe verse como los siguientes ejemplos:
+**El commit debe verse como los siguientes ejemplos:**
 
 ```
 docs(changelog): update changelog to beta.5
