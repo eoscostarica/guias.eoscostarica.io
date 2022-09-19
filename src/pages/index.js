@@ -70,7 +70,7 @@ const HeroSection = () => {
         <a
           className="buttonHero"
           style={{ textDecoration: "none" }}
-          href="/docs/engineering-culture"
+          href="/docs/cultura-ingenieril"
         >
           COMENZAR
         </a>

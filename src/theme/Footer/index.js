@@ -63,17 +63,17 @@
                        <h4>EOS Costa Rica</h4>
                        </Box>
                        <Box>
-                         <Link href="https://guide.eoscostarica.io/docs/engineering-culture" color="inherit">
+                         <Link href="https://guias.eoscostarica.io/docs/cultura-ingenieril" color="inherit">
                           Cultura Ingenieril
                          </Link>
                        </Box>
                        <Box>
-                         <Link href="https://guide.eoscostarica.io/docs/open-source-projects" color="inherit">
+                         <Link href="https://guias.eoscostarica.io/docs/proyectos-de-codigo-abierto" color="inherit">
                            Proyectos de Código Abierto
                          </Link>
                        </Box>
                        <Box>
-                         <Link href="https://guide.eoscostarica.io/docs/open-source-guidelines" color="inherit">
+                         <Link href="https://guias.eoscostarica.io/docs/pautas-para-codigo-abierto" color="inherit">
                            Pautas para Código Abierto
                          </Link>
                        </Box>
