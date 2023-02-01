@@ -4,12 +4,14 @@ import { useColorMode } from "@docusaurus/theme-common";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { Box, Grid, useMediaQuery } from "@material-ui/core";
+
 import "../css/homepage.css";
 class Carousel {
   constructor() {
     this.slideIndex = 0;
     this.animation = null;
   }
+
   start() {
     this.animation = setInterval(() => {
       let i;
@@ -45,8 +47,10 @@ const HeroSection = () => {
     document.getElementsByClassName("mySlides")[0].style.display = "block";
     const carousel = new Carousel();
     carousel.start();
+
     return () => carousel.stop();
   }, []);
+
   return (
     <Box className="carouselContainer">
       {imagesList.map(({ background }, index) => (
@@ -126,89 +130,87 @@ const startResourceList = [
 const StartResourceSection = () => {
   const smDown = useMediaQuery("(max-width:400px)");
   const { colorMode } = useColorMode();
-  const [color, setColor] = useState(null);
+  const [color, setColor] = useState("");
+
   useEffect(() => {
+    if (!colorMode) return;
+
     setColor(colorMode);
   }, [colorMode]);
+
   return (
-    <>
-      {color && (
-        <Box className="container">
-          <Box className="startTitleContainer">
-            <Box className="box-title-startResource" />
-            <Box className="section-title-startResource">
-              Empiece con estos recursos
-            </Box>
-          </Box>
-          <Grid
-            container
-            direction="row"
-            justifyContent="center"
-            alignItems="center"
-            spacing={smDown ? 1 : 3}
-          >
-            {startResourceList.map(({ title, body, href, img }) => (
-              <Grid
-                key={title}
-                item
-                xs={12}
-                sm={6}
-                lg={4}
-                container
-                display="flex"
-                justifyContent="center"
-              >
-                <Box className="cardDimentions">
-                  <div
-                    className={`cardImgContainer ${
-                      color === "dark"
-                        ? "cardImgContainerDark"
-                        : "cardImgContainerLight"
-                    }`}
-                  >
-                    <img
-                      src={useBaseUrl(img)}
-                      alt={title}
-                      loading="lazy"
-                      className={`imgHero ${
-                        color === "dark" && "cardImgColor"
-                      }`}
-                    />
-                  </div>
-                  <Box
-                    className={`cardHeaderTransition ${
-                      color === "dark"
-                        ? "cardHeaderDark-mode"
-                        : "cardHeaderLight-mode"
-                    }`}
-                  >
-                    <span>SECCIÓN</span>
-                  </Box>
-                  <h1 className="cardTitle"> {title} </h1>
-                  <Box
-                    className={`cardBody ${
-                      color === "dark" ? "darkTextColor" : "ligthTextColor"
-                    }`}
-                  >
-                    {body}
-                  </Box>
-                  <a
-                    className={`cardLinkFooter ${
-                      color === "dark" ? "darkTextColor" : "ligthTextColor"
-                    }`}
-                    style={{ textDecoration: "none" }}
-                    id="box-link-id-customCard"
-                    href={href}
-                  >
-                    LEER MÁS
-                  </a>
-                </Box>
-              </Grid>
-            ))}
-          </Grid>
+    <Box className="container">
+      <Box className="startTitleContainer">
+        <Box className="box-title-startResource" />
+        <Box className="section-title-startResource">
+          Empiece con estos recursos
         </Box>
-      )}
-    </>
+      </Box>
+      <Grid
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+        spacing={smDown ? 1 : 3}
+      >
+        {startResourceList.map(({ title, body, href, img }) => (
+          <Grid
+            key={title}
+            item
+            xs={12}
+            sm={6}
+            lg={4}
+            container
+            display="flex"
+            justifyContent="center"
+          >
+            <Box className="cardDimentions">
+              <div
+                className={`cardImgContainer ${
+                  color === "dark"
+                    ? "cardImgContainerDark"
+                    : "cardImgContainerLight"
+                }`}
+              >
+                <img
+                  src={useBaseUrl(img)}
+                  alt={title}
+                  loading="lazy"
+                  className={`imgHero ${color === "dark" && "cardImgColor"}`}
+                />
+              </div>
+              <Box
+                className={`cardHeaderTransition ${
+                  color === "dark"
+                    ? "cardHeaderDark-mode"
+                    : "cardHeaderLight-mode"
+                }`}
+              >
+                <span>SECCIÓN</span>
+              </Box>
+              <h1 className="cardTitle"> {title} </h1>
+              <Box
+                className={`cardBody ${
+                  color === "dark" ? "darkTextColor" : "ligthTextColor"
+                }`}
+              >
+                {body}
+              </Box>
+              <a
+                className={`cardLinkFooter ${
+                  color === "dark" ? "darkTextColor" : "ligthTextColor"
+                }`}
+                style={{ textDecoration: "none" }}
+                id="box-link-id-customCard"
+                href={href}
+              >
+                LEER MÁS
+              </a>
+            </Box>
+          </Grid>
+        ))}
+      </Grid>
+    </Box>
   );
 };
 
@@ -236,84 +238,83 @@ const articlesList = [
 const ArticleSection = () => {
   const smDown = useMediaQuery("(max-width:400px)");
   const { colorMode } = useColorMode();
-  const [color, setColor] = useState(null);
+  const [color, setColor] = useState("");
+
   useEffect(() => {
+    if (!colorMode) return;
+
     setColor(colorMode);
   }, [colorMode]);
+
   return (
-    <>
-      {color && (
-        <Box className="container" id="article-id">
-          <Box className="startTitleContainer">
-            <Box className="box-title-startResource" />
-            <Box className="section-title-startResource">
-              Artículos de blogs
-            </Box>
-          </Box>
+    <Box className="container" id="article-id">
+      <Box className="startTitleContainer">
+        <Box className="box-title-startResource" />
+        <Box className="section-title-startResource">Artículos de blogs</Box>
+      </Box>
+      <Grid
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+        spacing={smDown ? 1 : 3}
+      >
+        {articlesList.map(({ title, body, href, img }) => (
           <Grid
+            key={title}
+            item
+            xs={12}
+            sm={6}
+            lg={4}
             container
-            direction="row"
+            display="flex"
             justifyContent="center"
-            alignItems="center"
-            spacing={smDown ? 1 : 3}
           >
-            {articlesList.map(({ title, body, href, img }) => (
-              <Grid
-                key={title}
-                item
-                xs={12}
-                sm={6}
-                lg={4}
-                container
-                display="flex"
-                justifyContent="center"
+            <Box
+              className={`cardArticleDimentions ${
+                color === "dark" ? "darkTextColor" : "ligthTextColor"
+              }`}
+            >
+              <Box
+                component="img"
+                src={useBaseUrl(img)}
+                alt={title}
+                width="100%"
+                className="cardArticleImg"
+              />
+              <Box className="cardArticleHeader"> ARTÍCULO </Box>
+              <Box className="cardArticleTitleContainer">
+                <Box className="cardArticleBlueBoxTitle" />
+                <Box className="cardArticleTitle "> {title} </Box>
+              </Box>
+              <Box
+                className={`cardArticleBody ${
+                  color === "dark" ? "darkTextColor" : "ligthTextColor"
+                }`}
               >
-                <Box
-                  className={`cardArticleDimentions ${
-                    color === "dark" ? "darkTextColor" : "ligthTextColor"
-                  }`}
-                >
-                  <Box
-                    component="img"
-                    src={useBaseUrl(img)}
-                    alt={title}
-                    width="100%"
-                    className="cardArticleImg"
-                  />
-                  <Box className="cardArticleHeader"> ARTÍCULO </Box>
-                  <Box className="cardArticleTitleContainer">
-                    <Box className="cardArticleBlueBoxTitle" />
-                    <Box className="cardArticleTitle "> {title} </Box>
-                  </Box>
-                  <Box
-                    className={`cardArticleBody ${
-                      color === "dark" ? "darkTextColor" : "ligthTextColor"
-                    }`}
-                  >
-                    {body}
-                  </Box>
-                  <a
-                    className={`cardLinkFooter ${
-                      color === "dark" ? "darkTextColor" : "ligthTextColor"
-                    }`}
-                    style={{ textDecoration: "none" }}
-                    id="box-link-id-customCard"
-                    href={href}
-                  >
-                    LEER MÁS
-                  </a>
-                </Box>
-              </Grid>
-            ))}
+                {body}
+              </Box>
+              <a
+                className={`cardLinkFooter ${
+                  color === "dark" ? "darkTextColor" : "ligthTextColor"
+                }`}
+                style={{ textDecoration: "none" }}
+                id="box-link-id-customCard"
+                href={href}
+              >
+                LEER MÁS
+              </a>
+            </Box>
           </Grid>
-        </Box>
-      )}
-    </>
+        ))}
+      </Grid>
+    </Box>
   );
 };
 
 const HomePage = () => {
   const { siteConfig } = useDocusaurusContext();
+
   return (
     <Layout
       permalink="/"
