@@ -86,6 +86,6 @@ Utilizamos nuestra propia solución inspirada en el patrón arquitectónico demu
 Algunos de nuestros proyectos de código abierto implementados con la solución basada en el patrón demux:
 
 - [EOS Rate](https://github.com/eoscostarica/eos-rate)
-- [EOSIO Dashboard](https://github.com/eoscostarica/eosio-dashboard)
+- [Antelope Tools](https://github.com/edenia/antelope-tools)
 - [MyvoteEOS](https://github.com/eoscostarica/MyvoteEOS-proxy)
 - [EOSIO Spend Explorer](https://github.com/eoscostarica/eosio-spend-explorer)
