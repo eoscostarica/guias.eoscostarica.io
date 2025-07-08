@@ -1,51 +1,43 @@
 import React, { useState } from 'react'
-import { makeStyles } from '@material-ui/styles';
-import Stepper from '@material-ui/core/Stepper'
-import Step from '@material-ui/core/Step'
-import StepLabel from '@material-ui/core/StepLabel'
-import Button from '@material-ui/core/Button'
-import Typography from '@material-ui/core/Typography'
+import { styled } from '@mui/material/styles';
+import Stepper from '@mui/material/Stepper'
+import Step from '@mui/material/Step'
+import StepLabel from '@mui/material/StepLabel'
+import Button from '@mui/material/Button'
+import Typography from '@mui/material/Typography'
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-const useStyles = makeStyles(() => ({
-  resetButton:{
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  root: {
-    width: '90%'
-  },
-  buttonContainer: {
-    direction: 'rtl',
-    margin: '0% 4%',
-  },
-  button: {
-    textTransform: 'none',
-    color: '#7f7f7f',
-    '&.MuiButton-containedPrimary': {
-      color: '#fff',
-      backgroundColor: '#3EBBD3',
-      margin: '1%',
-    }
-  },
-  instructions: {
-    margin: '1% 5% 1%',
-  },
-  stepIconRoot: {
-    color: 'rgb(192 192 192)',
-    '&.MuiStepIcon-active': {
-      color: '#3EBBD3'
-    },
-    '&.MuiStepIcon-completed': {
-      color: '#82B982'
-    }
+const StyledRoot = styled('div')({
+  width: '90%'
+});
+
+const StyledResetButton = styled('div')({
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'center',
+  alignItems: 'center',
+});
+
+const StyledButtonContainer = styled('div')({
+  direction: 'rtl',
+  margin: '0% 4%',
+});
+
+const StyledButton = styled(Button)({
+  textTransform: 'none',
+  color: '#7f7f7f',
+  '&.MuiButton-containedPrimary': {
+    color: '#fff',
+    backgroundColor: '#3EBBD3',
+    margin: '1%',
   }
-}));
+});
+
+const StyledTypography = styled(Typography)({
+  margin: '1% 5% 1%',
+});
 
 const CustomStepper = ({ Content }) => {
-  const classes = useStyles();
   const [activeStep, setActiveStep] = useState(0);
 
   const handleNext = () => {
@@ -61,16 +53,20 @@ const CustomStepper = ({ Content }) => {
   };
 
   return (
-    <div className={classes.root}>
+    <StyledRoot>
       <Stepper activeStep={activeStep} alternativeLabel>
         {Content.map((step, index) => (
             <Step key={index}>
               <StepLabel
                 StepIconProps={{
-                  classes: {
-                    root: classes.stepIconRoot,
-                    active: classes.stepIconActive,
-                    completed: classes.stepIconCompleted
+                  sx: {
+                    color: 'rgb(192 192 192)',
+                    '&.MuiStepIcon-active': {
+                      color: '#3EBBD3'
+                    },
+                    '&.MuiStepIcon-completed': {
+                      color: '#82B982'
+                    }
                   }
                 }}
               >
@@ -82,39 +78,39 @@ const CustomStepper = ({ Content }) => {
       </Stepper>
       <div>
         {activeStep === Content.length ? (
-          <div className={classes.resetButton}>
-            <Button onClick={handleReset} className={classes.button}>
+          <StyledResetButton>
+            <StyledButton onClick={handleReset}>
               Reset
-            </Button>
-          </div>
+            </StyledButton>
+          </StyledResetButton>
         ) : (
           <div>
-            <Typography className={classes.instructions}>
+            <StyledTypography>
               {Content[activeStep].instruction}
-            </Typography>
-            <div className={classes.instructions}><img src={useBaseUrl(Content[activeStep].imageSrc)} loading="lazy"/></div>
-            <div className={classes.buttonContainer}>
-              <Button
+            </StyledTypography>
+            <StyledTypography component="div">
+              <img src={useBaseUrl(Content[activeStep].imageSrc)} loading="lazy"/>
+            </StyledTypography>
+            <StyledButtonContainer>
+              <StyledButton
                 variant="contained"
                 color="primary"
                 onClick={handleNext}
                 href={Content[activeStep].href}
-                className={classes.button}
               >
                 {activeStep === Content.length - 1 ? 'Finish' : 'Next'}
-              </Button>
-              <Button
+              </StyledButton>
+              <StyledButton
                 disabled={!activeStep}
                 onClick={handleBack}
-                className={classes.button}
               >
                 Back
-              </Button>
-            </div>
+              </StyledButton>
+            </StyledButtonContainer>
           </div>
         )}
       </div>
-    </div>
+    </StyledRoot>
   )
 }
 
