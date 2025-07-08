@@ -13,7 +13,7 @@
  import styles from './styles.module.css';
  import whiteLogo from '../../../static/img/eoscostarica-logo.png'
  import blackLogo from '../../../static/img/eos-logo-dark.png'
- import { Box, Grid, Container, Link} from '@material-ui/core';
+ import { Box, Grid, Container, Link} from '@mui/material';
  import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter, AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
  import { BsMedium } from "react-icons/bs";
   

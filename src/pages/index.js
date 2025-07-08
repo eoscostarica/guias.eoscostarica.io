@@ -3,7 +3,7 @@ import Layout from "@theme/Layout";
 import { useColorMode } from "@docusaurus/theme-common";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import { Box, Grid, useMediaQuery } from "@material-ui/core";
+import { Box, Grid, useMediaQuery } from "@mui/material";
 
 import "../css/homepage.css";
 class Carousel {
